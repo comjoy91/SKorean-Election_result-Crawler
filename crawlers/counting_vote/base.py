@@ -123,7 +123,7 @@ class BaseCrawler(object):
 
 
 
-	def parse(self, url, is_proportional, city_name=None):
+	def parse(self, url, params, is_proportional, city_name=None):
 		if is_proportional: return self.parse_proportional(url, city_name)
 		else: return self.parse_constituency(url, city_name)
 
@@ -221,11 +221,11 @@ class BaseCrawler(object):
 class MultiCityCrawler(BaseCrawler):
 
 	def city_codes(self):
-		list_ = get_json(self.url_city_codes_json)['jsonResult']['body']
+		list_ = get_json(self.url_city_codes_json, self.param_city_codes_json)['jsonResult']['body']
 		return [(x['CODE'], x['NAME']) for x in list_]
 
 	def url_list(self, city_code):
-		return self.url_list_base + str(city_code)
+		return self.param_url_list + str(city_code)
 
 	def crawl(self):
 		# 지역구 대표

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding=utf-8 -*-
 
-from crawlers.assembly.base import *
+from crawlers.counting_vote.base import *
 from utils import sanitize
 
 def Crawler(nth):
