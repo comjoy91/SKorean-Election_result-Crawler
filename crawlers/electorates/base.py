@@ -9,6 +9,7 @@ import gevent
 from gevent import monkey
 import itertools
 from urllib.parse import urljoin
+import copy
 
 from utils import flatten, get_json, get_xpath, parse_cell, sanitize, split
 
@@ -23,9 +24,9 @@ class BaseCrawler(object):
 	attrs_exclude_parse_cell = ['image', 'cand_no', 'result']
 
 
-	def parse_proportional(self, url, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		tr_list = get_xpath(url, '//tr')
-		thead_list = get_xpath(url, '//th')
+	def parse_proportional(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
+		tr_list = get_xpath(url, params, '//tr')
+		thead_list = get_xpath(url, params, '//th')
 		td_columns = len(tr_list[1])
 
 		consti_list = []
@@ -49,13 +50,13 @@ class BaseCrawler(object):
 				consti_list.append(district_info)
 
 		consti_list = [self.parse_consti(consti, city_name=city_name) for consti in consti_list]
-		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '비례대표', city_name, len(consti_list))))
+		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '비례대표(국내거소미신고 재외국민 포함)', city_name, len(consti_list))))
 		return consti_list
 
 
-	def parse_constituency(self, url, city_name=None): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		tr_list = get_xpath(url, '//tr')
-		thead_list = get_xpath(url, '//th')
+	def parse_constituency(self, url, params, city_name=None): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
+		tr_list = get_xpath(url, params, '//tr')
+		thead_list = get_xpath(url, params, '//th')
 		td_columns = len(tr_list[1])
 
 		consti_list = []
@@ -84,9 +85,9 @@ class BaseCrawler(object):
 
 
 
-	def parse(self, url, is_proportional, city_name=None):
-		if is_proportional: return self.parse_proportional(url, city_name)
-		else: return self.parse_constituency(url, city_name)
+	def parse(self, url, params, is_proportional, city_name=None):
+		if is_proportional: return self.parse_proportional(url, params, city_name)
+		else: return self.parse_constituency(url, params, city_name)
 
 
 
@@ -191,11 +192,13 @@ class BaseCrawler(object):
 class MultiCityCrawler(BaseCrawler):
 
 	def city_codes(self):
-		list_ = get_json(self.url_city_codes_json)['jsonResult']['body']
+		list_ = get_json(self.url_city_codes_json, self.param_city_codes_json)['jsonResult']['body']
 		return [(x['CODE'], x['NAME']) for x in list_]
 
-	def url_list(self, city_code):
-		return self.url_list_base + str(city_code)
+	def url_param(self, city_code):
+		param_dict = copy.deepcopy(self.param_url_list)
+		param_dict['cityCode'] = city_code
+		return param_dict
 
 	def crawl(self):
 		# 지역구 대표
@@ -208,8 +211,9 @@ class MultiCityCrawler(BaseCrawler):
 
 		print("Waiting to connect http://info.nec.go.kr server (%s)..." % voting_system)
 		for city_code, city_name in self.city_codes():
-			req_url = self.url_list(city_code)
-			job = gevent.spawn(self.parse, req_url, is_proportional, city_name)
+			req_url = self.url_list_base
+			req_param = self.url_param(city_code)
+			job = gevent.spawn(self.parse, req_url, req_param, is_proportional, city_name)
 			jobs.append(job)
 		gevent.joinall(jobs)
 		every_result = [{'voting_system':voting_system, 'results':flatten(job.get() for job in jobs)}]

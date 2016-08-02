@@ -49,7 +49,7 @@ def crawl(target, _type, nth, printer, filename, level=None):
 
 def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
-    parser.add_argument('target', choices=['assembly', 'local', 'president'],\
+    parser.add_argument('target', choices=['assembly', 'local', 'presic'],\
             help="name of target election")
     parser.add_argument('type', choices=['electorates', 'counting_vote'],\
             help="type of collecting data") #'turnout'

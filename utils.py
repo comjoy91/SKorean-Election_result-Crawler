@@ -30,18 +30,18 @@ def check_dir(directory):
 def flatten(rarray):
     return list(itertools.chain.from_iterable(rarray))
 
-def get_json(url):
+def get_json(url, payload):
     sleep(0.08)
-    r = requests.get(url, timeout = 10)
+    r = requests.get(url, params=payload, timeout=10)
     txt = r.text
     return json.loads(txt)
 
-def get_xpath(url, xpath):
+def get_xpath(url, payload, xpath):
     htmlparser = html5lib.HTMLParser(\
             tree=html5lib.treebuilders.getTreeBuilder("lxml"),\
             namespaceHTMLElements=False)
     sleep(0.08)
-    r = requests.get(url, timeout=30)
+    r = requests.get(url, params=payload, timeout=30)
     page = htmlparser.parse(r.content)
     return page.xpath(xpath)
 

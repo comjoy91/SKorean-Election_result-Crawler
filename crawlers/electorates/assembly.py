@@ -25,28 +25,25 @@ class ElectorCrawler_1_17(MultiCityCrawler):
 					'19631126', '19670608', '19710525', '19730227', '19781212', '19810325', '19850212',\
 					'19880426', '19920324', '19960411', '20000413', '20040415']
 
-	_url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
-			'selectbox_cityCodeBySgJson_GuOld.json?electionId=0000000000'\
-			'&subElectionCode=2&electionCode='
+	"""
+	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
 
-	_url_list_base = 'http://info.nec.go.kr/electioninfo/'\
-			'electionInfo_report.xhtml?electionId=0000000000'\
-			'&requestURI=%2FWEB-INF%2Fjsp%2Felectioninfo%2F0000000000%2Fvc%2Fvccp09.jsp'\
-			'&oldElectionType=1&electionType=2'\
-			'&electionCode=2'\
-			'&townCode=-1&sggCityCode=-1'\
-			'&statementId=VCCP09_%2390'\
-			'&electionName='
+	param_city_codes_json = dict(electionId='0000000000',\
+									subElectionCode=2)
+
+	url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+
+	param_url_list = dict(electionId='0000000000',\
+							requestURI='/WEB-INF/jsp/electioninfo/0000000000/vc/vccp09.jsp',\
+							statementId='VCCP09_#90',\
+							oldElectionType=1, electionType=2, electionCode=2,\
+							townCode=-1, sggCityCode=-1)
+	"""
+	#need to implement nth:1~17.
 
 	@property
 	def election_name(self):
 		return self._election_names[self.nth]
-	@property
-	def url_city_codes_json(self):
-		return self._url_city_codes_json + self.election_name
-	@property
-	def url_list_base(self):
-		return self._url_list_base + self.election_name + '&cityCode='
 
 	def parse_consti(self, consti, city_name=None):
 		consti = super(ElectorCrawler_1_17, self).parse_consti(consti, city_name)
@@ -62,28 +59,22 @@ class ElectorCrawler1819(MultiCityCrawler):
 
 	_election_names = ['20080409', '20120411']
 
-	_url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
-			'selectbox_cityCodeBySgJson_Old.json?electionId=0000000000'\
-			'&subElectionCode=2&electionCode='
+	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 
-	_url_list_base = 'http://info.nec.go.kr/electioninfo/'\
-			'electionInfo_report.xhtml?electionId=0000000000'\
-			'&requestURI=%2FWEB-INF%2Fjsp%2Felectioninfo%2F0000000000%2Fbi%2Fbipb02.jsp'\
-			'&oldElectionType=1&electionType=2'\
-			'&electionCode=2&searchType=3'\
-			'&townCode=-1&sggCityCode=-1'\
-			'&statementId=BIPB02_%233_2'\
-			'&electionName='
+	param_city_codes_json = dict(electionId='0000000000',\
+									subElectionCode=2)
+
+	url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+
+	param_url_list = dict(electionId='0000000000',\
+							requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
+							statementId='BIPB02_#3_2',\
+							oldElectionType=1, electionType=2, electionCode=2,\
+							searchType=3, townCode=-1, sggCityCode=-1)
 
 	@property
 	def election_name(self):
 		return self._election_names[self.nth-18]
-	@property
-	def url_city_codes_json(self):
-		return self._url_city_codes_json + self.election_name
-	@property
-	def url_list_base(self):
-		return self._url_list_base + self.election_name + '&cityCode='
 
 	def parse_consti(self, consti, city_name=None):
 		consti = super(ElectorCrawler1819, self).parse_consti(consti, city_name)
@@ -91,23 +82,24 @@ class ElectorCrawler1819(MultiCityCrawler):
 
 	def __init__(self, nth):
 		self.nth = nth
+		self.param_city_codes_json['electionCode'] = self.election_name
+		self.param_url_list['electionName'] = self.election_name
 
 
 
 class ElectorCrawler20(MultiCityCrawler):
 	is_proportional = False
 
-	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
-			'selectbox_cityCodeBySgJson.json?electionCode=2'\
-			'&electionId=0020160413'
+	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 
-	url_list_base = 'http://info.nec.go.kr/electioninfo/'\
-			'electionInfo_report.xhtml?'\
-			'&requestURI=%2FWEB-INF%2Fjsp%2Felectioninfo%2F0020160413%2Fbi%2Fbipb02.jsp'\
-			'&statementId=BIPB02_%233_2'\
-			'&townCode=-1'\
-			'&electionCode=2&searchType=3'\
-			'&electionId=0020160413&cityCode='
+	param_city_codes_json = dict(electionCode=2, electionId='0020160413')
+
+	url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+
+	param_url_list = dict(requestURI='/WEB-INF/jsp/electioninfo/0020160413/bi/bipb02.jsp',\
+							statementId='BIPB02_#3_2',\
+							electionCode=2, searchType=3, townCode=-1,\
+							electionId='0020160413')
 
 	def parse_consti(self, consti, city_name=None):
 		consti = super(ElectorCrawler20, self).parse_consti(consti, city_name)
@@ -127,17 +119,16 @@ class ElectorCrawler20(MultiCityCrawler):
 class ElectorCrawler20Proportional(MultiCityCrawler):
 	is_proportional = True
 
-	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
-			'selectbox_cityCodeBySgJson.json?electionCode=7'\
-			'&electionId=0020160413'
+	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 
-	url_list_base = 'http://info.nec.go.kr/electioninfo/'\
-			'electionInfo_report.xhtml?'\
-			'&requestURI=%2FWEB-INF%2Fjsp%2Felectioninfo%2F0020160413%2Fbi%2Fbipb02.jsp'\
-			'&statementId=BIPB02_%233_7'\
-			'&townCode=-1'\
-			'&electionCode=7&searchType=3'\
-			'&electionId=0020160413&cityCode='
+	param_city_codes_json = dict(electionCode=7, electionId='0020160413')
+
+	url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+
+	param_url_list = dict(requestURI='/WEB-INF/jsp/electioninfo/0020160413/bi/bipb02.jsp',\
+							statementId='BIPB02_#3_7',\
+							electionCode=7, searchType=3, townCode=-1,\
+							electionId='0020160413')
 
 	def parse_consti(self, consti, city_name=None):
 		consti = super(ElectorCrawler20Proportional, self).parse_consti(consti, city_name)
