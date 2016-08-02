@@ -49,26 +49,27 @@ def crawl(target, _type, nth, printer, filename, encoding, level=None):
 
 def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
-    parser.add_argument('target', choices=['assembly', 'local', 'presic'],\
+    parser.add_argument('target', choices=['assembly', 'local', 'president'],\
             help="name of target election")
     parser.add_argument('type', choices=['electorates', 'counting_vote'],\
             help="type of collecting data") #'turnout'
     parser.add_argument('start', help="starting election id", type=float)
     parser.add_argument('end', help="ending election id", type=float,\
             nargs='?', default=None)
-    parser.add_argument('filename_time', choices=['withTime', 'withoutTime'],\
-            help="descript crawling time in filename?", nargs='?', default='withoutTime')
-    parser.add_argument('encoding', choices=['unicode', 'utf8'],\
-            help="Korean Hangul encoding", nargs='?', default='utf8')
 
-    parser.add_argument('-t', '--test', dest='test', action='store_true',
-            help="assign datatype to csv instead of json")
-    parser.add_argument('-d', dest='directory', help="specify data directory")
+    parser.add_argument('-time', dest='filename_time', action='store_true',\
+            help="Descript the crawling moment time info in filename.")
+    parser.add_argument('-e', dest='encoding', choices=['unicode', 'utf8'], default='utf8',\
+            help="Korean Hangul encoding.\n"
+                "- utf8 for default.")
+    parser.add_argument('-csv', dest='test', action='store_true',
+            help="Assign datatype to csv instead of json.")
+    parser.add_argument('-d', dest='directory', help="Specify data directory.")
 
     # TODO: change to subparser
     parser.add_argument('-l', choices=['pg', 'pm', 'pp', 'mg', 'mm', 'mp', 'eg', 'em'],
             dest="level",
-            help="specify level for local elections.\n"
+            help="Specify level for local elections.\n"
                 "- 1st char: {p:province, m:municipality, e:education},\n"
                 "- 2nd char: {g: governor, m: member}")
 
@@ -82,7 +83,7 @@ def main(args):
     time_string = datetime.today().strftime("%Y%m%d%H%M%S")
     check_dir(datadir)
 
-    if args.filename_time=='withTime':
+    if args.filename_time:
         if args.target=='local':
             if args.end:
                 jobs = []
