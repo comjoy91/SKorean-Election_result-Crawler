@@ -17,6 +17,8 @@ def print_json(filename, encoding, data):
 
 def print_csv(filename, encoding, data):
 
+    raise NotImplementedError('Printing csv file is not implemented.')
+    """
     def transform(txt):
         if isinstance(txt, int):
             txt = str(txt)
@@ -41,6 +43,7 @@ def print_csv(filename, encoding, data):
             values = (transform(value) for value in values)
             f.write(','.join(values))
             f.write('\n')
+    """
 
 def crawl(target, _type, nth, printer, filename, encoding, level=None):
     crawler = Crawler(target, _type, nth, level)
@@ -51,8 +54,10 @@ def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
             help="name of target election")
-    parser.add_argument('type', choices=['electorates', 'counting_vote'],\
-            help="type of collecting data") #'turnout'
+    parser.add_argument('type', choices=['townCode', 'electorates', 'counting_vote'],\
+            help="type of collecting data\n"
+                "- We DO NOT RECOMMAND to crawl TOWNCODE data: \n"
+                "- KEC categorize townCode data by some rude standard, so we re-classify all the data by hand.") #'turnout'
     parser.add_argument('start', help="starting election id", type=float)
     parser.add_argument('end', help="ending election id", type=float,\
             nargs='?', default=None)
@@ -63,7 +68,8 @@ def create_parser():
             help="Korean Hangul encoding.\n"
                 "- utf8 for default.")
     parser.add_argument('-csv', dest='test', action='store_true',
-            help="Assign datatype to csv instead of json.")
+            help="Assign datatype to csv instead of json.\n"
+                "- We DO NOT RECOMMAND to select -csv type: it is still not be implemented.")
     parser.add_argument('-d', dest='directory', help="Specify data directory.")
 
     # TODO: change to subparser
@@ -79,7 +85,8 @@ def main(args):
     printer = print_csv if args.test else print_json
     encoding = args.encoding
     filetype = 'csv' if args.test else 'json'
-    datadir = args.directory if args.directory else '.'
+    datadir = args.directory if args.directory \
+                else './crawled_data/%s/%s' % (args.target, args.type)
     time_string = datetime.today().strftime("%Y%m%d%H%M%S")
     check_dir(datadir)
 

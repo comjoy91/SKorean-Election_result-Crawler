@@ -1,6 +1,8 @@
 # SKorean Election Result Crawler
 This crawls South Korean election results from (South Korean) National Election Commission informative webpage https://info.nec.go.kr.
+
 By 2 August 2016, election result (counting_vote) crawling is only available for legislative elections.
+
 By 2 August 2016, election electorate data crawling is only available for legislative elections between 2008 ~ 2016 (nth = 18~20).
 
 This program runs on Python3. It cannot be execute on Python2 environment.
