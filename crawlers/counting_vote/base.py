@@ -173,6 +173,7 @@ class BaseCrawler(object):
 		else:
 			consti['electorates'] = sanitize(consti['electorates'])
 		consti['electorates'] = consti['electorates'].replace(',', '')
+		consti['electorates'] = int(consti['electorates'])
 
 	def parse_counted_votes(self, consti):
 		if 'counted_votes' not in consti: return
@@ -182,6 +183,7 @@ class BaseCrawler(object):
 		else:
 			consti['counted_votes'] = sanitize(consti['counted_votes'])
 		consti['counted_votes'] = consti['counted_votes'].replace(',', '')
+		consti['counted_votes'] = int(consti['counted_votes'])
 
 	def parse_result(self, consti):
 		if 'result' not in consti: return
@@ -193,16 +195,19 @@ class BaseCrawler(object):
 		if 'valid_votes' not in consti: return
 
 		consti['valid_votes'] = consti['valid_votes'].replace(',', '')
+		consti['valid_votes'] = int(consti['valid_votes'])
 
 	def parse_undervotes(self, consti):
 		if 'undervotes' not in consti: return
 
 		consti['undervotes'] = consti['undervotes'].replace(',', '')
+		consti['undervotes'] = int(consti['undervotes'])
 
 	def parse_blank_ballots(self, consti):
 		if 'blank_ballots' not in consti: return
 
 		consti['blank_ballots'] = consti['blank_ballots'].replace(',', '')
+		consti['blank_ballots'] = int(consti['blank_ballots'])
 
 	def parse_candi(self, candi):
 		if self.is_proportional: #is_proportional
@@ -215,6 +220,8 @@ class BaseCrawler(object):
 
 		[candi['votenum'], candi['voterate']] = list(map(sanitize, candi['vote'][:2]))
 		candi['votenum'] = candi['votenum'].replace(',', '')
+		candi['votenum'] = int(candi['votenum'])
+		candi['voterate'] = float(candi['voterate'])
 		del candi['vote']
 
 

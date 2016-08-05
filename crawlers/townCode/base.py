@@ -19,7 +19,11 @@ class BaseCrawler(object):
 
 	def parse(self, url, params, is_constituency, city_code=None, city_name=None):
 		_town_list = get_json(url, params)['jsonResult']['body']
-		_result = [dict(city_name=city_name, city_code=city_code, town_list=_town_list)]
+		for x in _town_list:
+			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
+				x['CODE'] = int(x['CODE'])
+
+		_result = [dict(city_name=city_name, city_code=int(city_code), town_list=_town_list)]
 
 		_townType = '지역구' if is_constituency else '시군구(기초자치단체)'
 		print('crawled #%d - %s, %s(%d)...' % (self.nth, _townType, city_name, len(_town_list)))

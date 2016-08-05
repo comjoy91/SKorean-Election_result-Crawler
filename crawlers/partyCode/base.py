@@ -19,6 +19,9 @@ class BaseCrawler(object):
 
 	def parse(self, url, params):
 		_party_list = get_json(url, params)['jsonResult']['body']
+		for x in _party_list:
+			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
+				x['CODE'] = int(x['CODE'])
 
 		print('crawled #%d - %s, %s(%d)...' % (self.nth, '선거참여 정당', '전국', len(_party_list)))
 		return _party_list

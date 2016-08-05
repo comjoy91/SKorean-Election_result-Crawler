@@ -130,11 +130,13 @@ class BaseCrawler(object):
 		if 'towns' not in consti: return
 
 		consti['towns'] = consti['towns'].replace(',', '')
+		consti['towns'] = int(consti['towns'])
 
 	def parse_pollPlaces(self, consti):
 		if 'pollPlaces' not in consti: return
 
 		consti['pollPlaces'] = consti['pollPlaces'].replace(',', '')
+		consti['pollPlaces'] = int(consti['pollPlaces'])
 
 	def parse_population(self, consti):
 		if 'population' not in consti: return
@@ -144,6 +146,7 @@ class BaseCrawler(object):
 		else:
 			consti['population'] = sanitize(consti['population'])
 		consti['population'] = consti['population'].replace(',', '')
+		consti['population'] = int(consti['population'])
 
 	def parse_electorate(self, consti):
 		if 'electorates' not in consti: return
@@ -153,11 +156,13 @@ class BaseCrawler(object):
 		else:
 			consti['electorates'] = sanitize(consti['electorates'])
 		consti['electorates'] = consti['electorates'].replace(',', '')
+		consti['electorates'] = int(consti['electorates'])
 
 	def parse_pop_elec_ratio(self, consti):
 		if 'pop_elec_ratio' not in consti: return
 
 		consti['pop_elec_ratio'] = consti['pop_elec_ratio'].replace(',', '')
+		consti['pop_elec_ratio'] = float(consti['pop_elec_ratio'])
 
 	def parse_households(self, consti):
 		if 'households' not in consti: return
@@ -167,6 +172,7 @@ class BaseCrawler(object):
 		else:
 			consti['households'] = sanitize(consti['households'])
 		consti['households'] = consti['households'].replace(',', '')
+		consti['households'] = int(consti['households'])
 
 
 
