@@ -4,6 +4,7 @@
 from . import counting_vote
 from . import electorates
 from . import townCode
+from . import partyCode
 from utils import InvalidCrawlerError
 
 def Crawler(target, _type, nth, level):
@@ -13,5 +14,7 @@ def Crawler(target, _type, nth, level):
         return counting_vote.Crawler(target, nth)
     elif _type == 'townCode':
         return townCode.Crawler(target, nth)
+    elif _type == 'partyCode':
+        return partyCode.Crawler(target, nth)
     else:
         raise InvalidCrawlerError(target, _type, nth)

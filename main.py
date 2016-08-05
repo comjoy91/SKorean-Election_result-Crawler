@@ -54,7 +54,7 @@ def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
             help="name of target election")
-    parser.add_argument('type', choices=['townCode', 'electorates', 'counting_vote'],\
+    parser.add_argument('type', choices=['townCode', 'electorates', 'partyCode', 'counting_vote'],\
             help="type of collecting data\n"
                 "- We DO NOT RECOMMAND to crawl TOWNCODE data: \n"
                 "- KEC categorize townCode data by some rude standard, so we re-classify all the data by hand.") #'turnout'
