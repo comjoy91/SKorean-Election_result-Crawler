@@ -1,0 +1,5392 @@
+[
+  {
+    "results": [
+      {
+        "towns": "424",
+        "pollPlaces": "2248",
+        "population": "10039242",
+        "district": "서울특별시 합계",
+        "households": "4247995",
+        "pop_elec_ratio": "83.8",
+        "electorates": "8408280",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "42",
+        "population": "156261",
+        "district": "서울특별시 종로구",
+        "households": "74501",
+        "pop_elec_ratio": "86.1",
+        "electorates": "134507",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "51",
+        "population": "223087",
+        "district": "서울특별시 중구성동구갑",
+        "households": "97671",
+        "pop_elec_ratio": "85.0",
+        "electorates": "189620",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "60",
+        "population": "200535",
+        "district": "서울특별시 중구성동구을",
+        "households": "90785",
+        "pop_elec_ratio": "86.1",
+        "electorates": "172600",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "59",
+        "population": "234392",
+        "district": "서울특별시 용산구",
+        "households": "109697",
+        "pop_elec_ratio": "85.4",
+        "electorates": "200224",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "42",
+        "population": "182473",
+        "district": "서울특별시 광진구갑",
+        "households": "77677",
+        "pop_elec_ratio": "83.5",
+        "electorates": "152431",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "178400",
+        "district": "서울특별시 광진구을",
+        "households": "82486",
+        "pop_elec_ratio": "85.9",
+        "electorates": "153205",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "47",
+        "population": "184320",
+        "district": "서울특별시 동대문구갑",
+        "households": "88358",
+        "pop_elec_ratio": "86.9",
+        "electorates": "160115",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "44",
+        "population": "176534",
+        "district": "서울특별시 동대문구을",
+        "households": "73460",
+        "pop_elec_ratio": "83.8",
+        "electorates": "148013",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "40",
+        "population": "185183",
+        "district": "서울특별시 중랑구갑",
+        "households": "84587",
+        "pop_elec_ratio": "86.6",
+        "electorates": "160283",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "48",
+        "population": "228911",
+        "district": "서울특별시 중랑구을",
+        "households": "92996",
+        "pop_elec_ratio": "84.0",
+        "electorates": "192315",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "49",
+        "population": "242644",
+        "district": "서울특별시 성북구갑",
+        "households": "103345",
+        "pop_elec_ratio": "83.0",
+        "electorates": "201457",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "47",
+        "population": "217041",
+        "district": "서울특별시 성북구을",
+        "households": "89808",
+        "pop_elec_ratio": "83.9",
+        "electorates": "182174",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "38",
+        "population": "162677",
+        "district": "서울특별시 강북구갑",
+        "households": "71624",
+        "pop_elec_ratio": "86.6",
+        "electorates": "140892",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "43",
+        "population": "167964",
+        "district": "서울특별시 강북구을",
+        "households": "70470",
+        "pop_elec_ratio": "84.1",
+        "electorates": "141334",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "38",
+        "population": "171401",
+        "district": "서울특별시 도봉구갑",
+        "households": "67017",
+        "pop_elec_ratio": "83.3",
+        "electorates": "142823",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "179752",
+        "district": "서울특별시 도봉구을",
+        "households": "70859",
+        "pop_elec_ratio": "84.4",
+        "electorates": "151799",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "38",
+        "population": "169745",
+        "district": "서울특별시 노원구갑",
+        "households": "69018",
+        "pop_elec_ratio": "82.9",
+        "electorates": "140642",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "43",
+        "population": "211546",
+        "district": "서울특별시 노원구을",
+        "households": "77697",
+        "pop_elec_ratio": "79.1",
+        "electorates": "167383",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "39",
+        "population": "193689",
+        "district": "서울특별시 노원구병",
+        "households": "75768",
+        "pop_elec_ratio": "82.5",
+        "electorates": "159717",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "52",
+        "population": "248867",
+        "district": "서울특별시 은평구갑",
+        "households": "104536",
+        "pop_elec_ratio": "84.1",
+        "electorates": "209352",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "47",
+        "population": "248753",
+        "district": "서울특별시 은평구을",
+        "households": "100710",
+        "pop_elec_ratio": "83.0",
+        "electorates": "206494",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "38",
+        "population": "148556",
+        "district": "서울특별시 서대문구갑",
+        "households": "70315",
+        "pop_elec_ratio": "85.9",
+        "electorates": "127642",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "39",
+        "population": "168251",
+        "district": "서울특별시 서대문구을",
+        "households": "68957",
+        "pop_elec_ratio": "83.8",
+        "electorates": "140912",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "160787",
+        "district": "서울특별시 마포구갑",
+        "households": "71920",
+        "pop_elec_ratio": "84.7",
+        "electorates": "136193",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "53",
+        "population": "227651",
+        "district": "서울특별시 마포구을",
+        "households": "102276",
+        "pop_elec_ratio": "83.8",
+        "electorates": "190675",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "57",
+        "population": "257770",
+        "district": "서울특별시 양천구갑",
+        "households": "90653",
+        "pop_elec_ratio": "78.5",
+        "electorates": "202343",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "52",
+        "population": "226464",
+        "district": "서울특별시 양천구을",
+        "households": "90810",
+        "pop_elec_ratio": "82.9",
+        "electorates": "187779",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "40",
+        "population": "209990",
+        "district": "서울특별시 강서구갑",
+        "households": "82642",
+        "pop_elec_ratio": "82.1",
+        "electorates": "172316",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "49",
+        "population": "193340",
+        "district": "서울특별시 강서구을",
+        "households": "82786",
+        "pop_elec_ratio": "84.6",
+        "electorates": "163533",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "37",
+        "population": "188503",
+        "district": "서울특별시 강서구병",
+        "households": "77274",
+        "pop_elec_ratio": "83.3",
+        "electorates": "157029",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "51",
+        "population": "239439",
+        "district": "서울특별시 구로구갑",
+        "households": "93065",
+        "pop_elec_ratio": "82.6",
+        "electorates": "197751",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "44",
+        "population": "183047",
+        "district": "서울특별시 구로구을",
+        "households": "81150",
+        "pop_elec_ratio": "84.6",
+        "electorates": "154871",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "57",
+        "population": "236062",
+        "district": "서울특별시 금천구",
+        "households": "104523",
+        "pop_elec_ratio": "85.7",
+        "electorates": "202232",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "49",
+        "population": "207897",
+        "district": "서울특별시 영등포구갑",
+        "households": "95555",
+        "pop_elec_ratio": "85.1",
+        "electorates": "176855",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "49",
+        "population": "171834",
+        "district": "서울특별시 영등포구을",
+        "households": "74845",
+        "pop_elec_ratio": "85.3",
+        "electorates": "146636",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "46",
+        "population": "214046",
+        "district": "서울특별시 동작구갑",
+        "households": "91039",
+        "pop_elec_ratio": "83.9",
+        "electorates": "179604",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "188166",
+        "district": "서울특별시 동작구을",
+        "households": "82522",
+        "pop_elec_ratio": "86.0",
+        "electorates": "161781",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "52",
+        "population": "270855",
+        "district": "서울특별시 관악구갑",
+        "households": "134878",
+        "pop_elec_ratio": "86.8",
+        "electorates": "235005",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "49",
+        "population": "241058",
+        "district": "서울특별시 관악구을",
+        "households": "117967",
+        "pop_elec_ratio": "87.6",
+        "electorates": "211095",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "48",
+        "population": "204013",
+        "district": "서울특별시 서초구갑",
+        "households": "79675",
+        "pop_elec_ratio": "79.2",
+        "electorates": "161632",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "55",
+        "population": "244118",
+        "district": "서울특별시 서초구을",
+        "households": "97723",
+        "pop_elec_ratio": "82.0",
+        "electorates": "200087",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "198475",
+        "district": "서울특별시 강남구갑",
+        "households": "95894",
+        "pop_elec_ratio": "84.8",
+        "electorates": "168266",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "41",
+        "population": "187035",
+        "district": "서울특별시 강남구을",
+        "households": "73907",
+        "pop_elec_ratio": "81.9",
+        "electorates": "153093",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "36",
+        "population": "192239",
+        "district": "서울특별시 강남구병",
+        "households": "72951",
+        "pop_elec_ratio": "79.2",
+        "electorates": "152297",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "41",
+        "population": "203038",
+        "district": "서울특별시 송파구갑",
+        "households": "79030",
+        "pop_elec_ratio": "82.4",
+        "electorates": "167295",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "43",
+        "population": "203481",
+        "district": "서울특별시 송파구을",
+        "households": "84145",
+        "pop_elec_ratio": "82.0",
+        "electorates": "166803",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "51",
+        "population": "252551",
+        "district": "서울특별시 송파구병",
+        "households": "96783",
+        "pop_elec_ratio": "82.1",
+        "electorates": "207439",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "52",
+        "population": "247399",
+        "district": "서울특별시 강동구갑",
+        "households": "92688",
+        "pop_elec_ratio": "81.4",
+        "electorates": "201350",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "42",
+        "population": "209002",
+        "district": "서울특별시 강동구을",
+        "households": "88952",
+        "pop_elec_ratio": "85.4",
+        "electorates": "178386",
+        "assembly_no": 20
+      },
+      {
+        "towns": "205",
+        "pollPlaces": "895",
+        "population": "3515368",
+        "district": "부산광역시 합계",
+        "households": "1448952",
+        "pop_elec_ratio": "83.9",
+        "electorates": "2950579",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "59",
+        "population": "174734",
+        "district": "부산광역시 중구영도구",
+        "households": "80039",
+        "pop_elec_ratio": "87.6",
+        "electorates": "153128",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "67",
+        "population": "207081",
+        "district": "부산광역시 서구동구",
+        "households": "96798",
+        "pop_elec_ratio": "87.8",
+        "electorates": "181730",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "46",
+        "population": "195322",
+        "district": "부산광역시 부산진구갑",
+        "households": "82568",
+        "pop_elec_ratio": "84.8",
+        "electorates": "165569",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "44",
+        "population": "185672",
+        "district": "부산광역시 부산진구을",
+        "households": "83428",
+        "pop_elec_ratio": "86.4",
+        "electorates": "160350",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "63",
+        "population": "273132",
+        "district": "부산광역시 동래구",
+        "households": "107687",
+        "pop_elec_ratio": "83.3",
+        "electorates": "227516",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "35",
+        "population": "141080",
+        "district": "부산광역시 남구갑",
+        "households": "60238",
+        "pop_elec_ratio": "84.8",
+        "electorates": "119638",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "37",
+        "population": "140872",
+        "district": "부산광역시 남구을",
+        "households": "54392",
+        "pop_elec_ratio": "82.8",
+        "electorates": "116576",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "44",
+        "population": "170745",
+        "district": "부산광역시 북구강서구갑",
+        "households": "70018",
+        "pop_elec_ratio": "85.6",
+        "electorates": "146182",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "67",
+        "population": "240189",
+        "district": "부산광역시 북구강서구을",
+        "households": "90560",
+        "pop_elec_ratio": "79.6",
+        "electorates": "191127",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "47",
+        "population": "228440",
+        "district": "부산광역시 해운대구갑",
+        "households": "88695",
+        "pop_elec_ratio": "81.3",
+        "electorates": "185677",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "51",
+        "population": "195254",
+        "district": "부산광역시 해운대구을",
+        "households": "77672",
+        "pop_elec_ratio": "82.3",
+        "electorates": "160777",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "32",
+        "population": "145702",
+        "district": "부산광역시 사하구갑",
+        "households": "59024",
+        "pop_elec_ratio": "84.6",
+        "electorates": "123247",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "47",
+        "population": "190385",
+        "district": "부산광역시 사하구을",
+        "households": "75898",
+        "pop_elec_ratio": "82.4",
+        "electorates": "156920",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "60",
+        "population": "245714",
+        "district": "부산광역시 금정구",
+        "households": "101892",
+        "pop_elec_ratio": "85.3",
+        "electorates": "209696",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "53",
+        "population": "210916",
+        "district": "부산광역시 연제구",
+        "households": "85345",
+        "pop_elec_ratio": "83.9",
+        "electorates": "177058",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "42",
+        "population": "179900",
+        "district": "부산광역시 수영구",
+        "households": "77312",
+        "pop_elec_ratio": "86.1",
+        "electorates": "154956",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "61",
+        "population": "236487",
+        "district": "부산광역시 사상구",
+        "households": "96743",
+        "pop_elec_ratio": "84.9",
+        "electorates": "200808",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "40",
+        "population": "153743",
+        "district": "부산광역시 기장군",
+        "households": "60643",
+        "pop_elec_ratio": "77.8",
+        "electorates": "119624",
+        "assembly_no": 20
+      },
+      {
+        "towns": "139",
+        "pollPlaces": "605",
+        "population": "2487514",
+        "district": "대구광역시 합계",
+        "households": "987905",
+        "pop_elec_ratio": "81.6",
+        "electorates": "2030129",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "72",
+        "population": "241365",
+        "district": "대구광역시 중구남구",
+        "households": "113644",
+        "pop_elec_ratio": "86.8",
+        "electorates": "209601",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "41",
+        "population": "153935",
+        "district": "대구광역시 동구갑",
+        "households": "68488",
+        "pop_elec_ratio": "86.4",
+        "electorates": "132976",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "48",
+        "population": "197260",
+        "district": "대구광역시 동구을",
+        "households": "77363",
+        "pop_elec_ratio": "80.7",
+        "electorates": "159280",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "57",
+        "population": "204776",
+        "district": "대구광역시 서구",
+        "households": "89697",
+        "pop_elec_ratio": "86.8",
+        "electorates": "177712",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "45",
+        "population": "190743",
+        "district": "대구광역시 북구갑",
+        "households": "78453",
+        "pop_elec_ratio": "83.5",
+        "electorates": "159345",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "52",
+        "population": "250463",
+        "district": "대구광역시 북구을",
+        "households": "91353",
+        "pop_elec_ratio": "77.3",
+        "electorates": "193685",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "53",
+        "population": "260989",
+        "district": "대구광역시 수성구갑",
+        "households": "90973",
+        "pop_elec_ratio": "76.9",
+        "electorates": "200586",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "44",
+        "population": "190444",
+        "district": "대구광역시 수성구을",
+        "households": "75928",
+        "pop_elec_ratio": "82.4",
+        "electorates": "156901",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "41",
+        "population": "183367",
+        "district": "대구광역시 달서구갑",
+        "households": "69092",
+        "pop_elec_ratio": "80.8",
+        "electorates": "148145",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "57",
+        "population": "248244",
+        "district": "대구광역시 달서구을",
+        "households": "86734",
+        "pop_elec_ratio": "78.1",
+        "electorates": "193782",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "40",
+        "population": "167839",
+        "district": "대구광역시 달서구병",
+        "households": "70218",
+        "pop_elec_ratio": "83.9",
+        "electorates": "140857",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "55",
+        "population": "198089",
+        "district": "대구광역시 달성군",
+        "households": "75962",
+        "pop_elec_ratio": "79.4",
+        "electorates": "157259",
+        "assembly_no": 20
+      },
+      {
+        "towns": "149",
+        "pollPlaces": "686",
+        "population": "2931644",
+        "district": "인천광역시 합계",
+        "households": "1162615",
+        "pop_elec_ratio": "81.1",
+        "electorates": "2378235",
+        "assembly_no": 20
+      },
+      {
+        "towns": "42",
+        "pollPlaces": "125",
+        "population": "275555",
+        "district": "인천광역시 중구동구강화군옹진군",
+        "households": "124206",
+        "pop_elec_ratio": "83.7",
+        "electorates": "230632",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "44",
+        "population": "198375",
+        "district": "인천광역시 남구갑",
+        "households": "86974",
+        "pop_elec_ratio": "84.8",
+        "electorates": "168229",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "44",
+        "population": "207281",
+        "district": "인천광역시 남구을",
+        "households": "85941",
+        "pop_elec_ratio": "82.8",
+        "electorates": "171691",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "38",
+        "population": "162155",
+        "district": "인천광역시 연수구갑",
+        "households": "64827",
+        "pop_elec_ratio": "82.2",
+        "electorates": "133338",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "34",
+        "population": "159626",
+        "district": "인천광역시 연수구을",
+        "households": "52974",
+        "pop_elec_ratio": "74.7",
+        "electorates": "119224",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "58",
+        "population": "262989",
+        "district": "인천광역시 남동구갑",
+        "households": "105930",
+        "pop_elec_ratio": "80.1",
+        "electorates": "210708",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "58",
+        "population": "269375",
+        "district": "인천광역시 남동구을",
+        "households": "103733",
+        "pop_elec_ratio": "80.8",
+        "electorates": "217648",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "60",
+        "population": "279719",
+        "district": "인천광역시 부평구갑",
+        "households": "116417",
+        "pop_elec_ratio": "84.1",
+        "electorates": "235228",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "57",
+        "population": "276552",
+        "district": "인천광역시 부평구을",
+        "households": "102186",
+        "pop_elec_ratio": "80.5",
+        "electorates": "222693",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "34",
+        "population": "157832",
+        "district": "인천광역시 계양구갑",
+        "households": "58904",
+        "pop_elec_ratio": "81.5",
+        "electorates": "128572",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "36",
+        "population": "175914",
+        "district": "인천광역시 계양구을",
+        "households": "68654",
+        "pop_elec_ratio": "81.8",
+        "electorates": "143927",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "54",
+        "population": "263519",
+        "district": "인천광역시 서구갑",
+        "households": "100534",
+        "pop_elec_ratio": "79.8",
+        "electorates": "210214",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "44",
+        "population": "242752",
+        "district": "인천광역시 서구을",
+        "households": "91335",
+        "pop_elec_ratio": "76.7",
+        "electorates": "186131",
+        "assembly_no": 20
+      },
+      {
+        "towns": "95",
+        "pollPlaces": "359",
+        "population": "1472202",
+        "district": "광주광역시 합계",
+        "households": "582571",
+        "pop_elec_ratio": "78.7",
+        "electorates": "1158221",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "39",
+        "population": "168829",
+        "district": "광주광역시 동구남구갑",
+        "households": "65385",
+        "pop_elec_ratio": "79.4",
+        "electorates": "134017",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "50",
+        "population": "150528",
+        "district": "광주광역시 동구남구을",
+        "households": "67982",
+        "pop_elec_ratio": "84.8",
+        "electorates": "127632",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "36",
+        "population": "147259",
+        "district": "광주광역시 서구갑",
+        "households": "61119",
+        "pop_elec_ratio": "80.4",
+        "electorates": "118421",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "34",
+        "population": "158218",
+        "district": "광주광역시 서구을",
+        "households": "59665",
+        "pop_elec_ratio": "77.9",
+        "electorates": "123297",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "55",
+        "population": "188086",
+        "district": "광주광역시 북구갑",
+        "households": "83953",
+        "pop_elec_ratio": "84.5",
+        "electorates": "158844",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "51",
+        "population": "257553",
+        "district": "광주광역시 북구을",
+        "households": "95276",
+        "pop_elec_ratio": "77.1",
+        "electorates": "198674",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "50",
+        "population": "168722",
+        "district": "광주광역시 광산구갑",
+        "households": "67955",
+        "pop_elec_ratio": "78.4",
+        "electorates": "132298",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "44",
+        "population": "233007",
+        "district": "광주광역시 광산구을",
+        "households": "81236",
+        "pop_elec_ratio": "70.8",
+        "electorates": "165038",
+        "assembly_no": 20
+      },
+      {
+        "towns": "79",
+        "pollPlaces": "354",
+        "population": "1518149",
+        "district": "대전광역시 합계",
+        "households": "601903",
+        "pop_elec_ratio": "80.0",
+        "electorates": "1213851",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "60",
+        "population": "238605",
+        "district": "대전광역시 동구",
+        "households": "100807",
+        "pop_elec_ratio": "82.3",
+        "electorates": "196330",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "64",
+        "population": "255390",
+        "district": "대전광역시 중구",
+        "households": "103814",
+        "pop_elec_ratio": "81.9",
+        "electorates": "209037",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "56",
+        "population": "250559",
+        "district": "대전광역시 서구갑",
+        "households": "94817",
+        "pop_elec_ratio": "79.2",
+        "electorates": "198407",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "50",
+        "population": "240642",
+        "district": "대전광역시 서구을",
+        "households": "96288",
+        "pop_elec_ratio": "80.3",
+        "electorates": "193145",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "34",
+        "population": "165218",
+        "district": "대전광역시 유성구갑",
+        "households": "68048",
+        "pop_elec_ratio": "79.7",
+        "electorates": "131617",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "35",
+        "population": "171890",
+        "district": "대전광역시 유성구을",
+        "households": "60977",
+        "pop_elec_ratio": "73.5",
+        "electorates": "126412",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "55",
+        "population": "195845",
+        "district": "대전광역시 대덕구",
+        "households": "77152",
+        "pop_elec_ratio": "81.1",
+        "electorates": "158903",
+        "assembly_no": 20
+      },
+      {
+        "towns": "56",
+        "pollPlaces": "275",
+        "population": "1173380",
+        "district": "울산광역시 합계",
+        "households": "454184",
+        "pop_elec_ratio": "79.8",
+        "electorates": "936791",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "59",
+        "population": "244394",
+        "district": "울산광역시 중구",
+        "households": "96077",
+        "pop_elec_ratio": "81.5",
+        "electorates": "199153",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "38",
+        "population": "186559",
+        "district": "울산광역시 남구갑",
+        "households": "71913",
+        "pop_elec_ratio": "80.6",
+        "electorates": "150440",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "33",
+        "population": "156320",
+        "district": "울산광역시 남구을",
+        "households": "62396",
+        "pop_elec_ratio": "81.1",
+        "electorates": "126735",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "41",
+        "population": "175783",
+        "district": "울산광역시 동구",
+        "households": "69094",
+        "pop_elec_ratio": "79.9",
+        "electorates": "140366",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "45",
+        "population": "190844",
+        "district": "울산광역시 북구",
+        "households": "67814",
+        "pop_elec_ratio": "76.4",
+        "electorates": "145738",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "59",
+        "population": "219480",
+        "district": "울산광역시 울주군",
+        "households": "86890",
+        "pop_elec_ratio": "79.4",
+        "electorates": "174359",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "60",
+        "population": "222406",
+        "district": "세종특별자치시 합계",
+        "households": "86282",
+        "pop_elec_ratio": "75.4",
+        "electorates": "167748",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "60",
+        "population": "222406",
+        "district": "세종특별자치시 세종특별자치시",
+        "households": "86282",
+        "pop_elec_ratio": "75.4",
+        "electorates": "167748",
+        "assembly_no": 20
+      },
+      {
+        "towns": "559",
+        "pollPlaces": "2922",
+        "population": "12577421",
+        "district": "경기도 합계",
+        "households": "4943467",
+        "pop_elec_ratio": "79.7",
+        "electorates": "10028141",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "56",
+        "population": "253588",
+        "district": "경기도 수원시갑",
+        "households": "96687",
+        "pop_elec_ratio": "79.9",
+        "electorates": "202592",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "50",
+        "population": "235100",
+        "district": "경기도 수원시을",
+        "households": "89471",
+        "pop_elec_ratio": "79.3",
+        "electorates": "186350",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "45",
+        "population": "199056",
+        "district": "경기도 수원시병",
+        "households": "87886",
+        "pop_elec_ratio": "83.7",
+        "electorates": "166543",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "49",
+        "population": "237658",
+        "district": "경기도 수원시정",
+        "households": "91312",
+        "pop_elec_ratio": "76.5",
+        "electorates": "181891",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "55",
+        "population": "262891",
+        "district": "경기도 수원시무",
+        "households": "102819",
+        "pop_elec_ratio": "79.1",
+        "electorates": "207928",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "59",
+        "population": "223099",
+        "district": "경기도 성남시수정구",
+        "households": "101145",
+        "pop_elec_ratio": "85.1",
+        "electorates": "189821",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "57",
+        "population": "250612",
+        "district": "경기도 성남시중원구",
+        "households": "106065",
+        "pop_elec_ratio": "83.9",
+        "electorates": "210248",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "54",
+        "population": "262843",
+        "district": "경기도 성남시분당구갑",
+        "households": "94824",
+        "pop_elec_ratio": "78.2",
+        "electorates": "205625",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "57",
+        "population": "242392",
+        "district": "경기도 성남시분당구을",
+        "households": "96402",
+        "pop_elec_ratio": "80.6",
+        "electorates": "195260",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "45",
+        "population": "204532",
+        "district": "경기도 의정부시갑",
+        "households": "88031",
+        "pop_elec_ratio": "83.9",
+        "electorates": "171694",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "49",
+        "population": "230406",
+        "district": "경기도 의정부시을",
+        "households": "86032",
+        "pop_elec_ratio": "79.1",
+        "electorates": "182164",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "55",
+        "population": "247642",
+        "district": "경기도 안양시만안구",
+        "households": "98441",
+        "pop_elec_ratio": "83.7",
+        "electorates": "207248",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "40",
+        "population": "178898",
+        "district": "경기도 안양시동안구갑",
+        "households": "68222",
+        "pop_elec_ratio": "81.3",
+        "electorates": "145432",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "35",
+        "population": "171256",
+        "district": "경기도 안양시동안구을",
+        "households": "58940",
+        "pop_elec_ratio": "78.7",
+        "electorates": "134712",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "33",
+        "population": "168907",
+        "district": "경기도 부천시원미구갑",
+        "households": "72980",
+        "pop_elec_ratio": "85.0",
+        "electorates": "143513",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "48",
+        "population": "274082",
+        "district": "경기도 부천시원미구을",
+        "households": "98139",
+        "pop_elec_ratio": "80.0",
+        "electorates": "219314",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "48",
+        "population": "221844",
+        "district": "경기도 부천시소사구",
+        "households": "86776",
+        "pop_elec_ratio": "83.0",
+        "electorates": "184100",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "40",
+        "population": "184267",
+        "district": "경기도 부천시오정구",
+        "households": "71860",
+        "pop_elec_ratio": "82.6",
+        "electorates": "152131",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "36",
+        "population": "154679",
+        "district": "경기도 광명시갑",
+        "households": "61289",
+        "pop_elec_ratio": "83.1",
+        "electorates": "128477",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "47",
+        "population": "189487",
+        "district": "경기도 광명시을",
+        "households": "67542",
+        "pop_elec_ratio": "77.4",
+        "electorates": "146728",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "46",
+        "population": "185441",
+        "district": "경기도 평택시갑",
+        "households": "76146",
+        "pop_elec_ratio": "80.2",
+        "electorates": "148674",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "71",
+        "population": "277957",
+        "district": "경기도 평택시을",
+        "households": "115124",
+        "pop_elec_ratio": "78.5",
+        "electorates": "218106",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "64",
+        "population": "143953",
+        "district": "경기도 동두천시연천군",
+        "households": "63805",
+        "pop_elec_ratio": "82.4",
+        "electorates": "118608",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "41",
+        "population": "213865",
+        "district": "경기도 안산시상록구갑",
+        "households": "86197",
+        "pop_elec_ratio": "79.9",
+        "electorates": "170819",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "29",
+        "population": "164648",
+        "district": "경기도 안산시상록구을",
+        "households": "66936",
+        "pop_elec_ratio": "81.0",
+        "electorates": "133333",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "39",
+        "population": "176087",
+        "district": "경기도 안산시단원구갑",
+        "households": "74984",
+        "pop_elec_ratio": "80.7",
+        "electorates": "142137",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "31",
+        "population": "141447",
+        "district": "경기도 안산시단원구을",
+        "households": "53731",
+        "pop_elec_ratio": "79.1",
+        "electorates": "111876",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "58",
+        "population": "280812",
+        "district": "경기도 고양시갑",
+        "households": "108425",
+        "pop_elec_ratio": "79.9",
+        "electorates": "224395",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "48",
+        "population": "195397",
+        "district": "경기도 고양시을",
+        "households": "79026",
+        "pop_elec_ratio": "81.7",
+        "electorates": "159645",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "54",
+        "population": "275899",
+        "district": "경기도 고양시병",
+        "households": "111357",
+        "pop_elec_ratio": "81.7",
+        "electorates": "225454",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "57",
+        "population": "279046",
+        "district": "경기도 고양시정",
+        "households": "100378",
+        "pop_elec_ratio": "78.2",
+        "electorates": "218257",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "58",
+        "population": "226939",
+        "district": "경기도 의왕시과천시",
+        "households": "84784",
+        "pop_elec_ratio": "80.9",
+        "electorates": "183677",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "48",
+        "population": "186135",
+        "district": "경기도 구리시",
+        "households": "71812",
+        "pop_elec_ratio": "80.9",
+        "electorates": "150590",
+        "assembly_no": 20
+      },
+      {
+        "towns": "4",
+        "pollPlaces": "35",
+        "population": "202221",
+        "district": "경기도 남양주시갑",
+        "households": "77643",
+        "pop_elec_ratio": "76.6",
+        "electorates": "154956",
+        "assembly_no": 20
+      },
+      {
+        "towns": "4",
+        "pollPlaces": "38",
+        "population": "236112",
+        "district": "경기도 남양주시을",
+        "households": "87948",
+        "pop_elec_ratio": "77.2",
+        "electorates": "182248",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "49",
+        "population": "220080",
+        "district": "경기도 남양주시병",
+        "households": "84221",
+        "pop_elec_ratio": "81.2",
+        "electorates": "178679",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "44",
+        "population": "207232",
+        "district": "경기도 오산시",
+        "households": "81556",
+        "pop_elec_ratio": "76.0",
+        "electorates": "157509",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "43",
+        "population": "207456",
+        "district": "경기도 시흥시갑",
+        "households": "76209",
+        "pop_elec_ratio": "78.8",
+        "electorates": "163569",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "37",
+        "population": "191079",
+        "district": "경기도 시흥시을",
+        "households": "82069",
+        "pop_elec_ratio": "78.7",
+        "electorates": "150399",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "30",
+        "population": "140891",
+        "district": "경기도 군포시갑",
+        "households": "54657",
+        "pop_elec_ratio": "81.2",
+        "electorates": "114374",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "33",
+        "population": "146662",
+        "district": "경기도 군포시을",
+        "households": "52891",
+        "pop_elec_ratio": "78.5",
+        "electorates": "115135",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "42",
+        "population": "174104",
+        "district": "경기도 하남시",
+        "households": "69963",
+        "pop_elec_ratio": "81.1",
+        "electorates": "141223",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "57",
+        "population": "221435",
+        "district": "경기도 용인시갑",
+        "households": "88537",
+        "pop_elec_ratio": "80.4",
+        "electorates": "177955",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "49",
+        "population": "222910",
+        "district": "경기도 용인시을",
+        "households": "84604",
+        "pop_elec_ratio": "77.1",
+        "electorates": "171818",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "52",
+        "population": "267685",
+        "district": "경기도 용인시병",
+        "households": "93647",
+        "pop_elec_ratio": "76.1",
+        "electorates": "203725",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "51",
+        "population": "267068",
+        "district": "경기도 용인시정",
+        "households": "93416",
+        "pop_elec_ratio": "75.0",
+        "electorates": "200235",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "56",
+        "population": "236766",
+        "district": "경기도 파주시갑",
+        "households": "88922",
+        "pop_elec_ratio": "76.1",
+        "electorates": "180095",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "61",
+        "population": "189036",
+        "district": "경기도 파주시을",
+        "households": "84740",
+        "pop_elec_ratio": "81.3",
+        "electorates": "153624",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "56",
+        "population": "206339",
+        "district": "경기도 이천시",
+        "households": "82246",
+        "pop_elec_ratio": "78.8",
+        "electorates": "162667",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "61",
+        "population": "180684",
+        "district": "경기도 안성시",
+        "households": "75068",
+        "pop_elec_ratio": "80.3",
+        "electorates": "145177",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "41",
+        "population": "180727",
+        "district": "경기도 김포시갑",
+        "households": "65592",
+        "pop_elec_ratio": "77.6",
+        "electorates": "140224",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "49",
+        "population": "171217",
+        "district": "경기도 김포시을",
+        "households": "69569",
+        "pop_elec_ratio": "77.8",
+        "electorates": "133179",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "53",
+        "population": "190715",
+        "district": "경기도 화성시갑",
+        "households": "85013",
+        "pop_elec_ratio": "80.9",
+        "electorates": "154256",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "32",
+        "population": "194486",
+        "district": "경기도 화성시을",
+        "households": "65841",
+        "pop_elec_ratio": "68.7",
+        "electorates": "133633",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "40",
+        "population": "224488",
+        "district": "경기도 화성시병",
+        "households": "81713",
+        "pop_elec_ratio": "74.3",
+        "electorates": "166886",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "35",
+        "population": "153529",
+        "district": "경기도 광주시갑",
+        "households": "60030",
+        "pop_elec_ratio": "80.0",
+        "electorates": "122751",
+        "assembly_no": 20
+      },
+      {
+        "towns": "4",
+        "pollPlaces": "32",
+        "population": "161228",
+        "district": "경기도 광주시을",
+        "households": "65717",
+        "pop_elec_ratio": "80.4",
+        "electorates": "129583",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "52",
+        "population": "205486",
+        "district": "경기도 양주시",
+        "households": "80510",
+        "pop_elec_ratio": "79.0",
+        "electorates": "162317",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "97",
+        "population": "216868",
+        "district": "경기도 포천시가평군",
+        "households": "96800",
+        "pop_elec_ratio": "83.5",
+        "electorates": "181119",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "95",
+        "population": "220052",
+        "district": "경기도 여주시양평군",
+        "households": "96777",
+        "pop_elec_ratio": "83.4",
+        "electorates": "183463",
+        "assembly_no": 20
+      },
+      {
+        "towns": "188",
+        "pollPlaces": "658",
+        "population": "1548781",
+        "district": "강원도 합계",
+        "households": "686490",
+        "pop_elec_ratio": "82.5",
+        "electorates": "1277335",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "81",
+        "population": "278988",
+        "district": "강원도 춘천시",
+        "households": "116089",
+        "pop_elec_ratio": "81.1",
+        "electorates": "226260",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "40",
+        "population": "165577",
+        "district": "강원도 원주시갑",
+        "households": "70023",
+        "pop_elec_ratio": "80.8",
+        "electorates": "133866",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "44",
+        "population": "169511",
+        "district": "강원도 원주시을",
+        "households": "69901",
+        "pop_elec_ratio": "79.2",
+        "electorates": "134305",
+        "assembly_no": 20
+      },
+      {
+        "towns": "21",
+        "pollPlaces": "62",
+        "population": "214164",
+        "district": "강원도 강릉시",
+        "households": "93870",
+        "pop_elec_ratio": "82.8",
+        "electorates": "177335",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "78",
+        "population": "163586",
+        "district": "강원도 동해시삼척시",
+        "households": "74427",
+        "pop_elec_ratio": "82.8",
+        "electorates": "135441",
+        "assembly_no": 20
+      },
+      {
+        "towns": "43",
+        "pollPlaces": "141",
+        "population": "215690",
+        "district": "강원도 태백시횡성군영월군평창군정선군",
+        "households": "102910",
+        "pop_elec_ratio": "85.6",
+        "electorates": "184541",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "74",
+        "population": "138833",
+        "district": "강원도 속초시고성군양양군",
+        "households": "65611",
+        "pop_elec_ratio": "84.0",
+        "electorates": "116584",
+        "assembly_no": 20
+      },
+      {
+        "towns": "33",
+        "pollPlaces": "138",
+        "population": "202432",
+        "district": "강원도 홍천군철원군화천군양구군인제군",
+        "households": "93659",
+        "pop_elec_ratio": "83.5",
+        "electorates": "169003",
+        "assembly_no": 20
+      },
+      {
+        "towns": "153",
+        "pollPlaces": "477",
+        "population": "1584623",
+        "district": "충청북도 합계",
+        "households": "672274",
+        "pop_elec_ratio": "81.2",
+        "electorates": "1286889",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "45",
+        "population": "175499",
+        "district": "충청북도 청주시상당구",
+        "households": "70266",
+        "pop_elec_ratio": "80.3",
+        "electorates": "140850",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "50",
+        "population": "219150",
+        "district": "충청북도 청주시서원구",
+        "households": "87777",
+        "pop_elec_ratio": "79.3",
+        "electorates": "173705",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "61",
+        "population": "253557",
+        "district": "충청북도 청주시흥덕구",
+        "households": "104055",
+        "pop_elec_ratio": "79.0",
+        "electorates": "200247",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "47",
+        "population": "184821",
+        "district": "충청북도 청주시청원구",
+        "households": "76265",
+        "pop_elec_ratio": "78.2",
+        "electorates": "144497",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "72",
+        "population": "207850",
+        "district": "충청북도 충주시",
+        "households": "87888",
+        "pop_elec_ratio": "82.3",
+        "electorates": "171049",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "66",
+        "population": "166356",
+        "district": "충청북도 제천시단양군",
+        "households": "74254",
+        "pop_elec_ratio": "83.7",
+        "electorates": "139237",
+        "assembly_no": 20
+      },
+      {
+        "towns": "42",
+        "pollPlaces": "80",
+        "population": "175015",
+        "district": "충청북도 보은군옥천군영동군괴산군",
+        "households": "81949",
+        "pop_elec_ratio": "87.0",
+        "electorates": "152218",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "56",
+        "population": "202375",
+        "district": "충청북도 증평군진천군음성군",
+        "households": "89820",
+        "pop_elec_ratio": "81.6",
+        "electorates": "165086",
+        "assembly_no": 20
+      },
+      {
+        "towns": "207",
+        "pollPlaces": "723",
+        "population": "2081773",
+        "district": "충청남도 합계",
+        "households": "890848",
+        "pop_elec_ratio": "80.8",
+        "electorates": "1683018",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "61",
+        "population": "201861",
+        "district": "충청남도 천안시갑",
+        "households": "93495",
+        "pop_elec_ratio": "83.3",
+        "electorates": "168194",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "55",
+        "population": "222483",
+        "district": "충청남도 천안시을",
+        "households": "89316",
+        "pop_elec_ratio": "76.4",
+        "electorates": "170020",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "44",
+        "population": "183137",
+        "district": "충청남도 천안시병",
+        "households": "66691",
+        "pop_elec_ratio": "75.5",
+        "electorates": "138233",
+        "assembly_no": 20
+      },
+      {
+        "towns": "42",
+        "pollPlaces": "108",
+        "population": "213819",
+        "district": "충청남도 공주시부여군청양군",
+        "households": "96511",
+        "pop_elec_ratio": "85.7",
+        "electorates": "183329",
+        "assembly_no": 20
+      },
+      {
+        "towns": "29",
+        "pollPlaces": "78",
+        "population": "161082",
+        "district": "충청남도 보령시서천군",
+        "households": "73463",
+        "pop_elec_ratio": "84.9",
+        "electorates": "136813",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "44",
+        "population": "153585",
+        "district": "충청남도 아산시갑",
+        "households": "61813",
+        "pop_elec_ratio": "77.4",
+        "electorates": "118823",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "45",
+        "population": "147267",
+        "district": "충청남도 아산시을",
+        "households": "61767",
+        "pop_elec_ratio": "76.6",
+        "electorates": "112841",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "80",
+        "population": "233568",
+        "district": "충청남도 서산시태안군",
+        "households": "100332",
+        "pop_elec_ratio": "81.4",
+        "electorates": "190036",
+        "assembly_no": 20
+      },
+      {
+        "towns": "29",
+        "pollPlaces": "88",
+        "population": "221075",
+        "district": "충청남도 논산시계룡시금산군",
+        "households": "96133",
+        "pop_elec_ratio": "82.3",
+        "electorates": "181987",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "49",
+        "population": "165401",
+        "district": "충청남도 당진시",
+        "households": "72437",
+        "pop_elec_ratio": "80.1",
+        "electorates": "132562",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "71",
+        "population": "178495",
+        "district": "충청남도 홍성군예산군",
+        "households": "78890",
+        "pop_elec_ratio": "84.1",
+        "electorates": "150180",
+        "assembly_no": 20
+      },
+      {
+        "towns": "241",
+        "pollPlaces": "615",
+        "population": "1867626",
+        "district": "전라북도 합계",
+        "households": "785813",
+        "pop_elec_ratio": "81.3",
+        "electorates": "1519229",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "44",
+        "population": "185038",
+        "district": "전라북도 전주시갑",
+        "households": "76126",
+        "pop_elec_ratio": "80.5",
+        "electorates": "148951",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "47",
+        "population": "217742",
+        "district": "전라북도 전주시을",
+        "households": "81841",
+        "pop_elec_ratio": "77.3",
+        "electorates": "168230",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "61",
+        "population": "250779",
+        "district": "전라북도 전주시병",
+        "households": "98657",
+        "pop_elec_ratio": "79.4",
+        "electorates": "199146",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "85",
+        "population": "278362",
+        "district": "전라북도 군산시",
+        "households": "114870",
+        "pop_elec_ratio": "80.2",
+        "electorates": "223265",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "42",
+        "population": "141026",
+        "district": "전라북도 익산시갑",
+        "households": "60377",
+        "pop_elec_ratio": "83.5",
+        "electorates": "117792",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "44",
+        "population": "160731",
+        "district": "전라북도 익산시을",
+        "households": "62993",
+        "pop_elec_ratio": "78.9",
+        "electorates": "126840",
+        "assembly_no": 20
+      },
+      {
+        "towns": "37",
+        "pollPlaces": "80",
+        "population": "174989",
+        "district": "전라북도 정읍시고창군",
+        "households": "80677",
+        "pop_elec_ratio": "84.1",
+        "electorates": "147190",
+        "assembly_no": 20
+      },
+      {
+        "towns": "46",
+        "pollPlaces": "71",
+        "population": "143728",
+        "district": "전라북도 남원시임실군순창군",
+        "households": "64956",
+        "pop_elec_ratio": "84.4",
+        "electorates": "121299",
+        "assembly_no": 20
+      },
+      {
+        "towns": "32",
+        "pollPlaces": "71",
+        "population": "145239",
+        "district": "전라북도 김제시부안군",
+        "households": "68978",
+        "pop_elec_ratio": "85.9",
+        "electorates": "124808",
+        "assembly_no": 20
+      },
+      {
+        "towns": "37",
+        "pollPlaces": "70",
+        "population": "169992",
+        "district": "전라북도 완주군진안군무주군장수군",
+        "households": "76338",
+        "pop_elec_ratio": "83.4",
+        "electorates": "141708",
+        "assembly_no": 20
+      },
+      {
+        "towns": "297",
+        "pollPlaces": "870",
+        "population": "1905790",
+        "district": "전라남도 합계",
+        "households": "835593",
+        "pop_elec_ratio": "82.1",
+        "electorates": "1565566",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "65",
+        "population": "238473",
+        "district": "전라남도 목포시",
+        "households": "100665",
+        "pop_elec_ratio": "78.6",
+        "electorates": "187494",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "62",
+        "population": "143255",
+        "district": "전라남도 여수시갑",
+        "households": "61222",
+        "pop_elec_ratio": "83.7",
+        "electorates": "119921",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "54",
+        "population": "146715",
+        "district": "전라남도 여수시을",
+        "households": "56852",
+        "pop_elec_ratio": "78.6",
+        "electorates": "115348",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "82",
+        "population": "279242",
+        "district": "전라남도 순천시",
+        "households": "108573",
+        "pop_elec_ratio": "79.0",
+        "electorates": "220553",
+        "assembly_no": 20
+      },
+      {
+        "towns": "33",
+        "pollPlaces": "74",
+        "population": "165610",
+        "district": "전라남도 나주시화순군",
+        "households": "76598",
+        "pop_elec_ratio": "83.6",
+        "electorates": "138385",
+        "assembly_no": 20
+      },
+      {
+        "towns": "31",
+        "pollPlaces": "82",
+        "population": "210460",
+        "district": "전라남도 광양시곡성군구례군",
+        "households": "87585",
+        "pop_elec_ratio": "80.4",
+        "electorates": "169277",
+        "assembly_no": 20
+      },
+      {
+        "towns": "43",
+        "pollPlaces": "112",
+        "population": "184270",
+        "district": "전라남도 담양군함평군영광군장성군",
+        "households": "87098",
+        "pop_elec_ratio": "85.6",
+        "electorates": "157678",
+        "assembly_no": 20
+      },
+      {
+        "towns": "49",
+        "pollPlaces": "116",
+        "population": "193236",
+        "district": "전라남도 고흥군보성군장흥군강진군",
+        "households": "95600",
+        "pop_elec_ratio": "87.0",
+        "electorates": "168038",
+        "assembly_no": 20
+      },
+      {
+        "towns": "33",
+        "pollPlaces": "100",
+        "population": "161116",
+        "district": "전라남도 해남군완도군진도군",
+        "households": "76745",
+        "pop_elec_ratio": "85.0",
+        "electorates": "136903",
+        "assembly_no": 20
+      },
+      {
+        "towns": "34",
+        "pollPlaces": "123",
+        "population": "183413",
+        "district": "전라남도 영암군무안군신안군",
+        "households": "84655",
+        "pop_elec_ratio": "82.9",
+        "electorates": "151969",
+        "assembly_no": 20
+      },
+      {
+        "towns": "332",
+        "pollPlaces": "960",
+        "population": "2701961",
+        "district": "경상북도 합계",
+        "households": "1173738",
+        "pop_elec_ratio": "82.8",
+        "electorates": "2237710",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "78",
+        "population": "272571",
+        "district": "경상북도 포항시북구",
+        "households": "109060",
+        "pop_elec_ratio": "81.1",
+        "electorates": "220958",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "85",
+        "population": "256272",
+        "district": "경상북도 포항시남구울릉군",
+        "households": "108081",
+        "pop_elec_ratio": "81.9",
+        "electorates": "209993",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "69",
+        "population": "260124",
+        "district": "경상북도 경주시",
+        "households": "113311",
+        "pop_elec_ratio": "83.5",
+        "electorates": "217306",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "50",
+        "population": "140988",
+        "district": "경상북도 김천시",
+        "households": "61110",
+        "pop_elec_ratio": "83.3",
+        "electorates": "117499",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "72",
+        "population": "168876",
+        "district": "경상북도 안동시",
+        "households": "73193",
+        "pop_elec_ratio": "82.9",
+        "electorates": "139956",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "52",
+        "population": "227622",
+        "district": "경상북도 구미시갑",
+        "households": "87258",
+        "pop_elec_ratio": "77.8",
+        "electorates": "177059",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "43",
+        "population": "192671",
+        "district": "경상북도 구미시을",
+        "households": "81071",
+        "pop_elec_ratio": "77.3",
+        "electorates": "148842",
+        "assembly_no": 20
+      },
+      {
+        "towns": "45",
+        "pollPlaces": "98",
+        "population": "230117",
+        "district": "경상북도 영주시문경시예천군",
+        "households": "104180",
+        "pop_elec_ratio": "84.8",
+        "electorates": "195244",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "68",
+        "population": "144206",
+        "district": "경상북도 영천시청도군",
+        "households": "68780",
+        "pop_elec_ratio": "87.4",
+        "electorates": "126104",
+        "assembly_no": 20
+      },
+      {
+        "towns": "58",
+        "pollPlaces": "120",
+        "population": "206939",
+        "district": "경상북도 상주시군위군의성군청송군",
+        "households": "99443",
+        "pop_elec_ratio": "88.3",
+        "electorates": "182629",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "76",
+        "population": "257246",
+        "district": "경상북도 경산시",
+        "households": "107125",
+        "pop_elec_ratio": "82.0",
+        "electorates": "210959",
+        "assembly_no": 20
+      },
+      {
+        "towns": "35",
+        "pollPlaces": "75",
+        "population": "142416",
+        "district": "경상북도 영양군영덕군봉화군울진군",
+        "households": "70246",
+        "pop_elec_ratio": "87.0",
+        "electorates": "123843",
+        "assembly_no": 20
+      },
+      {
+        "towns": "26",
+        "pollPlaces": "74",
+        "population": "201913",
+        "district": "경상북도 고령군성주군칠곡군",
+        "households": "90880",
+        "pop_elec_ratio": "82.9",
+        "electorates": "167318",
+        "assembly_no": 20
+      },
+      {
+        "towns": "315",
+        "pollPlaces": "830",
+        "population": "3171641",
+        "district": "경상남도 합계",
+        "households": "1289687",
+        "pop_elec_ratio": "80.5",
+        "electorates": "2554659",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "57",
+        "population": "255179",
+        "district": "경상남도 창원시의창구",
+        "households": "100611",
+        "pop_elec_ratio": "81.5",
+        "electorates": "208050",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "53",
+        "population": "233451",
+        "district": "경상남도 창원시성산구",
+        "households": "84146",
+        "pop_elec_ratio": "78.9",
+        "electorates": "184105",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "53",
+        "population": "182489",
+        "district": "경상남도 창원시마산합포구",
+        "households": "76696",
+        "pop_elec_ratio": "84.0",
+        "electorates": "153360",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "54",
+        "population": "211926",
+        "district": "경상남도 창원시마산회원구",
+        "households": "83801",
+        "pop_elec_ratio": "81.7",
+        "electorates": "173197",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "38",
+        "population": "186219",
+        "district": "경상남도 창원시진해구",
+        "households": "73201",
+        "pop_elec_ratio": "77.5",
+        "electorates": "144405",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "43",
+        "population": "184259",
+        "district": "경상남도 진주시갑",
+        "households": "73632",
+        "pop_elec_ratio": "79.4",
+        "electorates": "146372",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "39",
+        "population": "161691",
+        "district": "경상남도 진주시을",
+        "households": "65854",
+        "pop_elec_ratio": "81.1",
+        "electorates": "131180",
+        "assembly_no": 20
+      },
+      {
+        "towns": "37",
+        "pollPlaces": "79",
+        "population": "210703",
+        "district": "경상남도 사천시남해군하동군",
+        "households": "96429",
+        "pop_elec_ratio": "84.4",
+        "electorates": "177799",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "57",
+        "population": "278963",
+        "district": "경상남도 김해시갑",
+        "households": "109496",
+        "pop_elec_ratio": "79.8",
+        "electorates": "222541",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "42",
+        "population": "249846",
+        "district": "경상남도 김해시을",
+        "households": "89515",
+        "pop_elec_ratio": "74.4",
+        "electorates": "185900",
+        "assembly_no": 20
+      },
+      {
+        "towns": "53",
+        "pollPlaces": "98",
+        "population": "268867",
+        "district": "경상남도 밀양시의령군함안군창녕군",
+        "households": "125070",
+        "pop_elec_ratio": "85.3",
+        "electorates": "229396",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "62",
+        "population": "256842",
+        "district": "경상남도 거제시",
+        "households": "102413",
+        "pop_elec_ratio": "76.5",
+        "electorates": "196374",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "39",
+        "population": "147805",
+        "district": "경상남도 양산시갑",
+        "households": "59518",
+        "pop_elec_ratio": "80.0",
+        "electorates": "118303",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "36",
+        "population": "155751",
+        "district": "경상남도 양산시을",
+        "households": "59488",
+        "pop_elec_ratio": "78.2",
+        "electorates": "121860",
+        "assembly_no": 20
+      },
+      {
+        "towns": "51",
+        "pollPlaces": "80",
+        "population": "187650",
+        "district": "경상남도 산청군함양군거창군합천군",
+        "households": "89817",
+        "pop_elec_ratio": "86.2",
+        "electorates": "161817",
+        "assembly_no": 20
+      },
+      {
+        "towns": "43",
+        "pollPlaces": "228",
+        "population": "629771",
+        "district": "제주특별자치도 합계",
+        "households": "260674",
+        "pop_elec_ratio": "79.0",
+        "electorates": "497555",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "76",
+        "population": "242780",
+        "district": "제주특별자치도 제주시갑",
+        "households": "101356",
+        "pop_elec_ratio": "78.4",
+        "electorates": "190415",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "64",
+        "population": "220334",
+        "district": "제주특별자치도 제주시을",
+        "households": "87043",
+        "pop_elec_ratio": "77.8",
+        "electorates": "171373",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "88",
+        "population": "166657",
+        "district": "제주특별자치도 서귀포시",
+        "households": "72275",
+        "pop_elec_ratio": "81.5",
+        "electorates": "135767",
+        "assembly_no": 20
+      }
+    ],
+    "voting_system": "constituency"
+  },
+  {
+    "results": [
+      {
+        "towns": "424",
+        "pollPlaces": "2248",
+        "population": "10039242",
+        "district": "서울특별시 합계",
+        "households": "4249370",
+        "pop_elec_ratio": "83.8",
+        "electorates": "8423654",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "42",
+        "population": "156261",
+        "district": "서울특별시 종로구",
+        "households": "74548",
+        "pop_elec_ratio": "86.1",
+        "electorates": "135210",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "60",
+        "population": "200535",
+        "district": "서울특별시 중구",
+        "households": "90832",
+        "pop_elec_ratio": "86.1",
+        "electorates": "173232",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "59",
+        "population": "234392",
+        "district": "서울특별시 용산구",
+        "households": "109760",
+        "pop_elec_ratio": "85.4",
+        "electorates": "201103",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "51",
+        "population": "223087",
+        "district": "서울특별시 성동구",
+        "households": "97692",
+        "pop_elec_ratio": "85.0",
+        "electorates": "190011",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "84",
+        "population": "360873",
+        "district": "서울특별시 광진구",
+        "households": "160202",
+        "pop_elec_ratio": "84.7",
+        "electorates": "306122",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "91",
+        "population": "360854",
+        "district": "서울특별시 동대문구",
+        "households": "161864",
+        "pop_elec_ratio": "85.4",
+        "electorates": "308741",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "88",
+        "population": "414094",
+        "district": "서울특별시 중랑구",
+        "households": "177604",
+        "pop_elec_ratio": "85.2",
+        "electorates": "352971",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "96",
+        "population": "459685",
+        "district": "서울특별시 성북구",
+        "households": "193208",
+        "pop_elec_ratio": "83.5",
+        "electorates": "384370",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "81",
+        "population": "330641",
+        "district": "서울특별시 강북구",
+        "households": "142119",
+        "pop_elec_ratio": "85.4",
+        "electorates": "282631",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "80",
+        "population": "351153",
+        "district": "서울특별시 도봉구",
+        "households": "137895",
+        "pop_elec_ratio": "83.9",
+        "electorates": "294975",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "120",
+        "population": "574980",
+        "district": "서울특별시 노원구",
+        "households": "222516",
+        "pop_elec_ratio": "81.4",
+        "electorates": "468243",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "99",
+        "population": "497620",
+        "district": "서울특별시 은평구",
+        "households": "205318",
+        "pop_elec_ratio": "83.6",
+        "electorates": "416520",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "77",
+        "population": "316807",
+        "district": "서울특별시 서대문구",
+        "households": "139358",
+        "pop_elec_ratio": "84.8",
+        "electorates": "269196",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "95",
+        "population": "388438",
+        "district": "서울특별시 마포구",
+        "households": "174280",
+        "pop_elec_ratio": "84.2",
+        "electorates": "327573",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "109",
+        "population": "484234",
+        "district": "서울특별시 양천구",
+        "households": "181491",
+        "pop_elec_ratio": "80.6",
+        "electorates": "390647",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "126",
+        "population": "591833",
+        "district": "서울특별시 강서구",
+        "households": "242765",
+        "pop_elec_ratio": "83.3",
+        "electorates": "493465",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "95",
+        "population": "422486",
+        "district": "서울특별시 구로구",
+        "households": "174239",
+        "pop_elec_ratio": "83.5",
+        "electorates": "352995",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "57",
+        "population": "236062",
+        "district": "서울특별시 금천구",
+        "households": "104537",
+        "pop_elec_ratio": "85.7",
+        "electorates": "202418",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "98",
+        "population": "379731",
+        "district": "서울특별시 영등포구",
+        "households": "170466",
+        "pop_elec_ratio": "85.2",
+        "electorates": "324125",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "88",
+        "population": "402212",
+        "district": "서울특별시 동작구",
+        "households": "173618",
+        "pop_elec_ratio": "84.9",
+        "electorates": "342050",
+        "assembly_no": 20
+      },
+      {
+        "towns": "21",
+        "pollPlaces": "101",
+        "population": "511913",
+        "district": "서울특별시 관악구",
+        "households": "252895",
+        "pop_elec_ratio": "87.2",
+        "electorates": "446675",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "103",
+        "population": "448131",
+        "district": "서울특별시 서초구",
+        "households": "177486",
+        "pop_elec_ratio": "80.7",
+        "electorates": "362635",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "119",
+        "population": "577749",
+        "district": "서울특별시 강남구",
+        "households": "242922",
+        "pop_elec_ratio": "82.0",
+        "electorates": "474972",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "135",
+        "population": "659070",
+        "district": "서울특별시 송파구",
+        "households": "260065",
+        "pop_elec_ratio": "82.2",
+        "electorates": "542489",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "94",
+        "population": "456401",
+        "district": "서울특별시 강동구",
+        "households": "181690",
+        "pop_elec_ratio": "83.2",
+        "electorates": "380285",
+        "assembly_no": 20
+      },
+      {
+        "towns": "205",
+        "pollPlaces": "895",
+        "population": "3515368",
+        "district": "부산광역시 합계",
+        "households": "1449096",
+        "pop_elec_ratio": "83.9",
+        "electorates": "2952961",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "22",
+        "population": "45739",
+        "district": "부산광역시 중구",
+        "households": "23395",
+        "pop_elec_ratio": "89.1",
+        "electorates": "40875",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "37",
+        "population": "115538",
+        "district": "부산광역시 서구",
+        "households": "53356",
+        "pop_elec_ratio": "87.3",
+        "electorates": "101065",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "30",
+        "population": "91543",
+        "district": "부산광역시 동구",
+        "households": "43453",
+        "pop_elec_ratio": "88.4",
+        "electorates": "81058",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "37",
+        "population": "128995",
+        "district": "부산광역시 영도구",
+        "households": "56649",
+        "pop_elec_ratio": "87.1",
+        "electorates": "112508",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "90",
+        "population": "380994",
+        "district": "부산광역시 부산진구",
+        "households": "166011",
+        "pop_elec_ratio": "85.5",
+        "electorates": "326129",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "63",
+        "population": "273132",
+        "district": "부산광역시 동래구",
+        "households": "107694",
+        "pop_elec_ratio": "83.3",
+        "electorates": "227697",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "72",
+        "population": "281952",
+        "district": "부산광역시 남구",
+        "households": "114642",
+        "pop_elec_ratio": "83.8",
+        "electorates": "236370",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "44",
+        "population": "170745",
+        "district": "부산광역시 북구",
+        "households": "70023",
+        "pop_elec_ratio": "85.6",
+        "electorates": "146266",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "98",
+        "population": "423694",
+        "district": "부산광역시 해운대구",
+        "households": "166400",
+        "pop_elec_ratio": "81.8",
+        "electorates": "346683",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "40",
+        "population": "153743",
+        "district": "부산광역시 기장군",
+        "households": "60646",
+        "pop_elec_ratio": "77.8",
+        "electorates": "119713",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "79",
+        "population": "336087",
+        "district": "부산광역시 사하구",
+        "households": "134928",
+        "pop_elec_ratio": "83.4",
+        "electorates": "280317",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "60",
+        "population": "245714",
+        "district": "부산광역시 금정구",
+        "households": "101910",
+        "pop_elec_ratio": "85.3",
+        "electorates": "209841",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "67",
+        "population": "240189",
+        "district": "부산광역시 강서구",
+        "households": "90564",
+        "pop_elec_ratio": "79.6",
+        "electorates": "191255",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "53",
+        "population": "210916",
+        "district": "부산광역시 연제구",
+        "households": "85354",
+        "pop_elec_ratio": "84.0",
+        "electorates": "177170",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "42",
+        "population": "179900",
+        "district": "부산광역시 수영구",
+        "households": "77323",
+        "pop_elec_ratio": "86.1",
+        "electorates": "155146",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "61",
+        "population": "236487",
+        "district": "부산광역시 사상구",
+        "households": "96748",
+        "pop_elec_ratio": "84.9",
+        "electorates": "200868",
+        "assembly_no": 20
+      },
+      {
+        "towns": "139",
+        "pollPlaces": "605",
+        "population": "2487514",
+        "district": "대구광역시 합계",
+        "households": "987972",
+        "pop_elec_ratio": "81.6",
+        "electorates": "2031478",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "26",
+        "population": "81145",
+        "district": "대구광역시 중구",
+        "households": "38662",
+        "pop_elec_ratio": "86.5",
+        "electorates": "70353",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "89",
+        "population": "351195",
+        "district": "대구광역시 동구",
+        "households": "145864",
+        "pop_elec_ratio": "83.2",
+        "electorates": "292436",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "57",
+        "population": "204776",
+        "district": "대구광역시 서구",
+        "households": "89705",
+        "pop_elec_ratio": "86.8",
+        "electorates": "177832",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "46",
+        "population": "160220",
+        "district": "대구광역시 남구",
+        "households": "74995",
+        "pop_elec_ratio": "87.0",
+        "electorates": "139556",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "97",
+        "population": "441206",
+        "district": "대구광역시 북구",
+        "households": "169816",
+        "pop_elec_ratio": "80.0",
+        "electorates": "353176",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "97",
+        "population": "451433",
+        "district": "대구광역시 수성구",
+        "households": "166913",
+        "pop_elec_ratio": "79.2",
+        "electorates": "357687",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "138",
+        "population": "599450",
+        "district": "대구광역시 달서구",
+        "households": "226053",
+        "pop_elec_ratio": "80.5",
+        "electorates": "482954",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "55",
+        "population": "198089",
+        "district": "대구광역시 달성군",
+        "households": "75964",
+        "pop_elec_ratio": "79.4",
+        "electorates": "157484",
+        "assembly_no": 20
+      },
+      {
+        "towns": "149",
+        "pollPlaces": "686",
+        "population": "2931644",
+        "district": "인천광역시 합계",
+        "households": "1162776",
+        "pop_elec_ratio": "81.1",
+        "electorates": "2379666",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "35",
+        "population": "114692",
+        "district": "인천광역시 중구",
+        "households": "51769",
+        "pop_elec_ratio": "80.9",
+        "electorates": "92868",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "25",
+        "population": "72345",
+        "district": "인천광역시 동구",
+        "households": "30402",
+        "pop_elec_ratio": "83.3",
+        "electorates": "60343",
+        "assembly_no": 20
+      },
+      {
+        "towns": "21",
+        "pollPlaces": "88",
+        "population": "405656",
+        "district": "인천광역시 남구",
+        "households": "172931",
+        "pop_elec_ratio": "83.8",
+        "electorates": "340168",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "72",
+        "population": "321781",
+        "district": "인천광역시 연수구",
+        "households": "117829",
+        "pop_elec_ratio": "78.5",
+        "electorates": "252700",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "116",
+        "population": "532364",
+        "district": "인천광역시 남동구",
+        "households": "209687",
+        "pop_elec_ratio": "80.5",
+        "electorates": "428547",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "117",
+        "population": "556271",
+        "district": "인천광역시 부평구",
+        "households": "218625",
+        "pop_elec_ratio": "82.3",
+        "electorates": "458207",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "70",
+        "population": "333746",
+        "district": "인천광역시 계양구",
+        "households": "127568",
+        "pop_elec_ratio": "81.7",
+        "electorates": "272661",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "98",
+        "population": "506271",
+        "district": "인천광역시 서구",
+        "households": "191901",
+        "pop_elec_ratio": "78.3",
+        "electorates": "396521",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "40",
+        "population": "67602",
+        "district": "인천광역시 강화군",
+        "households": "30815",
+        "pop_elec_ratio": "87.5",
+        "electorates": "59181",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "25",
+        "population": "20916",
+        "district": "인천광역시 옹진군",
+        "households": "11249",
+        "pop_elec_ratio": "88.3",
+        "electorates": "18470",
+        "assembly_no": 20
+      },
+      {
+        "towns": "95",
+        "pollPlaces": "359",
+        "population": "1472202",
+        "district": "광주광역시 합계",
+        "households": "582600",
+        "pop_elec_ratio": "78.7",
+        "electorates": "1158598",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "50",
+        "population": "150528",
+        "district": "광주광역시 동구",
+        "households": "67986",
+        "pop_elec_ratio": "84.8",
+        "electorates": "127702",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "70",
+        "population": "305477",
+        "district": "광주광역시 서구",
+        "households": "120798",
+        "pop_elec_ratio": "79.1",
+        "electorates": "241787",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "39",
+        "population": "168829",
+        "district": "광주광역시 남구",
+        "households": "65387",
+        "pop_elec_ratio": "79.4",
+        "electorates": "134087",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "106",
+        "population": "445639",
+        "district": "광주광역시 북구",
+        "households": "179234",
+        "pop_elec_ratio": "80.2",
+        "electorates": "357621",
+        "assembly_no": 20
+      },
+      {
+        "towns": "21",
+        "pollPlaces": "94",
+        "population": "401729",
+        "district": "광주광역시 광산구",
+        "households": "149195",
+        "pop_elec_ratio": "74.0",
+        "electorates": "297401",
+        "assembly_no": 20
+      },
+      {
+        "towns": "79",
+        "pollPlaces": "354",
+        "population": "1518149",
+        "district": "대전광역시 합계",
+        "households": "601948",
+        "pop_elec_ratio": "80.0",
+        "electorates": "1214402",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "60",
+        "population": "238605",
+        "district": "대전광역시 동구",
+        "households": "100812",
+        "pop_elec_ratio": "82.3",
+        "electorates": "196421",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "64",
+        "population": "255390",
+        "district": "대전광역시 중구",
+        "households": "103822",
+        "pop_elec_ratio": "81.9",
+        "electorates": "209172",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "106",
+        "population": "491201",
+        "district": "대전광역시 서구",
+        "households": "191121",
+        "pop_elec_ratio": "79.7",
+        "electorates": "391699",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "69",
+        "population": "337108",
+        "district": "대전광역시 유성구",
+        "households": "129039",
+        "pop_elec_ratio": "76.5",
+        "electorates": "258141",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "55",
+        "population": "195845",
+        "district": "대전광역시 대덕구",
+        "households": "77154",
+        "pop_elec_ratio": "81.1",
+        "electorates": "158969",
+        "assembly_no": 20
+      },
+      {
+        "towns": "56",
+        "pollPlaces": "275",
+        "population": "1173380",
+        "district": "울산광역시 합계",
+        "households": "454195",
+        "pop_elec_ratio": "79.8",
+        "electorates": "937421",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "59",
+        "population": "244394",
+        "district": "울산광역시 중구",
+        "households": "96078",
+        "pop_elec_ratio": "81.5",
+        "electorates": "199289",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "71",
+        "population": "342879",
+        "district": "울산광역시 남구",
+        "households": "134312",
+        "pop_elec_ratio": "80.8",
+        "electorates": "277265",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "41",
+        "population": "175783",
+        "district": "울산광역시 동구",
+        "households": "69096",
+        "pop_elec_ratio": "79.9",
+        "electorates": "140390",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "45",
+        "population": "190844",
+        "district": "울산광역시 북구",
+        "households": "67815",
+        "pop_elec_ratio": "76.4",
+        "electorates": "145804",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "59",
+        "population": "219480",
+        "district": "울산광역시 울주군",
+        "households": "86894",
+        "pop_elec_ratio": "79.4",
+        "electorates": "174673",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "60",
+        "population": "222406",
+        "district": "세종특별자치시 합계",
+        "households": "86297",
+        "pop_elec_ratio": "75.4",
+        "electorates": "167798",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "60",
+        "population": "222406",
+        "district": "세종특별자치시 세종특별자치시",
+        "households": "86297",
+        "pop_elec_ratio": "75.4",
+        "electorates": "167798",
+        "assembly_no": 20
+      },
+      {
+        "towns": "559",
+        "pollPlaces": "2922",
+        "population": "12577421",
+        "district": "경기도 합계",
+        "households": "4944271",
+        "pop_elec_ratio": "79.7",
+        "electorates": "10034919",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "56",
+        "population": "253588",
+        "district": "경기도 수원시장안구",
+        "households": "96696",
+        "pop_elec_ratio": "79.9",
+        "electorates": "202743",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "105",
+        "population": "497991",
+        "district": "경기도 수원시권선구",
+        "households": "192314",
+        "pop_elec_ratio": "79.2",
+        "electorates": "394405",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "45",
+        "population": "199056",
+        "district": "경기도 수원시팔달구",
+        "households": "87891",
+        "pop_elec_ratio": "83.7",
+        "electorates": "166678",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "49",
+        "population": "237658",
+        "district": "경기도 수원시영통구",
+        "households": "91324",
+        "pop_elec_ratio": "76.5",
+        "electorates": "181983",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "59",
+        "population": "223099",
+        "district": "경기도 성남시수정구",
+        "households": "101156",
+        "pop_elec_ratio": "85.1",
+        "electorates": "189949",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "57",
+        "population": "250612",
+        "district": "경기도 성남시중원구",
+        "households": "106072",
+        "pop_elec_ratio": "83.9",
+        "electorates": "210356",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "111",
+        "population": "505235",
+        "district": "경기도 성남시분당구",
+        "households": "191323",
+        "pop_elec_ratio": "79.4",
+        "electorates": "401523",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "94",
+        "population": "434938",
+        "district": "경기도 의정부시",
+        "households": "174086",
+        "pop_elec_ratio": "81.4",
+        "electorates": "354141",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "55",
+        "population": "247642",
+        "district": "경기도 안양시만안구",
+        "households": "98457",
+        "pop_elec_ratio": "83.7",
+        "electorates": "207447",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "75",
+        "population": "350154",
+        "district": "경기도 안양시동안구",
+        "households": "127184",
+        "pop_elec_ratio": "80.0",
+        "electorates": "280396",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "81",
+        "population": "442989",
+        "district": "경기도 부천시원미구",
+        "households": "171136",
+        "pop_elec_ratio": "81.9",
+        "electorates": "363029",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "48",
+        "population": "221844",
+        "district": "경기도 부천시소사구",
+        "households": "86782",
+        "pop_elec_ratio": "83.0",
+        "electorates": "184234",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "40",
+        "population": "184267",
+        "district": "경기도 부천시오정구",
+        "households": "71865",
+        "pop_elec_ratio": "82.6",
+        "electorates": "152212",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "83",
+        "population": "344166",
+        "district": "경기도 광명시",
+        "households": "128847",
+        "pop_elec_ratio": "80.0",
+        "electorates": "275408",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "117",
+        "population": "463398",
+        "district": "경기도 평택시",
+        "households": "191291",
+        "pop_elec_ratio": "79.2",
+        "electorates": "367008",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "52",
+        "population": "205486",
+        "district": "경기도 양주시",
+        "households": "80515",
+        "pop_elec_ratio": "79.0",
+        "electorates": "162384",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "30",
+        "population": "98142",
+        "district": "경기도 동두천시",
+        "households": "42336",
+        "pop_elec_ratio": "81.4",
+        "electorates": "79961",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "70",
+        "population": "378513",
+        "district": "경기도 안산시상록구",
+        "households": "153145",
+        "pop_elec_ratio": "80.4",
+        "electorates": "304269",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "70",
+        "population": "317534",
+        "district": "경기도 안산시단원구",
+        "households": "128729",
+        "pop_elec_ratio": "80.0",
+        "electorates": "254107",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "106",
+        "population": "476209",
+        "district": "경기도 고양시덕양구",
+        "households": "187506",
+        "pop_elec_ratio": "80.7",
+        "electorates": "384386",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "54",
+        "population": "275899",
+        "district": "경기도 고양시일산동구",
+        "households": "111399",
+        "pop_elec_ratio": "81.7",
+        "electorates": "225717",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "57",
+        "population": "279046",
+        "district": "경기도 고양시일산서구",
+        "households": "100417",
+        "pop_elec_ratio": "78.2",
+        "electorates": "218522",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "22",
+        "population": "69078",
+        "district": "경기도 과천시",
+        "households": "25617",
+        "pop_elec_ratio": "80.9",
+        "electorates": "55963",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "36",
+        "population": "157861",
+        "district": "경기도 의왕시",
+        "households": "59186",
+        "pop_elec_ratio": "81.0",
+        "electorates": "127924",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "48",
+        "population": "186135",
+        "district": "경기도 구리시",
+        "households": "71816",
+        "pop_elec_ratio": "80.9",
+        "electorates": "150712",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "122",
+        "population": "658413",
+        "district": "경기도 남양주시",
+        "households": "249852",
+        "pop_elec_ratio": "78.4",
+        "electorates": "516170",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "44",
+        "population": "207232",
+        "district": "경기도 오산시",
+        "households": "81563",
+        "pop_elec_ratio": "76.0",
+        "electorates": "157550",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "125",
+        "population": "609689",
+        "district": "경기도 화성시",
+        "households": "232589",
+        "pop_elec_ratio": "74.6",
+        "electorates": "454909",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "80",
+        "population": "398535",
+        "district": "경기도 시흥시",
+        "households": "158288",
+        "pop_elec_ratio": "78.8",
+        "electorates": "314061",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "63",
+        "population": "287553",
+        "district": "경기도 군포시",
+        "households": "107563",
+        "pop_elec_ratio": "79.8",
+        "electorates": "229680",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "42",
+        "population": "174104",
+        "district": "경기도 하남시",
+        "households": "69969",
+        "pop_elec_ratio": "81.1",
+        "electorates": "141310",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "117",
+        "population": "425802",
+        "district": "경기도 파주시",
+        "households": "173694",
+        "pop_elec_ratio": "78.4",
+        "electorates": "333945",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "41",
+        "population": "111363",
+        "district": "경기도 여주시",
+        "households": "47617",
+        "pop_elec_ratio": "82.4",
+        "electorates": "91798",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "56",
+        "population": "206339",
+        "district": "경기도 이천시",
+        "households": "82252",
+        "pop_elec_ratio": "78.8",
+        "electorates": "162725",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "57",
+        "population": "221435",
+        "district": "경기도 용인시처인구",
+        "households": "88543",
+        "pop_elec_ratio": "80.4",
+        "electorates": "178036",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "52",
+        "population": "267685",
+        "district": "경기도 용인시수지구",
+        "households": "93684",
+        "pop_elec_ratio": "76.1",
+        "electorates": "204021",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "100",
+        "population": "489978",
+        "district": "경기도 용인시기흥구",
+        "households": "178064",
+        "pop_elec_ratio": "75.9",
+        "electorates": "372239",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "61",
+        "population": "180684",
+        "district": "경기도 안성시",
+        "households": "75077",
+        "pop_elec_ratio": "80.4",
+        "electorates": "145259",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "90",
+        "population": "351944",
+        "district": "경기도 김포시",
+        "households": "135201",
+        "pop_elec_ratio": "77.7",
+        "electorates": "273557",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "67",
+        "population": "314757",
+        "district": "경기도 광주시",
+        "households": "125765",
+        "pop_elec_ratio": "80.2",
+        "electorates": "252451",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "62",
+        "population": "154814",
+        "district": "경기도 포천시",
+        "households": "68041",
+        "pop_elec_ratio": "82.8",
+        "electorates": "128301",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "34",
+        "population": "45811",
+        "district": "경기도 연천군",
+        "households": "21472",
+        "pop_elec_ratio": "84.5",
+        "electorates": "38748",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "54",
+        "population": "108689",
+        "district": "경기도 양평군",
+        "households": "49176",
+        "pop_elec_ratio": "84.4",
+        "electorates": "91781",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "35",
+        "population": "62054",
+        "district": "경기도 가평군",
+        "households": "28771",
+        "pop_elec_ratio": "85.2",
+        "electorates": "52921",
+        "assembly_no": 20
+      },
+      {
+        "towns": "188",
+        "pollPlaces": "658",
+        "population": "1548781",
+        "district": "강원도 합계",
+        "households": "686547",
+        "pop_elec_ratio": "82.5",
+        "electorates": "1277858",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "81",
+        "population": "278988",
+        "district": "강원도 춘천시",
+        "households": "116098",
+        "pop_elec_ratio": "81.1",
+        "electorates": "226365",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "84",
+        "population": "335088",
+        "district": "강원도 원주시",
+        "households": "139941",
+        "pop_elec_ratio": "80.0",
+        "electorates": "268266",
+        "assembly_no": 20
+      },
+      {
+        "towns": "21",
+        "pollPlaces": "62",
+        "population": "214164",
+        "district": "강원도 강릉시",
+        "households": "93875",
+        "pop_elec_ratio": "82.8",
+        "electorates": "177395",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "33",
+        "population": "93599",
+        "district": "강원도 동해시",
+        "households": "40432",
+        "pop_elec_ratio": "81.2",
+        "electorates": "76018",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "45",
+        "population": "69987",
+        "district": "강원도 삼척시",
+        "households": "34000",
+        "pop_elec_ratio": "85.0",
+        "electorates": "59483",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "24",
+        "population": "47398",
+        "district": "강원도 태백시",
+        "households": "22186",
+        "pop_elec_ratio": "83.3",
+        "electorates": "39481",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "30",
+        "population": "39008",
+        "district": "강원도 정선군",
+        "households": "19495",
+        "pop_elec_ratio": "86.5",
+        "electorates": "33741",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "29",
+        "population": "82156",
+        "district": "강원도 속초시",
+        "households": "37224",
+        "pop_elec_ratio": "81.7",
+        "electorates": "67161",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "23",
+        "population": "29315",
+        "district": "강원도 고성군",
+        "households": "15039",
+        "pop_elec_ratio": "87.7",
+        "electorates": "25724",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "22",
+        "population": "27362",
+        "district": "강원도 양양군",
+        "households": "13357",
+        "pop_elec_ratio": "86.7",
+        "electorates": "23742",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "23",
+        "population": "33036",
+        "district": "강원도 인제군",
+        "households": "15566",
+        "pop_elec_ratio": "83.1",
+        "electorates": "27473",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "40",
+        "population": "70118",
+        "district": "강원도 홍천군",
+        "households": "31499",
+        "pop_elec_ratio": "84.6",
+        "electorates": "59377",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "26",
+        "population": "45842",
+        "district": "강원도 횡성군",
+        "households": "20906",
+        "pop_elec_ratio": "85.9",
+        "electorates": "39384",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "29",
+        "population": "40116",
+        "district": "강원도 영월군",
+        "households": "19741",
+        "pop_elec_ratio": "86.4",
+        "electorates": "34690",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "32",
+        "population": "43326",
+        "district": "강원도 평창군",
+        "households": "20586",
+        "pop_elec_ratio": "86.1",
+        "electorates": "37332",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "21",
+        "population": "26752",
+        "district": "강원도 화천군",
+        "households": "13551",
+        "pop_elec_ratio": "84.0",
+        "electorates": "22473",
+        "assembly_no": 20
+      },
+      {
+        "towns": "5",
+        "pollPlaces": "19",
+        "population": "24054",
+        "district": "강원도 양구군",
+        "households": "11145",
+        "pop_elec_ratio": "81.3",
+        "electorates": "19572",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "35",
+        "population": "48472",
+        "district": "강원도 철원군",
+        "households": "21906",
+        "pop_elec_ratio": "82.9",
+        "electorates": "40181",
+        "assembly_no": 20
+      },
+      {
+        "towns": "153",
+        "pollPlaces": "477",
+        "population": "1584623",
+        "district": "충청북도 합계",
+        "households": "672324",
+        "pop_elec_ratio": "81.2",
+        "electorates": "1287549",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "45",
+        "population": "175499",
+        "district": "충청북도 청주시상당구",
+        "households": "70273",
+        "pop_elec_ratio": "80.3",
+        "electorates": "140911",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "50",
+        "population": "219150",
+        "district": "충청북도 청주시서원구",
+        "households": "87783",
+        "pop_elec_ratio": "79.3",
+        "electorates": "173740",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "61",
+        "population": "253557",
+        "district": "충청북도 청주시흥덕구",
+        "households": "104068",
+        "pop_elec_ratio": "79.0",
+        "electorates": "200328",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "47",
+        "population": "184821",
+        "district": "충청북도 청주시청원구",
+        "households": "76268",
+        "pop_elec_ratio": "78.2",
+        "electorates": "144568",
+        "assembly_no": 20
+      },
+      {
+        "towns": "25",
+        "pollPlaces": "72",
+        "population": "207850",
+        "district": "충청북도 충주시",
+        "households": "87895",
+        "pop_elec_ratio": "82.3",
+        "electorates": "171108",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "49",
+        "population": "135679",
+        "district": "충청북도 제천시",
+        "households": "59666",
+        "pop_elec_ratio": "82.9",
+        "electorates": "112574",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "17",
+        "population": "30677",
+        "district": "충청북도 단양군",
+        "households": "14590",
+        "pop_elec_ratio": "87.0",
+        "electorates": "26722",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "19",
+        "population": "50163",
+        "district": "충청북도 영동군",
+        "households": "23410",
+        "pop_elec_ratio": "86.6",
+        "electorates": "43528",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "19",
+        "population": "34271",
+        "district": "충청북도 보은군",
+        "households": "16168",
+        "pop_elec_ratio": "87.2",
+        "electorates": "29921",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "23",
+        "population": "52377",
+        "district": "충청북도 옥천군",
+        "households": "22983",
+        "pop_elec_ratio": "85.4",
+        "electorates": "44793",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "26",
+        "population": "97003",
+        "district": "충청북도 음성군",
+        "households": "43902",
+        "pop_elec_ratio": "82.7",
+        "electorates": "80252",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "20",
+        "population": "68397",
+        "district": "충청북도 진천군",
+        "households": "29929",
+        "pop_elec_ratio": "80.9",
+        "electorates": "55363",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "19",
+        "population": "38204",
+        "district": "충청북도 괴산군",
+        "households": "19390",
+        "pop_elec_ratio": "89.4",
+        "electorates": "34201",
+        "assembly_no": 20
+      },
+      {
+        "towns": "2",
+        "pollPlaces": "10",
+        "population": "36975",
+        "district": "충청북도 증평군",
+        "households": "15999",
+        "pop_elec_ratio": "79.9",
+        "electorates": "29540",
+        "assembly_no": 20
+      },
+      {
+        "towns": "207",
+        "pollPlaces": "723",
+        "population": "2081773",
+        "district": "충청남도 합계",
+        "households": "890891",
+        "pop_elec_ratio": "80.8",
+        "electorates": "1683854",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "55",
+        "population": "222483",
+        "district": "충청남도 천안시서북구",
+        "households": "89320",
+        "pop_elec_ratio": "76.4",
+        "electorates": "170095",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "105",
+        "population": "384998",
+        "district": "충청남도 천안시동남구",
+        "households": "160194",
+        "pop_elec_ratio": "79.6",
+        "electorates": "306521",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "49",
+        "population": "110703",
+        "district": "충청남도 공주시",
+        "households": "48684",
+        "pop_elec_ratio": "84.8",
+        "electorates": "93933",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "51",
+        "population": "104395",
+        "district": "충청남도 보령시",
+        "households": "46816",
+        "pop_elec_ratio": "83.7",
+        "electorates": "87448",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "89",
+        "population": "300852",
+        "district": "충청남도 아산시",
+        "households": "123582",
+        "pop_elec_ratio": "77.0",
+        "electorates": "231747",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "53",
+        "population": "170139",
+        "district": "충청남도 서산시",
+        "households": "70318",
+        "pop_elec_ratio": "79.6",
+        "electorates": "135422",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "27",
+        "population": "63429",
+        "district": "충청남도 태안군",
+        "households": "30020",
+        "pop_elec_ratio": "86.2",
+        "electorates": "54666",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "28",
+        "population": "54915",
+        "district": "충청남도 금산군",
+        "households": "25282",
+        "pop_elec_ratio": "85.3",
+        "electorates": "46868",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "49",
+        "population": "123856",
+        "district": "충청남도 논산시",
+        "households": "56138",
+        "pop_elec_ratio": "83.9",
+        "electorates": "104047",
+        "assembly_no": 20
+      },
+      {
+        "towns": "4",
+        "pollPlaces": "11",
+        "population": "42304",
+        "district": "충청남도 계룡시",
+        "households": "14719",
+        "pop_elec_ratio": "73.8",
+        "electorates": "31227",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "49",
+        "population": "165401",
+        "district": "충청남도 당진시",
+        "households": "72441",
+        "pop_elec_ratio": "80.1",
+        "electorates": "132614",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "38",
+        "population": "70837",
+        "district": "충청남도 부여군",
+        "households": "32716",
+        "pop_elec_ratio": "86.5",
+        "electorates": "61356",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "27",
+        "population": "56687",
+        "district": "충청남도 서천군",
+        "households": "26651",
+        "pop_elec_ratio": "87.2",
+        "electorates": "49450",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "37",
+        "population": "95492",
+        "district": "충청남도 홍성군",
+        "households": "41428",
+        "pop_elec_ratio": "82.4",
+        "electorates": "78686",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "21",
+        "population": "32279",
+        "district": "충청남도 청양군",
+        "households": "15115",
+        "pop_elec_ratio": "87.3",
+        "electorates": "28205",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "34",
+        "population": "83003",
+        "district": "충청남도 예산군",
+        "households": "37467",
+        "pop_elec_ratio": "86.2",
+        "electorates": "71569",
+        "assembly_no": 20
+      },
+      {
+        "towns": "241",
+        "pollPlaces": "615",
+        "population": "1867626",
+        "district": "전라북도 합계",
+        "households": "785857",
+        "pop_elec_ratio": "81.3",
+        "electorates": "1520032",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "91",
+        "population": "402780",
+        "district": "전라북도 전주시완산구",
+        "households": "157979",
+        "pop_elec_ratio": "78.8",
+        "electorates": "317271",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "61",
+        "population": "250779",
+        "district": "전라북도 전주시덕진구",
+        "households": "98662",
+        "pop_elec_ratio": "79.4",
+        "electorates": "199227",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "85",
+        "population": "278362",
+        "district": "전라북도 군산시",
+        "households": "114881",
+        "pop_elec_ratio": "80.2",
+        "electorates": "223366",
+        "assembly_no": 20
+      },
+      {
+        "towns": "29",
+        "pollPlaces": "86",
+        "population": "301757",
+        "district": "전라북도 익산시",
+        "households": "123376",
+        "pop_elec_ratio": "81.1",
+        "electorates": "244756",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "47",
+        "population": "115686",
+        "district": "전라북도 정읍시",
+        "households": "52267",
+        "pop_elec_ratio": "83.3",
+        "electorates": "96392",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "33",
+        "population": "84674",
+        "district": "전라북도 남원시",
+        "households": "37233",
+        "pop_elec_ratio": "82.8",
+        "electorates": "70204",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "39",
+        "population": "88620",
+        "district": "전라북도 김제시",
+        "households": "41569",
+        "pop_elec_ratio": "85.8",
+        "electorates": "76085",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "34",
+        "population": "95492",
+        "district": "전라북도 완주군",
+        "households": "40994",
+        "pop_elec_ratio": "81.2",
+        "electorates": "77583",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "13",
+        "population": "26128",
+        "district": "전라북도 진안군",
+        "households": "12577",
+        "pop_elec_ratio": "86.5",
+        "electorates": "22616",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "13",
+        "population": "25106",
+        "district": "전라북도 무주군",
+        "households": "11819",
+        "pop_elec_ratio": "86.1",
+        "electorates": "21635",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "10",
+        "population": "23266",
+        "district": "전라북도 장수군",
+        "households": "10949",
+        "pop_elec_ratio": "85.7",
+        "electorates": "19963",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "20",
+        "population": "29553",
+        "district": "전라북도 임실군",
+        "households": "14117",
+        "pop_elec_ratio": "87.5",
+        "electorates": "25886",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "18",
+        "population": "29501",
+        "district": "전라북도 순창군",
+        "households": "13610",
+        "pop_elec_ratio": "85.7",
+        "electorates": "25353",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "33",
+        "population": "59303",
+        "district": "전라북도 고창군",
+        "households": "28413",
+        "pop_elec_ratio": "85.8",
+        "electorates": "50885",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "32",
+        "population": "56619",
+        "district": "전라북도 부안군",
+        "households": "27411",
+        "pop_elec_ratio": "86.2",
+        "electorates": "48810",
+        "assembly_no": 20
+      },
+      {
+        "towns": "297",
+        "pollPlaces": "870",
+        "population": "1905790",
+        "district": "전라남도 합계",
+        "households": "835630",
+        "pop_elec_ratio": "82.1",
+        "electorates": "1567192",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "65",
+        "population": "238473",
+        "district": "전라남도 목포시",
+        "households": "100667",
+        "pop_elec_ratio": "78.6",
+        "electorates": "187566",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "116",
+        "population": "289970",
+        "district": "전라남도 여수시",
+        "households": "118078",
+        "pop_elec_ratio": "81.1",
+        "electorates": "235441",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "82",
+        "population": "279242",
+        "district": "전라남도 순천시",
+        "households": "108578",
+        "pop_elec_ratio": "79.0",
+        "electorates": "220698",
+        "assembly_no": 20
+      },
+      {
+        "towns": "20",
+        "pollPlaces": "42",
+        "population": "99695",
+        "district": "전라남도 나주시",
+        "households": "47117",
+        "pop_elec_ratio": "84.1",
+        "electorates": "83933",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "48",
+        "population": "152542",
+        "district": "전라남도 광양시",
+        "households": "59931",
+        "pop_elec_ratio": "78.0",
+        "electorates": "119089",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "27",
+        "population": "47135",
+        "district": "전라남도 담양군",
+        "households": "22037",
+        "pop_elec_ratio": "87.1",
+        "electorates": "41133",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "21",
+        "population": "46242",
+        "district": "전라남도 장성군",
+        "households": "21481",
+        "pop_elec_ratio": "84.5",
+        "electorates": "39082",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "15",
+        "population": "30662",
+        "district": "전라남도 곡성군",
+        "households": "14982",
+        "pop_elec_ratio": "87.3",
+        "electorates": "26827",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "19",
+        "population": "27256",
+        "district": "전라남도 구례군",
+        "households": "12674",
+        "pop_elec_ratio": "86.2",
+        "electorates": "23529",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "44",
+        "population": "68409",
+        "district": "전라남도 고흥군",
+        "households": "34577",
+        "pop_elec_ratio": "88.6",
+        "electorates": "60690",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "32",
+        "population": "45109",
+        "district": "전라남도 보성군",
+        "households": "22407",
+        "pop_elec_ratio": "87.0",
+        "electorates": "39346",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "32",
+        "population": "65915",
+        "district": "전라남도 화순군",
+        "households": "29490",
+        "pop_elec_ratio": "82.8",
+        "electorates": "54593",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "20",
+        "population": "41384",
+        "district": "전라남도 장흥군",
+        "households": "20247",
+        "pop_elec_ratio": "85.8",
+        "electorates": "35571",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "20",
+        "population": "38334",
+        "district": "전라남도 강진군",
+        "households": "18376",
+        "pop_elec_ratio": "85.4",
+        "electorates": "32796",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "30",
+        "population": "52916",
+        "district": "전라남도 완도군",
+        "households": "25560",
+        "pop_elec_ratio": "85.3",
+        "electorates": "45173",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "44",
+        "population": "75849",
+        "district": "전라남도 해남군",
+        "households": "35292",
+        "pop_elec_ratio": "84.5",
+        "electorates": "64138",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "26",
+        "population": "32351",
+        "district": "전라남도 진도군",
+        "households": "15895",
+        "pop_elec_ratio": "85.7",
+        "electorates": "27788",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "30",
+        "population": "58018",
+        "district": "전라남도 영암군",
+        "households": "27264",
+        "pop_elec_ratio": "82.5",
+        "electorates": "47932",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "43",
+        "population": "82168",
+        "district": "전라남도 무안군",
+        "households": "35197",
+        "pop_elec_ratio": "79.6",
+        "electorates": "65442",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "41",
+        "population": "56177",
+        "district": "전라남도 영광군",
+        "households": "26073",
+        "pop_elec_ratio": "84.2",
+        "electorates": "47325",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "23",
+        "population": "34716",
+        "district": "전라남도 함평군",
+        "households": "17510",
+        "pop_elec_ratio": "87.1",
+        "electorates": "30302",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "50",
+        "population": "43227",
+        "district": "전라남도 신안군",
+        "households": "22197",
+        "pop_elec_ratio": "89.6",
+        "electorates": "38798",
+        "assembly_no": 20
+      },
+      {
+        "towns": "332",
+        "pollPlaces": "960",
+        "population": "2701961",
+        "district": "경상북도 합계",
+        "households": "1173781",
+        "pop_elec_ratio": "82.8",
+        "electorates": "2242016",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "78",
+        "population": "272571",
+        "district": "경상북도 포항시북구",
+        "households": "109063",
+        "pop_elec_ratio": "81.1",
+        "electorates": "221117",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "78",
+        "population": "246220",
+        "district": "경상북도 포항시남구",
+        "households": "102773",
+        "pop_elec_ratio": "81.7",
+        "electorates": "201181",
+        "assembly_no": 20
+      },
+      {
+        "towns": "3",
+        "pollPlaces": "7",
+        "population": "10052",
+        "district": "경상북도 울릉군",
+        "households": "5309",
+        "pop_elec_ratio": "89.0",
+        "electorates": "8946",
+        "assembly_no": 20
+      },
+      {
+        "towns": "23",
+        "pollPlaces": "69",
+        "population": "260124",
+        "district": "경상북도 경주시",
+        "households": "113318",
+        "pop_elec_ratio": "83.5",
+        "electorates": "217663",
+        "assembly_no": 20
+      },
+      {
+        "towns": "22",
+        "pollPlaces": "50",
+        "population": "140988",
+        "district": "경상북도 김천시",
+        "households": "61110",
+        "pop_elec_ratio": "83.3",
+        "electorates": "117846",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "72",
+        "population": "168876",
+        "district": "경상북도 안동시",
+        "households": "73195",
+        "pop_elec_ratio": "82.9",
+        "electorates": "140161",
+        "assembly_no": 20
+      },
+      {
+        "towns": "27",
+        "pollPlaces": "95",
+        "population": "420293",
+        "district": "경상북도 구미시",
+        "households": "168333",
+        "pop_elec_ratio": "77.5",
+        "electorates": "326142",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "47",
+        "population": "109496",
+        "district": "경상북도 영주시",
+        "households": "48219",
+        "pop_elec_ratio": "83.8",
+        "electorates": "91847",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "41",
+        "population": "100591",
+        "district": "경상북도 영천시",
+        "households": "47199",
+        "pop_elec_ratio": "86.4",
+        "electorates": "87181",
+        "assembly_no": 20
+      },
+      {
+        "towns": "24",
+        "pollPlaces": "58",
+        "population": "102096",
+        "district": "경상북도 상주시",
+        "households": "46408",
+        "pop_elec_ratio": "85.7",
+        "electorates": "87746",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "28",
+        "population": "75522",
+        "district": "경상북도 문경시",
+        "households": "34338",
+        "pop_elec_ratio": "84.7",
+        "electorates": "64066",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "23",
+        "population": "45099",
+        "district": "경상북도 예천군",
+        "households": "21626",
+        "pop_elec_ratio": "87.6",
+        "electorates": "39608",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "76",
+        "population": "257246",
+        "district": "경상북도 경산시",
+        "households": "107133",
+        "pop_elec_ratio": "82.0",
+        "electorates": "211167",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "27",
+        "population": "43615",
+        "district": "경상북도 청도군",
+        "households": "21587",
+        "pop_elec_ratio": "89.8",
+        "electorates": "39391",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "21",
+        "population": "34487",
+        "district": "경상북도 고령군",
+        "households": "16223",
+        "pop_elec_ratio": "86.6",
+        "electorates": "30106",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "18",
+        "population": "44960",
+        "district": "경상북도 성주군",
+        "households": "21487",
+        "pop_elec_ratio": "88.5",
+        "electorates": "39976",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "35",
+        "population": "122466",
+        "district": "경상북도 칠곡군",
+        "households": "53174",
+        "pop_elec_ratio": "79.8",
+        "electorates": "97820",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "18",
+        "population": "24121",
+        "district": "경상북도 군위군",
+        "households": "12246",
+        "pop_elec_ratio": "91.4",
+        "electorates": "22264",
+        "assembly_no": 20
+      },
+      {
+        "towns": "18",
+        "pollPlaces": "25",
+        "population": "54341",
+        "district": "경상북도 의성군",
+        "households": "27398",
+        "pop_elec_ratio": "90.9",
+        "electorates": "49944",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "19",
+        "population": "26381",
+        "district": "경상북도 청송군",
+        "households": "13395",
+        "pop_elec_ratio": "89.8",
+        "electorates": "23804",
+        "assembly_no": 20
+      },
+      {
+        "towns": "6",
+        "pollPlaces": "10",
+        "population": "17808",
+        "district": "경상북도 영양군",
+        "households": "8777",
+        "pop_elec_ratio": "88.5",
+        "electorates": "15787",
+        "assembly_no": 20
+      },
+      {
+        "towns": "9",
+        "pollPlaces": "22",
+        "population": "39193",
+        "district": "경상북도 영덕군",
+        "households": "20128",
+        "pop_elec_ratio": "88.6",
+        "electorates": "34812",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "23",
+        "population": "33700",
+        "district": "경상북도 봉화군",
+        "households": "16421",
+        "pop_elec_ratio": "88.0",
+        "electorates": "29683",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "20",
+        "population": "51715",
+        "district": "경상북도 울진군",
+        "households": "24921",
+        "pop_elec_ratio": "84.5",
+        "electorates": "43758",
+        "assembly_no": 20
+      },
+      {
+        "towns": "315",
+        "pollPlaces": "902",
+        "population": "3365642",
+        "district": "경상남도 합계",
+        "households": "1374819",
+        "pop_elec_ratio": "80.6",
+        "electorates": "2719668",
+        "assembly_no": 20
+      },
+      {
+        "towns": "8",
+        "pollPlaces": "57",
+        "population": "255179",
+        "district": "경상남도 창원시의창구",
+        "households": "100613",
+        "pop_elec_ratio": "81.5",
+        "electorates": "208253",
+        "assembly_no": 20
+      },
+      {
+        "towns": "7",
+        "pollPlaces": "53",
+        "population": "233451",
+        "district": "경상남도 창원시성산구",
+        "households": "84148",
+        "pop_elec_ratio": "78.9",
+        "electorates": "184218",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "53",
+        "population": "182489",
+        "district": "경상남도 창원시마산합포구",
+        "households": "76701",
+        "pop_elec_ratio": "84.0",
+        "electorates": "153814",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "54",
+        "population": "211926",
+        "district": "경상남도 창원시마산회원구",
+        "households": "83803",
+        "pop_elec_ratio": "81.7",
+        "electorates": "173295",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "38",
+        "population": "186219",
+        "district": "경상남도 창원시진해구",
+        "households": "73205",
+        "pop_elec_ratio": "77.5",
+        "electorates": "144536",
+        "assembly_no": 20
+      },
+      {
+        "towns": "32",
+        "pollPlaces": "82",
+        "population": "345950",
+        "district": "경상남도 진주시",
+        "households": "139491",
+        "pop_elec_ratio": "80.2",
+        "electorates": "278067",
+        "assembly_no": 20
+      },
+      {
+        "towns": "15",
+        "pollPlaces": "49",
+        "population": "138934",
+        "district": "경상남도 통영시",
+        "households": "59184",
+        "pop_elec_ratio": "80.7",
+        "electorates": "112206",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "23",
+        "population": "55067",
+        "district": "경상남도 고성군",
+        "households": "25891",
+        "pop_elec_ratio": "85.8",
+        "electorates": "47604",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "35",
+        "population": "115194",
+        "district": "경상남도 사천시",
+        "households": "50651",
+        "pop_elec_ratio": "81.6",
+        "electorates": "94230",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "99",
+        "population": "528809",
+        "district": "경상남도 김해시",
+        "households": "199022",
+        "pop_elec_ratio": "77.2",
+        "electorates": "408752",
+        "assembly_no": 20
+      },
+      {
+        "towns": "16",
+        "pollPlaces": "40",
+        "population": "107875",
+        "district": "경상남도 밀양시",
+        "households": "49443",
+        "pop_elec_ratio": "85.7",
+        "electorates": "92795",
+        "assembly_no": 20
+      },
+      {
+        "towns": "19",
+        "pollPlaces": "62",
+        "population": "256842",
+        "district": "경상남도 거제시",
+        "households": "102418",
+        "pop_elec_ratio": "76.5",
+        "electorates": "196469",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "16",
+        "population": "28361",
+        "district": "경상남도 의령군",
+        "households": "14399",
+        "pop_elec_ratio": "88.4",
+        "electorates": "25465",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "22",
+        "population": "69017",
+        "district": "경상남도 함안군",
+        "households": "30849",
+        "pop_elec_ratio": "82.4",
+        "electorates": "57281",
+        "assembly_no": 20
+      },
+      {
+        "towns": "14",
+        "pollPlaces": "20",
+        "population": "63614",
+        "district": "경상남도 창녕군",
+        "households": "30383",
+        "pop_elec_ratio": "86.5",
+        "electorates": "55300",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "75",
+        "population": "303556",
+        "district": "경상남도 양산시",
+        "households": "119015",
+        "pop_elec_ratio": "79.1",
+        "electorates": "240308",
+        "assembly_no": 20
+      },
+      {
+        "towns": "13",
+        "pollPlaces": "22",
+        "population": "49777",
+        "district": "경상남도 하동군",
+        "households": "23531",
+        "pop_elec_ratio": "87.2",
+        "electorates": "43560",
+        "assembly_no": 20
+      },
+      {
+        "towns": "10",
+        "pollPlaces": "22",
+        "population": "45732",
+        "district": "경상남도 남해군",
+        "households": "22253",
+        "pop_elec_ratio": "88.3",
+        "electorates": "40604",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "18",
+        "population": "40212",
+        "district": "경상남도 함양군",
+        "households": "19397",
+        "pop_elec_ratio": "85.8",
+        "electorates": "34692",
+        "assembly_no": 20
+      },
+      {
+        "towns": "11",
+        "pollPlaces": "16",
+        "population": "35966",
+        "district": "경상남도 산청군",
+        "households": "18172",
+        "pop_elec_ratio": "88.2",
+        "electorates": "31920",
+        "assembly_no": 20
+      },
+      {
+        "towns": "12",
+        "pollPlaces": "21",
+        "population": "63168",
+        "district": "경상남도 거창군",
+        "households": "27947",
+        "pop_elec_ratio": "83.3",
+        "electorates": "52937",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "25",
+        "population": "48304",
+        "district": "경상남도 합천군",
+        "households": "24303",
+        "pop_elec_ratio": "88.9",
+        "electorates": "43362",
+        "assembly_no": 20
+      },
+      {
+        "towns": "43",
+        "pollPlaces": "228",
+        "population": "629771",
+        "district": "제주특별자치도 합계",
+        "households": "260734",
+        "pop_elec_ratio": "79.0",
+        "electorates": "501332",
+        "assembly_no": 20
+      },
+      {
+        "towns": "26",
+        "pollPlaces": "140",
+        "population": "463114",
+        "district": "제주특별자치도 제주시",
+        "households": "188447",
+        "pop_elec_ratio": "78.1",
+        "electorates": "364572",
+        "assembly_no": 20
+      },
+      {
+        "towns": "17",
+        "pollPlaces": "88",
+        "population": "166657",
+        "district": "제주특별자치도 서귀포시",
+        "households": "72287",
+        "pop_elec_ratio": "81.5",
+        "electorates": "136760",
+        "assembly_no": 20
+      }
+    ],
+    "voting_system": "proportional"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "results": [
+      {
+        "NAME": "새누리당",
+        "CODE": 200,
+        "color": "ffcc3533"
+      },
+      {
+        "NAME": "민주통합당",
+        "CODE": 100,
+        "color": "ffffcd05"
+      },
+      {
+        "NAME": "자유선진당",
+        "CODE": 550,
+        "color": "ff0c72b7"
+      },
+      {
+        "NAME": "통합진보당",
+        "CODE": 300,
+        "color": "ff673795"
+      },
+      {
+        "NAME": "창조한국당",
+        "CODE": 650,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "국민생각",
+        "CODE": 1940,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "가자!대국민중심당",
+        "CODE": 1920,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "경제백성당",
+        "CODE": 1950,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "친박연합",
+        "CODE": 1100,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "국민의 힘",
+        "CODE": 1982,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "국민행복당",
+        "CODE": 1930,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "국제녹색당",
+        "CODE": 700,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "기독당",
+        "CODE": 1910,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "녹색당",
+        "CODE": 1981,
+        "color": "ff62bb46"
+      },
+      {
+        "NAME": "대한국당",
+        "CODE": 1970,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "미래연합",
+        "CODE": 1830,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "민주통일당",
+        "CODE": 1700,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "불교연합당",
+        "CODE": 1983,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "새마을당",
+        "CODE": 1960,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "정통민주당",
+        "CODE": 1984,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "진보신당",
+        "CODE": 1680,
+        "color": "ffff0000"
+      },
+      {
+        "NAME": "청년당",
+        "CODE": 1985,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "한국기독당",
+        "CODE": 1900,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "한국문화예술당",
+        "CODE": 820,
+        "color": "ff9d9d9d"
+      },
+      {
+        "NAME": "한나라당",
+        "CODE": 1500,
+        "color": "ff9d9d9d"
+      }
+    ],
+    "nth": 19,
+    "town_type": "전국"
+  }
+]
