@@ -124,7 +124,8 @@ class BaseCrawler(object):
 
 	def parse_district(self, consti, city_name):
 		if city_name:
-			consti['district'] = '%s %s' % (city_name, consti['district'])
+			consti['region'] = city_name
+			consti['district'] = sanitize(consti['district'])
 
 	def parse_towns(self, consti):
 		if 'towns' not in consti: return

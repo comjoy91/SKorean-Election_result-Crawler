@@ -19,7 +19,9 @@ class BaseCrawler(object):
 
 	def parse(self, url, params):
 		_party_list = get_json(url, params)['jsonResult']['body']
-		for x in _party_list:
+		for i in range(int(len(_party_list))):
+			x = _party_list[i]
+			x['code_thisElec'] = i
 			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
 				x['CODE'] = int(x['CODE'])
 
