@@ -25,8 +25,8 @@ class BaseCrawler(object):
 
 
 	def parse_proportional(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		elems = get_xpath(url, params, '//td')
-		th_list = get_xpath(url, params, '//th')
+		elems = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//td') #fucking_4th_president_ths!!!!
+		th_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th') #fucking_4th_president_ths!!!!
 		for i in range(int(len(th_list))):
 			if th_list[i].get('colspan') != None:
 				num_ths_left = i
@@ -76,8 +76,8 @@ class BaseCrawler(object):
 
 
 	def parse_constituency(self, url, params, city_name=None): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		tr_list = get_xpath(url, params, '//tr')
-		thead_list = get_xpath(url, params, '//th')
+		tr_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//tr') #fucking_4th_president_ths!!!!
+		thead_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th')#fucking_4th_president_ths!!!!
 		max_candidate_num = len(tr_list[2]) - len(thead_list)
 		for i in range(len(thead_list)):
 			if thead_list[i].get('colspan') != None:
