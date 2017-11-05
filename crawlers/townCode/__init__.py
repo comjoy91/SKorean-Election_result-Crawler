@@ -2,6 +2,9 @@
 # -*- encoding=utf-8 -*-
 
 from .assembly import *
+from .local_administration import *
+from .local_eduParliament import *
+from .local_parliament import *
 from .president import *
 from utils import InvalidCrawlerError
 
@@ -18,15 +21,15 @@ _election_names = {\
 def Crawler(target, nth, localType):
     if target == 'assembly':
         return assembly.Crawler(nth, _election_names['assembly'][int(nth)])
-    elif target == 'local' and (localType=='pg' or localType=='mg' or localType=='eg'):
-        #return local_administration.Crawler(nth, _election_names['local'][int(nth)], localType)
-        raise NotImplementedError('localLocal')
-    elif target == 'local' and (localType=='pm' or localType=='mm'):
-        #return local_parliament.Crawler(nth, _election_names['local'][int(nth)], localType)
-        raise NotImplementedError('localLocal')
-    elif target == 'local' and (localType=='em'):
-        #return local_eduParliament.Crawler(nth, _election_names['local'][int(nth)], localType)
-        raise NotImplementedError('localLocal')
+    elif target == 'local':
+        if (localType=='pg' or localType=='mg' or localType=='eg'):
+            return local_administration.Crawler(nth, _election_names['local'][int(nth)], localType)
+        elif (localType=='pm' or localType=='mm'):
+            return local_parliament.Crawler(nth, _election_names['local'][int(nth)], localType)
+        elif (localType=='em'):
+            return local_eduParliament.Crawler(nth, _election_names['local'][int(nth)], localType)
+        else:
+            raise InvalidCrawlerError(target, 'counting_vote', nth, localType)
     elif target == 'president':
         return president.Crawler(nth, _election_names['president'][int(nth)])
     else:

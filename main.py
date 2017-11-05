@@ -133,14 +133,14 @@ def print_file(arg_namespace):
                 filename = '%s/%s-%s-%s-%d-%s.%s'\
                     % (datadir, target, localType, dataType, n, time_string, filetype)
                 job = gevent.spawn(crawl, target=target, localType=localType,\
-                    _dataType=_dataType, nth=n, filename=filename, encoding=_encoding, printer=printer)
+                    _dataType=dataType, nth=n, filename=filename, encoding=encoding, printer=printer)
                 jobs.append(job)
         else:
             for n in range(start, end+1):
                 filename = '%s/%s-%s-%s-%d.%s'\
                     % (datadir, target, localType, dataType, n, filetype)
-                job = gevent.spawn(crawl, target=_target, localType=localType,\
-                    _dataType=_dataType, nth=n, filename=filename, encoding=_encoding, printer=printer)
+                job = gevent.spawn(crawl, target=target, localType=localType,\
+                    _dataType=dataType, nth=n, filename=filename, encoding=encoding, printer=printer)
                 jobs.append(job)
 
     else:

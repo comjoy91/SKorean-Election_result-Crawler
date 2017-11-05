@@ -35,32 +35,32 @@ class LocalDivision_CodeCrawler_GuOld(JSONCrawler_division):
 	target = 'presidential'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
-	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-	param_city_codes_json = dict(electionId='0000000000')
+	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
+	urlParam_city_codes = dict(electionId='0000000000')
 
-	url_list_base = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json'
-	param_url_list = dict(electionId='0000000000', subElectionCode=1)
+	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json'
+	urlParam_town_list = dict(electionId='0000000000', subElectionCode=1)
 
 	def __init__(self, nth, _election_name):
 		self.nth = nth
-		self.param_city_codes_json['electionCode'] = _election_name
-		self.param_url_list['electionCode'] = _election_name
+		self.urlParam_city_codes['electionCode'] = _election_name
+		self.urlParam_town_list['electionCode'] = _election_name
 
 
 class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
 	target = 'presidential'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
-	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-	param_city_codes_json = dict(electionId='0000000000', subElectionCode=1)
+	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
+	urlParam_city_codes = dict(electionId='0000000000', subElectionCode=1)
 
-	url_list_base = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json'
-	param_url_list = dict(electionId='0000000000', subElectionCode=1)
+	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json'
+	urlParam_town_list = dict(electionId='0000000000', subElectionCode=1)
 
 	def __init__(self, nth, _election_name):
 		self.nth = nth
-		self.param_city_codes_json['electionCode'] = _election_name
-		self.param_url_list['electionCode'] = _election_name
+		self.urlParam_city_codes['electionCode'] = _election_name
+		self.urlParam_town_list['electionCode'] = _election_name
 
 
 
@@ -68,13 +68,13 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
 	target = 'presidential'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
-	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-	param_city_codes_json = dict(electionCode=1)
+	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
+	urlParam_city_codes = dict(electionCode=1)
 
-	url_list_base = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
-	param_url_list = dict(electionCode=1)
+	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
+	urlParam_town_list = dict(electionCode=1)
 
 	def __init__(self, nth, _election_name):
 		self.nth = nth
-		self.param_city_codes_json['electionId'] = _election_name
-		self.param_url_list['electionId'] = _election_name
+		self.urlParam_city_codes['electionId'] = _election_name
+		self.urlParam_town_list['electionId'] = _election_name
