@@ -5,13 +5,13 @@ from crawlers.partyCode.base import *
 from utils import sanitize
 
 def Crawler(nth, _election_name):
-	if 1 <= nth <= 20:
+	if 1 <= nth <= 6:
 		crawler = Party_CodeCrawler_Old(int(nth), _election_name)
-	elif nth == 21:
-		raise InvalidCrawlerError('assembly', 'partyCode', nth)
+	elif nth == 7:
+		raise InvalidCrawlerError('local', 'partyCode', nth)
 		#"최근선거"로 들어갈 때의 code: crawler = Party_CodeCrawler_Recent(int(nth), _election_name)
 	else:
-		raise InvalidCrawlerError('assembly', 'partyCode', nth)
+		raise InvalidCrawlerError('president', 'partyCode', nth)
 	return crawler
 
 
@@ -29,7 +29,7 @@ class Party_CodeCrawler_Old(JSONCrawler):
 
 class Party_CodeCrawler_Recent(JSONCrawler):
 	url_list_base = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getJdCodeJson_Old.json'
-	param_url_list = dict(electionCode=2)
+	param_url_list = dict(electionCode=1)
 
 	def __init__(self, nth, _election_name):
 		self.nth = nth

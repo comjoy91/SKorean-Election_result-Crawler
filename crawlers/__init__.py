@@ -22,7 +22,7 @@ def Crawler(target, _dataType, nth, localType):
         return townCode.Crawler(target, nth, localType)
         # 각 지역구/시군구 인식코드 수집.
     elif _dataType == 'partyCode':
-        return partyCode.Crawler(target, nth, localType)
+        return partyCode.Crawler(target, nth)
         # 각 정당 인식코드 수집.
     else:
         raise InvalidCrawlerError(target, _dataType, nth, localType)
