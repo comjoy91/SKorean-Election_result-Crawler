@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding=utf-8 -*-
 
-from crawlers.townCode.base import *
+from crawlers.townCode.base_localDivision import *
 from utils import sanitize, InvalidCrawlerError
 
 def Crawler(nth, election_name):
@@ -31,9 +31,9 @@ def Crawler(nth, election_name):
 
 
 
-class LocalDivision_CodeCrawler_GuOld(JSONCrawler):
-	is_constituency = False
-	# 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
+class LocalDivision_CodeCrawler_GuOld(JSONCrawler_division):
+	target = 'presidential'
+	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
 	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
 	param_city_codes_json = dict(electionId='0000000000')
@@ -47,9 +47,9 @@ class LocalDivision_CodeCrawler_GuOld(JSONCrawler):
 		self.param_url_list['electionCode'] = _election_name
 
 
-class LocalDivision_CodeCrawler_Old(JSONCrawler):
-	# 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
-	is_constituency = False
+class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
+	target = 'presidential'
+	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
 	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 	param_city_codes_json = dict(electionId='0000000000', subElectionCode=1)
@@ -64,9 +64,9 @@ class LocalDivision_CodeCrawler_Old(JSONCrawler):
 
 
 
-class LocalDivision_CodeCrawler_Recent(JSONCrawler):
-	# 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
-	is_constituency = False
+class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
+	target = 'presidential'
+	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
 	url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 	param_city_codes_json = dict(electionCode=1)

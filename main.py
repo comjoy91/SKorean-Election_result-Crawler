@@ -31,7 +31,7 @@ def print_csv(filename, encoding, data):
             txt = txt.encode('utf8')
         return txt
 
-    attrs = ['assembly_no', 'time', 'election_type', 'grand_district', 'district',
+    attrs = ['assembly_no', 'time', 'dataType', 'grand_district', 'district',
              'electorates', 'counted_vote', 'cand_no',
              'party', 'name_kr', 'votes',
              'valid_vote', 'undervote', 'blank_ballot']
@@ -47,42 +47,50 @@ def print_csv(filename, encoding, data):
             f.write('\n')
     """
 
-def crawl(target, _type, nth, printer, filename, encoding, level=None):
-    crawler = Crawler(target, _type, nth, level)
+def crawl(target, _dataType, nth, printer, filename, encoding, localType=None):
+    crawler = Crawler(target, _dataType, nth, localType)
     cand_list = crawler.crawl()
     printer(filename, encoding, cand_list)
 
 def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
+    #target: 의회 총선거-assembly, 지방선거-local, 대통령-president
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
             help="name of target election")
-    parser.add_argument('type', choices=['townCode', 'electorates', 'partyCode', 'counting_vote', 'counting_vote_dong'],\
+    #dataType: 기초자치단체or국회의원선거구 코드-townCode, 선거인수-electorates, 정당 코드-partyCode, 개표결과-counting_vote, 읍면동별 개표결과-counting_vote_dong
+    parser.add_argument('dataType', choices=['townCode', 'electorates', 'partyCode', 'counting_vote', 'counting_vote_dong'],\
             help="type of collecting data\n"
                 "- We DO NOT RECOMMAND to crawl TOWNCODE data: \n"
-                "- KEC categorize townCode data by some rude standard, so we re-classify all the data by hand.") #'turnout'
+                "- KEC categorize townCode data by some rude standard, so we re-classify all the data by hand.")
+    #start, end: 선거 대수
     parser.add_argument('start', help="starting election id", type=int)
     parser.add_argument('end', help="ending election id", type=int,\
             nargs='?', default=None)
 
+    #-time: 파일 이름에 시간을 넣을 것이냐 말 것이냐.
     parser.add_argument('-time', dest='filename_time', action='store_true',\
             help="Descript the crawling moment time info in filename.")
+    #-interval n: n초 간격으로 자동 크롤링 할 것인가.
     parser.add_argument('-interval', dest='interval_time',\
                 help="number of interval seconds.\n"
                 "- if you type integer number, the program will automatically crawl data in every 'interval' seconds.\n"
                 "- if you type 0 or do not type anything, the program will crawl only once.",\
                 type=int, default=None)
+    #-e: utf8(default), unicode 중에서 인코딩 선택
     parser.add_argument('-e', dest='encoding', choices=['unicode', 'utf8'], default='utf8',\
             help="Korean Hangul encoding.\n"
                 "- utf8 for default.")
+    #-csv: 파일 양식을 json(default)과 csv 중 선택
     parser.add_argument('-csv', dest='test', action='store_true',
             help="Assign datatype to csv instead of json.\n"
                 "- We DO NOT RECOMMAND to select -csv type: it is still not be implemented.")
+    #-d: 아웃풋 데이터 저장 디렉토리 지정
     parser.add_argument('-d', dest='directory', help="Specify data directory.")
 
     # TODO: change to subparser
     parser.add_argument('-l', choices=['pg', 'pm', 'pp', 'mg', 'mm', 'mp', 'eg', 'em'],
-            dest="level",
-            help="Specify level for local elections.\n"
+            dest="localType",
+            help="Specify election type for local elections.\n"
                 "- 1st char: {p:province, m:municipality, e:education},\n"
                 "- 2nd char: {g: governor, m: member}")
 
@@ -94,10 +102,8 @@ def print_file(arg_namespace):
     printer = print_csv if _arg.test else print_json
     encoding = _arg.encoding
 
-    datadir = _arg.directory if _arg.directory \
-                else './crawled_data/%s/%s' % (_arg.target, _arg.type)
     target = _arg.target
-    electionType = _arg.type
+    dataType = _arg.dataType
     start = _arg.start
     end = _arg.end if _arg.end else start
     filename_time = _arg.filename_time
@@ -105,9 +111,17 @@ def print_file(arg_namespace):
 
     interval_time = _arg.interval_time
     if target=='local':
-        level = get_election_type_name(_arg.level)
+        localType = _arg.localType
     else:
-        level = None
+        localType = None
+
+    if _arg.directory:
+        datadir = _arg.directory
+    else:
+        if (target=='local' and localType):
+            datadir = './crawled_data/%s/%s/%s' % (target, localType, dataType)
+        else:
+            datadir = './crawled_data/%s/%s' % (target, dataType)
 
     time_string = datetime.today().strftime("%Y%m%d%H%M%S")
     check_dir(datadir)
@@ -117,31 +131,31 @@ def print_file(arg_namespace):
         if filename_time:
             for n in range(start, end+1):
                 filename = '%s/%s-%s-%s-%d-%s.%s'\
-                    % (datadir, target, level, electionType, n, time_string, filetype)
-                job = gevent.spawn(crawl, target=target, level=level,\
-                    _type=_electionType, nth=n, filename=filename, encoding=_encoding, printer=printer)
+                    % (datadir, target, localType, dataType, n, time_string, filetype)
+                job = gevent.spawn(crawl, target=target, localType=localType,\
+                    _dataType=_dataType, nth=n, filename=filename, encoding=_encoding, printer=printer)
                 jobs.append(job)
         else:
             for n in range(start, end+1):
                 filename = '%s/%s-%s-%s-%d.%s'\
-                    % (datadir, target, level, electionType, n, filetype)
-                job = gevent.spawn(crawl, target=_target, level=level,\
-                    _type=_electionType, nth=n, filename=filename, encoding=_encoding, printer=printer)
+                    % (datadir, target, localType, dataType, n, filetype)
+                job = gevent.spawn(crawl, target=_target, localType=localType,\
+                    _dataType=_dataType, nth=n, filename=filename, encoding=_encoding, printer=printer)
                 jobs.append(job)
 
     else:
         if filename_time:
             for n in range(start, end+1):
                 filename = '%s/%s-%s-%d-%s.%s'\
-                        % (datadir, target, electionType, n, time_string, filetype)
-                job = gevent.spawn(crawl, target=target, _type=electionType, nth=n,\
+                        % (datadir, target, dataType, n, time_string, filetype)
+                job = gevent.spawn(crawl, target=target, _dataType=dataType, nth=n,\
                         filename=filename, encoding=encoding, printer=printer)
                 jobs.append(job)
         else:
             for n in range(start, end+1):
                 filename = '%s/%s-%s-%d.%s'\
-                        % (datadir, target, electionType, n, filetype)
-                job = gevent.spawn(crawl, target=target, _type=electionType, nth=n,\
+                        % (datadir, target, dataType, n, filetype)
+                job = gevent.spawn(crawl, target=target, _dataType=dataType, nth=n,\
                         filename=filename, encoding=encoding, printer=printer)
                 jobs.append(job)
 
