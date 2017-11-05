@@ -1,0 +1,237 @@
+[
+  {
+    "voting_system": "vote for candidate
+    이 문서에서는 파일 구조에 대해 설명합니다.
+    먼저, 각 요소의 이름 및 기능을 설명합니다.
+    그리고 그 아래에, 예시로 '서울특별시 종로구 / 서울특별시 중구'에 해당하는 데이터를 붙여넣었습니다.
+
+    참고로, 이 json파일은 괄호('{}', '[]')에 따라 속성들이 묶여있습니다.
+    해당 괄호 안에서 각 속성의 순서는 뒤바뀌어 있을 수 있습니다.
+    예를 들어 'counted_votes' 속성과 'district' 속성의 순서는, 어느 파일에서는 'counted_votes'가 앞에 있을 수 있고, 어느 파일에서는 'district' 속성이 앞에 있을 수 있습니다.
+    그러나 json 파일에서는 속성의 순서와 관계없이, 어떤 '괄호'에 묶여있느냐에 따라 기능합니다.
+    따라서 본 데이터를 프로그램을 통해 분석할 경우, json 파일이 오작동하지는 않을 것입니다. ",
+    "results": [
+      {
+        "region": "region은 광역자치단체(특별시/광역시/특별자치시/도/특별자치도)명을 적습니다.
+
+        아래의 district_result에서는, 위 region 내의 시군구(district)별 개표결과가 담겨있습니다.",
+        "district_result": [
+          {
+            "result": [
+              {
+                "party_name_kr": "후보의 소속정당입니다. (1)",
+                "voterate": "각 후보별 득표율입니다. (1) 이 수치는 (득표수/총 유효투표수)*100을 소수점 3자리에서 버림한 결과입니다.",
+                "votenum": "각 후보별 득표수입니다. (1)",
+                "name_kr": "후보의 이름입니다. (1)"
+              },
+              {
+                "party_name_kr": "후보의 소속정당입니다. (2)",
+                "voterate": "각 후보별 득표율입니다. (2) 이 수치는 (득표수/총 유효투표수)*100을 소수점 3자리에서 버림한 결과입니다.",
+                "votenum": "각 후보별 득표수입니다. (2)",
+                "name_kr": "후보의 이름입니다. (2)"
+              }
+            ],
+            "valid_votes": "valid_votes는 유효투표수를 나타냅니다. 즉, 각 후보별 득표수의 합과 같습니다.",
+            "counted_votes": "counted_votes는 유효/무효를 합한 총 투표수를 나타냅니다.",
+            "nth": "이번 선거의 대수를 나타냅니다. 즉, 19의 숫자로 통일되어야 합니다.",
+            "cand_no": "cand_no는 총 후보자 숫자를 나타냅니다. 이 숫자는 사퇴/사망/등록무효된 후보를 제외한 숫자입니다.",
+            "undervotes": "undervotes는 무효표수를 나타냅니다.",
+            "district": "district는 '시군구'명을 적습니다. 자치시 내의 행정구(ex. 수원시 권선구) 역시 포함됩니다.",
+            "blank_ballots": "blank_ballots는 기권한 선거인수를 나타냅니다.",
+            "electorates": "electorates는 전체 선거인수를 나타냅니다. 즉, 유효/무효/기권을 모두 합한 것과 같습니다.",
+            "region": "region은 광역자치단체(특별시/광역시/특별자치시/도/특별자치도)명을 적습니다.
+
+            아래 예시의, '서울특별시 종로구 / 서울특별시 중구'의 결과를 참조하세요."
+          }
+        ]
+      },
+      {
+        "region": "서울특별시",
+        "district_result": [
+          {
+            "result": [
+              {
+                "party_name_kr": "더불어민주당",
+                "voterate": 41.59,
+                "votenum": 42512,
+                "name_kr": "문재인"
+              },
+              {
+                "party_name_kr": "자유한국당",
+                "voterate": 21.84,
+                "votenum": 22325,
+                "name_kr": "홍준표"
+              },
+              {
+                "party_name_kr": "국민의당",
+                "voterate": 21.83,
+                "votenum": 22313,
+                "name_kr": "안철수"
+              },
+              {
+                "party_name_kr": "바른정당",
+                "voterate": 7.25,
+                "votenum": 7412,
+                "name_kr": "유승민"
+              },
+              {
+                "party_name_kr": "정의당",
+                "voterate": 6.95,
+                "votenum": 7113,
+                "name_kr": "심상정"
+              },
+              {
+                "party_name_kr": "새누리당",
+                "voterate": 0.22,
+                "votenum": 228,
+                "name_kr": "조원진"
+              },
+              {
+                "party_name_kr": "경제애국당",
+                "voterate": 0.0,
+                "votenum": 5,
+                "name_kr": "오영국"
+              },
+              {
+                "party_name_kr": "국민대통합당",
+                "voterate": 0.07,
+                "votenum": 78,
+                "name_kr": "장성민"
+              },
+              {
+                "party_name_kr": "늘푸른한국당",
+                "voterate": 0.03,
+                "votenum": 31,
+                "name_kr": "이재오"
+              },
+              {
+                "party_name_kr": "민중연합당",
+                "voterate": 0.06,
+                "votenum": 63,
+                "name_kr": "김선동"
+              },
+              {
+                "party_name_kr": "한국국민당",
+                "voterate": 0.02,
+                "votenum": 26,
+                "name_kr": "이경희"
+              },
+              {
+                "party_name_kr": "홍익당",
+                "voterate": 0.04,
+                "votenum": 47,
+                "name_kr": "윤홍식"
+              },
+              {
+                "party_name_kr": "무소속",
+                "voterate": 0.04,
+                "votenum": 49,
+                "name_kr": "김민찬"
+              }
+            ],
+            "valid_votes": 102202,
+            "counted_votes": 102566,
+            "nth": 19,
+            "cand_no": 13,
+            "undervotes": 364,
+            "district": "종로구",
+            "blank_ballots": 31203,
+            "electorates": 133769,
+            "region": "서울특별시"
+          },
+          {
+            "result": [
+              {
+                "party_name_kr": "더불어민주당",
+                "voterate": 41.23,
+                "votenum": 34062,
+                "name_kr": "문재인"
+              },
+              {
+                "party_name_kr": "자유한국당",
+                "voterate": 21.67,
+                "votenum": 17901,
+                "name_kr": "홍준표"
+              },
+              {
+                "party_name_kr": "국민의당",
+                "voterate": 23.45,
+                "votenum": 19372,
+                "name_kr": "안철수"
+              },
+              {
+                "party_name_kr": "바른정당",
+                "voterate": 7.11,
+                "votenum": 5874,
+                "name_kr": "유승민"
+              },
+              {
+                "party_name_kr": "정의당",
+                "voterate": 6.04,
+                "votenum": 4993,
+                "name_kr": "심상정"
+              },
+              {
+                "party_name_kr": "새누리당",
+                "voterate": 0.19,
+                "votenum": 158,
+                "name_kr": "조원진"
+              },
+              {
+                "party_name_kr": "경제애국당",
+                "voterate": 0.01,
+                "votenum": 12,
+                "name_kr": "오영국"
+              },
+              {
+                "party_name_kr": "국민대통합당",
+                "voterate": 0.06,
+                "votenum": 53,
+                "name_kr": "장성민"
+              },
+              {
+                "party_name_kr": "늘푸른한국당",
+                "voterate": 0.02,
+                "votenum": 21,
+                "name_kr": "이재오"
+              },
+              {
+                "party_name_kr": "민중연합당",
+                "voterate": 0.06,
+                "votenum": 55,
+                "name_kr": "김선동"
+              },
+              {
+                "party_name_kr": "한국국민당",
+                "voterate": 0.02,
+                "votenum": 18,
+                "name_kr": "이경희"
+              },
+              {
+                "party_name_kr": "홍익당",
+                "voterate": 0.03,
+                "votenum": 25,
+                "name_kr": "윤홍식"
+              },
+              {
+                "party_name_kr": "무소속",
+                "voterate": 0.06,
+                "votenum": 51,
+                "name_kr": "김민찬"
+              }
+            ],
+            "valid_votes": 82595,
+            "counted_votes": 82852,
+            "nth": 19,
+            "cand_no": 13,
+            "undervotes": 257,
+            "district": "중구",
+            "blank_ballots": 26984,
+            "electorates": 109836,
+            "region": "서울특별시"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -24,9 +24,9 @@ class BaseCrawler(object):
 	attrs_exclude_parse_cell = ['image', 'cand_no', 'result']
 
 
-	def parse_proportional(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		elems = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//td') #fucking_4th_president_ths!!!!
-		th_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th') #fucking_4th_president_ths!!!!
+	def parse_provinceWide(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
+		elems = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//td')
+		th_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th')
 		for i in range(int(len(th_list))):
 			if th_list[i].get('colspan') != None:
 				num_ths_left = i
@@ -35,15 +35,15 @@ class BaseCrawler(object):
 
 		if th_list[0].get('rowspan') != None: #nth!=20
 			party_name_list = th_list[6:(6+max_candidate_num)] #element: <th><strong>한나라당</strong></th>
-			td_head = 0
+			td_head = 1 #2번째줄의 "전체" 칸을 비우고.
 			num_tds = 6 + max_candidate_num #저 6의 확장일반화 방법은 없는가.
-			num_rows = int(len(elems) / num_tds)
+			num_rows = int(len(elems) / num_tds) - 1
 		else: #nth == 20
 			max_candidate_num = max_candidate_num + 1
 			party_name_list = elems[num_ths_left:(num_ths_left+max_candidate_num)] #for n=20. element: <td><strong>한나라당</strong></td>
-			td_head = 1
+			td_head = 2 #2번째줄의 "전체" 칸을 비우고.
 			num_tds = len(th_list) + max_candidate_num - 1
-			num_rows = int(len(elems) / num_tds) - 1
+			num_rows = int(len(elems) / num_tds) - 2
 
 		consti_list = []
 		candidate_num = max_candidate_num
@@ -69,9 +69,10 @@ class BaseCrawler(object):
 
 			consti_list.append(district_info)
 
-		consti_list = [self.parse_consti(consti, city_name=city_name) for consti in consti_list]
+		return_result = [{'region': city_name, 'district_result': [self.parse_consti(consti, city_name=city_name) for consti in consti_list]}]
 		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '비례대표', city_name, len(consti_list))))
-		return consti_list
+		return return_result
+
 
 
 
@@ -118,15 +119,18 @@ class BaseCrawler(object):
 				district_info = dict(list(zip(self.attrs_district, district_info)))
 				consti_list.append(district_info)
 
-		consti_list = [self.parse_consti(consti, city_name=city_name) for consti in consti_list]
+		return_result = [{'region': city_name, 'district_result': [self.parse_consti(consti, city_name=city_name) for consti in consti_list]}]
 		print('crawled #%d - %s, %s(%d)...' % (self.nth, '지역구', city_name, len(consti_list)))
-		return consti_list
+		return return_result
 
 
 
-	def parse(self, url, params, is_proportional, city_name=None):
-		if is_proportional: return self.parse_proportional(url, params, city_name)
-		else: return self.parse_constituency(url, params, city_name)
+	def parse(self, url, params, vote_for_party, is_constituency, city_name=None):
+		if is_constituency:
+			return self.parse_constituency(url, params, city_name)
+		else:
+			return self.parse_provinceWide(url, params, city_name)
+
 
 
 
@@ -148,7 +152,7 @@ class BaseCrawler(object):
 		self.parse_dict_record(consti['result'], self.attrs_result)
 
 		# never change the order
-		consti['assembly_no'] = self.nth
+		consti['nth'] = self.nth
 
 		self.parse_district(consti, city_name)
 		self.parse_electorate(consti)
@@ -211,11 +215,11 @@ class BaseCrawler(object):
 		consti['blank_ballots'] = int(consti['blank_ballots'])
 
 	def parse_candi(self, candi):
-		if self.is_proportional: #is_proportional
+		if self.vote_for_party: #vote_for_party
 			candi['party_name_kr'] = sanitize(candi['name'])
 			del candi['name']
 
-		else: #!is_proportional
+		else: #!vote_for_party
 			[candi['party_name_kr'], candi['name_kr']] = list(map(sanitize, candi['name'][:2]))
 			del candi['name']
 
@@ -241,17 +245,18 @@ class MultiCityCrawler(BaseCrawler):
 	def crawl(self):
 		# 지역구 대표
 		jobs = []
-		is_proportional = self.is_proportional
-		if is_proportional:
-			voting_system = "proportional"
+		vote_for_party = self.vote_for_party
+		is_constituency = self.is_constituency
+		if vote_for_party:
+			voting_system = "vote for party"
 		else:
-			voting_system = "constituency"
+			voting_system = "vote for candidate"
 
 		print("Waiting to connect http://info.nec.go.kr server (%s)..." % voting_system)
 		for city_code, city_name in self.city_codes():
 			req_url = self.url_list_base
 			req_param = self.url_param(city_code)
-			job = gevent.spawn(self.parse, req_url, req_param, is_proportional, city_name)
+			job = gevent.spawn(self.parse, req_url, req_param, vote_for_party, is_constituency, city_name)
 			jobs.append(job)
 		gevent.joinall(jobs)
 		every_result = [{'voting_system':voting_system, 'results':flatten(job.get() for job in jobs)}]

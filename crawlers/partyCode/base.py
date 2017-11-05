@@ -18,10 +18,10 @@ monkey.patch_all()
 class BaseCrawler(object):
 
 	def parse(self, url, params):
-		_party_list = get_json(url, params)['jsonResult']['body']
+		_party_list = get_json(url, params)['jsonResult']['body'] # 정당 code json을 받음.
 		for i in range(int(len(_party_list))):
 			x = _party_list[i]
-			x['code_thisElec'] = i
+			x['code_thisElec'] = i+1 # 각 정당별 '기호'(순번)을 매겨줌.
 			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
 				x['CODE'] = int(x['CODE'])
 
@@ -29,13 +29,12 @@ class BaseCrawler(object):
 		return _party_list
 
 
-class MultiCityCrawler(BaseCrawler):
+class JSONCrawler(BaseCrawler):
 
 	def url_param(self):
 		return self.param_url_list
 
 	def crawl(self):
-		# 지역구 대표
 		jobs = []
 
 		print("Waiting to connect http://info.nec.go.kr server (%s)..." % 'partyList')
@@ -45,9 +44,3 @@ class MultiCityCrawler(BaseCrawler):
 		every_result = [{'town_type':"전국",'nth':self.nth,'results':job}]
 
 		return every_result
-
-class SinglePageCrawler(BaseCrawler):
-
-	def crawl(self):
-		people = self.parse(self.url_list)
-		return people

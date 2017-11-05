@@ -24,7 +24,7 @@ class BaseCrawler(object):
 	attrs_exclude_parse_cell = ['image', 'cand_no', 'result']
 
 
-	def parse_proportional(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
+	def parse_localDivision(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
 		tr_list = get_xpath(url, params, '//tr')
 		thead_list = get_xpath(url, params, '//th')
 		td_columns = len(tr_list[1])
@@ -50,7 +50,7 @@ class BaseCrawler(object):
 				consti_list.append(district_info)
 
 		consti_list = [self.parse_consti(consti, city_name=city_name) for consti in consti_list]
-		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '비례대표(국내거소미신고 재외국민 포함)', city_name, len(consti_list))))
+		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '국내거소미신고 재외국민 포함 구시군별 선거인수(대통령 선거, 비례대표)', city_name, len(consti_list))))
 		return consti_list
 
 
@@ -80,14 +80,14 @@ class BaseCrawler(object):
 				consti_list.append(district_info)
 
 		consti_list = [self.parse_consti(consti, city_name=city_name) for consti in consti_list]
-		print('crawled #%d - %s, %s(%d)...' % (self.nth, '지역구', city_name, len(consti_list)))
+		print('crawled #%d - %s, %s(%d)...' % (self.nth, '선거구별 선거인수(지역구국회의원, 지방선거)', city_name, len(consti_list)))
 		return consti_list
 
 
 
-	def parse(self, url, params, is_proportional, city_name=None):
-		if is_proportional: return self.parse_proportional(url, params, city_name)
-		else: return self.parse_constituency(url, params, city_name)
+	def parse(self, url, params, is_constituency, city_name=None):
+		if is_constituency: return self.parse_constituency(url, params, city_name)
+		else: return self.parse_localDivision(url, params, city_name)
 
 
 
@@ -109,7 +109,7 @@ class BaseCrawler(object):
 		# self.parse_dict_record(consti['result'], self.attrs_result)
 
 		# never change the order
-		consti['assembly_no'] = self.nth
+		consti['nth'] = self.nth
 
 		self.parse_district(consti, city_name)
 		self.parse_towns(consti)
@@ -178,24 +178,6 @@ class BaseCrawler(object):
 
 
 
-
-
-
-	def parse_candi(self, candi):
-		if self.is_proportional: #is_proportional
-			candi['party_name_kr'] = sanitize(candi['name'])
-			del candi['name']
-
-		else: #!is_proportional
-			[candi['party_name_kr'], candi['name_kr']] = list(map(sanitize, candi['name'][:2]))
-			del candi['name']
-
-		[candi['votenum'], candi['voterate']] = list(map(sanitize, candi['vote'][:2]))
-		candi['votenum'] = candi['votenum'].replace(',', '')
-		del candi['vote']
-
-
-
 class MultiCityCrawler(BaseCrawler):
 
 	def city_codes(self):
@@ -210,20 +192,20 @@ class MultiCityCrawler(BaseCrawler):
 	def crawl(self):
 		# 지역구 대표
 		jobs = []
-		is_proportional = self.is_proportional
-		if is_proportional:
-			voting_system = "proportional"
+		is_constituency = self.is_constituency
+		if is_constituency:
+			division = "constituency"
 		else:
-			voting_system = "constituency"
+			division = "localDivision"
 
-		print("Waiting to connect http://info.nec.go.kr server (%s)..." % voting_system)
+		print("Waiting to connect http://info.nec.go.kr server (%s)..." % division)
 		for city_code, city_name in self.city_codes():
 			req_url = self.url_list_base
 			req_param = self.url_param(city_code)
-			job = gevent.spawn(self.parse, req_url, req_param, is_proportional, city_name)
+			job = gevent.spawn(self.parse, req_url, req_param, is_constituency, city_name)
 			jobs.append(job)
 		gevent.joinall(jobs)
-		every_result = [{'voting_system':voting_system, 'results':flatten(job.get() for job in jobs)}]
+		every_result = [{'division':division, 'results':flatten(job.get() for job in jobs)}]
 
 		# 비례대표
 		if hasattr(self, 'prop_crawler'):

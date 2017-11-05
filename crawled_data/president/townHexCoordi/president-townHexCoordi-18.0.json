@@ -1,0 +1,1616 @@
+[
+  {
+    "town_type": "basicLocal",
+    "nth": 18,
+    "results": [
+      {
+        "city_code": 1100,
+        "town_list": [
+          {
+            "NAME": "종로구",
+            "CODE": 1101,
+            "coordiX": 7,
+            "coordiY": 22
+          },
+          {
+            "NAME": "중구",
+            "CODE": 1102,
+            "coordiX": 7,
+            "coordiY": 21
+          },
+          {
+            "NAME": "용산구",
+            "CODE": 1103,
+            "coordiX": 8,
+            "coordiY": 20
+          },
+          {
+            "NAME": "성동구",
+            "CODE": 1104,
+            "coordiX": 9,
+            "coordiY": 19
+          },
+          {
+            "NAME": "광진구",
+            "CODE": 1105,
+            "coordiX": 10,
+            "coordiY": 19
+          },
+          {
+            "NAME": "동대문구",
+            "CODE": 1106,
+            "coordiX": 9,
+            "coordiY": 20
+          },
+          {
+            "NAME": "중랑구",
+            "CODE": 1107,
+            "coordiX": 10,
+            "coordiY": 20
+          },
+          {
+            "NAME": "성북구",
+            "CODE": 1108,
+            "coordiX": 8,
+            "coordiY": 21
+          },
+          {
+            "NAME": "강북구",
+            "CODE": 1109,
+            "coordiX": 8,
+            "coordiY": 22
+          },
+          {
+            "NAME": "도봉구",
+            "CODE": 1110,
+            "coordiX": 9,
+            "coordiY": 22
+          },
+          {
+            "NAME": "노원구",
+            "CODE": 1111,
+            "coordiX": 9,
+            "coordiY": 21
+          },
+          {
+            "NAME": "은평구",
+            "CODE": 1112,
+            "coordiX": 6,
+            "coordiY": 22
+          },
+          {
+            "NAME": "서대문구",
+            "CODE": 1113,
+            "coordiX": 6,
+            "coordiY": 21
+          },
+          {
+            "NAME": "마포구",
+            "CODE": 1114,
+            "coordiX": 7,
+            "coordiY": 20
+          },
+          {
+            "NAME": "양천구",
+            "CODE": 1115,
+            "coordiX": 6,
+            "coordiY": 20
+          },
+          {
+            "NAME": "강서구",
+            "CODE": 1116,
+            "coordiX": 5,
+            "coordiY": 21
+          },
+          {
+            "NAME": "구로구",
+            "CODE": 1117,
+            "coordiX": 6,
+            "coordiY": 19
+          },
+          {
+            "NAME": "금천구",
+            "CODE": 1118,
+            "coordiX": 7,
+            "coordiY": 18
+          },
+          {
+            "NAME": "영등포구",
+            "CODE": 1119,
+            "coordiX": 7,
+            "coordiY": 19
+          },
+          {
+            "NAME": "동작구",
+            "CODE": 1120,
+            "coordiX": 8,
+            "coordiY": 19
+          },
+          {
+            "NAME": "관악구",
+            "CODE": 1121,
+            "coordiX": 8,
+            "coordiY": 18
+          },
+          {
+            "NAME": "서초구",
+            "CODE": 1122,
+            "coordiX": 9,
+            "coordiY": 18
+          },
+          {
+            "NAME": "강남구",
+            "CODE": 1123,
+            "coordiX": 10,
+            "coordiY": 17
+          },
+          {
+            "NAME": "송파구",
+            "CODE": 1124,
+            "coordiX": 10,
+            "coordiY": 18
+          },
+          {
+            "NAME": "강동구",
+            "CODE": 1125,
+            "coordiX": 11,
+            "coordiY": 18
+          }
+        ],
+        "city_name": "서울특별시"
+      },
+      {
+        "city_code": 2600,
+        "town_list": [
+          {
+            "NAME": "중구",
+            "CODE": 2601,
+            "coordiX": 14,
+            "coordiY": 4
+          },
+          {
+            "NAME": "서구",
+            "CODE": 2602,
+            "coordiX": 13,
+            "coordiY": 5
+          },
+          {
+            "NAME": "동구",
+            "CODE": 2603,
+            "coordiX": 14,
+            "coordiY": 5
+          },
+          {
+            "NAME": "영도구",
+            "CODE": 2604,
+            "coordiX": 15,
+            "coordiY": 3
+          },
+          {
+            "NAME": "부산진구",
+            "CODE": 2605,
+            "coordiX": 13,
+            "coordiY": 6
+          },
+          {
+            "NAME": "동래구",
+            "CODE": 2606,
+            "coordiX": 14,
+            "coordiY": 6
+          },
+          {
+            "NAME": "남구",
+            "CODE": 2607,
+            "coordiX": 14,
+            "coordiY": 3
+          },
+          {
+            "NAME": "북구",
+            "CODE": 2608,
+            "coordiX": 14,
+            "coordiY": 7
+          },
+          {
+            "NAME": "해운대구",
+            "CODE": 2609,
+            "coordiX": 16,
+            "coordiY": 4
+          },
+          {
+            "NAME": "기장군",
+            "CODE": 2610,
+            "coordiX": 16,
+            "coordiY": 5
+          },
+          {
+            "NAME": "사하구",
+            "CODE": 2611,
+            "coordiX": 13,
+            "coordiY": 3
+          },
+          {
+            "NAME": "금정구",
+            "CODE": 2612,
+            "coordiX": 15,
+            "coordiY": 6
+          },
+          {
+            "NAME": "강서구",
+            "CODE": 2613,
+            "coordiX": 12,
+            "coordiY": 5
+          },
+          {
+            "NAME": "연제구",
+            "CODE": 2614,
+            "coordiX": 15,
+            "coordiY": 5
+          },
+          {
+            "NAME": "수영구",
+            "CODE": 2615,
+            "coordiX": 15,
+            "coordiY": 4
+          },
+          {
+            "NAME": "사상구",
+            "CODE": 2616,
+            "coordiX": 13,
+            "coordiY": 4
+          }
+        ],
+        "city_name": "부산광역시"
+      },
+      {
+        "city_code": 2700,
+        "town_list": [
+          {
+            "NAME": "중구",
+            "CODE": 2701,
+            "coordiX": 13,
+            "coordiY": 10
+          },
+          {
+            "NAME": "동구",
+            "CODE": 2702,
+            "coordiX": 14,
+            "coordiY": 10
+          },
+          {
+            "NAME": "서구",
+            "CODE": 2703,
+            "coordiX": 12,
+            "coordiY": 10
+          },
+          {
+            "NAME": "남구",
+            "CODE": 2704,
+            "coordiX": 13,
+            "coordiY": 9
+          },
+          {
+            "NAME": "북구",
+            "CODE": 2705,
+            "coordiX": 12,
+            "coordiY": 11
+          },
+          {
+            "NAME": "수성구",
+            "CODE": 2706,
+            "coordiX": 14,
+            "coordiY": 9
+          },
+          {
+            "NAME": "달서구",
+            "CODE": 2707,
+            "coordiX": 12,
+            "coordiY": 9
+          },
+          {
+            "NAME": "달성군",
+            "CODE": 2708,
+            "coordiX": 11,
+            "coordiY": 9
+          }
+        ],
+        "city_name": "대구광역시"
+      },
+      {
+        "city_code": 2800,
+        "town_list": [
+          {
+            "NAME": "중구",
+            "CODE": 2801,
+            "coordiX": 3,
+            "coordiY": 21
+          },
+          {
+            "NAME": "동구",
+            "CODE": 2802,
+            "coordiX": 3,
+            "coordiY": 22
+          },
+          {
+            "NAME": "남구",
+            "CODE": 2803,
+            "coordiX": 4,
+            "coordiY": 21
+          },
+          {
+            "NAME": "연수구",
+            "CODE": 2804,
+            "coordiX": 3,
+            "coordiY": 20
+          },
+          {
+            "NAME": "남동구",
+            "CODE": 2805,
+            "coordiX": 4,
+            "coordiY": 20
+          },
+          {
+            "NAME": "부평구",
+            "CODE": 2806,
+            "coordiX": 4,
+            "coordiY": 22
+          },
+          {
+            "NAME": "계양구",
+            "CODE": 2807,
+            "coordiX": 4,
+            "coordiY": 23
+          },
+          {
+            "NAME": "서구",
+            "CODE": 2808,
+            "coordiX": 3,
+            "coordiY": 23
+          },
+          {
+            "NAME": "강화군",
+            "CODE": 2809,
+            "coordiX": 2,
+            "coordiY": 23
+          },
+          {
+            "NAME": "옹진군",
+            "CODE": 2810,
+            "coordiX": 2,
+            "coordiY": 22
+          }
+        ],
+        "city_name": "인천광역시"
+      },
+      {
+        "city_code": 2900,
+        "town_list": [
+          {
+            "NAME": "동구",
+            "CODE": 2901,
+            "coordiX": 6,
+            "coordiY": 7
+          },
+          {
+            "NAME": "서구",
+            "CODE": 2902,
+            "coordiX": 5,
+            "coordiY": 8
+          },
+          {
+            "NAME": "남구",
+            "CODE": 2903,
+            "coordiX": 5,
+            "coordiY": 7
+          },
+          {
+            "NAME": "북구",
+            "CODE": 2904,
+            "coordiX": 6,
+            "coordiY": 8
+          },
+          {
+            "NAME": "광산구",
+            "CODE": 2905,
+            "coordiX": 4,
+            "coordiY": 8
+          }
+        ],
+        "city_name": "광주광역시"
+      },
+      {
+        "city_code": 3000,
+        "town_list": [
+          {
+            "NAME": "동구",
+            "CODE": 3001,
+            "coordiX": 7,
+            "coordiY": 13
+          },
+          {
+            "NAME": "중구",
+            "CODE": 3002,
+            "coordiX": 7,
+            "coordiY": 12
+          },
+          {
+            "NAME": "서구",
+            "CODE": 3003,
+            "coordiX": 6,
+            "coordiY": 13
+          },
+          {
+            "NAME": "유성구",
+            "CODE": 3004,
+            "coordiX": 5,
+            "coordiY": 14
+          },
+          {
+            "NAME": "대덕구",
+            "CODE": 3005,
+            "coordiX": 6,
+            "coordiY": 14
+          }
+        ],
+        "city_name": "대전광역시"
+      },
+      {
+        "city_code": 3100,
+        "town_list": [
+          {
+            "NAME": "중구",
+            "CODE": 3101,
+            "coordiX": 15,
+            "coordiY": 7
+          },
+          {
+            "NAME": "남구",
+            "CODE": 3102,
+            "coordiX": 16,
+            "coordiY": 6
+          },
+          {
+            "NAME": "동구",
+            "CODE": 3103,
+            "coordiX": 16,
+            "coordiY": 7
+          },
+          {
+            "NAME": "북구",
+            "CODE": 3104,
+            "coordiX": 15,
+            "coordiY": 8
+          },
+          {
+            "NAME": "울주군",
+            "CODE": 3105,
+            "coordiX": 14,
+            "coordiY": 8
+          }
+        ],
+        "city_name": "울산광역시"
+      },
+      {
+        "city_code": 5100,
+        "town_list": [
+          {
+            "NAME": "세종특별자치시",
+            "CODE": 5101,
+            "coordiX": 5,
+            "coordiY": 15
+          }
+        ],
+        "city_name": "세종특별자치시"
+      },
+      {
+        "city_code": 4100,
+        "town_list": [
+          {
+            "NAME": "수원시장안구",
+            "CODE": 4101,
+            "coordiX": 8,
+            "coordiY": 17
+          },
+          {
+            "NAME": "수원시권선구",
+            "CODE": 4102,
+            "coordiX": 7,
+            "coordiY": 16
+          },
+          {
+            "NAME": "수원시팔달구",
+            "CODE": 4103,
+            "coordiX": 8,
+            "coordiY": 16
+          },
+          {
+            "NAME": "수원시영통구",
+            "CODE": 4104,
+            "coordiX": 9,
+            "coordiY": 15
+          },
+          {
+            "NAME": "성남시수정구",
+            "CODE": 4105,
+            "coordiX": 11,
+            "coordiY": 17
+          },
+          {
+            "NAME": "성남시중원구",
+            "CODE": 4106,
+            "coordiX": 12,
+            "coordiY": 16
+          },
+          {
+            "NAME": "성남시분당구",
+            "CODE": 4107,
+            "coordiX": 11,
+            "coordiY": 16
+          },
+          {
+            "NAME": "의정부시",
+            "CODE": 4108,
+            "coordiX": 8,
+            "coordiY": 23
+          },
+          {
+            "NAME": "안양시만안구",
+            "CODE": 4109,
+            "coordiX": 6,
+            "coordiY": 18
+          },
+          {
+            "NAME": "안양시동안구",
+            "CODE": 4110,
+            "coordiX": 6,
+            "coordiY": 17
+          },
+          {
+            "NAME": "부천시원미구",
+            "CODE": 4111,
+            "coordiX": 5,
+            "coordiY": 19
+          },
+          {
+            "NAME": "부천시소사구",
+            "CODE": 4112,
+            "coordiX": 4,
+            "coordiY": 19
+          },
+          {
+            "NAME": "부천시오정구",
+            "CODE": 4113,
+            "coordiX": 5,
+            "coordiY": 20
+          },
+          {
+            "NAME": "광명시",
+            "CODE": 4114,
+            "coordiX": 5,
+            "coordiY": 18
+          },
+          {
+            "NAME": "평택시",
+            "CODE": 4115,
+            "coordiX": 7,
+            "coordiY": 15
+          },
+          {
+            "NAME": "양주시",
+            "CODE": 4116,
+            "coordiX": 7,
+            "coordiY": 23
+          },
+          {
+            "NAME": "동두천시",
+            "CODE": 4117,
+            "coordiX": 7,
+            "coordiY": 24
+          },
+          {
+            "NAME": "안산시상록구",
+            "CODE": 4118,
+            "coordiX": 5,
+            "coordiY": 17
+          },
+          {
+            "NAME": "안산시단원구",
+            "CODE": 4119,
+            "coordiX": 4,
+            "coordiY": 17
+          },
+          {
+            "NAME": "고양시덕양구",
+            "CODE": 4120,
+            "coordiX": 6,
+            "coordiY": 23
+          },
+          {
+            "NAME": "고양시일산동구",
+            "CODE": 4121,
+            "coordiX": 5,
+            "coordiY": 23
+          },
+          {
+            "NAME": "고양시일산서구",
+            "CODE": 4122,
+            "coordiX": 4,
+            "coordiY": 24
+          },
+          {
+            "NAME": "과천시",
+            "CODE": 4123,
+            "coordiX": 9,
+            "coordiY": 16
+          },
+          {
+            "NAME": "의왕시",
+            "CODE": 4124,
+            "coordiX": 9,
+            "coordiY": 17
+          },
+          {
+            "NAME": "구리시",
+            "CODE": 4125,
+            "coordiX": 11,
+            "coordiY": 20
+          },
+          {
+            "NAME": "남양주시",
+            "CODE": 4126,
+            "coordiX": 10,
+            "coordiY": 21
+          },
+          {
+            "NAME": "오산시",
+            "CODE": 4127,
+            "coordiX": 8,
+            "coordiY": 15
+          },
+          {
+            "NAME": "화성시",
+            "CODE": 4128,
+            "coordiX": 6,
+            "coordiY": 16
+          },
+          {
+            "NAME": "시흥시",
+            "CODE": 4129,
+            "coordiX": 4,
+            "coordiY": 18
+          },
+          {
+            "NAME": "군포시",
+            "CODE": 4130,
+            "coordiX": 7,
+            "coordiY": 17
+          },
+          {
+            "NAME": "하남시",
+            "CODE": 4131,
+            "coordiX": 12,
+            "coordiY": 18
+          },
+          {
+            "NAME": "파주시",
+            "CODE": 4132,
+            "coordiX": 5,
+            "coordiY": 24
+          },
+          {
+            "NAME": "여주군",
+            "CODE": 4133,
+            "coordiX": 13,
+            "coordiY": 15
+          },
+          {
+            "NAME": "이천시",
+            "CODE": 4134,
+            "coordiX": 13,
+            "coordiY": 14
+          },
+          {
+            "NAME": "용인시처인구",
+            "CODE": 4135,
+            "coordiX": 11,
+            "coordiY": 15
+          },
+          {
+            "NAME": "용인시수지구",
+            "CODE": 4136,
+            "coordiX": 10,
+            "coordiY": 16
+          },
+          {
+            "NAME": "용인시기흥구",
+            "CODE": 4137,
+            "coordiX": 10,
+            "coordiY": 15
+          },
+          {
+            "NAME": "안성시",
+            "CODE": 4138,
+            "coordiX": 12,
+            "coordiY": 15
+          },
+          {
+            "NAME": "김포시",
+            "CODE": 4139,
+            "coordiX": 5,
+            "coordiY": 22
+          },
+          {
+            "NAME": "광주시",
+            "CODE": 4140,
+            "coordiX": 13,
+            "coordiY": 17
+          },
+          {
+            "NAME": "포천시",
+            "CODE": 4141,
+            "coordiX": 9,
+            "coordiY": 23
+          },
+          {
+            "NAME": "연천군",
+            "CODE": 4142,
+            "coordiX": 6,
+            "coordiY": 24
+          },
+          {
+            "NAME": "양평군",
+            "CODE": 4143,
+            "coordiX": 11,
+            "coordiY": 19
+          },
+          {
+            "NAME": "가평군",
+            "CODE": 4144,
+            "coordiX": 10,
+            "coordiY": 22
+          }
+        ],
+        "city_name": "경기도"
+      },
+      {
+        "city_code": 4200,
+        "town_list": [
+          {
+            "NAME": "춘천시",
+            "CODE": 4201,
+            "coordiX": 11,
+            "coordiY": 21
+          },
+          {
+            "NAME": "원주시",
+            "CODE": 4202,
+            "coordiX": 13,
+            "coordiY": 17
+          },
+          {
+            "NAME": "강릉시",
+            "CODE": 4203,
+            "coordiX": 15,
+            "coordiY": 15
+          },
+          {
+            "NAME": "동해시",
+            "CODE": 4204,
+            "coordiX": 15,
+            "coordiY": 14
+          },
+          {
+            "NAME": "삼척시",
+            "CODE": 4205,
+            "coordiX": 15,
+            "coordiY": 13
+          },
+          {
+            "NAME": "태백시",
+            "CODE": 4206,
+            "coordiX": 14,
+            "coordiY": 14
+          },
+          {
+            "NAME": "정선군",
+            "CODE": 4207,
+            "coordiX": 14,
+            "coordiY": 16
+          },
+          {
+            "NAME": "속초시",
+            "CODE": 4208,
+            "coordiX": 13,
+            "coordiY": 19
+          },
+          {
+            "NAME": "고성군",
+            "CODE": 4209,
+            "coordiX": 11,
+            "coordiY": 23
+          },
+          {
+            "NAME": "양양군",
+            "CODE": 4210,
+            "coordiX": 13,
+            "coordiY": 18
+          },
+          {
+            "NAME": "인제군",
+            "CODE": 4211,
+            "coordiX": 12,
+            "coordiY": 20
+          },
+          {
+            "NAME": "홍천군",
+            "CODE": 4212,
+            "coordiX": 12,
+            "coordiY": 19
+          },
+          {
+            "NAME": "횡성군",
+            "CODE": 4213,
+            "coordiX": 14,
+            "coordiY": 17
+          },
+          {
+            "NAME": "영월군",
+            "CODE": 4214,
+            "coordiX": 14,
+            "coordiY": 15
+          },
+          {
+            "NAME": "평창군",
+            "CODE": 4215,
+            "coordiX": 13,
+            "coordiY": 16
+          },
+          {
+            "NAME": "화천군",
+            "CODE": 4216,
+            "coordiX": 11,
+            "coordiY": 22
+          },
+          {
+            "NAME": "양구군",
+            "CODE": 4217,
+            "coordiX": 12,
+            "coordiY": 21
+          },
+          {
+            "NAME": "철원군",
+            "CODE": 4218,
+            "coordiX": 10,
+            "coordiY": 23
+          }
+        ],
+        "city_name": "강원도"
+      },
+      {
+        "city_code": 4300,
+        "town_list": [
+          {
+            "NAME": "청주시상당구",
+            "CODE": 4301,
+            "coordiX": 9,
+            "coordiY": 12
+          },
+          {
+            "NAME": "청주시흥덕구",
+            "CODE": 4302,
+            "coordiX": 8,
+            "coordiY": 13
+          },
+          {
+            "NAME": "충주시",
+            "CODE": 4303,
+            "coordiX": 11,
+            "coordiY": 13
+          },
+          {
+            "NAME": "제천시",
+            "CODE": 4304,
+            "coordiX": 11,
+            "coordiY": 14
+          },
+          {
+            "NAME": "청원군",
+            "CODE": 4306,
+            "coordiX": 9,
+            "coordiY": 13
+          },
+          {
+            "NAME": "단양군",
+            "CODE": 4305,
+            "coordiX": 12,
+            "coordiY": 14
+          },
+          {
+            "NAME": "영동군",
+            "CODE": 4307,
+            "coordiX": 9,
+            "coordiY": 10
+          },
+          {
+            "NAME": "보은군",
+            "CODE": 4308,
+            "coordiX": 8,
+            "coordiY": 12
+          },
+          {
+            "NAME": "옥천군",
+            "CODE": 4309,
+            "coordiX": 9,
+            "coordiY": 11
+          },
+          {
+            "NAME": "음성군",
+            "CODE": 4310,
+            "coordiX": 10,
+            "coordiY": 14
+          },
+          {
+            "NAME": "진천군",
+            "CODE": 4311,
+            "coordiX": 8,
+            "coordiY": 14
+          },
+          {
+            "NAME": "괴산군",
+            "CODE": 4312,
+            "coordiX": 10,
+            "coordiY": 13
+          },
+          {
+            "NAME": "증평군",
+            "CODE": 4313,
+            "coordiX": 9,
+            "coordiY": 14
+          }
+        ],
+        "city_name": "충청북도"
+      },
+      {
+        "city_code": 4400,
+        "town_list": [
+          {
+            "NAME": "천안시서북구",
+            "CODE": 4417,
+            "coordiX": 6,
+            "coordiY": 1
+          },
+          {
+            "NAME": "천안시동남구",
+            "CODE": 4418,
+            "coordiX": 7,
+            "coordiY": 14
+          },
+          {
+            "NAME": "공주시",
+            "CODE": 4402,
+            "coordiX": 5,
+            "coordiY": 13
+          },
+          {
+            "NAME": "보령시",
+            "CODE": 4403,
+            "coordiX": 3,
+            "coordiY": 14
+          },
+          {
+            "NAME": "아산시",
+            "CODE": 4404,
+            "coordiX": 5,
+            "coordiY": 16
+          },
+          {
+            "NAME": "서산시",
+            "CODE": 4405,
+            "coordiX": 3,
+            "coordiY": 16
+          },
+          {
+            "NAME": "태안군",
+            "CODE": 4406,
+            "coordiX": 2,
+            "coordiY": 17
+          },
+          {
+            "NAME": "금산군",
+            "CODE": 4407,
+            "coordiX": 8,
+            "coordiY": 11
+          },
+          {
+            "NAME": "논산시",
+            "CODE": 4409,
+            "coordiX": 6,
+            "coordiY": 12
+          },
+          {
+            "NAME": "계룡시",
+            "CODE": 4410,
+            "coordiX": 7,
+            "coordiY": 11
+          },
+          {
+            "NAME": "당진시",
+            "CODE": 4416,
+            "coordiX": 4,
+            "coordiY": 16
+          },
+          {
+            "NAME": "부여군",
+            "CODE": 4411,
+            "coordiX": 5,
+            "coordiY": 12
+          },
+          {
+            "NAME": "서천군",
+            "CODE": 4412,
+            "coordiX": 4,
+            "coordiY": 13
+          },
+          {
+            "NAME": "홍성군",
+            "CODE": 4413,
+            "coordiX": 3,
+            "coordiY": 15
+          },
+          {
+            "NAME": "청양군",
+            "CODE": 4414,
+            "coordiX": 4,
+            "coordiY": 14
+          },
+          {
+            "NAME": "예산군",
+            "CODE": 4415,
+            "coordiX": 4,
+            "coordiY": 15
+          }
+        ],
+        "city_name": "충청남도"
+      },
+      {
+        "city_code": 4500,
+        "town_list": [
+          {
+            "NAME": "전주시완산구",
+            "CODE": 4501,
+            "coordiX": 6,
+            "coordiY": 9
+          },
+          {
+            "NAME": "전주시덕진구",
+            "CODE": 4502,
+            "coordiX": 6,
+            "coordiY": 10
+          },
+          {
+            "NAME": "군산시",
+            "CODE": 4503,
+            "coordiX": 4,
+            "coordiY": 12
+          },
+          {
+            "NAME": "익산시",
+            "CODE": 4505,
+            "coordiX": 5,
+            "coordiY": 11
+          },
+          {
+            "NAME": "정읍시",
+            "CODE": 4507,
+            "coordiX": 4,
+            "coordiY": 10
+          },
+          {
+            "NAME": "남원시",
+            "CODE": 4508,
+            "coordiX": 8,
+            "coordiY": 8
+          },
+          {
+            "NAME": "김제시",
+            "CODE": 4509,
+            "coordiX": 5,
+            "coordiY": 10
+          },
+          {
+            "NAME": "완주군",
+            "CODE": 4510,
+            "coordiX": 6,
+            "coordiY": 11
+          },
+          {
+            "NAME": "진안군",
+            "CODE": 4511,
+            "coordiX": 7,
+            "coordiY": 10
+          },
+          {
+            "NAME": "무주군",
+            "CODE": 4512,
+            "coordiX": 8,
+            "coordiY": 10
+          },
+          {
+            "NAME": "장수군",
+            "CODE": 4513,
+            "coordiX": 8,
+            "coordiY": 9
+          },
+          {
+            "NAME": "임실군",
+            "CODE": 4514,
+            "coordiX": 7,
+            "coordiY": 9
+          },
+          {
+            "NAME": "순창군",
+            "CODE": 4515,
+            "coordiX": 7,
+            "coordiY": 8
+          },
+          {
+            "NAME": "고창군",
+            "CODE": 4516,
+            "coordiX": 3,
+            "coordiY": 11
+          },
+          {
+            "NAME": "부안군",
+            "CODE": 4517,
+            "coordiX": 4,
+            "coordiY": 11
+          }
+        ],
+        "city_name": "전라북도"
+      },
+      {
+        "city_code": 4600,
+        "town_list": [
+          {
+            "NAME": "목포시",
+            "CODE": 4601,
+            "coordiX": 2,
+            "coordiY": 8
+          },
+          {
+            "NAME": "여수시",
+            "CODE": 4602,
+            "coordiX": 7,
+            "coordiY": 5
+          },
+          {
+            "NAME": "순천시",
+            "CODE": 4604,
+            "coordiX": 7,
+            "coordiY": 6
+          },
+          {
+            "NAME": "나주시",
+            "CODE": 4606,
+            "coordiX": 3,
+            "coordiY": 8
+          },
+          {
+            "NAME": "광양시",
+            "CODE": 4607,
+            "coordiX": 8,
+            "coordiY": 5
+          },
+          {
+            "NAME": "담양군",
+            "CODE": 4608,
+            "coordiX": 5,
+            "coordiY": 9
+          },
+          {
+            "NAME": "장성군",
+            "CODE": 4609,
+            "coordiX": 4,
+            "coordiY": 9
+          },
+          {
+            "NAME": "곡성군",
+            "CODE": 4610,
+            "coordiX": 7,
+            "coordiY": 7
+          },
+          {
+            "NAME": "구례군",
+            "CODE": 4611,
+            "coordiX": 8,
+            "coordiY": 6
+          },
+          {
+            "NAME": "고흥군",
+            "CODE": 4612,
+            "coordiX": 6,
+            "coordiY": 5
+          },
+          {
+            "NAME": "보성군",
+            "CODE": 4613,
+            "coordiX": 6,
+            "coordiY": 6
+          },
+          {
+            "NAME": "화순군",
+            "CODE": 4614,
+            "coordiX": 4,
+            "coordiY": 7
+          },
+          {
+            "NAME": "장흥군",
+            "CODE": 4615,
+            "coordiX": 5,
+            "coordiY": 6
+          },
+          {
+            "NAME": "강진군",
+            "CODE": 4616,
+            "coordiX": 4,
+            "coordiY": 6
+          },
+          {
+            "NAME": "완도군",
+            "CODE": 4617,
+            "coordiX": 3,
+            "coordiY": 6
+          },
+          {
+            "NAME": "해남군",
+            "CODE": 4618,
+            "coordiX": 2,
+            "coordiY": 6
+          },
+          {
+            "NAME": "진도군",
+            "CODE": 4619,
+            "coordiX": 2,
+            "coordiY": 7
+          },
+          {
+            "NAME": "영암군",
+            "CODE": 4620,
+            "coordiX": 3,
+            "coordiY": 7
+          },
+          {
+            "NAME": "무안군",
+            "CODE": 4621,
+            "coordiX": 2,
+            "coordiY": 9
+          },
+          {
+            "NAME": "영광군",
+            "CODE": 4622,
+            "coordiX": 3,
+            "coordiY": 10
+          },
+          {
+            "NAME": "함평군",
+            "CODE": 4623,
+            "coordiX": 3,
+            "coordiY": 9
+          },
+          {
+            "NAME": "신안군",
+            "CODE": 4624,
+            "coordiX": 1,
+            "coordiY": 8
+          }
+        ],
+        "city_name": "전라남도"
+      },
+      {
+        "city_code": 4700,
+        "town_list": [
+          {
+            "NAME": "포항시북구",
+            "CODE": 4701,
+            "coordiX": 16,
+            "coordiY": 9
+          },
+          {
+            "NAME": "포항시남구",
+            "CODE": 4702,
+            "coordiX": 17,
+            "coordiY": 8
+          },
+          {
+            "NAME": "울릉군",
+            "CODE": 4703,
+            "coordiX": 18,
+            "coordiY": 12
+          },
+          {
+            "NAME": "경주시",
+            "CODE": 4704,
+            "coordiX": 16,
+            "coordiY": 8
+          },
+          {
+            "NAME": "김천시",
+            "CODE": 4705,
+            "coordiX": 10,
+            "coordiY": 12
+          },
+          {
+            "NAME": "안동시",
+            "CODE": 4706,
+            "coordiX": 14,
+            "coordiY": 11
+          },
+          {
+            "NAME": "구미시",
+            "CODE": 4707,
+            "coordiX": 11,
+            "coordiY": 12
+          },
+          {
+            "NAME": "영주시",
+            "CODE": 4708,
+            "coordiX": 13,
+            "coordiY": 13
+          },
+          {
+            "NAME": "영천시",
+            "CODE": 4709,
+            "coordiX": 15,
+            "coordiY": 11
+          },
+          {
+            "NAME": "상주시",
+            "CODE": 4710,
+            "coordiX": 12,
+            "coordiY": 12
+          },
+          {
+            "NAME": "문경시",
+            "CODE": 4711,
+            "coordiX": 12,
+            "coordiY": 13
+          },
+          {
+            "NAME": "예천군",
+            "CODE": 4712,
+            "coordiX": 13,
+            "coordiY": 12
+          },
+          {
+            "NAME": "경산시",
+            "CODE": 4713,
+            "coordiX": 15,
+            "coordiY": 10
+          },
+          {
+            "NAME": "청도군",
+            "CODE": 4714,
+            "coordiX": 15,
+            "coordiY": 9
+          },
+          {
+            "NAME": "고령군",
+            "CODE": 4715,
+            "coordiX": 10,
+            "coordiY": 10
+          },
+          {
+            "NAME": "성주군",
+            "CODE": 4716,
+            "coordiX": 10,
+            "coordiY": 11
+          },
+          {
+            "NAME": "칠곡군",
+            "CODE": 4717,
+            "coordiX": 11,
+            "coordiY": 10
+          },
+          {
+            "NAME": "군위군",
+            "CODE": 4718,
+            "coordiX": 11,
+            "coordiY": 11
+          },
+          {
+            "NAME": "의성군",
+            "CODE": 4719,
+            "coordiX": 13,
+            "coordiY": 11
+          },
+          {
+            "NAME": "청송군",
+            "CODE": 4720,
+            "coordiX": 14,
+            "coordiY": 12
+          },
+          {
+            "NAME": "영양군",
+            "CODE": 4721,
+            "coordiX": 16,
+            "coordiY": 11
+          },
+          {
+            "NAME": "영덕군",
+            "CODE": 4722,
+            "coordiX": 16,
+            "coordiY": 10
+          },
+          {
+            "NAME": "봉화군",
+            "CODE": 4723,
+            "coordiX": 14,
+            "coordiY": 13
+          },
+          {
+            "NAME": "울진군",
+            "CODE": 4724,
+            "coordiX": 15,
+            "coordiY": 12
+          }
+        ],
+        "city_name": "경상북도"
+      },
+      {
+        "city_code": 4800,
+        "town_list": [
+          {
+            "NAME": "창원시의창구",
+            "CODE": 4821,
+            "coordiX": 12,
+            "coordiY": 6
+          },
+          {
+            "NAME": "창원시성산구",
+            "CODE": 4822,
+            "coordiX": 11,
+            "coordiY": 6
+          },
+          {
+            "NAME": "창원시마산합포구",
+            "CODE": 4823,
+            "coordiX": 11,
+            "coordiY": 4
+          },
+          {
+            "NAME": "창원시마산회원구",
+            "CODE": 4824,
+            "coordiX": 11,
+            "coordiY": 5
+          },
+          {
+            "NAME": "창원시진해구",
+            "CODE": 4825,
+            "coordiX": 12,
+            "coordiY": 4
+          },
+          {
+            "NAME": "진주시",
+            "CODE": 4803,
+            "coordiX": 9,
+            "coordiY": 7
+          },
+          {
+            "NAME": "통영시",
+            "CODE": 4805,
+            "coordiX": 10,
+            "coordiY": 6
+          },
+          {
+            "NAME": "고성군",
+            "CODE": 4806,
+            "coordiX": 10,
+            "coordiY": 7
+          },
+          {
+            "NAME": "사천시",
+            "CODE": 4807,
+            "coordiX": 9,
+            "coordiY": 6
+          },
+          {
+            "NAME": "김해시",
+            "CODE": 4808,
+            "coordiX": 13,
+            "coordiY": 7
+          },
+          {
+            "NAME": "밀양시",
+            "CODE": 4809,
+            "coordiX": 12,
+            "coordiY": 8
+          },
+          {
+            "NAME": "거제시",
+            "CODE": 4810,
+            "coordiX": 10,
+            "coordiY": 5
+          },
+          {
+            "NAME": "의령군",
+            "CODE": 4811,
+            "coordiX": 11,
+            "coordiY": 7
+          },
+          {
+            "NAME": "함안군",
+            "CODE": 4812,
+            "coordiX": 12,
+            "coordiY": 7
+          },
+          {
+            "NAME": "창녕군",
+            "CODE": 4813,
+            "coordiX": 11,
+            "coordiY": 8
+          },
+          {
+            "NAME": "양산시",
+            "CODE": 4814,
+            "coordiX": 13,
+            "coordiY": 8
+          },
+          {
+            "NAME": "하동군",
+            "CODE": 4815,
+            "coordiX": 8,
+            "coordiY": 7
+          },
+          {
+            "NAME": "남해군",
+            "CODE": 4816,
+            "coordiX": 9,
+            "coordiY": 5
+          },
+          {
+            "NAME": "함양군",
+            "CODE": 4817,
+            "coordiX": 9,
+            "coordiY": 8
+          },
+          {
+            "NAME": "산청군",
+            "CODE": 4818,
+            "coordiX": 10,
+            "coordiY": 8
+          },
+          {
+            "NAME": "거창군",
+            "CODE": 4819,
+            "coordiX": 9,
+            "coordiY": 9
+          },
+          {
+            "NAME": "합천군",
+            "CODE": 4820,
+            "coordiX": 10,
+            "coordiY": 9
+          }
+        ],
+        "city_name": "경상남도"
+      },
+      {
+        "city_code": 4900,
+        "town_list": [
+          {
+            "NAME": "제주시",
+            "CODE": 4901,
+            "coordiX": 3,
+            "coordiY": 2
+          },
+          {
+            "NAME": "서귀포시",
+            "CODE": 4902,
+            "coordiX": 4,
+            "coordiY": 1
+          }
+        ],
+        "city_name": "제주특별자치도"
+      }
+    ]
+  }
+]

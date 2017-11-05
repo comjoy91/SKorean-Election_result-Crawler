@@ -1,143 +1,143 @@
 [
   {
-    "town_type": "전국",
     "nth": 20,
     "results": [
       {
+        "NAME": "새누리당",
         "CODE": 200,
-        "code_thisElec": 0,
-        "NAME": "새누리당"
+        "code_thisElec": 1
       },
       {
+        "NAME": "더불어민주당",
         "CODE": 100,
-        "code_thisElec": 1,
-        "NAME": "더불어민주당"
+        "code_thisElec": 2
       },
       {
+        "NAME": "국민의당",
         "CODE": 2080,
-        "code_thisElec": 2,
-        "NAME": "국민의당"
+        "code_thisElec": 3
       },
       {
+        "NAME": "정의당",
         "CODE": 730,
-        "code_thisElec": 3,
-        "NAME": "정의당"
+        "code_thisElec": 4
       },
       {
+        "NAME": "기독자유당",
         "CODE": 3040,
-        "code_thisElec": 4,
-        "NAME": "기독자유당"
+        "code_thisElec": 5
       },
       {
+        "NAME": "민주당",
         "CODE": 2030,
-        "code_thisElec": 5,
-        "NAME": "민주당"
+        "code_thisElec": 6
       },
       {
+        "NAME": "코리아",
         "CODE": 1970,
-        "code_thisElec": 6,
-        "NAME": "코리아"
+        "code_thisElec": 7
       },
       {
+        "NAME": "일제·위안부·인권정당",
         "CODE": 3070,
-        "code_thisElec": 7,
-        "NAME": "일제·위안부·인권정당"
+        "code_thisElec": 8
       },
       {
+        "NAME": "개혁국민신당",
         "CODE": 2000,
-        "code_thisElec": 8,
-        "NAME": "개혁국민신당"
+        "code_thisElec": 9
       },
       {
+        "NAME": "고용복지연금선진화연대",
         "CODE": 2040,
-        "code_thisElec": 9,
-        "NAME": "고용복지연금선진화연대"
+        "code_thisElec": 10
       },
       {
+        "NAME": "공화당",
         "CODE": 2010,
-        "code_thisElec": 10,
-        "NAME": "공화당"
+        "code_thisElec": 11
       },
       {
+        "NAME": "국제녹색당",
         "CODE": 700,
-        "code_thisElec": 11,
-        "NAME": "국제녹색당"
+        "code_thisElec": 12
       },
       {
+        "NAME": "불교당",
         "CODE": 1980,
-        "code_thisElec": 12,
-        "NAME": "불교당"
+        "code_thisElec": 13
       },
       {
+        "NAME": "기독당",
         "CODE": 2020,
-        "code_thisElec": 13,
-        "NAME": "기독당"
+        "code_thisElec": 14
       },
       {
+        "NAME": "노동당",
         "CODE": 1988,
-        "code_thisElec": 14,
-        "NAME": "노동당"
+        "code_thisElec": 15
       },
       {
+        "NAME": "녹색당",
         "CODE": 710,
-        "code_thisElec": 15,
-        "NAME": "녹색당"
+        "code_thisElec": 16
       },
       {
+        "NAME": "대한민국당",
         "CODE": 650,
-        "code_thisElec": 16,
-        "NAME": "대한민국당"
+        "code_thisElec": 17
       },
       {
+        "NAME": "민중연합당",
         "CODE": 3030,
-        "code_thisElec": 17,
-        "NAME": "민중연합당"
+        "code_thisElec": 18
       },
       {
+        "NAME": "복지국가당",
         "CODE": 3020,
-        "code_thisElec": 18,
-        "NAME": "복지국가당"
+        "code_thisElec": 19
       },
       {
+        "NAME": "진리대한당",
         "CODE": 3010,
-        "code_thisElec": 19,
-        "NAME": "진리대한당"
+        "code_thisElec": 20
       },
       {
+        "NAME": "친반통합",
         "CODE": 2060,
-        "code_thisElec": 20,
-        "NAME": "친반통합"
+        "code_thisElec": 21
       },
       {
+        "NAME": "친반통일당",
         "CODE": 3060,
-        "code_thisElec": 21,
-        "NAME": "친반통일당"
+        "code_thisElec": 22
       },
       {
+        "NAME": "친반평화통일당",
         "CODE": 3000,
-        "code_thisElec": 22,
-        "NAME": "친반평화통일당"
+        "code_thisElec": 23
       },
       {
+        "NAME": "통일한국당",
         "CODE": 2070,
-        "code_thisElec": 23,
-        "NAME": "통일한국당"
+        "code_thisElec": 24
       },
       {
+        "NAME": "한국국민당",
         "CODE": 2050,
-        "code_thisElec": 24,
-        "NAME": "한국국민당"
+        "code_thisElec": 25
       },
       {
+        "NAME": "한나라당",
         "CODE": 1990,
-        "code_thisElec": 25,
-        "NAME": "한나라당"
+        "code_thisElec": 26
       },
       {
+        "NAME": "한반도미래연합",
         "CODE": 3050,
-        "code_thisElec": 26,
-        "NAME": "한반도미래연합"
+        "code_thisElec": 27
       }
-    ]
+    ],
+    "town_type": "전국"
   }
 ]

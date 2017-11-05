@@ -1,0 +1,1593 @@
+[
+  {
+    "voting_system": "vote for candidate",
+    "results": [
+      {
+        "region": "세종특별자치시",
+        "district_result": [
+          {
+            "electorates": 487,
+            "result": [
+              {
+                "votenum": 173,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 63,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 107,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 37,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 18,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 28,
+            "district": "거소·선상투표",
+            "blank_ballots": 36,
+            "valid_votes": 423,
+            "counted_votes": 451,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 23465,
+            "result": [
+              {
+                "votenum": 12365,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2810,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 4399,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1868,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1811,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 23,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 19,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 25,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 111,
+            "district": "관외사전투표",
+            "blank_ballots": 0,
+            "valid_votes": 23354,
+            "counted_votes": 23465,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 1213,
+            "result": [
+              {
+                "votenum": 667,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 41,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 130,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 38,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 100,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 4,
+            "district": "재외투표",
+            "blank_ballots": 230,
+            "valid_votes": 979,
+            "counted_votes": 983,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 32584,
+            "result": [
+              {
+                "votenum": 9859,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 4943,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 5212,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1205,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1527,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 31,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 18,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 20,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 98,
+            "district": "조치원읍",
+            "blank_ballots": 9630,
+            "valid_votes": 22856,
+            "counted_votes": 22954,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 2612,
+            "result": [
+              {
+                "votenum": 789,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 408,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 463,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 92,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 104,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 7,
+            "district": "연기면",
+            "blank_ballots": 734,
+            "valid_votes": 1871,
+            "counted_votes": 1878,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 2788,
+            "result": [
+              {
+                "votenum": 601,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 620,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 464,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 74,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 96,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 8,
+            "district": "연동면",
+            "blank_ballots": 897,
+            "valid_votes": 1883,
+            "counted_votes": 1891,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 5187,
+            "result": [
+              {
+                "votenum": 1368,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 985,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 828,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 198,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 218,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 26,
+            "district": "부강면",
+            "blank_ballots": 1537,
+            "valid_votes": 3624,
+            "counted_votes": 3650,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 7492,
+            "result": [
+              {
+                "votenum": 1954,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1428,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1309,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 217,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 247,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 27,
+            "district": "금남면",
+            "blank_ballots": 2263,
+            "valid_votes": 5202,
+            "counted_votes": 5229,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 5178,
+            "result": [
+              {
+                "votenum": 1141,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1086,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 901,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 133,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 179,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 25,
+            "district": "전의면",
+            "blank_ballots": 1677,
+            "valid_votes": 3476,
+            "counted_votes": 3501,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 3316,
+            "result": [
+              {
+                "votenum": 686,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 689,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 506,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 82,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 75,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 20,
+            "district": "전동면",
+            "blank_ballots": 1232,
+            "valid_votes": 2064,
+            "counted_votes": 2084,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 2252,
+            "result": [
+              {
+                "votenum": 492,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 516,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 343,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 84,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 103,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 9,
+            "district": "소정면",
+            "blank_ballots": 687,
+            "valid_votes": 1556,
+            "counted_votes": 1565,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 4657,
+            "result": [
+              {
+                "votenum": 1221,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 803,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 665,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 137,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 158,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 22,
+            "district": "장군면",
+            "blank_ballots": 1625,
+            "valid_votes": 3010,
+            "counted_votes": 3032,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 6420,
+            "result": [
+              {
+                "votenum": 1819,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1199,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1068,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 196,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 211,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 26,
+            "district": "연서면",
+            "blank_ballots": 1866,
+            "valid_votes": 4528,
+            "counted_votes": 4554,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 13399,
+            "result": [
+              {
+                "votenum": 6868,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1047,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2199,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 680,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 638,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 27,
+            "district": "한솔동",
+            "blank_ballots": 1909,
+            "valid_votes": 11463,
+            "counted_votes": 11490,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 19078,
+            "result": [
+              {
+                "votenum": 8839,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1706,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 3206,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1109,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 923,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 37,
+            "district": "도담동",
+            "blank_ballots": 3224,
+            "valid_votes": 15817,
+            "counted_votes": 15854,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 14101,
+            "result": [
+              {
+                "votenum": 7378,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1068,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2320,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 750,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 691,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 14,
+            "district": "아름동",
+            "blank_ballots": 1850,
+            "valid_votes": 12237,
+            "counted_votes": 12251,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 18868,
+            "result": [
+              {
+                "votenum": 9132,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1645,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 3195,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 989,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 943,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 19,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 39,
+            "district": "종촌동",
+            "blank_ballots": 2877,
+            "valid_votes": 15952,
+            "counted_votes": 15991,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 14667,
+            "result": [
+              {
+                "votenum": 6730,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1199,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2562,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 686,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 733,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 20,
+            "district": "고운동",
+            "blank_ballots": 2702,
+            "valid_votes": 11945,
+            "counted_votes": 11965,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 11657,
+            "result": [
+              {
+                "votenum": 5684,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 955,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2133,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 617,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 578,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 16,
+            "district": "보람동",
+            "blank_ballots": 1645,
+            "valid_votes": 9996,
+            "counted_votes": 10012,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          },
+          {
+            "electorates": 0,
+            "result": [
+              {
+                "votenum": 1,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "undervotes": 0,
+            "district": "잘못 투입·구분된 투표지",
+            "blank_ballots": -1,
+            "valid_votes": 1,
+            "counted_votes": 1,
+            "region": "세종특별자치시",
+            "nth": 19,
+            "town": "세종특별자치시",
+            "cand_no": 13
+          }
+        ],
+        "town": "세종특별자치시"
+      }
+    ]
+  }
+]

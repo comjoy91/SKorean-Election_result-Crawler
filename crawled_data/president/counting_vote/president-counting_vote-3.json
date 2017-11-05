@@ -1,0 +1,4582 @@
+[
+  {
+    "results": [
+      {
+        "region": "서울",
+        "district_result": [
+          {
+            "blank_ballots": 12552,
+            "valid_votes": 40626,
+            "counted_votes": 81580,
+            "district": "종로구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 94132,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14418,
+                "voterate": 35.48
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26208,
+                "voterate": 64.51
+              }
+            ],
+            "undervotes": 40954,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 11187,
+            "valid_votes": 31852,
+            "counted_votes": 59379,
+            "district": "중구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 70566,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10958,
+                "voterate": 34.4
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20894,
+                "voterate": 65.59
+              }
+            ],
+            "undervotes": 27527,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 9052,
+            "valid_votes": 34924,
+            "counted_votes": 64001,
+            "district": "동대문구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 73053,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13326,
+                "voterate": 38.15
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 21598,
+                "voterate": 61.84
+              }
+            ],
+            "undervotes": 29077,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 10853,
+            "valid_votes": 36959,
+            "counted_votes": 72412,
+            "district": "성동구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 83265,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14913,
+                "voterate": 40.35
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22046,
+                "voterate": 59.64
+              }
+            ],
+            "undervotes": 35453,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 9716,
+            "valid_votes": 30267,
+            "counted_votes": 55971,
+            "district": "성북구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 65687,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10131,
+                "voterate": 33.47
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20136,
+                "voterate": 66.52
+              }
+            ],
+            "undervotes": 25704,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 10142,
+            "valid_votes": 36801,
+            "counted_votes": 70010,
+            "district": "서대문구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 80152,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 12840,
+                "voterate": 34.89
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 23961,
+                "voterate": 65.1
+              }
+            ],
+            "undervotes": 33209,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 9168,
+            "valid_votes": 29487,
+            "counted_votes": 57723,
+            "district": "마포구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 66891,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10460,
+                "voterate": 35.47
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19027,
+                "voterate": 64.52
+              }
+            ],
+            "undervotes": 28236,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 10626,
+            "valid_votes": 39176,
+            "counted_votes": 69579,
+            "district": "용산구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 80205,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14032,
+                "voterate": 35.81
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25144,
+                "voterate": 64.18
+              }
+            ],
+            "undervotes": 30403,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 11762,
+            "valid_votes": 44290,
+            "counted_votes": 78086,
+            "district": "영등포구",
+            "nth": 3,
+            "region": "서울",
+            "electorates": 89848,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18051,
+                "voterate": 40.75
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26239,
+                "voterate": 59.24
+              }
+            ],
+            "undervotes": 33796,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "경기",
+        "district_result": [
+          {
+            "blank_ballots": 5100,
+            "valid_votes": 30429,
+            "counted_votes": 43211,
+            "district": "인천시제1",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 48311,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9489,
+                "voterate": 31.18
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20940,
+                "voterate": 68.81
+              }
+            ],
+            "undervotes": 12782,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4664,
+            "valid_votes": 27583,
+            "counted_votes": 39521,
+            "district": "인천시제2",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 44185,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10471,
+                "voterate": 37.96
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17112,
+                "voterate": 62.03
+              }
+            ],
+            "undervotes": 11938,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5073,
+            "valid_votes": 31732,
+            "counted_votes": 43928,
+            "district": "인천시제3",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 49001,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10917,
+                "voterate": 34.4
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20815,
+                "voterate": 65.59
+              }
+            ],
+            "undervotes": 12196,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2840,
+            "valid_votes": 17814,
+            "counted_votes": 32067,
+            "district": "수원시",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 34907,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7322,
+                "voterate": 41.1
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 10492,
+                "voterate": 58.89
+              }
+            ],
+            "undervotes": 14253,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 369,
+            "valid_votes": 23179,
+            "counted_votes": 29117,
+            "district": "고양군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 29486,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3577,
+                "voterate": 15.43
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19602,
+                "voterate": 84.56
+              }
+            ],
+            "undervotes": 5938,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2668,
+            "valid_votes": 24661,
+            "counted_votes": 47605,
+            "district": "광주군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 50273,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6872,
+                "voterate": 27.86
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17789,
+                "voterate": 72.13
+              }
+            ],
+            "undervotes": 22944,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5389,
+            "valid_votes": 69469,
+            "counted_votes": 94104,
+            "district": "양주군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 99493,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14511,
+                "voterate": 20.88
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 54958,
+                "voterate": 79.11
+              }
+            ],
+            "undervotes": 24635,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1173,
+            "valid_votes": 31277,
+            "counted_votes": 35839,
+            "district": "연천군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 37012,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10510,
+                "voterate": 33.6
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20767,
+                "voterate": 66.39
+              }
+            ],
+            "undervotes": 4562,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3145,
+            "valid_votes": 58007,
+            "counted_votes": 71365,
+            "district": "포천군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 74510,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 16792,
+                "voterate": 28.94
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 41215,
+                "voterate": 71.05
+              }
+            ],
+            "undervotes": 13358,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2017,
+            "valid_votes": 21382,
+            "counted_votes": 28208,
+            "district": "가평군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 30225,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3231,
+                "voterate": 15.11
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 18151,
+                "voterate": 84.88
+              }
+            ],
+            "undervotes": 6826,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 122,
+            "valid_votes": 42296,
+            "counted_votes": 46807,
+            "district": "양평군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 46929,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4337,
+                "voterate": 10.25
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 37959,
+                "voterate": 89.74
+              }
+            ],
+            "undervotes": 4511,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 965,
+            "valid_votes": 33701,
+            "counted_votes": 42301,
+            "district": "여주군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 43266,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4582,
+                "voterate": 13.59
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 29119,
+                "voterate": 86.4
+              }
+            ],
+            "undervotes": 8600,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2001,
+            "valid_votes": 27814,
+            "counted_votes": 38385,
+            "district": "이천군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 40386,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3578,
+                "voterate": 12.86
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 24236,
+                "voterate": 87.13
+              }
+            ],
+            "undervotes": 10571,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1857,
+            "valid_votes": 30160,
+            "counted_votes": 41659,
+            "district": "용인군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 43516,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3640,
+                "voterate": 12.06
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26520,
+                "voterate": 87.93
+              }
+            ],
+            "undervotes": 11499,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2326,
+            "valid_votes": 36808,
+            "counted_votes": 46899,
+            "district": "안성군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 49225,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5668,
+                "voterate": 15.39
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 31140,
+                "voterate": 84.6
+              }
+            ],
+            "undervotes": 10091,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2363,
+            "valid_votes": 35571,
+            "counted_votes": 50498,
+            "district": "평택군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 52861,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7863,
+                "voterate": 22.1
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 27708,
+                "voterate": 77.89
+              }
+            ],
+            "undervotes": 14927,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3618,
+            "valid_votes": 53469,
+            "counted_votes": 78510,
+            "district": "화성군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 82128,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10398,
+                "voterate": 19.44
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 43071,
+                "voterate": 80.55
+              }
+            ],
+            "undervotes": 25041,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2203,
+            "valid_votes": 28851,
+            "counted_votes": 40122,
+            "district": "시흥군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 42325,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5962,
+                "voterate": 20.66
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22889,
+                "voterate": 79.33
+              }
+            ],
+            "undervotes": 11271,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5129,
+            "valid_votes": 32720,
+            "counted_votes": 43076,
+            "district": "부천군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 48205,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6339,
+                "voterate": 19.37
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26381,
+                "voterate": 80.62
+              }
+            ],
+            "undervotes": 10356,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1897,
+            "valid_votes": 33282,
+            "counted_votes": 44098,
+            "district": "김포군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 45995,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9009,
+                "voterate": 27.06
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 24273,
+                "voterate": 72.93
+              }
+            ],
+            "undervotes": 10816,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2756,
+            "valid_votes": 39032,
+            "counted_votes": 45212,
+            "district": "강화군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 47968,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9040,
+                "voterate": 23.16
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 29992,
+                "voterate": 76.83
+              }
+            ],
+            "undervotes": 6180,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2750,
+            "valid_votes": 51840,
+            "counted_votes": 68957,
+            "district": "파주군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 71707,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 15280,
+                "voterate": 29.47
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36560,
+                "voterate": 70.52
+              }
+            ],
+            "undervotes": 17117,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 463,
+            "valid_votes": 6830,
+            "counted_votes": 7482,
+            "district": "옹진군",
+            "nth": 3,
+            "region": "경기",
+            "electorates": 7945,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 762,
+                "voterate": 11.15
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 6068,
+                "voterate": 88.84
+              }
+            ],
+            "undervotes": 652,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "강원",
+        "district_result": [
+          {
+            "blank_ballots": 2735,
+            "valid_votes": 21571,
+            "counted_votes": 30339,
+            "district": "춘천시",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 33074,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4003,
+                "voterate": 18.55
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17568,
+                "voterate": 81.44
+              }
+            ],
+            "undervotes": 8768,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 853,
+            "valid_votes": 17831,
+            "counted_votes": 22078,
+            "district": "강릉시",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 22931,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2583,
+                "voterate": 14.48
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 15248,
+                "voterate": 85.51
+              }
+            ],
+            "undervotes": 4247,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3596,
+            "valid_votes": 20912,
+            "counted_votes": 27748,
+            "district": "원주시",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 31344,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4702,
+                "voterate": 22.48
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 16210,
+                "voterate": 77.51
+              }
+            ],
+            "undervotes": 6836,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1390,
+            "valid_votes": 30502,
+            "counted_votes": 36489,
+            "district": "춘성군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 37879,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4954,
+                "voterate": 16.24
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25548,
+                "voterate": 83.75
+              }
+            ],
+            "undervotes": 5987,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 254,
+            "valid_votes": 49394,
+            "counted_votes": 54840,
+            "district": "인제군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 55094,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 785,
+                "voterate": 1.58
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 48609,
+                "voterate": 98.41
+              }
+            ],
+            "undervotes": 5446,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 441,
+            "valid_votes": 38204,
+            "counted_votes": 42357,
+            "district": "양구군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 42798,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7895,
+                "voterate": 20.66
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30309,
+                "voterate": 79.33
+              }
+            ],
+            "undervotes": 4153,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5,
+            "valid_votes": 16346,
+            "counted_votes": 17168,
+            "district": "고성군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 17173,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 957,
+                "voterate": 5.85
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 15389,
+                "voterate": 94.14
+              }
+            ],
+            "undervotes": 822,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 58,
+            "valid_votes": 34234,
+            "counted_votes": 34339,
+            "district": "양양군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 34397,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 358,
+                "voterate": 1.04
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 33876,
+                "voterate": 98.95
+              }
+            ],
+            "undervotes": 105,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 607,
+            "valid_votes": 47385,
+            "counted_votes": 51356,
+            "district": "명주군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 51963,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2682,
+                "voterate": 5.66
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 44703,
+                "voterate": 94.33
+              }
+            ],
+            "undervotes": 3971,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 281,
+            "valid_votes": 56949,
+            "counted_votes": 60227,
+            "district": "삼척군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 60508,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3015,
+                "voterate": 5.29
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 53934,
+                "voterate": 94.7
+              }
+            ],
+            "undervotes": 3278,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 169,
+            "valid_votes": 39182,
+            "counted_votes": 41227,
+            "district": "울진군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 41396,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 1315,
+                "voterate": 3.35
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 37867,
+                "voterate": 96.64
+              }
+            ],
+            "undervotes": 2045,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 88,
+            "valid_votes": 25156,
+            "counted_votes": 25230,
+            "district": "정선군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 25318,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 34,
+                "voterate": 0.13
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25122,
+                "voterate": 99.86
+              }
+            ],
+            "undervotes": 74,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 118,
+            "valid_votes": 32367,
+            "counted_votes": 32795,
+            "district": "평창군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 32913,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 148,
+                "voterate": 0.45
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32219,
+                "voterate": 99.54
+              }
+            ],
+            "undervotes": 428,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 314,
+            "valid_votes": 40283,
+            "counted_votes": 41290,
+            "district": "영월군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 41604,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 621,
+                "voterate": 1.54
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 39662,
+                "voterate": 98.45
+              }
+            ],
+            "undervotes": 1007,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1870,
+            "valid_votes": 32737,
+            "counted_votes": 38384,
+            "district": "원성군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 40254,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4881,
+                "voterate": 14.9
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 27856,
+                "voterate": 85.09
+              }
+            ],
+            "undervotes": 5647,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 254,
+            "valid_votes": 31676,
+            "counted_votes": 33741,
+            "district": "횡성군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 33995,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 435,
+                "voterate": 1.37
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 31241,
+                "voterate": 98.62
+              }
+            ],
+            "undervotes": 2065,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 27,
+            "valid_votes": 58587,
+            "counted_votes": 58944,
+            "district": "홍천군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 58971,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 108,
+                "voterate": 0.18
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 58479,
+                "voterate": 99.81
+              }
+            ],
+            "undervotes": 357,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1003,
+            "valid_votes": 53164,
+            "counted_votes": 68774,
+            "district": "화천군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 69777,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7074,
+                "voterate": 13.3
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 46090,
+                "voterate": 86.69
+              }
+            ],
+            "undervotes": 15610,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 124,
+            "valid_votes": 18810,
+            "counted_votes": 20313,
+            "district": "김화군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 20437,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4182,
+                "voterate": 22.23
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 14628,
+                "voterate": 77.76
+              }
+            ],
+            "undervotes": 1503,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 465,
+            "valid_votes": 44673,
+            "counted_votes": 52034,
+            "district": "철원군",
+            "nth": 3,
+            "region": "강원",
+            "electorates": 52499,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14538,
+                "voterate": 32.54
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30135,
+                "voterate": 67.45
+              }
+            ],
+            "undervotes": 7361,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "충북",
+        "district_result": [
+          {
+            "blank_ballots": 3032,
+            "valid_votes": 22050,
+            "counted_votes": 30845,
+            "district": "청주시",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 33877,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5641,
+                "voterate": 25.58
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 16409,
+                "voterate": 74.41
+              }
+            ],
+            "undervotes": 8795,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3231,
+            "valid_votes": 69278,
+            "counted_votes": 79512,
+            "district": "청원군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 82743,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6089,
+                "voterate": 8.78
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 63189,
+                "voterate": 91.21
+              }
+            ],
+            "undervotes": 10234,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1025,
+            "valid_votes": 32254,
+            "counted_votes": 38709,
+            "district": "보은군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 39734,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2149,
+                "voterate": 6.66
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30105,
+                "voterate": 93.33
+              }
+            ],
+            "undervotes": 6455,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1237,
+            "valid_votes": 33207,
+            "counted_votes": 38928,
+            "district": "옥천군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 40165,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4757,
+                "voterate": 14.32
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 28450,
+                "voterate": 85.67
+              }
+            ],
+            "undervotes": 5721,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 714,
+            "valid_votes": 40622,
+            "counted_votes": 44899,
+            "district": "영동군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 45613,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7453,
+                "voterate": 18.34
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 33169,
+                "voterate": 81.65
+              }
+            ],
+            "undervotes": 4277,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1211,
+            "valid_votes": 21016,
+            "counted_votes": 28295,
+            "district": "진천군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 29506,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3164,
+                "voterate": 15.05
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17852,
+                "voterate": 84.94
+              }
+            ],
+            "undervotes": 7279,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2673,
+            "valid_votes": 50182,
+            "counted_votes": 59867,
+            "district": "괴산군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 62540,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6929,
+                "voterate": 13.8
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 43253,
+                "voterate": 86.19
+              }
+            ],
+            "undervotes": 9685,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2148,
+            "valid_votes": 30216,
+            "counted_votes": 41949,
+            "district": "음성군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 44097,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7675,
+                "voterate": 25.4
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22541,
+                "voterate": 74.59
+              }
+            ],
+            "undervotes": 11733,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3996,
+            "valid_votes": 50607,
+            "counted_votes": 66547,
+            "district": "충주군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 70543,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6743,
+                "voterate": 13.32
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 43864,
+                "voterate": 86.67
+              }
+            ],
+            "undervotes": 15940,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1755,
+            "valid_votes": 37568,
+            "counted_votes": 45735,
+            "district": "제천군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 47490,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4926,
+                "voterate": 13.11
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32642,
+                "voterate": 86.88
+              }
+            ],
+            "undervotes": 8167,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 295,
+            "valid_votes": 23227,
+            "counted_votes": 24458,
+            "district": "단양군",
+            "nth": 3,
+            "region": "충북",
+            "electorates": 24753,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 1500,
+                "voterate": 6.45
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 21727,
+                "voterate": 93.54
+              }
+            ],
+            "undervotes": 1231,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "충남",
+        "district_result": [
+          {
+            "blank_ballots": 10568,
+            "valid_votes": 47069,
+            "counted_votes": 63574,
+            "district": "대전시",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 74142,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 23194,
+                "voterate": 49.27
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 23875,
+                "voterate": 50.72
+              }
+            ],
+            "undervotes": 16505,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2714,
+            "valid_votes": 38904,
+            "counted_votes": 45694,
+            "district": "대덕군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 48408,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9142,
+                "voterate": 23.49
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 29762,
+                "voterate": 76.5
+              }
+            ],
+            "undervotes": 6790,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2049,
+            "valid_votes": 27109,
+            "counted_votes": 38558,
+            "district": "연기군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 40607,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6410,
+                "voterate": 23.64
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20699,
+                "voterate": 76.35
+              }
+            ],
+            "undervotes": 11449,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5116,
+            "valid_votes": 48466,
+            "counted_votes": 64151,
+            "district": "공주군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 69267,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18562,
+                "voterate": 38.29
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 29904,
+                "voterate": 61.7
+              }
+            ],
+            "undervotes": 15685,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 12305,
+            "valid_votes": 81899,
+            "counted_votes": 102059,
+            "district": "논산군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 114364,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 26478,
+                "voterate": 32.33
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 55421,
+                "voterate": 67.66
+              }
+            ],
+            "undervotes": 20160,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1571,
+            "valid_votes": 57704,
+            "counted_votes": 68876,
+            "district": "부여군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 70447,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5286,
+                "voterate": 9.16
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 52418,
+                "voterate": 90.83
+              }
+            ],
+            "undervotes": 11172,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3637,
+            "valid_votes": 40758,
+            "counted_votes": 54653,
+            "district": "서천군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 58290,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8417,
+                "voterate": 20.65
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32341,
+                "voterate": 79.34
+              }
+            ],
+            "undervotes": 13895,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2567,
+            "valid_votes": 35337,
+            "counted_votes": 48517,
+            "district": "보령군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 51084,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5118,
+                "voterate": 14.48
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30219,
+                "voterate": 85.51
+              }
+            ],
+            "undervotes": 13180,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2036,
+            "valid_votes": 26956,
+            "counted_votes": 37493,
+            "district": "청양군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 39529,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4275,
+                "voterate": 15.85
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22681,
+                "voterate": 84.14
+              }
+            ],
+            "undervotes": 10537,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3548,
+            "valid_votes": 35201,
+            "counted_votes": 49975,
+            "district": "홍성군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 53523,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9507,
+                "voterate": 27.0
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25694,
+                "voterate": 72.99
+              }
+            ],
+            "undervotes": 14774,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2569,
+            "valid_votes": 44217,
+            "counted_votes": 60100,
+            "district": "예산군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 62669,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7493,
+                "voterate": 16.94
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36724,
+                "voterate": 83.05
+              }
+            ],
+            "undervotes": 15883,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5463,
+            "valid_votes": 74900,
+            "counted_votes": 92628,
+            "district": "서산군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 98091,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11666,
+                "voterate": 15.57
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 63234,
+                "voterate": 84.42
+              }
+            ],
+            "undervotes": 17728,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1794,
+            "valid_votes": 43096,
+            "counted_votes": 54807,
+            "district": "당진군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 56601,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6394,
+                "voterate": 14.83
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36702,
+                "voterate": 85.16
+              }
+            ],
+            "undervotes": 11711,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1678,
+            "valid_votes": 41563,
+            "counted_votes": 56107,
+            "district": "아산군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 57785,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9658,
+                "voterate": 23.23
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 31905,
+                "voterate": 76.76
+              }
+            ],
+            "undervotes": 14544,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3685,
+            "valid_votes": 45325,
+            "counted_votes": 63379,
+            "district": "천안군",
+            "nth": 3,
+            "region": "충남",
+            "electorates": 67064,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6373,
+                "voterate": 14.06
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 38952,
+                "voterate": 85.93
+              }
+            ],
+            "undervotes": 18054,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "전북",
+        "district_result": [
+          {
+            "blank_ballots": 4654,
+            "valid_votes": 35895,
+            "counted_votes": 47266,
+            "district": "전주시",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 51920,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 23201,
+                "voterate": 64.63
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 12694,
+                "voterate": 35.36
+              }
+            ],
+            "undervotes": 11371,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3804,
+            "valid_votes": 22365,
+            "counted_votes": 31896,
+            "district": "군산시",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 35700,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8200,
+                "voterate": 36.66
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 14165,
+                "voterate": 63.33
+              }
+            ],
+            "undervotes": 9531,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1805,
+            "valid_votes": 17306,
+            "counted_votes": 21556,
+            "district": "이리시",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 23361,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7602,
+                "voterate": 43.92
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 9704,
+                "voterate": 56.07
+              }
+            ],
+            "undervotes": 4250,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3176,
+            "valid_votes": 62759,
+            "counted_votes": 75528,
+            "district": "완주군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 78704,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 31122,
+                "voterate": 49.58
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 31637,
+                "voterate": 50.41
+              }
+            ],
+            "undervotes": 12769,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 614,
+            "valid_votes": 27608,
+            "counted_votes": 32792,
+            "district": "진안군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 33406,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5089,
+                "voterate": 18.43
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22519,
+                "voterate": 81.56
+              }
+            ],
+            "undervotes": 5184,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1326,
+            "valid_votes": 31256,
+            "counted_votes": 39584,
+            "district": "금산군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 40910,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7463,
+                "voterate": 23.87
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 23793,
+                "voterate": 76.12
+              }
+            ],
+            "undervotes": 8328,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 333,
+            "valid_votes": 21943,
+            "counted_votes": 25098,
+            "district": "무주군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 25431,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2357,
+                "voterate": 10.74
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19586,
+                "voterate": 89.25
+              }
+            ],
+            "undervotes": 3155,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 85,
+            "valid_votes": 23606,
+            "counted_votes": 26375,
+            "district": "장수군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 26460,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3262,
+                "voterate": 13.81
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20344,
+                "voterate": 86.18
+              }
+            ],
+            "undervotes": 2769,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 771,
+            "valid_votes": 32606,
+            "counted_votes": 40556,
+            "district": "임실군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 41327,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9696,
+                "voterate": 29.73
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22910,
+                "voterate": 70.26
+              }
+            ],
+            "undervotes": 7950,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1350,
+            "valid_votes": 53108,
+            "counted_votes": 65498,
+            "district": "남원군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 66848,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 24949,
+                "voterate": 46.97
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 28159,
+                "voterate": 53.02
+              }
+            ],
+            "undervotes": 12390,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 933,
+            "valid_votes": 29663,
+            "counted_votes": 34230,
+            "district": "순창군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 35163,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 12410,
+                "voterate": 41.83
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17253,
+                "voterate": 58.16
+              }
+            ],
+            "undervotes": 4567,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2572,
+            "valid_votes": 76006,
+            "counted_votes": 91857,
+            "district": "정읍군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 94429,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 38656,
+                "voterate": 50.85
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 37350,
+                "voterate": 49.14
+              }
+            ],
+            "undervotes": 15851,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1337,
+            "valid_votes": 53895,
+            "counted_votes": 66488,
+            "district": "고창군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 67825,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18757,
+                "voterate": 34.8
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 35138,
+                "voterate": 65.19
+              }
+            ],
+            "undervotes": 12593,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2140,
+            "valid_votes": 41688,
+            "counted_votes": 54203,
+            "district": "부안군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 56343,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18950,
+                "voterate": 45.45
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22738,
+                "voterate": 54.54
+              }
+            ],
+            "undervotes": 12515,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3588,
+            "valid_votes": 69561,
+            "counted_votes": 88743,
+            "district": "김제군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 92331,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 27053,
+                "voterate": 38.89
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 42508,
+                "voterate": 61.1
+              }
+            ],
+            "undervotes": 19182,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2115,
+            "valid_votes": 42309,
+            "counted_votes": 52883,
+            "district": "옥구군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 54998,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 15453,
+                "voterate": 36.52
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26856,
+                "voterate": 63.47
+              }
+            ],
+            "undervotes": 10574,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4753,
+            "valid_votes": 64168,
+            "counted_votes": 80657,
+            "district": "익산군",
+            "nth": 3,
+            "region": "전북",
+            "electorates": 85410,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 26848,
+                "voterate": 41.84
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 37320,
+                "voterate": 58.15
+              }
+            ],
+            "undervotes": 16489,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "전남",
+        "district_result": [
+          {
+            "blank_ballots": 6840,
+            "valid_votes": 68023,
+            "counted_votes": 95625,
+            "district": "광주시",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 102465,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 30042,
+                "voterate": 44.16
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 37981,
+                "voterate": 55.83
+              }
+            ],
+            "undervotes": 27602,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3574,
+            "valid_votes": 28095,
+            "counted_votes": 40198,
+            "district": "목포시",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 43772,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 15380,
+                "voterate": 54.74
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 12715,
+                "voterate": 45.25
+              }
+            ],
+            "undervotes": 12103,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2367,
+            "valid_votes": 22278,
+            "counted_votes": 29338,
+            "district": "여수시",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 31705,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9207,
+                "voterate": 41.32
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 13071,
+                "voterate": 58.67
+              }
+            ],
+            "undervotes": 7060,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1996,
+            "valid_votes": 13376,
+            "counted_votes": 24205,
+            "district": "순천시",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 26201,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6308,
+                "voterate": 47.15
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 7068,
+                "voterate": 52.84
+              }
+            ],
+            "undervotes": 10829,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2021,
+            "valid_votes": 40439,
+            "counted_votes": 49683,
+            "district": "광산군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 51704,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18051,
+                "voterate": 44.63
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22388,
+                "voterate": 55.36
+              }
+            ],
+            "undervotes": 9244,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 503,
+            "valid_votes": 38925,
+            "counted_votes": 44748,
+            "district": "담양군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 45251,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13498,
+                "voterate": 34.67
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25427,
+                "voterate": 65.32
+              }
+            ],
+            "undervotes": 5823,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 264,
+            "valid_votes": 33250,
+            "counted_votes": 38829,
+            "district": "곡성군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 39093,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4330,
+                "voterate": 13.02
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 28920,
+                "voterate": 86.97
+              }
+            ],
+            "undervotes": 5579,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 476,
+            "valid_votes": 23042,
+            "counted_votes": 24866,
+            "district": "구례군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 25342,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2959,
+                "voterate": 12.84
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20083,
+                "voterate": 87.15
+              }
+            ],
+            "undervotes": 1824,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 743,
+            "valid_votes": 24521,
+            "counted_votes": 32114,
+            "district": "광양군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 32857,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4918,
+                "voterate": 20.05
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19603,
+                "voterate": 79.94
+              }
+            ],
+            "undervotes": 7593,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2341,
+            "valid_votes": 39718,
+            "counted_votes": 52470,
+            "district": "여천군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 54811,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13092,
+                "voterate": 32.96
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26626,
+                "voterate": 67.03
+              }
+            ],
+            "undervotes": 12752,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1322,
+            "valid_votes": 34732,
+            "counted_votes": 50039,
+            "district": "승주군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 51361,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 16640,
+                "voterate": 47.9
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 18092,
+                "voterate": 52.09
+              }
+            ],
+            "undervotes": 15307,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2828,
+            "valid_votes": 66720,
+            "counted_votes": 80424,
+            "district": "고흥군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 83252,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14188,
+                "voterate": 21.26
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 52532,
+                "voterate": 78.73
+              }
+            ],
+            "undervotes": 13704,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 816,
+            "valid_votes": 45533,
+            "counted_votes": 62367,
+            "district": "보성군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 63183,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10868,
+                "voterate": 23.86
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 34665,
+                "voterate": 76.13
+              }
+            ],
+            "undervotes": 16834,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 204,
+            "valid_votes": 38400,
+            "counted_votes": 49234,
+            "district": "화순군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 49438,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2871,
+                "voterate": 7.47
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 35529,
+                "voterate": 92.52
+              }
+            ],
+            "undervotes": 10834,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1276,
+            "valid_votes": 35162,
+            "counted_votes": 47388,
+            "district": "장흥군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 48664,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8086,
+                "voterate": 22.99
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 27076,
+                "voterate": 77.0
+              }
+            ],
+            "undervotes": 12226,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1076,
+            "valid_votes": 39036,
+            "counted_votes": 43713,
+            "district": "강진군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 44789,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8552,
+                "voterate": 21.9
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30484,
+                "voterate": 78.09
+              }
+            ],
+            "undervotes": 4677,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1087,
+            "valid_votes": 65340,
+            "counted_votes": 73820,
+            "district": "해남군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 74907,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11902,
+                "voterate": 18.21
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 53438,
+                "voterate": 81.78
+              }
+            ],
+            "undervotes": 8480,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 602,
+            "valid_votes": 39130,
+            "counted_votes": 46272,
+            "district": "영암군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 46874,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 6637,
+                "voterate": 16.96
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32493,
+                "voterate": 83.03
+              }
+            ],
+            "undervotes": 7142,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 6059,
+            "valid_votes": 78084,
+            "counted_votes": 99195,
+            "district": "무안군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 105254,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 28672,
+                "voterate": 36.71
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 49412,
+                "voterate": 63.28
+              }
+            ],
+            "undervotes": 21111,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1828,
+            "valid_votes": 71166,
+            "counted_votes": 80342,
+            "district": "나주군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 82170,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11934,
+                "voterate": 16.76
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 59232,
+                "voterate": 83.23
+              }
+            ],
+            "undervotes": 9176,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 491,
+            "valid_votes": 36674,
+            "counted_votes": 45828,
+            "district": "함평군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 46319,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4719,
+                "voterate": 12.86
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 31955,
+                "voterate": 87.13
+              }
+            ],
+            "undervotes": 9154,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2045,
+            "valid_votes": 45397,
+            "counted_votes": 52045,
+            "district": "영광군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 54090,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8618,
+                "voterate": 18.98
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36779,
+                "voterate": 81.01
+              }
+            ],
+            "undervotes": 6648,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1643,
+            "valid_votes": 32728,
+            "counted_votes": 44326,
+            "district": "장성군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 45969,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11558,
+                "voterate": 35.31
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 21170,
+                "voterate": 64.68
+              }
+            ],
+            "undervotes": 11598,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1307,
+            "valid_votes": 38717,
+            "counted_votes": 44179,
+            "district": "완도군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 45486,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 19415,
+                "voterate": 50.14
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19302,
+                "voterate": 49.85
+              }
+            ],
+            "undervotes": 5462,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 590,
+            "valid_votes": 29924,
+            "counted_votes": 34930,
+            "district": "진도군",
+            "nth": 3,
+            "region": "전남",
+            "electorates": 35520,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4342,
+                "voterate": 14.51
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25582,
+                "voterate": 85.48
+              }
+            ],
+            "undervotes": 5006,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "경북",
+        "district_result": [
+          {
+            "blank_ballots": 11128,
+            "valid_votes": 47625,
+            "counted_votes": 61706,
+            "district": "대구시제1",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 72834,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 34125,
+                "voterate": 71.65
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 13500,
+                "voterate": 28.34
+              }
+            ],
+            "undervotes": 14081,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 9913,
+            "valid_votes": 42604,
+            "counted_votes": 54132,
+            "district": "대구시제2",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 64045,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 31997,
+                "voterate": 75.1
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 10607,
+                "voterate": 24.89
+              }
+            ],
+            "undervotes": 11528,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 11168,
+            "valid_votes": 49704,
+            "counted_votes": 65128,
+            "district": "대구시제3",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 76296,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 34998,
+                "voterate": 70.41
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 14706,
+                "voterate": 29.58
+              }
+            ],
+            "undervotes": 15424,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2220,
+            "valid_votes": 14058,
+            "counted_votes": 17528,
+            "district": "김천시",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 19748,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9598,
+                "voterate": 68.27
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 4460,
+                "voterate": 31.72
+              }
+            ],
+            "undervotes": 3470,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1219,
+            "valid_votes": 14449,
+            "counted_votes": 20412,
+            "district": "포항시",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 21631,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5938,
+                "voterate": 41.09
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 8511,
+                "voterate": 58.9
+              }
+            ],
+            "undervotes": 5963,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3994,
+            "valid_votes": 20585,
+            "counted_votes": 26341,
+            "district": "경주군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 30335,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13409,
+                "voterate": 65.13
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 7176,
+                "voterate": 34.86
+              }
+            ],
+            "undervotes": 5756,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4690,
+            "valid_votes": 47969,
+            "counted_votes": 60167,
+            "district": "달성군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 64857,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 29142,
+                "voterate": 60.75
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 18827,
+                "voterate": 39.24
+              }
+            ],
+            "undervotes": 12198,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 843,
+            "valid_votes": 19879,
+            "counted_votes": 28603,
+            "district": "군위군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 29446,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9359,
+                "voterate": 47.07
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 10520,
+                "voterate": 52.92
+              }
+            ],
+            "undervotes": 8724,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3502,
+            "valid_votes": 53728,
+            "counted_votes": 70873,
+            "district": "의성군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 74375,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 21244,
+                "voterate": 39.53
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32484,
+                "voterate": 60.46
+              }
+            ],
+            "undervotes": 17145,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4486,
+            "valid_votes": 66965,
+            "counted_votes": 82856,
+            "district": "안동군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 87342,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 24086,
+                "voterate": 35.96
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 42879,
+                "voterate": 64.03
+              }
+            ],
+            "undervotes": 15891,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1504,
+            "valid_votes": 21290,
+            "counted_votes": 26708,
+            "district": "청송군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 28212,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8652,
+                "voterate": 40.63
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 12638,
+                "voterate": 59.36
+              }
+            ],
+            "undervotes": 5418,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1022,
+            "valid_votes": 16787,
+            "counted_votes": 20218,
+            "district": "영양군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 21240,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 3461,
+                "voterate": 20.61
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 13326,
+                "voterate": 79.38
+              }
+            ],
+            "undervotes": 3431,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1965,
+            "valid_votes": 33830,
+            "counted_votes": 38718,
+            "district": "영덕군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 40683,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 8304,
+                "voterate": 24.54
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25526,
+                "voterate": 75.45
+              }
+            ],
+            "undervotes": 4888,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2216,
+            "valid_votes": 71355,
+            "counted_votes": 78017,
+            "district": "영일군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 80233,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5387,
+                "voterate": 7.54
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 65968,
+                "voterate": 92.45
+              }
+            ],
+            "undervotes": 6662,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4156,
+            "valid_votes": 61476,
+            "counted_votes": 75900,
+            "district": "월성군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 80056,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 35651,
+                "voterate": 57.99
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25825,
+                "voterate": 42.0
+              }
+            ],
+            "undervotes": 14424,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5994,
+            "valid_votes": 54537,
+            "counted_votes": 66841,
+            "district": "영천군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 72835,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 37783,
+                "voterate": 69.27
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 16754,
+                "voterate": 30.72
+              }
+            ],
+            "undervotes": 12304,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4449,
+            "valid_votes": 45826,
+            "counted_votes": 53673,
+            "district": "경산군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 58122,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 34212,
+                "voterate": 74.65
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 11614,
+                "voterate": 25.34
+              }
+            ],
+            "undervotes": 7847,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 767,
+            "valid_votes": 41370,
+            "counted_votes": 44947,
+            "district": "청도군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 45714,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9206,
+                "voterate": 22.25
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32164,
+                "voterate": 77.74
+              }
+            ],
+            "undervotes": 3577,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 408,
+            "valid_votes": 20904,
+            "counted_votes": 27728,
+            "district": "고령군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 28136,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10091,
+                "voterate": 48.27
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 10813,
+                "voterate": 51.72
+              }
+            ],
+            "undervotes": 6824,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1613,
+            "valid_votes": 31331,
+            "counted_votes": 42609,
+            "district": "성주군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 44222,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13417,
+                "voterate": 42.82
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 17914,
+                "voterate": 57.17
+              }
+            ],
+            "undervotes": 11278,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2474,
+            "valid_votes": 30004,
+            "counted_votes": 38142,
+            "district": "칠곡군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 40616,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 21183,
+                "voterate": 70.6
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 8821,
+                "voterate": 29.39
+              }
+            ],
+            "undervotes": 8138,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2726,
+            "valid_votes": 35688,
+            "counted_votes": 55235,
+            "district": "금릉군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 57961,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 17144,
+                "voterate": 48.03
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 18544,
+                "voterate": 51.96
+              }
+            ],
+            "undervotes": 19547,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1022,
+            "valid_votes": 40272,
+            "counted_votes": 43372,
+            "district": "선산군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 44394,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9486,
+                "voterate": 23.55
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30786,
+                "voterate": 76.44
+              }
+            ],
+            "undervotes": 3100,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3976,
+            "valid_votes": 73815,
+            "counted_votes": 90506,
+            "district": "상주군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 94482,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 31772,
+                "voterate": 43.04
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 42043,
+                "voterate": 56.95
+              }
+            ],
+            "undervotes": 16691,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1150,
+            "valid_votes": 35886,
+            "counted_votes": 52146,
+            "district": "문경군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 53296,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10378,
+                "voterate": 28.91
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 25508,
+                "voterate": 71.08
+              }
+            ],
+            "undervotes": 16260,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1153,
+            "valid_votes": 50634,
+            "counted_votes": 58037,
+            "district": "예천군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 59190,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9609,
+                "voterate": 18.97
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 41025,
+                "voterate": 81.02
+              }
+            ],
+            "undervotes": 7403,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1024,
+            "valid_votes": 41698,
+            "counted_votes": 51512,
+            "district": "영주군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 52536,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11864,
+                "voterate": 28.45
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 29834,
+                "voterate": 71.54
+              }
+            ],
+            "undervotes": 9814,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2121,
+            "valid_votes": 33703,
+            "counted_votes": 40652,
+            "district": "봉화군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 42773,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7605,
+                "voterate": 22.56
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 26098,
+                "voterate": 77.43
+              }
+            ],
+            "undervotes": 6949,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 388,
+            "valid_votes": 5475,
+            "counted_votes": 6015,
+            "district": "울릉군",
+            "nth": 3,
+            "region": "경북",
+            "electorates": 6403,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2816,
+                "voterate": 51.43
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 2659,
+                "voterate": 48.56
+              }
+            ],
+            "undervotes": 540,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "경남",
+        "district_result": [
+          {
+            "blank_ballots": 15161,
+            "valid_votes": 101065,
+            "counted_votes": 119665,
+            "district": "부산시제1",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 134826,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 40014,
+                "voterate": 39.59
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 61051,
+                "voterate": 60.4
+              }
+            ],
+            "undervotes": 18600,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 6022,
+            "valid_votes": 85705,
+            "counted_votes": 102410,
+            "district": "부산시제2",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 108432,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 20545,
+                "voterate": 23.97
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 65160,
+                "voterate": 76.02
+              }
+            ],
+            "undervotes": 16705,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 10696,
+            "valid_votes": 46475,
+            "counted_votes": 51815,
+            "district": "부산시제3",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 62511,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13792,
+                "voterate": 29.67
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32683,
+                "voterate": 70.32
+              }
+            ],
+            "undervotes": 5340,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 10293,
+            "valid_votes": 53381,
+            "counted_votes": 70784,
+            "district": "부산시제4",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 81077,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 19101,
+                "voterate": 35.78
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 34280,
+                "voterate": 64.21
+              }
+            ],
+            "undervotes": 17403,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5964,
+            "valid_votes": 39748,
+            "counted_votes": 46385,
+            "district": "부산시제5",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 52349,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7589,
+                "voterate": 19.09
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32159,
+                "voterate": 80.9
+              }
+            ],
+            "undervotes": 6637,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 5071,
+            "valid_votes": 42926,
+            "counted_votes": 49933,
+            "district": "마산시",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 55004,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 20156,
+                "voterate": 46.95
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 22770,
+                "voterate": 53.04
+              }
+            ],
+            "undervotes": 7007,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2743,
+            "valid_votes": 25971,
+            "counted_votes": 28427,
+            "district": "진주시",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 31170,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 19525,
+                "voterate": 75.18
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 6446,
+                "voterate": 24.81
+              }
+            ],
+            "undervotes": 2456,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2578,
+            "valid_votes": 16032,
+            "counted_votes": 18435,
+            "district": "충무시",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 21013,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11814,
+                "voterate": 73.69
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 4218,
+                "voterate": 26.3
+              }
+            ],
+            "undervotes": 2403,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3705,
+            "valid_votes": 25481,
+            "counted_votes": 27911,
+            "district": "진해시",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 31616,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 13309,
+                "voterate": 52.23
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 12172,
+                "voterate": 47.76
+              }
+            ],
+            "undervotes": 2430,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2412,
+            "valid_votes": 45813,
+            "counted_votes": 51601,
+            "district": "진양군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 54013,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 33016,
+                "voterate": 72.06
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 12797,
+                "voterate": 27.93
+              }
+            ],
+            "undervotes": 5788,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 999,
+            "valid_votes": 26762,
+            "counted_votes": 38013,
+            "district": "의령군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 39012,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 10452,
+                "voterate": 39.05
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 16310,
+                "voterate": 60.94
+              }
+            ],
+            "undervotes": 11251,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1458,
+            "valid_votes": 40309,
+            "counted_votes": 45262,
+            "district": "함안군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 46720,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18681,
+                "voterate": 46.34
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 21628,
+                "voterate": 53.65
+              }
+            ],
+            "undervotes": 4953,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1520,
+            "valid_votes": 44218,
+            "counted_votes": 54202,
+            "district": "창녕군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 55722,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 28341,
+                "voterate": 64.09
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 15877,
+                "voterate": 35.9
+              }
+            ],
+            "undervotes": 9984,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3839,
+            "valid_votes": 69649,
+            "counted_votes": 77390,
+            "district": "밀양군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 81229,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 19411,
+                "voterate": 27.86
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 50238,
+                "voterate": 72.13
+              }
+            ],
+            "undervotes": 7741,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1303,
+            "valid_votes": 18466,
+            "counted_votes": 22087,
+            "district": "양산군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 23390,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 12143,
+                "voterate": 65.75
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 6323,
+                "voterate": 34.24
+              }
+            ],
+            "undervotes": 3621,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 6715,
+            "valid_votes": 65305,
+            "counted_votes": 77826,
+            "district": "울산군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 84541,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 37917,
+                "voterate": 58.06
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 27388,
+                "voterate": 41.93
+              }
+            ],
+            "undervotes": 12521,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2451,
+            "valid_votes": 27803,
+            "counted_votes": 31676,
+            "district": "동래군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 34127,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7151,
+                "voterate": 25.72
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 20652,
+                "voterate": 74.27
+              }
+            ],
+            "undervotes": 3873,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 4910,
+            "valid_votes": 70865,
+            "counted_votes": 77562,
+            "district": "김해군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 82472,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 34680,
+                "voterate": 48.93
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36185,
+                "voterate": 51.06
+              }
+            ],
+            "undervotes": 6697,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 3163,
+            "valid_votes": 60763,
+            "counted_votes": 71632,
+            "district": "창원군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 74795,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 24653,
+                "voterate": 40.57
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 36110,
+                "voterate": 59.42
+              }
+            ],
+            "undervotes": 10869,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1918,
+            "valid_votes": 23398,
+            "counted_votes": 29596,
+            "district": "통영군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 31514,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 14623,
+                "voterate": 62.49
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 8775,
+                "voterate": 37.5
+              }
+            ],
+            "undervotes": 6198,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2441,
+            "valid_votes": 35320,
+            "counted_votes": 45587,
+            "district": "거제군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 48028,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 11143,
+                "voterate": 31.54
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 24177,
+                "voterate": 68.45
+              }
+            ],
+            "undervotes": 10267,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1082,
+            "valid_votes": 45952,
+            "counted_votes": 49453,
+            "district": "고성군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 50535,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 26525,
+                "voterate": 57.72
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 19427,
+                "voterate": 42.27
+              }
+            ],
+            "undervotes": 3501,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1970,
+            "valid_votes": 49389,
+            "counted_votes": 54531,
+            "district": "사천군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 56501,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7364,
+                "voterate": 14.91
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 42025,
+                "voterate": 85.08
+              }
+            ],
+            "undervotes": 5142,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2397,
+            "valid_votes": 41379,
+            "counted_votes": 48578,
+            "district": "남해군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 50975,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2560,
+                "voterate": 6.18
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 38819,
+                "voterate": 93.81
+              }
+            ],
+            "undervotes": 7199,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 568,
+            "valid_votes": 46659,
+            "counted_votes": 50673,
+            "district": "하동군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 51241,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7528,
+                "voterate": 16.13
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 39131,
+                "voterate": 83.86
+              }
+            ],
+            "undervotes": 4014,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1358,
+            "valid_votes": 37252,
+            "counted_votes": 39857,
+            "district": "산청군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 41215,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4407,
+                "voterate": 11.83
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32845,
+                "voterate": 88.16
+              }
+            ],
+            "undervotes": 2605,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 485,
+            "valid_votes": 39631,
+            "counted_votes": 43986,
+            "district": "함양군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 44471,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 9587,
+                "voterate": 24.19
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 30044,
+                "voterate": 75.8
+              }
+            ],
+            "undervotes": 4355,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2391,
+            "valid_votes": 46672,
+            "counted_votes": 48522,
+            "district": "거창군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 50913,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 18824,
+                "voterate": 40.33
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 27848,
+                "voterate": 59.66
+              }
+            ],
+            "undervotes": 1850,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 2448,
+            "valid_votes": 60610,
+            "counted_votes": 64538,
+            "district": "합천군",
+            "nth": 3,
+            "region": "경남",
+            "electorates": 66986,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 7656,
+                "voterate": 12.63
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 52954,
+                "voterate": 87.36
+              }
+            ],
+            "undervotes": 3928,
+            "cand_no": 2
+          }
+        ]
+      },
+      {
+        "region": "제주",
+        "district_result": [
+          {
+            "blank_ballots": 2808,
+            "valid_votes": 20187,
+            "counted_votes": 24126,
+            "district": "제주시",
+            "nth": 3,
+            "region": "제주",
+            "electorates": 26934,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 4389,
+                "voterate": 21.74
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 15798,
+                "voterate": 78.25
+              }
+            ],
+            "undervotes": 3939,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1564,
+            "valid_votes": 38194,
+            "counted_votes": 43163,
+            "district": "북제주군",
+            "nth": 3,
+            "region": "제주",
+            "electorates": 44727,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 5516,
+                "voterate": 14.44
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 32678,
+                "voterate": 85.55
+              }
+            ],
+            "undervotes": 4969,
+            "cand_no": 2
+          },
+          {
+            "blank_ballots": 1213,
+            "valid_votes": 40283,
+            "counted_votes": 43627,
+            "district": "남제주군",
+            "nth": 3,
+            "region": "제주",
+            "electorates": 44840,
+            "result": [
+              {
+                "party_name_kr": "무소속",
+                "name_kr": "조봉암",
+                "votenum": 2076,
+                "voterate": 5.15
+              },
+              {
+                "party_name_kr": "자유당",
+                "name_kr": "이승만",
+                "votenum": 38207,
+                "voterate": 94.84
+              }
+            ],
+            "undervotes": 3344,
+            "cand_no": 2
+          }
+        ]
+      }
+    ],
+    "voting_system": "vote for candidate"
+  }
+]

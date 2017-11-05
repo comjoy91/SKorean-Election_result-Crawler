@@ -1,0 +1,43 @@
+[
+  {
+    "nth": 6,
+    "town_type": "전국",
+    "results": [
+      {
+        "CODE": 6,
+        "code_thisElec": 1,
+        "NAME": "정의당"
+      },
+      {
+        "CODE": 5,
+        "code_thisElec": 2,
+        "NAME": "한국독립당"
+      },
+      {
+        "CODE": 2,
+        "code_thisElec": 3,
+        "NAME": "신민당"
+      },
+      {
+        "CODE": 7,
+        "code_thisElec": 4,
+        "NAME": "대중당"
+      },
+      {
+        "CODE": 4,
+        "code_thisElec": 5,
+        "NAME": "민중당"
+      },
+      {
+        "CODE": 1,
+        "code_thisElec": 6,
+        "NAME": "민주공화당"
+      },
+      {
+        "CODE": 3,
+        "code_thisElec": 7,
+        "NAME": "통한당"
+      }
+    ]
+  }
+]

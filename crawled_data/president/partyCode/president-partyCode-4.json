@@ -1,0 +1,18 @@
+[
+  {
+    "nth": 4,
+    "town_type": "전국",
+    "results": [
+      {
+        "CODE": 1,
+        "code_thisElec": 1,
+        "NAME": "자유당"
+      },
+      {
+        "CODE": 2,
+        "code_thisElec": 2,
+        "NAME": "민주당"
+      }
+    ]
+  }
+]

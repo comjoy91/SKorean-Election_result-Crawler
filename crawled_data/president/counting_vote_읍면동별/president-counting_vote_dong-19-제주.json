@@ -1,0 +1,4048 @@
+[
+  {
+    "voting_system": "vote for candidate",
+    "results": [
+      {
+        "town": "제주시",
+        "region": "제주특별자치도",
+        "district_result": [
+          {
+            "counted_votes": 1116,
+            "blank_ballots": 66,
+            "valid_votes": 1064,
+            "undervotes": 52,
+            "result": [
+              {
+                "votenum": 474,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 152,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 277,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 65,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 54,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 1182,
+            "district": "거소·선상투표",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 22491,
+            "blank_ballots": 1,
+            "valid_votes": 22306,
+            "undervotes": 185,
+            "result": [
+              {
+                "votenum": 10799,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2512,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 4218,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 2146,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 2501,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 19,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 52,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 22492,
+            "district": "관외사전투표",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2259,
+            "blank_ballots": 2159,
+            "valid_votes": 2253,
+            "undervotes": 6,
+            "result": [
+              {
+                "votenum": 1178,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 130,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 628,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 62,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 246,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 4418,
+            "district": "재외투표",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 10696,
+            "blank_ballots": 5299,
+            "valid_votes": 10621,
+            "undervotes": 75,
+            "result": [
+              {
+                "votenum": 4431,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2628,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2289,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 476,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 700,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 36,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 15995,
+            "district": "한림읍",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 15516,
+            "blank_ballots": 7122,
+            "valid_votes": 15409,
+            "undervotes": 107,
+            "result": [
+              {
+                "votenum": 6782,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 3137,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 3380,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 777,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1217,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 17,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 22,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 29,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 22638,
+            "district": "애월읍",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 7691,
+            "blank_ballots": 3865,
+            "valid_votes": 7617,
+            "undervotes": 74,
+            "result": [
+              {
+                "votenum": 2978,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1987,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1664,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 360,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 547,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 18,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 11556,
+            "district": "구좌읍",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 11725,
+            "blank_ballots": 5073,
+            "valid_votes": 11652,
+            "undervotes": 73,
+            "result": [
+              {
+                "votenum": 4804,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2669,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2533,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 634,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 920,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 17,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 20,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 16798,
+            "district": "조천읍",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 4540,
+            "blank_ballots": 2107,
+            "valid_votes": 4497,
+            "undervotes": 43,
+            "result": [
+              {
+                "votenum": 1916,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1124,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 910,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 186,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 301,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 24,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 6647,
+            "district": "한경면",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 930,
+            "blank_ballots": 612,
+            "valid_votes": 921,
+            "undervotes": 9,
+            "result": [
+              {
+                "votenum": 373,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 209,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 270,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 27,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 28,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 1542,
+            "district": "추자면",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 950,
+            "blank_ballots": 507,
+            "valid_votes": 943,
+            "undervotes": 7,
+            "result": [
+              {
+                "votenum": 451,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 202,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 178,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 49,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 56,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 1457,
+            "district": "우도면",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 1954,
+            "blank_ballots": 1074,
+            "valid_votes": 1948,
+            "undervotes": 6,
+            "result": [
+              {
+                "votenum": 807,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 407,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 456,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 91,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 174,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3028,
+            "district": "일도1동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 18387,
+            "blank_ballots": 6919,
+            "valid_votes": 18312,
+            "undervotes": 75,
+            "result": [
+              {
+                "votenum": 8085,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 3605,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 3891,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1109,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1521,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 24,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 23,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 25306,
+            "district": "일도2동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 4820,
+            "blank_ballots": 1933,
+            "valid_votes": 4802,
+            "undervotes": 18,
+            "result": [
+              {
+                "votenum": 2070,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 967,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1043,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 324,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 380,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 6753,
+            "district": "이도1동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 26863,
+            "blank_ballots": 9542,
+            "valid_votes": 26734,
+            "undervotes": 129,
+            "result": [
+              {
+                "votenum": 12865,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 4370,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 5053,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1746,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 2592,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 21,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 20,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 20,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 36405,
+            "district": "이도2동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 7760,
+            "blank_ballots": 3316,
+            "valid_votes": 7733,
+            "undervotes": 27,
+            "result": [
+              {
+                "votenum": 3246,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1744,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1626,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 426,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 654,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 11076,
+            "district": "삼도1동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 4598,
+            "blank_ballots": 2316,
+            "valid_votes": 4584,
+            "undervotes": 14,
+            "result": [
+              {
+                "votenum": 1877,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1008,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1065,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 274,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 338,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 6914,
+            "district": "삼도2동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 4033,
+            "blank_ballots": 2062,
+            "valid_votes": 4017,
+            "undervotes": 16,
+            "result": [
+              {
+                "votenum": 1702,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 899,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 872,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 230,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 295,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 6095,
+            "district": "용담1동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 8272,
+            "blank_ballots": 3843,
+            "valid_votes": 8244,
+            "undervotes": 28,
+            "result": [
+              {
+                "votenum": 3506,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1728,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1773,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 489,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 704,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 12115,
+            "district": "용담2동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 5479,
+            "blank_ballots": 2495,
+            "valid_votes": 5458,
+            "undervotes": 21,
+            "result": [
+              {
+                "votenum": 2329,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1177,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1213,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 288,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 413,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 7974,
+            "district": "건입동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 12719,
+            "blank_ballots": 4895,
+            "valid_votes": 12674,
+            "undervotes": 45,
+            "result": [
+              {
+                "votenum": 5954,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1976,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2751,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 773,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1143,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 17614,
+            "district": "화북동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 11208,
+            "blank_ballots": 3918,
+            "valid_votes": 11175,
+            "undervotes": 33,
+            "result": [
+              {
+                "votenum": 5633,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1606,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2272,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 634,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 975,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 19,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 15126,
+            "district": "삼양동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2501,
+            "blank_ballots": 771,
+            "valid_votes": 2483,
+            "undervotes": 18,
+            "result": [
+              {
+                "votenum": 1120,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 486,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 548,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 115,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 196,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3272,
+            "district": "봉개동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 15388,
+            "blank_ballots": 5013,
+            "valid_votes": 15326,
+            "undervotes": 62,
+            "result": [
+              {
+                "votenum": 7884,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1927,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2964,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1038,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1423,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 22,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 20401,
+            "district": "아라동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 7513,
+            "blank_ballots": 2244,
+            "valid_votes": 7492,
+            "undervotes": 21,
+            "result": [
+              {
+                "votenum": 3804,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1093,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1388,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 452,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 722,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 9757,
+            "district": "오라동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 21649,
+            "blank_ballots": 10141,
+            "valid_votes": 21582,
+            "undervotes": 67,
+            "result": [
+              {
+                "votenum": 9986,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 3896,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 4294,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1461,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1880,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 18,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 31790,
+            "district": "연동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 27400,
+            "blank_ballots": 9827,
+            "valid_votes": 27290,
+            "undervotes": 110,
+            "result": [
+              {
+                "votenum": 13587,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 4093,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 5360,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1781,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 2360,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 28,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 23,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 37227,
+            "district": "노형동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 10641,
+            "blank_ballots": 3544,
+            "valid_votes": 10601,
+            "undervotes": 40,
+            "result": [
+              {
+                "votenum": 5308,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1483,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2165,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 651,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 932,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 14185,
+            "district": "외도동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2255,
+            "blank_ballots": 863,
+            "valid_votes": 2241,
+            "undervotes": 14,
+            "result": [
+              {
+                "votenum": 989,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 467,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 457,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 122,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 191,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3118,
+            "district": "이호동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 1809,
+            "blank_ballots": 602,
+            "valid_votes": 1801,
+            "undervotes": 8,
+            "result": [
+              {
+                "votenum": 779,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 345,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 433,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 99,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 129,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 2411,
+            "district": "도두동",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 0,
+            "blank_ballots": 0,
+            "valid_votes": 0,
+            "undervotes": 0,
+            "result": [
+              {
+                "votenum": 0,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 0,
+            "district": "잘못 투입·구분된 투표지",
+            "nth": 19,
+            "town": "제주시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          }
+        ]
+      },
+      {
+        "town": "서귀포시",
+        "region": "제주특별자치도",
+        "district_result": [
+          {
+            "counted_votes": 562,
+            "blank_ballots": 26,
+            "valid_votes": 523,
+            "undervotes": 39,
+            "result": [
+              {
+                "votenum": 195,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 88,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 145,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 57,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 17,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 588,
+            "district": "거소·선상투표",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 12687,
+            "blank_ballots": 0,
+            "valid_votes": 12602,
+            "undervotes": 85,
+            "result": [
+              {
+                "votenum": 6111,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1658,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2276,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 1048,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 1437,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 30,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 12687,
+            "district": "관외사전투표",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 834,
+            "blank_ballots": 776,
+            "valid_votes": 828,
+            "undervotes": 6,
+            "result": [
+              {
+                "votenum": 439,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 52,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 210,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 27,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 98,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 1610,
+            "district": "재외투표",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 9418,
+            "blank_ballots": 4794,
+            "valid_votes": 9352,
+            "undervotes": 66,
+            "result": [
+              {
+                "votenum": 3895,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2098,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2103,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 472,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 713,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 16,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 17,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 14212,
+            "district": "대정읍",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 9585,
+            "blank_ballots": 4438,
+            "valid_votes": 9519,
+            "undervotes": 66,
+            "result": [
+              {
+                "votenum": 4007,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 2088,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2084,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 489,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 743,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 21,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 27,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 14023,
+            "district": "남원읍",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 7403,
+            "blank_ballots": 3893,
+            "valid_votes": 7335,
+            "undervotes": 68,
+            "result": [
+              {
+                "votenum": 2691,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1898,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1749,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 352,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 570,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 11,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 22,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 11296,
+            "district": "성산읍",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 5429,
+            "blank_ballots": 2299,
+            "valid_votes": 5387,
+            "undervotes": 42,
+            "result": [
+              {
+                "votenum": 2263,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1161,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1152,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 276,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 472,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 7728,
+            "district": "안덕면",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 6156,
+            "blank_ballots": 2833,
+            "valid_votes": 6117,
+            "undervotes": 39,
+            "result": [
+              {
+                "votenum": 2392,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1507,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1449,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 317,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 384,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 8,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 17,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 8989,
+            "district": "표선면",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2357,
+            "blank_ballots": 1328,
+            "valid_votes": 2349,
+            "undervotes": 8,
+            "result": [
+              {
+                "votenum": 954,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 561,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 506,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 129,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 185,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3685,
+            "district": "송산동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 1477,
+            "blank_ballots": 892,
+            "valid_votes": 1473,
+            "undervotes": 4,
+            "result": [
+              {
+                "votenum": 607,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 357,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 302,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 75,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 120,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 2369,
+            "district": "정방동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2095,
+            "blank_ballots": 1353,
+            "valid_votes": 2081,
+            "undervotes": 14,
+            "result": [
+              {
+                "votenum": 803,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 513,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 526,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 99,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 132,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3448,
+            "district": "중앙동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2160,
+            "blank_ballots": 1089,
+            "valid_votes": 2150,
+            "undervotes": 10,
+            "result": [
+              {
+                "votenum": 823,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 536,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 539,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 102,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 133,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3249,
+            "district": "천지동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 3038,
+            "blank_ballots": 1188,
+            "valid_votes": 3026,
+            "undervotes": 12,
+            "result": [
+              {
+                "votenum": 1275,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 687,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 624,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 148,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 195,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 76,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 4226,
+            "district": "효돈동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 2672,
+            "blank_ballots": 1285,
+            "valid_votes": 2656,
+            "undervotes": 16,
+            "result": [
+              {
+                "votenum": 1108,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 595,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 598,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 133,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 199,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 3957,
+            "district": "영천동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 10336,
+            "blank_ballots": 4929,
+            "valid_votes": 10285,
+            "undervotes": 51,
+            "result": [
+              {
+                "votenum": 4816,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1757,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 2214,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 596,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 818,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 14,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 18,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 12,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 15265,
+            "district": "동홍동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 5114,
+            "blank_ballots": 2272,
+            "valid_votes": 5084,
+            "undervotes": 30,
+            "result": [
+              {
+                "votenum": 2397,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 855,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1087,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 307,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 421,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 7386,
+            "district": "서홍동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 7664,
+            "blank_ballots": 2648,
+            "valid_votes": 7627,
+            "undervotes": 37,
+            "result": [
+              {
+                "votenum": 3490,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 1399,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1614,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 517,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 555,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 9,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 6,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 10,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 10312,
+            "district": "대륜동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 4737,
+            "blank_ballots": 2253,
+            "valid_votes": 4719,
+            "undervotes": 18,
+            "result": [
+              {
+                "votenum": 2118,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 883,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1067,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 287,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 337,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 6990,
+            "district": "대천동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 5609,
+            "blank_ballots": 2212,
+            "valid_votes": 5568,
+            "undervotes": 41,
+            "result": [
+              {
+                "votenum": 2567,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 940,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 1200,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 352,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 458,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 13,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 1,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 7,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 15,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 7821,
+            "district": "중문동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 1963,
+            "blank_ballots": 904,
+            "valid_votes": 1951,
+            "undervotes": 12,
+            "result": [
+              {
+                "votenum": 825,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 403,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 445,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 116,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 137,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 2,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 3,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 4,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 5,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 2867,
+            "district": "예래동",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          },
+          {
+            "counted_votes": 0,
+            "blank_ballots": 0,
+            "valid_votes": 0,
+            "undervotes": 0,
+            "result": [
+              {
+                "votenum": 0,
+                "name_kr": "문재인",
+                "party_name_kr": "더불어민주당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "홍준표",
+                "party_name_kr": "자유한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "안철수",
+                "party_name_kr": "국민의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "유승민",
+                "party_name_kr": "바른정당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "심상정",
+                "party_name_kr": "정의당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "조원진",
+                "party_name_kr": "새누리당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "오영국",
+                "party_name_kr": "경제애국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "장성민",
+                "party_name_kr": "국민대통합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이재오",
+                "party_name_kr": "늘푸른한국당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김선동",
+                "party_name_kr": "민중연합당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "이경희",
+                "party_name_kr": "한국국민당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "윤홍식",
+                "party_name_kr": "홍익당"
+              },
+              {
+                "votenum": 0,
+                "name_kr": "김민찬",
+                "party_name_kr": "무소속"
+              }
+            ],
+            "electorates": 0,
+            "district": "잘못 투입·구분된 투표지",
+            "nth": 19,
+            "town": "서귀포시",
+            "cand_no": 13,
+            "region": "제주특별자치도"
+          }
+        ]
+      }
+    ]
+  }
+]

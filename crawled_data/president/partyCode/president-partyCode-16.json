@@ -1,0 +1,113 @@
+[
+  {
+    "results": [
+      {
+        "code_thisElec": 1,
+        "CODE": 1,
+        "NAME": "한나라당"
+      },
+      {
+        "code_thisElec": 2,
+        "CODE": 2,
+        "NAME": "새천년민주당"
+      },
+      {
+        "code_thisElec": 3,
+        "CODE": 3,
+        "NAME": "자민련"
+      },
+      {
+        "code_thisElec": 4,
+        "CODE": 4,
+        "NAME": "국민통합21"
+      },
+      {
+        "code_thisElec": 5,
+        "CODE": 5,
+        "NAME": "민국당"
+      },
+      {
+        "code_thisElec": 6,
+        "CODE": 6,
+        "NAME": "하나로국민연합"
+      },
+      {
+        "code_thisElec": 7,
+        "CODE": 7,
+        "NAME": "공화당"
+      },
+      {
+        "code_thisElec": 8,
+        "CODE": 8,
+        "NAME": "광명당"
+      },
+      {
+        "code_thisElec": 9,
+        "CODE": 9,
+        "NAME": "국민행동"
+      },
+      {
+        "code_thisElec": 10,
+        "CODE": 10,
+        "NAME": "노년권익보호당"
+      },
+      {
+        "code_thisElec": 11,
+        "CODE": 11,
+        "NAME": "녹색당"
+      },
+      {
+        "code_thisElec": 12,
+        "CODE": 12,
+        "NAME": "녹색평화당"
+      },
+      {
+        "code_thisElec": 13,
+        "CODE": 13,
+        "NAME": "대한통일당"
+      },
+      {
+        "code_thisElec": 14,
+        "CODE": 14,
+        "NAME": "민주노동당"
+      },
+      {
+        "code_thisElec": 15,
+        "CODE": 15,
+        "NAME": "민주사회당"
+      },
+      {
+        "code_thisElec": 16,
+        "CODE": 16,
+        "NAME": "복지민주통일당"
+      },
+      {
+        "code_thisElec": 17,
+        "CODE": 17,
+        "NAME": "사회당"
+      },
+      {
+        "code_thisElec": 18,
+        "CODE": 18,
+        "NAME": "새신당"
+      },
+      {
+        "code_thisElec": 19,
+        "CODE": 19,
+        "NAME": "애국번영당"
+      },
+      {
+        "code_thisElec": 20,
+        "CODE": 20,
+        "NAME": "한국당"
+      },
+      {
+        "code_thisElec": 21,
+        "CODE": 21,
+        "NAME": "호국당"
+      }
+    ],
+    "town_type": "전국",
+    "nth": 16
+  }
+]
