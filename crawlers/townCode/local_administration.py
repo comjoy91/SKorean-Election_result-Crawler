@@ -38,60 +38,57 @@ def Crawler(nth, election_name, _localType):
 
 
 class LocalDivision_CodeCrawler_GuOld(JSONCrawler_province):
-	elemType = 'local_division'
-	# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
-	# n:1~2 - 여기서 크롤링된 데이터가 국회의원 지역구 단위로 분류되어, 같은 시군구에서도 갑/을로 분구된 것이 따로따로 표기됨. 단, 선거구가 합구된 곳은 시군구별로 다 명기됨.
-	# n:3 - 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
-
-	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-	urlParam_city_codes = dict(electionId='0000000000')
-
-	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json'
-	urlParam_town_list = dict(electionId='0000000000')
 
 	def __init__(self, nth, _election_name, _localType_int, _target):
 		self.nth = nth
 		self.localType_int = _localType_int
 		self.target = _target
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_town_list['electionCode'] = _election_name
-		self.urlParam_town_list['subElectionCode'] = _localType_int
+		self.elemType = 'local_division'
+		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
+		# n:1~2 - 여기서 크롤링된 데이터가 국회의원 지역구 단위로 분류되어, 같은 시군구에서도 갑/을로 분구된 것이 따로따로 표기됨. 단, 선거구가 합구된 곳은 시군구별로 다 명기됨.
+		# n:3 - 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
+
+		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
+		self.urlParam_city_codes = dict(electionId='0000000000', \
+										electionCode=_election_name, subElectionCode =_localType_int)
+
+		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json'
+		self.urlParam_town_list = dict(electionId='0000000000', \
+										electionCode=_election_name, subElectionCode =_localType_int)
+
+		self.next_crawler = Constituency_CodeCrawler_GuOld(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
 class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
-	elemType = 'local_division'
-	# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
-
-	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-	urlParam_city_codes = dict(electionId='0000000000')
-
-	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json'
-	urlParam_town_list = dict(electionId='0000000000')
 
 	def __init__(self, nth, _election_name, _localType_int, _target):
 		self.nth = nth
 		self.localType_int = _localType_int
 		self.target = _target
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_city_codes['subElectionCode'] = _localType_int
-		self.urlParam_town_list['electionCode'] = _election_name
-		self.urlParam_town_list['subElectionCode'] = _localType_int
+		self.elemType = 'local_division'
+		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
+		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
+		self.urlParam_city_codes = dict(electionId='0000000000', \
+										electionCode=_election_name, subElectionCode =_localType_int)
+
+		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json'
+		self.urlParam_town_list = dict(electionId='0000000000', \
+										electionCode=_election_name, subElectionCode =_localType_int)
 
 
 class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
-	elemType = 'local_division'
-	# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
-
-	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-	urlParam_city_codes = dict()
-
-	urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
-	urlParam_town_list = dict()
 
 	def __init__(self, nth, _election_name, _localType_int, _target):
 		self.nth = nth
 		self.localType_int = _localType_int
 		self.target = _target
-		self.urlParam_city_codes['electionCode'] = _localType_int
-		self.urlParam_town_list['electionCode'] = _localType_int
+		self.elemType = 'local_division'
+		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
+
+		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
+		self.urlParam_city_codes = dict(electionCode=_localType_int)
+
+		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
+		self.urlParam_town_list = dict(electionCode=_localType_int)

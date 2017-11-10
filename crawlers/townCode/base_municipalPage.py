@@ -91,7 +91,7 @@ class JSONCrawler_municipal(BaseCrawler_municipal):
 
 		# 추가될 수도 있는 데이터 크롤링을 위해 next_crawler를 추가하는 내용.
 		if hasattr(self, 'next_crawler'):
-			prop_result = self.next_crawler.crawl()
-			every_result.extend(prop_result)
+			next_result = self.next_crawler.crawl()
+			every_result.extend(next_result)
 
 		return every_result
