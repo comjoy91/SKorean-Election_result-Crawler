@@ -23,8 +23,8 @@ def Crawler(nth, election_name):
 
 class ElectorCrawler_GuOld(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_GuOld, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -33,23 +33,20 @@ class ElectorCrawler_GuOld(MultiCityCrawler_province):
 		self.elemType = 'constituency_in_province'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-		self.urlParam_city_codes = dict(electionId='0000000000')
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name)
 
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_sgg_list = dict(electionId='0000000000',\
+		self.urlParam_sgg_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/vc/vccp09.jsp',\
 										statementId='VCCP09_#90',\
 										oldElectionType=1, electionType=2, electionCode=2,\
 										townCode=-1, sggCityCode=-1)
 
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_sgg_list['electionName'] = _election_name
-
 
 class ElectorCrawler_Old(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Old, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -58,19 +55,15 @@ class ElectorCrawler_Old(MultiCityCrawler_province):
 		self.elemType = 'constituency_in_province'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000',\
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name,\
 										subElectionCode=2)
 
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_sgg_list = dict(electionId='0000000000',\
+		self.urlParam_sgg_list = dict(electionId='0000000000', electionName=_election_name,\
 									requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 									statementId='BIPB02_#3_2',\
 									oldElectionType=1, electionType=2, electionCode=2,\
 									searchType=3, townCode=-1, sggCityCode=-1)
-
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_sgg_list['electionName'] = _election_name
-
 		self.urlParam_sgg_list['statementId'] = 'BIPB02_#3_2_1' if nth==20 else 'BIPB02_#3_2' #왜 얘만 다른지는 모르겠습니다.
 
 		# 재외국민선거 도입으로 지역구 선거인수와 비례대표 선거인수가 달라짐.
@@ -84,8 +77,8 @@ class ElectorCrawler_Old(MultiCityCrawler_province):
 
 class ElectorCrawler_Recent(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Recent, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -95,15 +88,13 @@ class ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.elemType = 'constituency_in_province'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=2)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=2)
 
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_sgg_list = dict(requestURI='/WEB-INF/jsp/electioninfo/'+election_name+'/bi/bipb02.jsp',\
+		self.urlParam_sgg_list = dict(electionId=_election_name, \
+									requestURI='/WEB-INF/jsp/electioninfo/'+election_name+'/bi/bipb02.jsp',\
 									statementId='BIPB02_#3_2',\
 									electionCode=2, searchType=3, townCode=-1)
-
-		self.urlParam_city_codes['electionId'] = _election_name
-		self.urlParam_sgg_list['electionId'] = _election_name
 
 		self.next_crawler = prop_ElectorCrawler_Recent(nth, _election_name, _target)
 		self.next_crawler.nth = nth
@@ -115,8 +106,8 @@ class ElectorCrawler_Recent(MultiCityCrawler_province):
 
 class prop_ElectorCrawler_Old(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(prop_ElectorCrawler_Old, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(prop_ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -125,25 +116,21 @@ class prop_ElectorCrawler_Old(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000',\
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name,\
 										subElectionCode=2)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_town_list = dict(electionId='0000000000',\
+		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 									requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 									statementId='BIPB02_#2_1',\
 									oldElectionType=1, electionType=2, electionCode=2,\
 									searchType=2, townCode=-1, sggCityCode=-1)
-
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_town_list['electionName'] = _election_name
-
-		self.urlParam_sgg_list['statementId'] = 'BIPB02_#2_1' if nth==20 else 'BIPB02_#2' #왜 얘만 다른지는 모르겠습니다.
+		self.urlParam_town_list['statementId'] = 'BIPB02_#2_1' if nth==20 else 'BIPB02_#2' #왜 얘만 다른지는 모르겠습니다.
 
 class prop_ElectorCrawler_Recent(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(prop_ElectorCrawler_Recent, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(prop_ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -153,12 +140,10 @@ class prop_ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=7)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=7)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_town_list = dict(requestURI='/WEB-INF/jsp/electioninfo/'+election_name+'/bi/bipb02.jsp',\
+		self.urlParam_town_list = dict(electionId=_election_name,\
+									requestURI='/WEB-INF/jsp/electioninfo/'+election_name+'/bi/bipb02.jsp',\
 									statementId='BIPB02_#3_7',\
 									electionCode=7, searchType=3, townCode=-1)
-
-		self.urlParam_city_codes['electionId'] = _election_name
-		self.urlParam_town_list['electionId'] = _election_name

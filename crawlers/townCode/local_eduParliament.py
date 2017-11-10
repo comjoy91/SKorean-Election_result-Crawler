@@ -84,7 +84,7 @@ class Constituency_CodeCrawler_Old(JSONCrawler_province):
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 		self.urlParam_city_codes = dict(electionId='0000000000', \
-										electionCode=_election_name, subElectionCode =_localType_int
+										electionCode=_election_name, subElectionCode =_localType_int)
 
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
 		self.urlParam_consti_list = dict(electionId='0000000000', \

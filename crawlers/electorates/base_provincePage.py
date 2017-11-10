@@ -24,7 +24,7 @@ class BaseCrawler_province(object):
 	# attrs_exclude_parse_cell = ['image', 'cand_no', 'result']
 
 
-	def parse_localDivision(self, url, params, city_name=None): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
+	def parse_city(self, url, params, target, elemType, city_name=None):
 		tr_list = get_xpath(url, params, '//tr')
 		th_list = get_xpath(url, params, '//th')
 		td_columns = len(tr_list[1])
@@ -35,60 +35,37 @@ class BaseCrawler_province(object):
 		for i in range(len(tr_list)):
 			if tr_list[i][0].get('rowspan') == None: # 이 tr의 맨 왼쪽칸이 rowspan=3으로 지정되지 않았다 == 이 tr은 '합계'가 아닌 '남' '여' 칸을 다루고 있다. 따라서 pass.
 				pass
+
 			else:
-				municipal = tr_list[i][0] # 여기 저장되는 municipal 이름은 기초자치단체명임 ㅇㅇ. ex. <td rowspan="3" class="firstTd alignL">중구동구</td>
-				villages = tr_list[i][1] # 읍면동수 ex. <td rowspan="3" class=alignR>23</td>
-				pollStations = tr_list[i][2] # 투표구수 ex. <td rowspan="3" class=alignR>52</td>
-				population = tr_list[i][3] # ex. <td rowspan="3" class=alignR>148,789<br/>(174 , 0)</td>
+				municipal = tr_list[i][0] # 여기 저장되는 municipal 이름은 기초자치단체명 또는 선거구명임. ex. <td rowspan="3" class="firstTd alignL">중구동구</td>
+
+				if elemType=='local_division':
+					villages = tr_list[i][1] # 읍면동수 ex. <td rowspan="3" class=alignR>23</td>
+					pollStations = tr_list[i][2] # 투표구수 ex. <td rowspan="3" class=alignR>52</td>
+					population = tr_list[i][3] # ex. <td rowspan="3" class=alignR>148,789<br/>(174 , 0)</td>
+				else: #elemType == 'constituency_in_province'
+					villages = tr_list[i][2] # 읍면동수 ex. <td rowspan="3" class=alignR>23</td>
+					pollStations = tr_list[i][3] # 투표구수 ex. <td rowspan="3" class=alignR>52</td>
+					population = tr_list[i][4] # ex. <td rowspan="3" class=alignR>148,789<br/>(174 , 0)</td>
+
 				electorates = tr_list[i][td_columns-3] # ex. <td class=alignR>127,836<br/>(163 , 0)</td>
 				popul_elector_ratio = tr_list[i][td_columns-2] # 선거인수/인구수 비율 ex. <td rowspan="3" class=alignR>85.9</td>
 				households = tr_list[i][td_columns-1] # 세대수 ex. <td rowspan="3" class=alignR>67,548<br/>(172 , 0)</td>
 
-				municipal_info = (municipal, villages, pollStations, population, electorates, popul_elector_ratio, households)
-				municipal_info = dict(list(zip(self.attrs_municipal, municipal_info)))
-				parse_result.append(municipal_info)
-
-		parse_result = [self.parse_tr(tr_elem, city_name=city_name) for tr_elem in parse_result]
-		print(('crawled #%d - %s, %s(%d)...' % (self.nth, '국내거소미신고 재외국민 포함 구시군별 선거인수(대통령 선거, 비례대표)', city_name, len(parse_result))))
-		return parse_result
-
-
-	def parse_constituency(self, url, params, city_name=None): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
-		tr_list = get_xpath(url, params, '//tr')
-		th_list = get_xpath(url, params, '//th')
-		td_columns = len(tr_list[1])
-		if td_columns < 2: pass
-
-		parse_result = []
-
-		for i in range(len(tr_list)):
-			if tr_list[i][0].get('rowspan') == None: # 이 tr의 맨 왼쪽칸이 rowspan=3으로 지정되지 않았다 == 이 tr은 '합계'가 아닌 '남' '여' 칸을 다루고 있다. 따라서 pass.
-				pass
-			elif tr_list[i][0].text != None: # 맨 좌측 칸의 선거구명이 blank가 아닌 경우에...
-				municipal = tr_list[i][0] # 여기 저장되는 municipal 이름은 선거구 단위의 기초자치단체명임 ㅇㅇ. ex. <td rowspan="3" class="firstTd alignL">중구동구</td>
-				villages = tr_list[i][2] # 읍면동수 ex. <td rowspan="3" class=alignR>23</td>
-				pollStations = tr_list[i][3] # 투표구수 ex. <td rowspan="3" class=alignR>52</td>
-				population = tr_list[i][4] # ex. <td rowspan="3" class=alignR>148,789<br/>(174 , 0)</td>
-				electorates = tr_list[i][6] # ex. <td class=alignR>127,836<br/>(163 , 0)</td>
-				popul_elector_ratio = tr_list[i][td_columns-2] # 선거인수/인구수 비율 ex. <td rowspan="3" class=alignR>85.9</td>
-				households = tr_list[i][td_columns-1] # 세대수 ex. <td rowspan="3" class=alignR>67,548<br/>(172 , 0)</td>
+				# 굳이 'td_columns-1' 인덱스를 쓰는 이유: "역대선거"와 "최근선거"의 표 칸 배치가 달라서.
 
 				municipal_info = (municipal, villages, pollStations, population, electorates, popul_elector_ratio, households)
 				municipal_info = dict(list(zip(self.attrs_municipal, municipal_info)))
 				parse_result.append(municipal_info)
 
-		parse_result = [self.parse_tr(tr_elem, city_name=city_name) for tr_elem in parse_result]
-		print('crawled #%d - %s, %s(%d)...' % (self.nth, '선거구별 선거인수(지역구국회의원, 지방선거)', city_name, len(parse_result)))
-		return parse_result
+		parse_result = [self.parse_tr_xhtml(tr_elem, city_name=city_name) for tr_elem in parse_result]
 
-
-
-	def parse_city(self, url, params, target, elemType, city_name=None):
 		if elemType=='local_division':
-			return self.parse_localDivision(url, params, city_name)
+			_elemType_str = '행정구역별(시군구) 선거인수(국내거소미신고 재외국민 포함)'
 		else: #elemType == 'constituency_in_province'
-			return self.parse_constituency(url, params, city_name)
-
+			_elemType_str = '선거구별 선거인수'
+		print(('crawled %s #%d - %s, %s(%d)...' % (target, self.nth, _elemType_str, city_name, len(parse_result))))
+		return parse_result
 
 
 
@@ -97,14 +74,14 @@ class BaseCrawler_province(object):
 #			if attr not in self.attrs_exclude_parse_cell:
 			record[attr] = parse_cell(record[attr])
 
-	def parse_dict_record(self, record, attr_list): #parse_record와 비슷. 단, 받은 record(list type)의 element가 dict type.
-		for element in record:
-			for attr in attr_list:
+#	def parse_dict_record(self, record, attr_list): #parse_record와 비슷. 단, 받은 record(list type)의 element가 dict type.
+#		for element in record:
+#			for attr in attr_list:
 #				if attr not in self.attrs_exclude_parse_cell:
-				element[attr] = parse_cell(element[attr])
+#				element[attr] = parse_cell(element[attr])
 
 
-	def parse_tr(self, tr_elem, city_name=None):
+	def parse_tr_xhtml(self, tr_elem, city_name=None):
 		self.parse_record(tr_elem, self.attrs_municipal)
 		# self.parse_dict_record(tr_elem['result'], self.attrs_result)
 

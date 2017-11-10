@@ -36,8 +36,8 @@ def Crawler(nth, election_name):
 
 class ElectorCrawler_GuOld(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_GuOld, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -46,23 +46,20 @@ class ElectorCrawler_GuOld(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-		self.urlParam_city_codes = dict(electionId='0000000000')
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_town_list = dict(electionId='0000000000',\
+		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										statementId='BIPB92_#1',\
 										oldElectionType=0, electionType=1, electionCode=-1,\
 										searchType=2, townCode=-1, sggCityCode=-1)
 
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_town_list['electionName'] = _election_name
-
 
 class ElectorCrawler_Old(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Old, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -71,24 +68,21 @@ class ElectorCrawler_Old(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000',\
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name,\
 										subElectionCode=1)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_town_list = dict(electionId='0000000000',\
+		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										statementId='BIPB02_#2',\
 										oldElectionType=1, electionType=1, electionCode=-1,\
 										searchType=2, townCode=-1, sggCityCode=-1)
 
-		self.urlParam_city_codes['electionCode'] = _election_name
-		self.urlParam_town_list['electionName'] = _election_name
-
 
 class ElectorCrawler_Recent(MultiCityCrawler_province):
 
-#	def parse_tr(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Recent, self).parse_tr(consti, city_name)
+#	def parse_tr_xhtml(self, consti, city_name=None):
+#		consti = super(ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -98,12 +92,9 @@ class ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=1)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=1)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
-		self.urlParam_town_list = dict(statementId='BIPB02_#2',\
+		self.urlParam_town_list = dict(electionId=_election_name, statementId='BIPB02_#2',\
+									requestURI='/WEB-INF/jsp/electioninfo/'+_election_name+'/bi/bipb02.jsp',
 									electionCode=-1, searchType=2, townCode=-1)
-
-		self.urlParam_city_codes['electionId'] = _election_name
-		self.urlParam_town_list['electionId'] = _election_name
-		self.urlParam_town_list['requestURI'] = '/WEB-INF/jsp/electioninfo/'+_election_name+'/bi/bipb02.jsp'
