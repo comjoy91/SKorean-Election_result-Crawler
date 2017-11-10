@@ -1,9 +1,10 @@
 [
   {
+    "element_type": "local_division",
+    "election_type": "local_eduParliament",
     "nth": 5,
     "results": [
       {
-        "city_code": 1100,
         "town_list": [
           {
             "NAME": "종로구",
@@ -106,10 +107,10 @@
             "CODE": 1125
           }
         ],
+        "city_code": 1100,
         "city_name": "서울특별시"
       },
       {
-        "city_code": 2600,
         "town_list": [
           {
             "NAME": "중구",
@@ -176,10 +177,10 @@
             "CODE": 2616
           }
         ],
+        "city_code": 2600,
         "city_name": "부산광역시"
       },
       {
-        "city_code": 2700,
         "town_list": [
           {
             "NAME": "중구",
@@ -214,10 +215,10 @@
             "CODE": 2708
           }
         ],
+        "city_code": 2700,
         "city_name": "대구광역시"
       },
       {
-        "city_code": 2800,
         "town_list": [
           {
             "NAME": "중구",
@@ -260,10 +261,10 @@
             "CODE": 2810
           }
         ],
+        "city_code": 2800,
         "city_name": "인천광역시"
       },
       {
-        "city_code": 2900,
         "town_list": [
           {
             "NAME": "동구",
@@ -286,10 +287,10 @@
             "CODE": 2905
           }
         ],
+        "city_code": 2900,
         "city_name": "광주광역시"
       },
       {
-        "city_code": 3000,
         "town_list": [
           {
             "NAME": "동구",
@@ -312,10 +313,10 @@
             "CODE": 3005
           }
         ],
+        "city_code": 3000,
         "city_name": "대전광역시"
       },
       {
-        "city_code": 3100,
         "town_list": [
           {
             "NAME": "중구",
@@ -338,10 +339,10 @@
             "CODE": 3105
           }
         ],
+        "city_code": 3100,
         "city_name": "울산광역시"
       },
       {
-        "city_code": 4100,
         "town_list": [
           {
             "NAME": "수원시장안구",
@@ -520,10 +521,10 @@
             "CODE": 4144
           }
         ],
+        "city_code": 4100,
         "city_name": "경기도"
       },
       {
-        "city_code": 4200,
         "town_list": [
           {
             "NAME": "춘천시",
@@ -598,10 +599,10 @@
             "CODE": 4218
           }
         ],
+        "city_code": 4200,
         "city_name": "강원도"
       },
       {
-        "city_code": 4300,
         "town_list": [
           {
             "NAME": "청주시상당구",
@@ -656,10 +657,10 @@
             "CODE": 4313
           }
         ],
+        "city_code": 4300,
         "city_name": "충청북도"
       },
       {
-        "city_code": 4400,
         "town_list": [
           {
             "NAME": "천안시서북구",
@@ -730,10 +731,10 @@
             "CODE": 4416
           }
         ],
+        "city_code": 4400,
         "city_name": "충청남도"
       },
       {
-        "city_code": 4500,
         "town_list": [
           {
             "NAME": "전주시완산구",
@@ -796,10 +797,10 @@
             "CODE": 4517
           }
         ],
+        "city_code": 4500,
         "city_name": "전라북도"
       },
       {
-        "city_code": 4600,
         "town_list": [
           {
             "NAME": "목포시",
@@ -890,10 +891,10 @@
             "CODE": 4624
           }
         ],
+        "city_code": 4600,
         "city_name": "전라남도"
       },
       {
-        "city_code": 4700,
         "town_list": [
           {
             "NAME": "포항시북구",
@@ -992,10 +993,10 @@
             "CODE": 4724
           }
         ],
+        "city_code": 4700,
         "city_name": "경상북도"
       },
       {
-        "city_code": 4800,
         "town_list": [
           {
             "NAME": "창원시",
@@ -1078,10 +1079,10 @@
             "CODE": 4820
           }
         ],
+        "city_code": 4800,
         "city_name": "경상남도"
       },
       {
-        "city_code": 4900,
         "town_list": [
           {
             "NAME": "제주시",
@@ -1092,13 +1093,14 @@
             "CODE": 4902
           }
         ],
+        "city_code": 4900,
         "city_name": "제주특별자치도"
       }
-    ],
-    "election_type": "local_eduParliament",
-    "element_type": "localDivision"
+    ]
   },
   {
+    "element_type": "constituency_in_province",
+    "election_type": "local_eduParliament",
     "nth": 5,
     "results": [
       {
@@ -1525,8 +1527,6 @@
         ],
         "city_name": "제주특별자치도"
       }
-    ],
-    "election_type": "local_eduParliament",
-    "element_type": "constituency_in_province"
+    ]
   }
 ]

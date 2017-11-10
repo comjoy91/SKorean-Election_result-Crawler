@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- encoding=utf-8 -*-
 
-from crawlers.townCode.base_localDivision import *
-from crawlers.townCode.base_municipalConsti import *
+from crawlers.townCode.base_provincePage import *
+from crawlers.townCode.base_municipalPage import *
 from utils import sanitize, InvalidCrawlerError
 
 def Crawler(nth, election_name, _localType):
@@ -30,7 +30,8 @@ def Crawler(nth, election_name, _localType):
 
 
 
-class LocalDivision_CodeCrawler_GuOld(JSONCrawler_division):
+class LocalDivision_CodeCrawler_GuOld(JSONCrawler_province):
+	elemType = 'local_division'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 	# n:1~2 - 여기서 크롤링된 데이터가 국회의원 지역구 단위로 분류되어, 같은 시군구에서도 갑/을로 분구된 것이 따로따로 표기됨. 단, 선거구가 합구된 곳은 시군구별로 다 명기됨.
 	# n:3 - 여기서 크롤링된 데이터는 시군구 단위로 분류됨.
@@ -49,12 +50,13 @@ class LocalDivision_CodeCrawler_GuOld(JSONCrawler_division):
 		self.urlParam_town_list['electionCode'] = _election_name
 		self.urlParam_town_list['subElectionCode'] = _localType_int
 
-		self.consti_crawler = Constituency_CodeCrawler_GuOld(_election_name, _localType_int, _target)
-		self.consti_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_GuOld(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
 
-class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
+class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
+	elemType = 'local_division'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
@@ -72,11 +74,12 @@ class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
 		self.urlParam_town_list['electionCode'] = _election_name
 		self.urlParam_town_list['subElectionCode'] = _localType_int
 
-		self.consti_crawler = Constituency_CodeCrawler_Old(_election_name, _localType_int, _target)
-		self.consti_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Old(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
-class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
+class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
+	elemType = 'local_division'
 	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
@@ -92,13 +95,14 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
 		self.urlParam_city_codes['electionCode'] = _localType_int
 		self.urlParam_town_list['electionCode'] = _localType_int
 
-		self.consti_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
-		self.consti_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
 
 
-class Constituency_CodeCrawler_GuOld(JSONCrawler_MC):
+class Constituency_CodeCrawler_GuOld(JSONCrawler_municipal):
+	elemType = 'constituency_in_municipal_division'
 	# 여기서 크롤링된 데이터는 광역/기초자치의회 지역 선거구 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
@@ -122,7 +126,8 @@ class Constituency_CodeCrawler_GuOld(JSONCrawler_MC):
 
 
 
-class Constituency_CodeCrawler_Old(JSONCrawler_MC):
+class Constituency_CodeCrawler_Old(JSONCrawler_municipal):
+	elemType = 'constituency_in_municipal_division'
 	# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
@@ -146,7 +151,8 @@ class Constituency_CodeCrawler_Old(JSONCrawler_MC):
 
 
 
-class Constituency_CodeCrawler_Recent(JSONCrawler_MC):
+class Constituency_CodeCrawler_Recent(JSONCrawler_municipal):
+	elemType = 'constituency_in_municipal_division'
 	# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'

@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding=utf-8 -*-
 
-from crawlers.townCode.base_localDivision import *
-from crawlers.townCode.base_provinceConsti import *
+from crawlers.townCode.base_provincePage import *
 from utils import sanitize, InvalidCrawlerError
 
 def Crawler(nth, election_name, _localType):
@@ -34,8 +33,9 @@ def Crawler(nth, election_name, _localType):
 
 
 
-class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
-	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
+class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
+	elemType = 'local_division'
+	# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 	urlParam_city_codes = dict(electionId='0000000000')
@@ -52,12 +52,13 @@ class LocalDivision_CodeCrawler_Old(JSONCrawler_division):
 		self.urlParam_town_list['electionCode'] = _election_name
 		self.urlParam_town_list['subElectionCode'] = _localType_int
 
-		self.consti_crawler = Constituency_CodeCrawler_Old(_election_name, _localType_int, _target)
-		self.consti_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Old(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
-class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
-	# 여기서 크롤링된 데이터는 행정구역(시군구) 단위로 분류됨.
+class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
+	elemType = 'local_division'
+	# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 	urlParam_city_codes = dict()
@@ -72,41 +73,43 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_division):
 		self.urlParam_city_codes['electionCode'] = _localType_int
 		self.urlParam_town_list['electionCode'] = _localType_int
 
-		self.consti_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
-		self.consti_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
+		self.next_crawler.nth = nth
 
 
 
-class Constituency_CodeCrawler_Old(JSONCrawler_PC):
-	# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
+class Constituency_CodeCrawler_Old(JSONCrawler_province):
+	elemType = 'constituency_in_province'
+	# 여기서 크롤링된 데이터는 광역자치단체별 교육의원 지역 선거구 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 	urlParam_city_codes = dict(electionId='0000000000')
 
-	urlPath_consti_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
-	urlParam_consti_list = dict(electionId='0000000000')
+	urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
+	urlParam_sgg_list = dict(electionId='0000000000')
 
 	def __init__(self, _election_name, _localType_int, _target):
 		self.localType_int = _localType_int
 		self.target = _target
 		self.urlParam_city_codes['electionCode'] = _election_name
 		self.urlParam_city_codes['subElectionCode'] = _localType_int
-		self.urlParam_consti_list['electionName'] = _election_name
-		self.urlParam_consti_list['electionCode'] = _localType_int
+		self.urlParam_sgg_list['electionName'] = _election_name
+		self.urlParam_sgg_list['electionCode'] = _localType_int
 
 
 
-class Constituency_CodeCrawler_Recent(JSONCrawler_PC):
-	# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
+class Constituency_CodeCrawler_Recent(JSONCrawler_province):
+	elemType = 'constituency_in_province'
+	# 여기서 크롤링된 데이터는 광역자치단체별 교육의원 지역 선거구 단위로 분류됨.
 
 	urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 	urlParam_city_codes = dict()
 
-	urlPath_consti_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson.json'
-	urlParam_consti_list = dict()
+	urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson.json'
+	urlParam_sgg_list = dict()
 
 	def __init__(self, _election_name, _localType_int, _target):
 		self.localType_int = _localType_int
 		self.target = _target
 		self.urlParam_city_codes['electionCode'] = _localType_int
-		self.urlParam_consti_list['electionCode'] = _localType_int
+		self.urlParam_sgg_list['electionCode'] = _localType_int

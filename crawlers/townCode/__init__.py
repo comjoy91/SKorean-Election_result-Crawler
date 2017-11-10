@@ -29,8 +29,8 @@ def Crawler(target, nth, localType):
         elif (localType=='em'):
             return local_eduParliament.Crawler(nth, _election_names['local'][int(nth)], localType)
         else:
-            raise InvalidCrawlerError(target, 'counting_vote', nth, localType)
+            raise InvalidCrawlerError(target, 'townCode', nth, localType)
     elif target == 'president':
         return president.Crawler(nth, _election_names['president'][int(nth)])
     else:
-        raise InvalidCrawlerError(target, 'counting_vote', nth, localType)
+        raise InvalidCrawlerError(target, 'townCode', nth, localType)
