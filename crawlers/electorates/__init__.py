@@ -2,6 +2,9 @@
 # -*- encoding=utf-8 -*-
 
 from .assembly import *
+from .local_administration import *
+from .local_eduParliament import *
+from .local_parliament import *
 from .president import *
 from utils import InvalidCrawlerError
 

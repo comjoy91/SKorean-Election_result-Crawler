@@ -39,8 +39,7 @@ class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
 		self.urlParam_town_list = dict(electionId='0000000000', \
 										electionCode=_election_name, subElectionCode =_localType_int)
 
-		self.next_crawler = Constituency_CodeCrawler_Old(_election_name, _localType_int, _target)
-		self.next_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Old(_election_name, nth, _localType_int, _target)
 
 
 class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
@@ -58,14 +57,14 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
 		self.urlParam_town_list = dict(electionCode=_localType_int, electionId=_election_name)
 
-		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
-		self.next_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, nth, _localType_int, _target)
 
 
 
 class Constituency_CodeCrawler_Old(JSONCrawler_province):
 
-	def __init__(self, _election_name, _localType_int, _target):
+	def __init__(self, nth, _election_name, _localType_int, _target):
+		self.nth = nth
 		self.localType_int = _localType_int
 		self.target = _target
 		self.elemType = 'constituency_in_province'
@@ -82,7 +81,8 @@ class Constituency_CodeCrawler_Old(JSONCrawler_province):
 
 class Constituency_CodeCrawler_Recent(JSONCrawler_province):
 
-	def __init__(self, _election_name, _localType_int, _target):
+	def __init__(self, nth, _election_name, _localType_int, _target):
+		self.nth = nth
 		self.localType_int = _localType_int
 		self.target = _target
 		self.elemType = 'constituency_in_province'

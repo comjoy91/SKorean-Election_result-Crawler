@@ -23,27 +23,28 @@ def Crawler(nth, election_name):
 	elif 13 <= nth <= 15:
 		raise NotImplementedError('Korean National Election Committee does not have any data about electorates in each local region of the 2nd~7th / 13rd~15th presidential election.')
 	elif nth == 16:
-		crawler = ElectorCrawler_GuOld(int(nth), election_name, target)
+		crawler = LocalDivision_ElectorCrawler_GuOld(int(nth), election_name, target)
 	elif 17 <= nth <= 18:
-		crawler = ElectorCrawler_Old(int(nth), election_name, target)
+		crawler = LocalDivision_ElectorCrawler_Old(int(nth), election_name, target)
 	elif nth == 19:
-		crawler = ElectorCrawler_Recent(int(nth), election_name, target)
+		crawler = LocalDivision_ElectorCrawler_Recent(int(nth), election_name, target)
 	else:
 		raise InvalidCrawlerError('electorates', nth, election_name, target)
 	return crawler
 
 
 
-class ElectorCrawler_GuOld(MultiCityCrawler_province):
+class LocalDivision_ElectorCrawler_GuOld(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
+#		consti = super(LocalDivision_ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
 		self.nth = nth
 		self.target = _target
 		self.elemType = 'local_division'
+		self.isRecent = False
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
 		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name)
@@ -56,16 +57,17 @@ class ElectorCrawler_GuOld(MultiCityCrawler_province):
 										searchType=2, townCode=-1, sggCityCode=-1)
 
 
-class ElectorCrawler_Old(MultiCityCrawler_province):
+class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
+#		consti = super(LocalDivision_ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
 		self.nth = nth
 		self.target = _target
 		self.elemType = 'local_division'
+		self.isRecent = False
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name,\
@@ -79,10 +81,10 @@ class ElectorCrawler_Old(MultiCityCrawler_province):
 										searchType=2, townCode=-1, sggCityCode=-1)
 
 
-class ElectorCrawler_Recent(MultiCityCrawler_province):
+class LocalDivision_ElectorCrawler_Recent(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
-#		consti = super(ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
+#		consti = super(LocalDivision_ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
 	def __init__(self, nth, _election_name, _target):
@@ -90,6 +92,7 @@ class ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.target = _target
 		self.election_name = _election_name
 		self.elemType = 'local_division'
+		self.isRecent = True
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
 		self.urlParam_city_codes = dict(electionCode=1, electionId=_election_name)

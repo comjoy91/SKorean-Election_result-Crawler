@@ -87,7 +87,7 @@ class JSONCrawler_municipal(BaseCrawler_municipal):
 			result_by_city = dict(city_name=city_name, city_code=int(city_code), town_list=flatten(job.get() for job in jobs))
 			every_result[0]['results'].append(result_by_city)
 
-			print('crawled %s election #%d - %s, 광역자치단체 내 지역구 목록(%d)...' % (target, nth,  city_name, len(result_by_city['town_list'])))
+			print('crawled %s election #%d - %s, 광역자치단체 내 지역구 목록(%d)...' % (target, nth, city_name, len(result_by_city['town_list'])))
 
 		# 추가될 수도 있는 데이터 크롤링을 위해 next_crawler를 추가하는 내용.
 		if hasattr(self, 'next_crawler'):

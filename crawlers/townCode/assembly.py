@@ -38,8 +38,7 @@ class LocalDivision_CodeCrawler_GuOld(JSONCrawler_province):
 		if nth == 17: # n:17 - 이것만 지역구 크롤링을 GuOld가 아니라 그냥 Old에서 진행.
 			self.next_crawler = Constituency_CodeCrawler_Old(_election_name, _target)
 		else:
-			self.next_crawler = Constituency_CodeCrawler_GuOld(_election_name, _target)
-		self.next_crawler.nth = nth
+			self.next_crawler = Constituency_CodeCrawler_GuOld(nth, _election_name, _target)
 
 
 
@@ -57,8 +56,7 @@ class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_Old.json'
 		self.urlParam_town_list = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=2)
 
-		self.next_crawler = Constituency_CodeCrawler_Old(_election_name, _target)
-		self.next_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Old(nth, _election_name, _target)
 
 
 class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
@@ -75,15 +73,15 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
 		self.urlParam_town_list = dict(electionCode=2)
 
-		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, _target)
-		self.next_crawler.nth = nth
+		self.next_crawler = Constituency_CodeCrawler_Recent(nth, _election_name, _target)
 
 
 
 
 class Constituency_CodeCrawler_GuOld(JSONCrawler_province):
 
-	def __init__(self, _election_name, _target):
+	def __init__(self, nth, _election_name, _target):
+		self.nth = nth
 		self.target = _target
 		self.elemType = 'constituency_in_province'
 		# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
@@ -102,7 +100,8 @@ class Constituency_CodeCrawler_GuOld(JSONCrawler_province):
 
 class Constituency_CodeCrawler_Old(JSONCrawler_province):
 
-	def __init__(self, _election_name, _target):
+	def __init__(self, nth, _election_name, _target):
+		self.nth = nth
 		self.target = _target
 		self.elemType = 'constituency_in_province'
 		# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
@@ -117,7 +116,8 @@ class Constituency_CodeCrawler_Old(JSONCrawler_province):
 
 class Constituency_CodeCrawler_Recent(JSONCrawler_province):
 
-	def __init__(self, _election_name, _target):
+	def __init__(self, nth, _election_name, _target):
+		self.nth = nth
 		self.target = _target
 		self.elemType = 'constituency_in_province'
 		# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
