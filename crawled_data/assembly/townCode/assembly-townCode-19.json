@@ -1,7 +1,8 @@
 [
   {
+    "election_type": "assembly",
+    "element_type": "local_division",
     "nth": 19,
-    "town_type": "localDivision",
     "results": [
       {
         "city_code": 1100,
@@ -1112,12 +1113,13 @@
     ]
   },
   {
+    "election_type": "assembly",
+    "element_type": "constituency_in_province",
     "nth": 19,
-    "town_type": "constituency",
     "results": [
       {
         "city_code": 1100,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "종로구",
             "CODE": 2110101
@@ -1315,7 +1317,7 @@
       },
       {
         "city_code": 2600,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "중구동구",
             "CODE": 2260101
@@ -1393,7 +1395,7 @@
       },
       {
         "city_code": 2700,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "중구남구",
             "CODE": 2270101
@@ -1447,7 +1449,7 @@
       },
       {
         "city_code": 2800,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "중구동구옹진군",
             "CODE": 2280101
@@ -1501,7 +1503,7 @@
       },
       {
         "city_code": 2900,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "동구",
             "CODE": 2290101
@@ -1539,7 +1541,7 @@
       },
       {
         "city_code": 3000,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "동구",
             "CODE": 2300101
@@ -1569,7 +1571,7 @@
       },
       {
         "city_code": 3100,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "중구",
             "CODE": 2310101
@@ -1599,7 +1601,7 @@
       },
       {
         "city_code": 5100,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "세종특별자치시",
             "CODE": 2510101
@@ -1609,7 +1611,7 @@
       },
       {
         "city_code": 4100,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "수원시갑",
             "CODE": 2410101
@@ -1823,7 +1825,7 @@
       },
       {
         "city_code": 4200,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "춘천시",
             "CODE": 2420101
@@ -1865,7 +1867,7 @@
       },
       {
         "city_code": 4300,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "청주시상당구",
             "CODE": 2430101
@@ -1903,7 +1905,7 @@
       },
       {
         "city_code": 4400,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "천안시갑",
             "CODE": 2440101
@@ -1949,7 +1951,7 @@
       },
       {
         "city_code": 4500,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "전주시완산구갑",
             "CODE": 2450101
@@ -1999,7 +2001,7 @@
       },
       {
         "city_code": 4600,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "목포시",
             "CODE": 2460101
@@ -2049,7 +2051,7 @@
       },
       {
         "city_code": 4700,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "포항시북구",
             "CODE": 2470101
@@ -2115,7 +2117,7 @@
       },
       {
         "city_code": 4800,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "창원시의창구",
             "CODE": 2480101
@@ -2185,7 +2187,7 @@
       },
       {
         "city_code": 4900,
-        "town_list": [
+        "consti_list": [
           {
             "NAME": "제주시갑",
             "CODE": 2490101

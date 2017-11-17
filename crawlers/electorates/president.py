@@ -29,7 +29,7 @@ def Crawler(nth, election_name):
 	elif nth == 19:
 		crawler = ElectorCrawler_Recent(int(nth), election_name, target)
 	else:
-		raise InvalidCrawlerError('president', 'electorates', nth)
+		raise InvalidCrawlerError('electorates', nth, election_name, target)
 	return crawler
 
 
@@ -52,7 +52,7 @@ class ElectorCrawler_GuOld(MultiCityCrawler_province):
 		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										statementId='BIPB92_#1',\
-										oldElectionType=0, electionType=1, electionCode=-1,\
+										oldElectionType=1, electionType=1, electionCode=-1,\
 										searchType=2, townCode=-1, sggCityCode=-1)
 
 
@@ -92,7 +92,7 @@ class ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.elemType = 'local_division'
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=1)
+		self.urlParam_city_codes = dict(electionCode=1, electionId=_election_name)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId=_election_name, statementId='BIPB02_#2',\

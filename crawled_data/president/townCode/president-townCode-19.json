@@ -1,8 +1,7 @@
 [
   {
-    "element_type": "local_division",
-    "election_type": "presidential",
     "nth": 19,
+    "element_type": "local_division",
     "results": [
       {
         "city_code": 1100,
@@ -1106,6 +1105,7 @@
         ],
         "city_name": "제주특별자치도"
       }
-    ]
+    ],
+    "election_type": "presidential"
   }
 ]

@@ -35,12 +35,13 @@ class JSONCrawler(BaseCrawler):
 		return self.param_url_list
 
 	def crawl(self):
+		target = self.target
 		jobs = []
 
 		print("Waiting to connect http://info.nec.go.kr server (%s)..." % 'partyList')
 		req_url = self.url_list_base
 		req_param = self.url_param()
 		job = self.parse(req_url, req_param)
-		every_result = [{'town_type':"전국",'nth':self.nth,'results':job}]
+		every_result = [{'election_type':target,'town_type':"전국",'nth':self.nth,'results':job}]
 
 		return every_result

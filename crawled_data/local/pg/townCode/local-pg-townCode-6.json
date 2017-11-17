@@ -1,5 +1,7 @@
 [
   {
+    "element_type": "local_division",
+    "nth": 6,
     "results": [
       {
         "city_name": "서울특별시",
@@ -1108,8 +1110,6 @@
         "city_code": 4900
       }
     ],
-    "election_type": "local_provincal_administration",
-    "nth": 6,
-    "element_type": "local_division"
+    "election_type": "local_provincal_administration"
   }
 ]

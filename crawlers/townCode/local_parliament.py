@@ -5,27 +5,16 @@ from crawlers.townCode.base_provincePage import *
 from crawlers.townCode.base_municipalPage import *
 from utils import sanitize, InvalidCrawlerError
 
-def Crawler(nth, election_name, _localType):
-	localType_dict = {'pg':3, 'mg':4, 'pm':5, 'mm':6, 'em':10, 'eg':11}
-	localType_int = localType_dict[_localType]
-	target_dict = \
-		{'pg':'local_provincal_administration', \
-		'mg':'local_municipal_administration', \
-		'pm':'local_provincal_parliament', \
-		'mm':'local_municipal_parliament', \
-		'em':'local_eduParliament', \
-		'eg':'local_eduAdministration'}
-	target = target_dict[_localType]
-
+def Crawler(nth, election_name, localType_int, target):
 	if 1 <= nth <= 3:
 		crawler = LocalDivision_CodeCrawler_GuOld(int(nth), election_name, localType_int, target)
 	elif 4 <= nth <= 6:
 		crawler = LocalDivision_CodeCrawler_Old(int(nth), election_name, localType_int, target)
 	elif nth == 7:
-		raise InvalidCrawlerError('local', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
 		#"최근선거"로 들어갈 때의 code: crawler = LocalDivision_CodeCrawler_Recent(int(nth), election_name, localType_int, target)
 	else:
-		raise InvalidCrawlerError('local', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
 	return crawler
 
 
@@ -85,10 +74,10 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
 		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=_localType_int)
+		self.urlParam_city_codes = dict(electionCode=_localType_int, electionId=_election_name)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
-		self.urlParam_town_list = dict(electionCode=_localType_int)
+		self.urlParam_town_list = dict(electionCode=_localType_int, electionId=_election_name)
 
 		self.next_crawler = Constituency_CodeCrawler_Recent(_election_name, _localType_int, _target)
 		self.next_crawler.nth = nth
@@ -148,10 +137,10 @@ class Constituency_CodeCrawler_Recent(JSONCrawler_municipal):
 		# 여기서 크롤링된 데이터는 국회의원 지역 선거구 단위로 분류됨.
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=_localType_int)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_localType_int)
 
 		self.urlPath_town_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson.json'
-		self.urlParam_town_codes = dict(electionCode=_localType_int)
+		self.urlParam_town_codes = dict(electionId=_election_name, electionCode=_localType_int)
 
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggTownCodeJson.json'
-		self.urlParam_sgg_list = dict(electionCode=_localType_int)
+		self.urlParam_sgg_list = dict(electionId=_election_name, electionCode=_localType_int)

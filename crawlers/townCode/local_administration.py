@@ -4,35 +4,25 @@
 from crawlers.townCode.base_provincePage import *
 from utils import sanitize, InvalidCrawlerError
 
-def Crawler(nth, election_name, _localType):
-	localType_dict = {'pg':3, 'mg':4, 'pm':5, 'mm':6, 'em':10, 'eg':11}
-	localType_int = localType_dict[_localType]
-	target_dict = \
-		{'pg':'local_provincal_administration', \
-		'mg':'local_municipal_administration', \
-		'pm':'local_provincal_parliament', \
-		'mm':'local_municipal_parliament', \
-		'em':'local_eduParliament', \
-		'eg':'local_eduAdministration'}
-	target = target_dict[_localType]
-
-	if _localType=='eg' and nth == 1:
-		raise NotImplementedError('Educational Governer Election was not held in 1995.')
-	elif _localType=='eg' and nth == 2:
-		raise NotImplementedError('Educational Governer Election was not held in 1998.')
-	elif _localType=='eg' and nth == 3:
-		raise NotImplementedError('Educational Governer Election was not held in 2002.')
-	elif _localType=='eg' and nth == 4:
-		raise NotImplementedError('Educational Governer Election was not held in 2006.')
-	elif 1 <= nth <= 3:
+def Crawler(nth, election_name, localType_int, target):
+	if target == 'local_eduAdministration':
+		if nth == 1:
+			raise NotImplementedError('Educational Superintendent Election was not held in 1995.')
+		elif nth == 2:
+			raise NotImplementedError('Educational Superintendent Election was not held in 1998.')
+		elif nth == 3:
+			raise NotImplementedError('Educational Superintendent Election was not held in 2002.')
+		elif nth == 4:
+			raise NotImplementedError('Educational Superintendent Election was not held in 2006.')
+	if 1 <= nth <= 3:
 		crawler = LocalDivision_CodeCrawler_GuOld(int(nth), election_name, localType_int, target)
 	elif 4 <= nth <= 6:
 		crawler = LocalDivision_CodeCrawler_Old(int(nth), election_name, localType_int, target)
 	elif nth == 7:
-		raise InvalidCrawlerError('local', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
 		#"최근선거"로 들어갈 때의 code: crawler = LocalDivision_CodeCrawler_Recent(int(nth), election_name, localType_int, target)
 	else:
-		raise InvalidCrawlerError('local', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
 	return crawler
 
 
@@ -55,9 +45,6 @@ class LocalDivision_CodeCrawler_GuOld(JSONCrawler_province):
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeBySgJson_GuOld.json'
 		self.urlParam_town_list = dict(electionId='0000000000', \
 										electionCode=_election_name, subElectionCode =_localType_int)
-
-		self.next_crawler = Constituency_CodeCrawler_GuOld(_election_name, _localType_int, _target)
-		self.next_crawler.nth = nth
 
 
 class LocalDivision_CodeCrawler_Old(JSONCrawler_province):
@@ -88,7 +75,7 @@ class LocalDivision_CodeCrawler_Recent(JSONCrawler_province):
 		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=_localType_int)
+		self.urlParam_city_codes = dict(electionCode=_localType_int, electionId=_election_name)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_townCodeJson.json'
-		self.urlParam_town_list = dict(electionCode=_localType_int)
+		self.urlParam_town_list = dict(electionCode=_localType_int, electionId=_election_name)

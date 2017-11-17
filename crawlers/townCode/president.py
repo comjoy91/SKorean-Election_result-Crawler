@@ -27,7 +27,7 @@ def Crawler(nth, election_name):
 	elif nth == 19:
 		crawler = LocalDivision_CodeCrawler_Recent(int(nth), election_name, target)
 	else:
-		raise InvalidCrawlerError('president', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, target)
 	return crawler
 
 

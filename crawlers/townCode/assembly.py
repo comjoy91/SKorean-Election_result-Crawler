@@ -7,14 +7,14 @@ from utils import sanitize, InvalidCrawlerError
 def Crawler(nth, election_name):
 	target = 'assembly'
 	if 1 <= nth <= 17:
-		crawler = LocalDivision_CodeCrawler_GuOld(int(nth), election_name)
+		crawler = LocalDivision_CodeCrawler_GuOld(int(nth), election_name, target)
 	elif 18 <= nth <= 20:
-		crawler = LocalDivision_CodeCrawler_Old(int(nth), election_name)
+		crawler = LocalDivision_CodeCrawler_Old(int(nth), election_name, target)
 	elif nth == 21:
-		raise InvalidCrawlerError('assembly', 'townCode', nth)
-		#"최근선거"로 들어갈 때의 code: crawler = LocalDivision_CodeCrawler_Recent(int(nth), election_name)
+		raise InvalidCrawlerError('townCode', nth, election_name, target)
+		#"최근선거"로 들어갈 때의 code: crawler = LocalDivision_CodeCrawler_Recent(int(nth), election_name, target)
 	else:
-		raise InvalidCrawlerError('assembly', 'townCode', nth)
+		raise InvalidCrawlerError('townCode', nth, election_name, target)
 	return crawler
 
 

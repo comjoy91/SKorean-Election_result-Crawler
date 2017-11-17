@@ -13,15 +13,15 @@ def Crawler(nth, election_name):
 	elif 18 <= nth <= 20:
 		crawler = ElectorCrawler_Old(int(nth), election_name, target)
 	elif nth == 21:
-		raise InvalidCrawlerError('assembly', 'electorates', nth)
+		raise InvalidCrawlerError('electorates', nth, election_name, target)
 		#"최근선거"로 들어갈 때의 code: crawler = ElectorCrawler_Recent(int(nth), election_name, target)
 	else:
-		raise InvalidCrawlerError('assembly', 'electorates', nth)
+		raise InvalidCrawlerError('electorates', nth, election_name, target)
 	return crawler
 
 
 
-class ElectorCrawler_GuOld(MultiCityCrawler_province):
+class consti_ElectorCrawler_GuOld(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
 #		consti = super(ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
@@ -43,7 +43,7 @@ class ElectorCrawler_GuOld(MultiCityCrawler_province):
 										townCode=-1, sggCityCode=-1)
 
 
-class ElectorCrawler_Old(MultiCityCrawler_province):
+class consti_ElectorCrawler_Old(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
 #		consti = super(ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
@@ -75,7 +75,7 @@ class ElectorCrawler_Old(MultiCityCrawler_province):
 			self.next_crawler.nth = nth
 
 
-class ElectorCrawler_Recent(MultiCityCrawler_province):
+class consti_ElectorCrawler_Recent(MultiCityCrawler_province):
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
 #		consti = super(ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)

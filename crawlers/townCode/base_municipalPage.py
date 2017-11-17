@@ -59,7 +59,7 @@ class JSONCrawler_municipal(BaseCrawler_municipal):
 		return [(x['CODE'], x['NAME']) for x in list_]
 
 	def JSON_url_param(self, town_code): # 각 기초자치단체별 선거구 code 리스트를 json으로 받을 URL의 parameter.
-		param_dict = copy.deepcopy(self.urlParam_consti_list)
+		param_dict = copy.deepcopy(self.urlParam_sgg_list)
 		param_dict['townCode'] = town_code
 		return param_dict
 
@@ -78,7 +78,7 @@ class JSONCrawler_municipal(BaseCrawler_municipal):
 			jobs = []
 			# 광역자치단체(city_code) 내의 기초자치단체 별로 아래 단계를 수행.
 			for town_code, town_name in self.town_codes(city_code):
-				req_url = self.urlPath_consti_list
+				req_url = self.urlPath_sgg_list
 				req_param = self.JSON_url_param(town_code)
 				job = gevent.spawn(self.parse_town, req_url, req_param, target, town_code, town_name)
 				jobs.append(job)
