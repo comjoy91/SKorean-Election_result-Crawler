@@ -19,7 +19,10 @@ _election_names = {\
 					'19721223', '19780706', '19791206', '19800827', '19810225',\
 					'19871216', '19921218', '19971218', '20021219', '20071219', '20121219', '0020170509']}
 
-localType_int_dict = {'pg':3, 'mg':4, 'pm':5, 'mm':6, 'em':10, 'eg':11}
+electionCode_dict = {'president':1, 'assembly':2, \
+                    'local_provincal_administration':3, 'local_municipal_administration':4, \
+                    'local_provincal_parliament':5, 'local_municipal_parliament':6, \
+                    'local_eduParliament':10, 'local_eduAdministration':11}
 localType_str_dict = \
 	{'pg':'local_provincal_administration', \
 	'mg':'local_municipal_administration', \
@@ -29,16 +32,15 @@ localType_str_dict = \
 	'eg':'local_eduAdministration'}
 
 def Crawler(_target, _dataType, nth, _localType):
-    
+
     election_name = _election_names[_target][int(nth)]
-    localType_int = None
     target = _target
     if target == 'local':
-        localType_int = localType_int_dict[_localType]
         target = localType_str_dict[_localType]
+    electionType = electionCode_dict[target]
 
     if _dataType == 'electorates':
-        return electorates.Crawler(target, nth, election_name, localType_int)
+        return electorates.Crawler(target, nth, election_name, electionType)
         # 각 지역구/시군구별 선거인수 수집.
     elif _dataType == 'counting_vote':
         return counting_vote.Crawler(target, nth, election_name, localType)
@@ -47,10 +49,10 @@ def Crawler(_target, _dataType, nth, _localType):
         return counting_vote_dong.Crawler(target, nth, election_name, localType)
         # 각 읍면동별 득표수 수집.
     elif _dataType == 'townCode':
-        return townCode.Crawler(target, nth, election_name, localType_int)
+        return townCode.Crawler(target, nth, election_name, electionType)
         # 각 지역구/시군구 인식코드 수집.
     elif _dataType == 'partyCode':
         return partyCode.Crawler(target, nth, election_name)
         # 각 정당 인식코드 수집.
     else:
-        raise InvalidCrawlerError(target, _dataType, nth, election_name, localType_int)
+        raise InvalidCrawlerError(target, _dataType, nth, election_name, electionType)

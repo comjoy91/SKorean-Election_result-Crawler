@@ -4,19 +4,19 @@
 from crawlers.electorates.base_provincePage import *
 from utils import sanitize
 
-def Crawler(nth, election_name):
+def Crawler(nth, election_name, electionType):
 	target = 'assembly'
 	if 1 <= nth <= 17:
 		raise NotImplementedError('Korean National Election Committee does not have any data about electorates in each constituencies of the 1st~17th general election.')
 		# 지역구별 선거인수가 나오지 않고, 기초자치단체별 선거인수만 나옴.
 		# 선거인수를 받기 위해서는, 결국 개표 결과에 나오는 선거인수를 받아야 함.
 	elif 18 <= nth <= 20:
-		crawler = Constituency_ElectorCrawler_Old(int(nth), election_name, target)
+		crawler = Constituency_ElectorCrawler_Old(int(nth), election_name, electionType, target)
 	elif nth == 21:
-		raise InvalidCrawlerError('electorates', nth, election_name, target)
+		raise InvalidCrawlerError('electorates', nth, election_name, electionType, target)
 		#"최근선거"로 들어갈 때의 code: crawler = ElectorCrawler_Recent(int(nth), election_name, target)
 	else:
-		raise InvalidCrawlerError('electorates', nth, election_name, target)
+		raise InvalidCrawlerError('electorates', nth, election_name, electionType, target)
 	return crawler
 
 
@@ -27,7 +27,7 @@ class Constituency_ElectorCrawler_GuOld(MultiCityCrawler_province):
 #		consti = super(ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
 		self.target = _target
 		self.elemType = 'constituency_in_province'
@@ -50,7 +50,7 @@ class Constituency_ElectorCrawler_Old(MultiCityCrawler_province):
 #		consti = super(ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
 		self.target = _target
 		self.elemType = 'constituency_in_province'
@@ -73,7 +73,7 @@ class Constituency_ElectorCrawler_Old(MultiCityCrawler_province):
 		if nth == 18: # 18대 총선(2008)은 재외국민선거 도입 이전: 지역구 선거인수와 비례대표 선거인수가 같음. 따라서 지역구 선거인수만 크롤링함.
 			pass
 		else:
-			self.next_crawler = LocalDivision_ElectorCrawler_Old(nth, _election_name, _target)
+			self.next_crawler = LocalDivision_ElectorCrawler_Old(nth, _election_name, _election_type, _target)
 
 
 class Constituency_ElectorCrawler_Recent(MultiCityCrawler_province):
@@ -82,7 +82,7 @@ class Constituency_ElectorCrawler_Recent(MultiCityCrawler_province):
 #		consti = super(ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
 		self.target = _target
 		self.election_name = _election_name
@@ -96,9 +96,9 @@ class Constituency_ElectorCrawler_Recent(MultiCityCrawler_province):
 		self.urlParam_sgg_list = dict(electionId=_election_name, \
 									requestURI='/WEB-INF/jsp/electioninfo/'+election_name+'/bi/bipb02.jsp',\
 									statementId='BIPB02_#3_2',\
-									electionCode=2, searchType=3, townCode=-1)
+									electionCode=_election_type, searchType=3, townCode=-1)
 
-		self.next_crawler = LocalDivision_ElectorCrawler_Recent(nth, _election_name, _target)
+		self.next_crawler = LocalDivision_ElectorCrawler_Recent(nth, _election_name, _election_type, _target)
 
 
 
@@ -111,7 +111,7 @@ class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 #		consti = super(LocalDivision_ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
 		self.target = _target
 		self.elemType = 'local_division'
@@ -130,12 +130,13 @@ class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 		self.urlParam_town_list['statementId'] = 'BIPB02_#2_1' if nth==20 else 'BIPB02_#2' #왜 얘만 다른지는 모르겠습니다.
 
 class LocalDivision_ElectorCrawler_Recent(MultiCityCrawler_province):
+	# TODO: 이 곳의 electionCode는 2(지역구)가 아니라 7(비례대표).
 
 #	def parse_tr_xhtml(self, consti, city_name=None):
 #		consti = super(LocalDivision_ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
 		self.target = _target
 		self.election_name = _election_name

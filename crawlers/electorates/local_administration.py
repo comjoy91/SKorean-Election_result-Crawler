@@ -4,7 +4,7 @@
 from crawlers.electorates.base_provincePage import *
 from utils import sanitize, InvalidCrawlerError
 
-def Crawler(nth, election_name, localType_int, target):
+def Crawler(nth, election_name, electionType, target):
 	if target == 'local_eduAdministration':
 		if nth == 1:
 			raise NotImplementedError('Educational Superintendent Election was not held in 1995.')
@@ -15,23 +15,22 @@ def Crawler(nth, election_name, localType_int, target):
 		elif nth == 4:
 			raise NotImplementedError('Educational Superintendent Election was not held in 2006.')
 	if 1 <= nth <= 3:
-		crawler = Elector_Crawler_GuOld(int(nth), election_name, localType_int, target)
+		crawler = Elector_Crawler_GuOld(int(nth), election_name, electionType, target)
 	elif 4 <= nth <= 6:
-		crawler = Elector_Crawler_Old(int(nth), election_name, localType_int, target)
+		crawler = Elector_Crawler_Old(int(nth), election_name, electionType, target)
 	elif nth == 7:
-		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
-		#"최근선거"로 들어갈 때의 code: crawler = Elector_Crawler_Recent(int(nth), election_name, localType_int, target)
+		raise InvalidCrawlerError('townCode', nth, election_name, electionType, target)
+		#"최근선거"로 들어갈 때의 code: crawler = Elector_Crawler_Recent(int(nth), election_name, electionType, target)
 	else:
-		raise InvalidCrawlerError('townCode', nth, election_name, localType_int, target)
+		raise InvalidCrawlerError('townCode', nth, election_name, electionType, target)
 	return crawler
 
 
 
 class LocalDivision_ElectorCrawler_GuOld(MultiCityCrawler_province):
 
-	def __init__(self, nth, _election_name, _localType_int, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
-		self.localType_int = _localType_int
 		self.target = _target
 		self.elemType = 'local_division'
 		self.isRecent = False
@@ -41,7 +40,7 @@ class LocalDivision_ElectorCrawler_GuOld(MultiCityCrawler_province):
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
 		self.urlParam_city_codes = dict(electionId='0000000000', \
-										electionCode=_election_name, subElectionCode =_localType_int)
+										electionCode=_election_name, subElectionCode =_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -53,9 +52,8 @@ class LocalDivision_ElectorCrawler_GuOld(MultiCityCrawler_province):
 
 class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 
-	def __init__(self, nth, _election_name, _localType_int, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
-		self.localType_int = _localType_int
 		self.target = _target
 		self.elemType = 'local_division'
 		self.isRecent = False
@@ -63,7 +61,7 @@ class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
 		self.urlParam_city_codes = dict(electionId='0000000000', \
-										electionCode=_election_name, subElectionCode =_localType_int)
+										electionCode=_election_name, subElectionCode =_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -75,16 +73,15 @@ class LocalDivision_ElectorCrawler_Old(MultiCityCrawler_province):
 
 class LocalDivision_ElectorCrawler_Recent(MultiCityCrawler_province):
 
-	def __init__(self, nth, _election_name, _localType_int, _target):
+	def __init__(self, nth, _election_name, _election_type, _target):
 		self.nth = nth
-		self.localType_int = _localType_int
 		self.target = _target
 		self.elemType = 'local_division'
 		self.isRecent = True
 		# 여기서 크롤링된 데이터는 행정구역(시군구, 행정구 포함) 단위로 분류됨.
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_localType_int)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId=_election_name, statementId='BIPB02_#2',\

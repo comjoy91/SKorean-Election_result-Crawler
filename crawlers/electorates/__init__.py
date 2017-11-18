@@ -8,23 +8,23 @@ from .local_parliament import *
 from .president import *
 from utils import InvalidCrawlerError
 
-def Crawler(target, nth, election_name, localType_int):
+def Crawler(target, nth, election_name, electionType):
     if target == 'assembly':
-        return assembly.Crawler(nth, election_name)
+        return assembly.Crawler(nth, election_name, electionType, target)
 
     elif target == 'local_provincal_administration' or \
         target == 'local_municipal_administration' or \
         target == 'local_eduAdministration':
-        return local_administration.Crawler(nth, election_name, localType_int, target)
+        return local_administration.Crawler(nth, election_name, electionType, target)
 
     elif target == 'local_provincal_parliament' or \
         target == 'local_municipal_parliament':
-        return local_parliament.Crawler(nth, election_name, localType_int, target)
+        return local_parliament.Crawler(nth, election_name, electionType, target)
 
     elif target == 'local_eduParliament':
-        return local_eduParliament.Crawler(nth, election_name, localType_int, target)
+        return local_eduParliament.Crawler(nth, election_name, electionType, target)
 
     elif target == 'president':
-        return president.Crawler(nth, election_name)
+        return president.Crawler(nth, election_name, electionType, target)
     else:
-        raise InvalidCrawlerError('electorates', nth)
+        raise InvalidCrawlerError('electorates', nth, election_name, electionType, target)
