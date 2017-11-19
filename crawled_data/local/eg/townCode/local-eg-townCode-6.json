@@ -1,9 +1,16 @@
 [
   {
-    "element_type": "local_division",
+    "nth": 6,
+    "election_type": "local_eduAdministration",
     "results": [
       {
         "city_name": "서울특별시",
+        "consti_list": [
+          {
+            "NAME": "서울특별시",
+            "CODE": 11110000
+          }
+        ],
         "town_list": [
           {
             "NAME": "종로구",
@@ -110,6 +117,12 @@
       },
       {
         "city_name": "부산광역시",
+        "consti_list": [
+          {
+            "NAME": "부산광역시",
+            "CODE": 11260000
+          }
+        ],
         "town_list": [
           {
             "NAME": "중구",
@@ -180,6 +193,12 @@
       },
       {
         "city_name": "대구광역시",
+        "consti_list": [
+          {
+            "NAME": "대구광역시",
+            "CODE": 11270000
+          }
+        ],
         "town_list": [
           {
             "NAME": "중구",
@@ -218,6 +237,12 @@
       },
       {
         "city_name": "인천광역시",
+        "consti_list": [
+          {
+            "NAME": "인천광역시",
+            "CODE": 11280000
+          }
+        ],
         "town_list": [
           {
             "NAME": "중구",
@@ -264,6 +289,12 @@
       },
       {
         "city_name": "광주광역시",
+        "consti_list": [
+          {
+            "NAME": "광주광역시",
+            "CODE": 11290000
+          }
+        ],
         "town_list": [
           {
             "NAME": "동구",
@@ -290,6 +321,12 @@
       },
       {
         "city_name": "대전광역시",
+        "consti_list": [
+          {
+            "NAME": "대전광역시",
+            "CODE": 11300000
+          }
+        ],
         "town_list": [
           {
             "NAME": "동구",
@@ -316,6 +353,12 @@
       },
       {
         "city_name": "울산광역시",
+        "consti_list": [
+          {
+            "NAME": "울산광역시",
+            "CODE": 11310000
+          }
+        ],
         "town_list": [
           {
             "NAME": "중구",
@@ -342,6 +385,12 @@
       },
       {
         "city_name": "세종특별자치시",
+        "consti_list": [
+          {
+            "NAME": "세종특별자치시",
+            "CODE": 11510000
+          }
+        ],
         "town_list": [
           {
             "NAME": "세종특별자치시",
@@ -352,6 +401,12 @@
       },
       {
         "city_name": "경기도",
+        "consti_list": [
+          {
+            "NAME": "경기도",
+            "CODE": 11410000
+          }
+        ],
         "town_list": [
           {
             "NAME": "수원시장안구",
@@ -534,6 +589,12 @@
       },
       {
         "city_name": "강원도",
+        "consti_list": [
+          {
+            "NAME": "강원도",
+            "CODE": 11420000
+          }
+        ],
         "town_list": [
           {
             "NAME": "춘천시",
@@ -612,6 +673,12 @@
       },
       {
         "city_name": "충청북도",
+        "consti_list": [
+          {
+            "NAME": "충청북도",
+            "CODE": 11430000
+          }
+        ],
         "town_list": [
           {
             "NAME": "청주시상당구",
@@ -670,6 +737,12 @@
       },
       {
         "city_name": "충청남도",
+        "consti_list": [
+          {
+            "NAME": "충청남도",
+            "CODE": 11440000
+          }
+        ],
         "town_list": [
           {
             "NAME": "천안시서북구",
@@ -740,6 +813,12 @@
       },
       {
         "city_name": "전라북도",
+        "consti_list": [
+          {
+            "NAME": "전라북도",
+            "CODE": 11450000
+          }
+        ],
         "town_list": [
           {
             "NAME": "전주시완산구",
@@ -806,6 +885,12 @@
       },
       {
         "city_name": "전라남도",
+        "consti_list": [
+          {
+            "NAME": "전라남도",
+            "CODE": 11460000
+          }
+        ],
         "town_list": [
           {
             "NAME": "목포시",
@@ -900,6 +985,12 @@
       },
       {
         "city_name": "경상북도",
+        "consti_list": [
+          {
+            "NAME": "경상북도",
+            "CODE": 11470000
+          }
+        ],
         "town_list": [
           {
             "NAME": "포항시북구",
@@ -1002,6 +1093,12 @@
       },
       {
         "city_name": "경상남도",
+        "consti_list": [
+          {
+            "NAME": "경상남도",
+            "CODE": 11480000
+          }
+        ],
         "town_list": [
           {
             "NAME": "창원시의창구",
@@ -1096,6 +1193,12 @@
       },
       {
         "city_name": "제주특별자치도",
+        "consti_list": [
+          {
+            "NAME": "제주특별자치도",
+            "CODE": 11490000
+          }
+        ],
         "town_list": [
           {
             "NAME": "제주시",
@@ -1108,8 +1211,6 @@
         ],
         "city_code": 4900
       }
-    ],
-    "election_type": "local_eduAdministration",
-    "nth": 6
+    ]
   }
 ]

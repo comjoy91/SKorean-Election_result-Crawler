@@ -1,26 +1,23 @@
 #!/usr/bin/env python3
 # -*- encoding=utf-8 -*-
 
-from .constituency_in_province import *
-from .localDivision import *
-from .constituency_in_municipal import *
+from .provincePage import *
+from .municipalPage import *
 from utils import InvalidCrawlerError
 
-def Crawler(target, nth, election_name, electionType):
+def Crawler(target, nth, election_name, electionType, electionType_kor):
 
     if target == 'local_eduParliament' or \
-        target == 'assembly':
-        return constituency_in_province.Crawler(nth, election_name, electionType, target)
-
-    elif target == 'local_provincal_administration' or \
+        target == 'assembly'or \
+        target == 'local_provincal_administration' or \
         target == 'local_municipal_administration' or \
         target == 'local_eduAdministration' or \
         target == 'president':
-        return localDivision.Crawler(nth, election_name, electionType, target)
+        return provincePage.Crawler(nth, election_name, electionType, target, electionType_kor)
 
     elif target == 'local_provincal_parliament' or \
         target == 'local_municipal_parliament':
-        return constituency_in_municipal.Crawler(nth, election_name, electionType, target)
+        return municipalPage.Crawler(nth, election_name, electionType, target, electionType_kor)
 
     else:
         raise InvalidCrawlerError('townCode', target, nth, election_name, electionType)

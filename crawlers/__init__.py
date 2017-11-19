@@ -31,6 +31,14 @@ localType_str_dict = \
 	'em':'local_eduParliament', \
 	'eg':'local_eduAdministration'}
 
+electionType_kor_dict = {'president':'대통령', 'assembly':'국회의원', \
+                'local_provincal_administration':'시·도지사', \
+                'local_municipal_administration':'구·시·군의 장', \
+                'local_provincal_parliament':'시·도의회 의원', \
+                'local_municipal_parliament':'구·시·군의회 의원', \
+                'local_eduAdministration':'교육감', \
+                'local_eduParliament':'시·도의회 교육의원'}
+
 def Crawler(_target, _dataType, nth, _localType):
 
     election_name = _election_names[_target][int(nth)]
@@ -38,6 +46,7 @@ def Crawler(_target, _dataType, nth, _localType):
     if target == 'local':
         target = localType_str_dict[_localType]
     electionType = electionCode_dict[target]
+    electionType_kor = electionType_kor_dict[target]
 
     if _dataType == 'electorates':
         return electorates.Crawler(target, nth, election_name, electionType)
@@ -49,7 +58,7 @@ def Crawler(_target, _dataType, nth, _localType):
         return counting_vote_dong.Crawler(target, nth, election_name, localType)
         # 각 읍면동별 득표수 수집.
     elif _dataType == 'townCode':
-        return townCode.Crawler(target, nth, election_name, electionType)
+        return townCode.Crawler(target, nth, election_name, electionType, electionType_kor)
         # 각 지역구/시군구 인식코드 수집.
     elif _dataType == 'partyCode':
         return partyCode.Crawler(target, nth, election_name)

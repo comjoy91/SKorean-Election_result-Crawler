@@ -35,3 +35,4 @@ class Party_CodeCrawler_Recent(JSONCrawler):
 
 		self.url_list_base = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getJdCodeJson_Old.json'
 		self.param_url_list = dict(electionCode=1, electionId=_election_name)
+		#TODO: electionCode 바꾸기.
