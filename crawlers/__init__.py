@@ -49,7 +49,7 @@ def Crawler(_target, _dataType, nth, _localType):
     electionType_kor = electionType_kor_dict[target]
 
     if _dataType == 'electorates':
-        return electorates.Crawler(target, nth, election_name, electionType)
+        return raise NotImplementedError("Electorates module is not implemented yet.")
         # 각 지역구/시군구별 선거인수 수집.
     elif _dataType == 'counting_vote':
         return counting_vote.Crawler(target, nth, election_name, localType)
