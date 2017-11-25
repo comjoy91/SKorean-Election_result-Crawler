@@ -19,7 +19,7 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
 	elif target == 'local_provincal_administration' or \
-        target == 'local_municipal_administration':
+		target == 'local_municipal_administration':
 		if 1 <= nth <= 3:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:

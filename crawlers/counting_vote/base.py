@@ -253,9 +253,9 @@ class BaseCrawler(object):
 
 class MultiCityCrawler(BaseCrawler):
 
-	def city_codes(self): # 광역자치단체 code 리스트를 json으로 받게 됨.
+	def city_codes(self, nationalSum): # 광역자치단체 code 리스트를 json으로 받게 됨.
 		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)['jsonResult']['body']
-		if self.nationalSum: # '전국 합계를 받아라' 라고 설정되었다면
+		if nationalSum: # '전국 합계를 받아라' 라고 설정되었다면
 			list_.insert(0, {'CODE': 0, 'NAME': "전국 광역자치단체"})
 		return [(x['CODE'], x['NAME']) for x in list_]
 
@@ -269,13 +269,14 @@ class MultiCityCrawler(BaseCrawler):
 		jobs = []
 		constant_candidates = self.constant_candidates
 		candidate_type = self.candidate_type
+		nationalSum = self.nationalSum if hasattr(self, 'nationalSum') else False
 		target = self.target
 		target_kor = self.target_kor
 		nth = self.nth
 		req_url = self.urlPath_result_list
 
 		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target, nth))
-		for city_code, city_name in self.city_codes():
+		for city_code, city_name in self.city_codes(nationalSum):
 			req_param = self.XHTML_url_param(city_code)
 			job = gevent.spawn(self.parse, req_url, req_param, constant_candidates, target, target_kor, city_name)
 			jobs.append(job)

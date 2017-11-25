@@ -19,9 +19,14 @@ _election_names = {\
 					'19721223', '19780706', '19791206', '19800827', '19810225',\
 					'19871216', '19921218', '19971218', '20021219', '20071219', '20121219', '0020170509']}
 
+electionDayType_dict = {'president':1, 'assembly':2, 'local':4, 'by_election':0, 'local_eduAdministration':11}
+# electionType: 1-대통령선거, 2-국회의원선거, 4-전국동시지방선거, 0-재보궐선거, 11-교육감선거
+
 electionCode_dict = {'president':1, 'assembly':2, \
                     'local_provincal_administration':3, 'local_municipal_administration':4, \
                     'local_provincal_parliament':5, 'local_municipal_parliament':6, \
+                    'assembly_proportional':7, \
+                    'local_provincal_parliament_proportional':8, 'local_municipal_parliament_proportional':9, \
                     'local_eduParliament':10, 'local_eduAdministration':11}
 
 localType_str_dict = {'pg':'local_provincal_administration', \
