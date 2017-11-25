@@ -1,5 +1,7 @@
 [
   {
+    "election_type": "local_municipal_parliament",
+    "nth": 6,
     "results": [
       {
         "town_list": [
@@ -22,8 +24,8 @@
                 "NAME": "종로구라선거구"
               }
             ],
-            "town_code": 1101,
-            "town_name": "종로구"
+            "town_name": "종로구",
+            "town_code": 1101
           },
           {
             "consti_list": [
@@ -44,8 +46,8 @@
                 "NAME": "중구라선거구"
               }
             ],
-            "town_code": 1102,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 1102
           },
           {
             "consti_list": [
@@ -70,8 +72,8 @@
                 "NAME": "용산구마선거구"
               }
             ],
-            "town_code": 1103,
-            "town_name": "용산구"
+            "town_name": "용산구",
+            "town_code": 1103
           },
           {
             "consti_list": [
@@ -92,8 +94,8 @@
                 "NAME": "성동구라선거구"
               }
             ],
-            "town_code": 1104,
-            "town_name": "성동구"
+            "town_name": "성동구",
+            "town_code": 1104
           },
           {
             "consti_list": [
@@ -114,8 +116,8 @@
                 "NAME": "광진구라선거구"
               }
             ],
-            "town_code": 1105,
-            "town_name": "광진구"
+            "town_name": "광진구",
+            "town_code": 1105
           },
           {
             "consti_list": [
@@ -152,8 +154,8 @@
                 "NAME": "동대문구아선거구"
               }
             ],
-            "town_code": 1106,
-            "town_name": "동대문구"
+            "town_name": "동대문구",
+            "town_code": 1106
           },
           {
             "consti_list": [
@@ -186,8 +188,8 @@
                 "NAME": "중랑구사선거구"
               }
             ],
-            "town_code": 1107,
-            "town_name": "중랑구"
+            "town_name": "중랑구",
+            "town_code": 1107
           },
           {
             "consti_list": [
@@ -224,8 +226,8 @@
                 "NAME": "성북구아선거구"
               }
             ],
-            "town_code": 1108,
-            "town_name": "성북구"
+            "town_name": "성북구",
+            "town_code": 1108
           },
           {
             "consti_list": [
@@ -246,8 +248,8 @@
                 "NAME": "강북구라선거구"
               }
             ],
-            "town_code": 1109,
-            "town_name": "강북구"
+            "town_name": "강북구",
+            "town_code": 1109
           },
           {
             "consti_list": [
@@ -272,8 +274,8 @@
                 "NAME": "도봉구마선거구"
               }
             ],
-            "town_code": 1110,
-            "town_name": "도봉구"
+            "town_name": "도봉구",
+            "town_code": 1110
           },
           {
             "consti_list": [
@@ -302,8 +304,8 @@
                 "NAME": "노원구바선거구"
               }
             ],
-            "town_code": 1111,
-            "town_name": "노원구"
+            "town_name": "노원구",
+            "town_code": 1111
           },
           {
             "consti_list": [
@@ -340,8 +342,8 @@
                 "NAME": "은평구아선거구"
               }
             ],
-            "town_code": 1112,
-            "town_name": "은평구"
+            "town_name": "은평구",
+            "town_code": 1112
           },
           {
             "consti_list": [
@@ -366,8 +368,8 @@
                 "NAME": "서대문구마선거구"
               }
             ],
-            "town_code": 1113,
-            "town_name": "서대문구"
+            "town_name": "서대문구",
+            "town_code": 1113
           },
           {
             "consti_list": [
@@ -404,8 +406,8 @@
                 "NAME": "마포구아선거구"
               }
             ],
-            "town_code": 1114,
-            "town_name": "마포구"
+            "town_name": "마포구",
+            "town_code": 1114
           },
           {
             "consti_list": [
@@ -442,8 +444,8 @@
                 "NAME": "양천구아선거구"
               }
             ],
-            "town_code": 1115,
-            "town_name": "양천구"
+            "town_name": "양천구",
+            "town_code": 1115
           },
           {
             "consti_list": [
@@ -480,8 +482,8 @@
                 "NAME": "강서구아선거구"
               }
             ],
-            "town_code": 1116,
-            "town_name": "강서구"
+            "town_name": "강서구",
+            "town_code": 1116
           },
           {
             "consti_list": [
@@ -510,8 +512,8 @@
                 "NAME": "구로구바선거구"
               }
             ],
-            "town_code": 1117,
-            "town_name": "구로구"
+            "town_name": "구로구",
+            "town_code": 1117
           },
           {
             "consti_list": [
@@ -532,8 +534,8 @@
                 "NAME": "금천구라선거구"
               }
             ],
-            "town_code": 1118,
-            "town_name": "금천구"
+            "town_name": "금천구",
+            "town_code": 1118
           },
           {
             "consti_list": [
@@ -566,8 +568,8 @@
                 "NAME": "영등포구사선거구"
               }
             ],
-            "town_code": 1119,
-            "town_name": "영등포구"
+            "town_name": "영등포구",
+            "town_code": 1119
           },
           {
             "consti_list": [
@@ -600,8 +602,8 @@
                 "NAME": "동작구사선거구"
               }
             ],
-            "town_code": 1120,
-            "town_name": "동작구"
+            "town_name": "동작구",
+            "town_code": 1120
           },
           {
             "consti_list": [
@@ -638,8 +640,8 @@
                 "NAME": "관악구아선거구"
               }
             ],
-            "town_code": 1121,
-            "town_name": "관악구"
+            "town_name": "관악구",
+            "town_code": 1121
           },
           {
             "consti_list": [
@@ -664,8 +666,8 @@
                 "NAME": "서초구마선거구"
               }
             ],
-            "town_code": 1122,
-            "town_name": "서초구"
+            "town_name": "서초구",
+            "town_code": 1122
           },
           {
             "consti_list": [
@@ -702,8 +704,8 @@
                 "NAME": "강남구아선거구"
               }
             ],
-            "town_code": 1123,
-            "town_name": "강남구"
+            "town_name": "강남구",
+            "town_code": 1123
           },
           {
             "consti_list": [
@@ -748,8 +750,8 @@
                 "NAME": "송파구차선거구"
               }
             ],
-            "town_code": 1124,
-            "town_name": "송파구"
+            "town_name": "송파구",
+            "town_code": 1124
           },
           {
             "consti_list": [
@@ -786,8 +788,8 @@
                 "NAME": "강동구아선거구"
               }
             ],
-            "town_code": 1125,
-            "town_name": "강동구"
+            "town_name": "강동구",
+            "town_code": 1125
           }
         ],
         "city_name": "서울특별시",
@@ -806,8 +808,8 @@
                 "NAME": "중구나선거구"
               }
             ],
-            "town_code": 2601,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 2601
           },
           {
             "consti_list": [
@@ -828,8 +830,8 @@
                 "NAME": "서구라선거구"
               }
             ],
-            "town_code": 2602,
-            "town_name": "서구"
+            "town_name": "서구",
+            "town_code": 2602
           },
           {
             "consti_list": [
@@ -846,8 +848,8 @@
                 "NAME": "동구다선거구"
               }
             ],
-            "town_code": 2603,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 2603
           },
           {
             "consti_list": [
@@ -868,8 +870,8 @@
                 "NAME": "영도구라선거구"
               }
             ],
-            "town_code": 2604,
-            "town_name": "영도구"
+            "town_name": "영도구",
+            "town_code": 2604
           },
           {
             "consti_list": [
@@ -906,8 +908,8 @@
                 "NAME": "부산진구아선거구"
               }
             ],
-            "town_code": 2605,
-            "town_name": "부산진구"
+            "town_name": "부산진구",
+            "town_code": 2605
           },
           {
             "consti_list": [
@@ -928,8 +930,8 @@
                 "NAME": "동래구라선거구"
               }
             ],
-            "town_code": 2606,
-            "town_name": "동래구"
+            "town_name": "동래구",
+            "town_code": 2606
           },
           {
             "consti_list": [
@@ -958,8 +960,8 @@
                 "NAME": "남구바선거구"
               }
             ],
-            "town_code": 2607,
-            "town_name": "남구"
+            "town_name": "남구",
+            "town_code": 2607
           },
           {
             "consti_list": [
@@ -984,8 +986,8 @@
                 "NAME": "북구마선거구"
               }
             ],
-            "town_code": 2608,
-            "town_name": "북구"
+            "town_name": "북구",
+            "town_code": 2608
           },
           {
             "consti_list": [
@@ -1018,8 +1020,8 @@
                 "NAME": "해운대구사선거구"
               }
             ],
-            "town_code": 2609,
-            "town_name": "해운대구"
+            "town_name": "해운대구",
+            "town_code": 2609
           },
           {
             "consti_list": [
@@ -1036,8 +1038,8 @@
                 "NAME": "기장군다선거구"
               }
             ],
-            "town_code": 2610,
-            "town_name": "기장군"
+            "town_name": "기장군",
+            "town_code": 2610
           },
           {
             "consti_list": [
@@ -1062,8 +1064,8 @@
                 "NAME": "사하구마선거구"
               }
             ],
-            "town_code": 2611,
-            "town_name": "사하구"
+            "town_name": "사하구",
+            "town_code": 2611
           },
           {
             "consti_list": [
@@ -1088,8 +1090,8 @@
                 "NAME": "금정구마선거구"
               }
             ],
-            "town_code": 2612,
-            "town_name": "금정구"
+            "town_name": "금정구",
+            "town_code": 2612
           },
           {
             "consti_list": [
@@ -1102,8 +1104,8 @@
                 "NAME": "강서구나선거구"
               }
             ],
-            "town_code": 2613,
-            "town_name": "강서구"
+            "town_name": "강서구",
+            "town_code": 2613
           },
           {
             "consti_list": [
@@ -1124,8 +1126,8 @@
                 "NAME": "연제구라선거구"
               }
             ],
-            "town_code": 2614,
-            "town_name": "연제구"
+            "town_name": "연제구",
+            "town_code": 2614
           },
           {
             "consti_list": [
@@ -1142,8 +1144,8 @@
                 "NAME": "수영구다선거구"
               }
             ],
-            "town_code": 2615,
-            "town_name": "수영구"
+            "town_name": "수영구",
+            "town_code": 2615
           },
           {
             "consti_list": [
@@ -1168,8 +1170,8 @@
                 "NAME": "사상구마선거구"
               }
             ],
-            "town_code": 2616,
-            "town_name": "사상구"
+            "town_name": "사상구",
+            "town_code": 2616
           }
         ],
         "city_name": "부산광역시",
@@ -1188,8 +1190,8 @@
                 "NAME": "중구나선거구"
               }
             ],
-            "town_code": 2701,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 2701
           },
           {
             "consti_list": [
@@ -1218,8 +1220,8 @@
                 "NAME": "동구바선거구"
               }
             ],
-            "town_code": 2702,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 2702
           },
           {
             "consti_list": [
@@ -1240,8 +1242,8 @@
                 "NAME": "서구라선거구"
               }
             ],
-            "town_code": 2703,
-            "town_name": "서구"
+            "town_name": "서구",
+            "town_code": 2703
           },
           {
             "consti_list": [
@@ -1262,8 +1264,8 @@
                 "NAME": "남구라선거구"
               }
             ],
-            "town_code": 2704,
-            "town_name": "남구"
+            "town_name": "남구",
+            "town_code": 2704
           },
           {
             "consti_list": [
@@ -1300,8 +1302,8 @@
                 "NAME": "북구아선거구"
               }
             ],
-            "town_code": 2705,
-            "town_name": "북구"
+            "town_name": "북구",
+            "town_code": 2705
           },
           {
             "consti_list": [
@@ -1338,8 +1340,8 @@
                 "NAME": "수성구아선거구"
               }
             ],
-            "town_code": 2706,
-            "town_name": "수성구"
+            "town_name": "수성구",
+            "town_code": 2706
           },
           {
             "consti_list": [
@@ -1380,8 +1382,8 @@
                 "NAME": "달서구자선거구"
               }
             ],
-            "town_code": 2707,
-            "town_name": "달서구"
+            "town_name": "달서구",
+            "town_code": 2707
           },
           {
             "consti_list": [
@@ -1398,8 +1400,8 @@
                 "NAME": "달성군다선거구"
               }
             ],
-            "town_code": 2708,
-            "town_name": "달성군"
+            "town_name": "달성군",
+            "town_code": 2708
           }
         ],
         "city_name": "대구광역시",
@@ -1418,8 +1420,8 @@
                 "NAME": "중구나선거구"
               }
             ],
-            "town_code": 2801,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 2801
           },
           {
             "consti_list": [
@@ -1432,8 +1434,8 @@
                 "NAME": "동구나선거구"
               }
             ],
-            "town_code": 2802,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 2802
           },
           {
             "consti_list": [
@@ -1462,8 +1464,8 @@
                 "NAME": "남구바선거구"
               }
             ],
-            "town_code": 2803,
-            "town_name": "남구"
+            "town_name": "남구",
+            "town_code": 2803
           },
           {
             "consti_list": [
@@ -1480,8 +1482,8 @@
                 "NAME": "연수구다선거구"
               }
             ],
-            "town_code": 2804,
-            "town_name": "연수구"
+            "town_name": "연수구",
+            "town_code": 2804
           },
           {
             "consti_list": [
@@ -1506,8 +1508,8 @@
                 "NAME": "남동구마선거구"
               }
             ],
-            "town_code": 2805,
-            "town_name": "남동구"
+            "town_name": "남동구",
+            "town_code": 2805
           },
           {
             "consti_list": [
@@ -1536,8 +1538,8 @@
                 "NAME": "부평구바선거구"
               }
             ],
-            "town_code": 2806,
-            "town_name": "부평구"
+            "town_name": "부평구",
+            "town_code": 2806
           },
           {
             "consti_list": [
@@ -1558,8 +1560,8 @@
                 "NAME": "계양구라선거구"
               }
             ],
-            "town_code": 2807,
-            "town_name": "계양구"
+            "town_name": "계양구",
+            "town_code": 2807
           },
           {
             "consti_list": [
@@ -1584,8 +1586,8 @@
                 "NAME": "서구마선거구"
               }
             ],
-            "town_code": 2808,
-            "town_name": "서구"
+            "town_name": "서구",
+            "town_code": 2808
           },
           {
             "consti_list": [
@@ -1598,8 +1600,8 @@
                 "NAME": "강화군나선거구"
               }
             ],
-            "town_code": 2809,
-            "town_name": "강화군"
+            "town_name": "강화군",
+            "town_code": 2809
           },
           {
             "consti_list": [
@@ -1616,8 +1618,8 @@
                 "NAME": "옹진군다선거구"
               }
             ],
-            "town_code": 2810,
-            "town_name": "옹진군"
+            "town_name": "옹진군",
+            "town_code": 2810
           }
         ],
         "city_name": "인천광역시",
@@ -1640,8 +1642,8 @@
                 "NAME": "동구다선거구"
               }
             ],
-            "town_code": 2901,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 2901
           },
           {
             "consti_list": [
@@ -1662,8 +1664,8 @@
                 "NAME": "서구라선거구"
               }
             ],
-            "town_code": 2902,
-            "town_name": "서구"
+            "town_name": "서구",
+            "town_code": 2902
           },
           {
             "consti_list": [
@@ -1684,8 +1686,8 @@
                 "NAME": "남구라선거구"
               }
             ],
-            "town_code": 2903,
-            "town_name": "남구"
+            "town_name": "남구",
+            "town_code": 2903
           },
           {
             "consti_list": [
@@ -1722,8 +1724,8 @@
                 "NAME": "북구아선거구"
               }
             ],
-            "town_code": 2904,
-            "town_name": "북구"
+            "town_name": "북구",
+            "town_code": 2904
           },
           {
             "consti_list": [
@@ -1752,8 +1754,8 @@
                 "NAME": "광산구바선거구"
               }
             ],
-            "town_code": 2905,
-            "town_name": "광산구"
+            "town_name": "광산구",
+            "town_code": 2905
           }
         ],
         "city_name": "광주광역시",
@@ -1780,8 +1782,8 @@
                 "NAME": "동구라선거구"
               }
             ],
-            "town_code": 3001,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 3001
           },
           {
             "consti_list": [
@@ -1802,8 +1804,8 @@
                 "NAME": "중구라선거구"
               }
             ],
-            "town_code": 3002,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 3002
           },
           {
             "consti_list": [
@@ -1832,8 +1834,8 @@
                 "NAME": "서구바선거구"
               }
             ],
-            "town_code": 3003,
-            "town_name": "서구"
+            "town_name": "서구",
+            "town_code": 3003
           },
           {
             "consti_list": [
@@ -1854,8 +1856,8 @@
                 "NAME": "유성구라선거구"
               }
             ],
-            "town_code": 3004,
-            "town_name": "유성구"
+            "town_name": "유성구",
+            "town_code": 3004
           },
           {
             "consti_list": [
@@ -1872,8 +1874,8 @@
                 "NAME": "대덕구다선거구"
               }
             ],
-            "town_code": 3005,
-            "town_name": "대덕구"
+            "town_name": "대덕구",
+            "town_code": 3005
           }
         ],
         "city_name": "대전광역시",
@@ -1900,8 +1902,8 @@
                 "NAME": "중구라선거구"
               }
             ],
-            "town_code": 3101,
-            "town_name": "중구"
+            "town_name": "중구",
+            "town_code": 3101
           },
           {
             "consti_list": [
@@ -1930,8 +1932,8 @@
                 "NAME": "남구바선거구"
               }
             ],
-            "town_code": 3102,
-            "town_name": "남구"
+            "town_name": "남구",
+            "town_code": 3102
           },
           {
             "consti_list": [
@@ -1948,8 +1950,8 @@
                 "NAME": "동구다선거구"
               }
             ],
-            "town_code": 3103,
-            "town_name": "동구"
+            "town_name": "동구",
+            "town_code": 3103
           },
           {
             "consti_list": [
@@ -1966,8 +1968,8 @@
                 "NAME": "북구다선거구"
               }
             ],
-            "town_code": 3104,
-            "town_name": "북구"
+            "town_name": "북구",
+            "town_code": 3104
           },
           {
             "consti_list": [
@@ -1984,8 +1986,8 @@
                 "NAME": "울주군다선거구"
               }
             ],
-            "town_code": 3105,
-            "town_name": "울주군"
+            "town_name": "울주군",
+            "town_code": 3105
           }
         ],
         "city_name": "울산광역시",
@@ -2012,8 +2014,8 @@
                 "NAME": "수원시라선거구"
               }
             ],
-            "town_code": 4101,
-            "town_name": "수원시장안구"
+            "town_name": "수원시장안구",
+            "town_code": 4101
           },
           {
             "consti_list": [
@@ -2034,8 +2036,8 @@
                 "NAME": "수원시아선거구"
               }
             ],
-            "town_code": 4102,
-            "town_name": "수원시권선구"
+            "town_name": "수원시권선구",
+            "town_code": 4102
           },
           {
             "consti_list": [
@@ -2048,8 +2050,8 @@
                 "NAME": "수원시차선거구"
               }
             ],
-            "town_code": 4103,
-            "town_name": "수원시팔달구"
+            "town_name": "수원시팔달구",
+            "town_code": 4103
           },
           {
             "consti_list": [
@@ -2066,8 +2068,8 @@
                 "NAME": "수원시파선거구"
               }
             ],
-            "town_code": 4104,
-            "town_name": "수원시영통구"
+            "town_name": "수원시영통구",
+            "town_code": 4104
           },
           {
             "consti_list": [
@@ -2088,8 +2090,8 @@
                 "NAME": "성남시라선거구"
               }
             ],
-            "town_code": 4105,
-            "town_name": "성남시수정구"
+            "town_name": "성남시수정구",
+            "town_code": 4105
           },
           {
             "consti_list": [
@@ -2106,8 +2108,8 @@
                 "NAME": "성남시사선거구"
               }
             ],
-            "town_code": 4106,
-            "town_name": "성남시중원구"
+            "town_name": "성남시중원구",
+            "town_code": 4106
           },
           {
             "consti_list": [
@@ -2140,8 +2142,8 @@
                 "NAME": "성남시하선거구"
               }
             ],
-            "town_code": 4107,
-            "town_name": "성남시분당구"
+            "town_name": "성남시분당구",
+            "town_code": 4107
           },
           {
             "consti_list": [
@@ -2162,8 +2164,8 @@
                 "NAME": "의정부시라선거구"
               }
             ],
-            "town_code": 4108,
-            "town_name": "의정부시"
+            "town_name": "의정부시",
+            "town_code": 4108
           },
           {
             "consti_list": [
@@ -2184,8 +2186,8 @@
                 "NAME": "안양시라선거구"
               }
             ],
-            "town_code": 4109,
-            "town_name": "안양시만안구"
+            "town_name": "안양시만안구",
+            "town_code": 4109
           },
           {
             "consti_list": [
@@ -2206,8 +2208,8 @@
                 "NAME": "안양시아선거구"
               }
             ],
-            "town_code": 4110,
-            "town_name": "안양시동안구"
+            "town_name": "안양시동안구",
+            "town_code": 4110
           },
           {
             "consti_list": [
@@ -2232,8 +2234,8 @@
                 "NAME": "부천시마선거구"
               }
             ],
-            "town_code": 4111,
-            "town_name": "부천시원미구"
+            "town_name": "부천시원미구",
+            "town_code": 4111
           },
           {
             "consti_list": [
@@ -2250,8 +2252,8 @@
                 "NAME": "부천시아선거구"
               }
             ],
-            "town_code": 4112,
-            "town_name": "부천시소사구"
+            "town_name": "부천시소사구",
+            "town_code": 4112
           },
           {
             "consti_list": [
@@ -2264,8 +2266,8 @@
                 "NAME": "부천시차선거구"
               }
             ],
-            "town_code": 4113,
-            "town_name": "부천시오정구"
+            "town_name": "부천시오정구",
+            "town_code": 4113
           },
           {
             "consti_list": [
@@ -2286,8 +2288,8 @@
                 "NAME": "광명시라선거구"
               }
             ],
-            "town_code": 4114,
-            "town_name": "광명시"
+            "town_name": "광명시",
+            "town_code": 4114
           },
           {
             "consti_list": [
@@ -2316,8 +2318,8 @@
                 "NAME": "평택시바선거구"
               }
             ],
-            "town_code": 4115,
-            "town_name": "평택시"
+            "town_name": "평택시",
+            "town_code": 4115
           },
           {
             "consti_list": [
@@ -2334,8 +2336,8 @@
                 "NAME": "양주시다선거구"
               }
             ],
-            "town_code": 4116,
-            "town_name": "양주시"
+            "town_name": "양주시",
+            "town_code": 4116
           },
           {
             "consti_list": [
@@ -2348,8 +2350,8 @@
                 "NAME": "동두천시나선거구"
               }
             ],
-            "town_code": 4117,
-            "town_name": "동두천시"
+            "town_name": "동두천시",
+            "town_code": 4117
           },
           {
             "consti_list": [
@@ -2370,8 +2372,8 @@
                 "NAME": "안산시라선거구"
               }
             ],
-            "town_code": 4118,
-            "town_name": "안산시상록구"
+            "town_name": "안산시상록구",
+            "town_code": 4118
           },
           {
             "consti_list": [
@@ -2392,8 +2394,8 @@
                 "NAME": "안산시아선거구"
               }
             ],
-            "town_code": 4119,
-            "town_name": "안산시단원구"
+            "town_name": "안산시단원구",
+            "town_code": 4119
           },
           {
             "consti_list": [
@@ -2418,8 +2420,8 @@
                 "NAME": "고양시마선거구"
               }
             ],
-            "town_code": 4120,
-            "town_name": "고양시덕양구"
+            "town_name": "고양시덕양구",
+            "town_code": 4120
           },
           {
             "consti_list": [
@@ -2436,8 +2438,8 @@
                 "NAME": "고양시아선거구"
               }
             ],
-            "town_code": 4121,
-            "town_name": "고양시일산동구"
+            "town_name": "고양시일산동구",
+            "town_code": 4121
           },
           {
             "consti_list": [
@@ -2458,8 +2460,8 @@
                 "NAME": "고양시타선거구"
               }
             ],
-            "town_code": 4122,
-            "town_name": "고양시일산서구"
+            "town_name": "고양시일산서구",
+            "town_code": 4122
           },
           {
             "consti_list": [
@@ -2472,8 +2474,8 @@
                 "NAME": "과천시나선거구"
               }
             ],
-            "town_code": 4123,
-            "town_name": "과천시"
+            "town_name": "과천시",
+            "town_code": 4123
           },
           {
             "consti_list": [
@@ -2486,8 +2488,8 @@
                 "NAME": "의왕시나선거구"
               }
             ],
-            "town_code": 4124,
-            "town_name": "의왕시"
+            "town_name": "의왕시",
+            "town_code": 4124
           },
           {
             "consti_list": [
@@ -2500,8 +2502,8 @@
                 "NAME": "구리시나선거구"
               }
             ],
-            "town_code": 4125,
-            "town_name": "구리시"
+            "town_name": "구리시",
+            "town_code": 4125
           },
           {
             "consti_list": [
@@ -2526,8 +2528,8 @@
                 "NAME": "남양주시마선거구"
               }
             ],
-            "town_code": 4126,
-            "town_name": "남양주시"
+            "town_name": "남양주시",
+            "town_code": 4126
           },
           {
             "consti_list": [
@@ -2540,8 +2542,8 @@
                 "NAME": "오산시나선거구"
               }
             ],
-            "town_code": 4127,
-            "town_name": "오산시"
+            "town_name": "오산시",
+            "town_code": 4127
           },
           {
             "consti_list": [
@@ -2570,8 +2572,8 @@
                 "NAME": "화성시바선거구"
               }
             ],
-            "town_code": 4128,
-            "town_name": "화성시"
+            "town_name": "화성시",
+            "town_code": 4128
           },
           {
             "consti_list": [
@@ -2592,8 +2594,8 @@
                 "NAME": "시흥시라선거구"
               }
             ],
-            "town_code": 4129,
-            "town_name": "시흥시"
+            "town_name": "시흥시",
+            "town_code": 4129
           },
           {
             "consti_list": [
@@ -2614,8 +2616,8 @@
                 "NAME": "군포시라선거구"
               }
             ],
-            "town_code": 4130,
-            "town_name": "군포시"
+            "town_name": "군포시",
+            "town_code": 4130
           },
           {
             "consti_list": [
@@ -2628,8 +2630,8 @@
                 "NAME": "하남시나선거구"
               }
             ],
-            "town_code": 4131,
-            "town_name": "하남시"
+            "town_name": "하남시",
+            "town_code": 4131
           },
           {
             "consti_list": [
@@ -2650,8 +2652,8 @@
                 "NAME": "파주시라선거구"
               }
             ],
-            "town_code": 4132,
-            "town_name": "파주시"
+            "town_name": "파주시",
+            "town_code": 4132
           },
           {
             "consti_list": [
@@ -2664,8 +2666,8 @@
                 "NAME": "여주시나선거구"
               }
             ],
-            "town_code": 4133,
-            "town_name": "여주시"
+            "town_name": "여주시",
+            "town_code": 4133
           },
           {
             "consti_list": [
@@ -2682,8 +2684,8 @@
                 "NAME": "이천시다선거구"
               }
             ],
-            "town_code": 4134,
-            "town_name": "이천시"
+            "town_name": "이천시",
+            "town_code": 4134
           },
           {
             "consti_list": [
@@ -2700,8 +2702,8 @@
                 "NAME": "용인시다선거구"
               }
             ],
-            "town_code": 4135,
-            "town_name": "용인시처인구"
+            "town_name": "용인시처인구",
+            "town_code": 4135
           },
           {
             "consti_list": [
@@ -2722,8 +2724,8 @@
                 "NAME": "용인시카선거구"
               }
             ],
-            "town_code": 4136,
-            "town_name": "용인시수지구"
+            "town_name": "용인시수지구",
+            "town_code": 4136
           },
           {
             "consti_list": [
@@ -2744,8 +2746,8 @@
                 "NAME": "용인시사선거구"
               }
             ],
-            "town_code": 4137,
-            "town_name": "용인시기흥구"
+            "town_name": "용인시기흥구",
+            "town_code": 4137
           },
           {
             "consti_list": [
@@ -2766,8 +2768,8 @@
                 "NAME": "안성시라선거구"
               }
             ],
-            "town_code": 4138,
-            "town_name": "안성시"
+            "town_name": "안성시",
+            "town_code": 4138
           },
           {
             "consti_list": [
@@ -2788,8 +2790,8 @@
                 "NAME": "김포시라선거구"
               }
             ],
-            "town_code": 4139,
-            "town_name": "김포시"
+            "town_name": "김포시",
+            "town_code": 4139
           },
           {
             "consti_list": [
@@ -2810,8 +2812,8 @@
                 "NAME": "광주시라선거구"
               }
             ],
-            "town_code": 4140,
-            "town_name": "광주시"
+            "town_name": "광주시",
+            "town_code": 4140
           },
           {
             "consti_list": [
@@ -2828,8 +2830,8 @@
                 "NAME": "포천시다선거구"
               }
             ],
-            "town_code": 4141,
-            "town_name": "포천시"
+            "town_name": "포천시",
+            "town_code": 4141
           },
           {
             "consti_list": [
@@ -2842,8 +2844,8 @@
                 "NAME": "연천군나선거구"
               }
             ],
-            "town_code": 4142,
-            "town_name": "연천군"
+            "town_name": "연천군",
+            "town_code": 4142
           },
           {
             "consti_list": [
@@ -2856,8 +2858,8 @@
                 "NAME": "양평군나선거구"
               }
             ],
-            "town_code": 4143,
-            "town_name": "양평군"
+            "town_name": "양평군",
+            "town_code": 4143
           },
           {
             "consti_list": [
@@ -2874,8 +2876,8 @@
                 "NAME": "가평군다선거구"
               }
             ],
-            "town_code": 4144,
-            "town_name": "가평군"
+            "town_name": "가평군",
+            "town_code": 4144
           }
         ],
         "city_name": "경기도",
@@ -2914,8 +2916,8 @@
                 "NAME": "춘천시사선거구"
               }
             ],
-            "town_code": 4201,
-            "town_name": "춘천시"
+            "town_name": "춘천시",
+            "town_code": 4201
           },
           {
             "consti_list": [
@@ -2948,8 +2950,8 @@
                 "NAME": "원주시사선거구"
               }
             ],
-            "town_code": 4202,
-            "town_name": "원주시"
+            "town_name": "원주시",
+            "town_code": 4202
           },
           {
             "consti_list": [
@@ -2978,8 +2980,8 @@
                 "NAME": "강릉시바선거구"
               }
             ],
-            "town_code": 4203,
-            "town_name": "강릉시"
+            "town_name": "강릉시",
+            "town_code": 4203
           },
           {
             "consti_list": [
@@ -2992,8 +2994,8 @@
                 "NAME": "동해시나선거구"
               }
             ],
-            "town_code": 4204,
-            "town_name": "동해시"
+            "town_name": "동해시",
+            "town_code": 4204
           },
           {
             "consti_list": [
@@ -3006,8 +3008,8 @@
                 "NAME": "삼척시나선거구"
               }
             ],
-            "town_code": 4205,
-            "town_name": "삼척시"
+            "town_name": "삼척시",
+            "town_code": 4205
           },
           {
             "consti_list": [
@@ -3020,8 +3022,8 @@
                 "NAME": "태백시나선거구"
               }
             ],
-            "town_code": 4206,
-            "town_name": "태백시"
+            "town_name": "태백시",
+            "town_code": 4206
           },
           {
             "consti_list": [
@@ -3034,8 +3036,8 @@
                 "NAME": "정선군나선거구"
               }
             ],
-            "town_code": 4207,
-            "town_name": "정선군"
+            "town_name": "정선군",
+            "town_code": 4207
           },
           {
             "consti_list": [
@@ -3048,8 +3050,8 @@
                 "NAME": "속초시나선거구"
               }
             ],
-            "town_code": 4208,
-            "town_name": "속초시"
+            "town_name": "속초시",
+            "town_code": 4208
           },
           {
             "consti_list": [
@@ -3062,8 +3064,8 @@
                 "NAME": "고성군나선거구"
               }
             ],
-            "town_code": 4209,
-            "town_name": "고성군"
+            "town_name": "고성군",
+            "town_code": 4209
           },
           {
             "consti_list": [
@@ -3076,8 +3078,8 @@
                 "NAME": "양양군나선거구"
               }
             ],
-            "town_code": 4210,
-            "town_name": "양양군"
+            "town_name": "양양군",
+            "town_code": 4210
           },
           {
             "consti_list": [
@@ -3090,8 +3092,8 @@
                 "NAME": "인제군나선거구"
               }
             ],
-            "town_code": 4211,
-            "town_name": "인제군"
+            "town_name": "인제군",
+            "town_code": 4211
           },
           {
             "consti_list": [
@@ -3108,8 +3110,8 @@
                 "NAME": "홍천군다선거구"
               }
             ],
-            "town_code": 4212,
-            "town_name": "홍천군"
+            "town_name": "홍천군",
+            "town_code": 4212
           },
           {
             "consti_list": [
@@ -3122,8 +3124,8 @@
                 "NAME": "횡성군나선거구"
               }
             ],
-            "town_code": 4213,
-            "town_name": "횡성군"
+            "town_name": "횡성군",
+            "town_code": 4213
           },
           {
             "consti_list": [
@@ -3136,8 +3138,8 @@
                 "NAME": "영월군나선거구"
               }
             ],
-            "town_code": 4214,
-            "town_name": "영월군"
+            "town_name": "영월군",
+            "town_code": 4214
           },
           {
             "consti_list": [
@@ -3150,8 +3152,8 @@
                 "NAME": "평창군나선거구"
               }
             ],
-            "town_code": 4215,
-            "town_name": "평창군"
+            "town_name": "평창군",
+            "town_code": 4215
           },
           {
             "consti_list": [
@@ -3164,8 +3166,8 @@
                 "NAME": "화천군나선거구"
               }
             ],
-            "town_code": 4216,
-            "town_name": "화천군"
+            "town_name": "화천군",
+            "town_code": 4216
           },
           {
             "consti_list": [
@@ -3178,8 +3180,8 @@
                 "NAME": "양구군나선거구"
               }
             ],
-            "town_code": 4217,
-            "town_name": "양구군"
+            "town_name": "양구군",
+            "town_code": 4217
           },
           {
             "consti_list": [
@@ -3192,8 +3194,8 @@
                 "NAME": "철원군나선거구"
               }
             ],
-            "town_code": 4218,
-            "town_name": "철원군"
+            "town_name": "철원군",
+            "town_code": 4218
           }
         ],
         "city_name": "강원도",
@@ -3216,8 +3218,8 @@
                 "NAME": "청주시다선거구"
               }
             ],
-            "town_code": 4301,
-            "town_name": "청주시상당구"
+            "town_name": "청주시상당구",
+            "town_code": 4301
           },
           {
             "consti_list": [
@@ -3246,8 +3248,8 @@
                 "NAME": "청주시자선거구"
               }
             ],
-            "town_code": 4302,
-            "town_name": "청주시흥덕구"
+            "town_name": "청주시흥덕구",
+            "town_code": 4302
           },
           {
             "consti_list": [
@@ -3280,8 +3282,8 @@
                 "NAME": "충주시사선거구"
               }
             ],
-            "town_code": 4303,
-            "town_name": "충주시"
+            "town_name": "충주시",
+            "town_code": 4303
           },
           {
             "consti_list": [
@@ -3306,8 +3308,8 @@
                 "NAME": "제천시마선거구"
               }
             ],
-            "town_code": 4304,
-            "town_name": "제천시"
+            "town_name": "제천시",
+            "town_code": 4304
           },
           {
             "consti_list": [
@@ -3320,8 +3322,8 @@
                 "NAME": "단양군나선거구"
               }
             ],
-            "town_code": 4305,
-            "town_name": "단양군"
+            "town_name": "단양군",
+            "town_code": 4305
           },
           {
             "consti_list": [
@@ -3342,8 +3344,8 @@
                 "NAME": "청주시파선거구"
               }
             ],
-            "town_code": 4306,
-            "town_name": "청원군"
+            "town_name": "청원군",
+            "town_code": 4306
           },
           {
             "consti_list": [
@@ -3360,8 +3362,8 @@
                 "NAME": "영동군다선거구"
               }
             ],
-            "town_code": 4307,
-            "town_name": "영동군"
+            "town_name": "영동군",
+            "town_code": 4307
           },
           {
             "consti_list": [
@@ -3378,8 +3380,8 @@
                 "NAME": "보은군다선거구"
               }
             ],
-            "town_code": 4308,
-            "town_name": "보은군"
+            "town_name": "보은군",
+            "town_code": 4308
           },
           {
             "consti_list": [
@@ -3396,8 +3398,8 @@
                 "NAME": "옥천군다선거구"
               }
             ],
-            "town_code": 4309,
-            "town_name": "옥천군"
+            "town_name": "옥천군",
+            "town_code": 4309
           },
           {
             "consti_list": [
@@ -3414,8 +3416,8 @@
                 "NAME": "음성군다선거구"
               }
             ],
-            "town_code": 4310,
-            "town_name": "음성군"
+            "town_name": "음성군",
+            "town_code": 4310
           },
           {
             "consti_list": [
@@ -3428,8 +3430,8 @@
                 "NAME": "진천군나선거구"
               }
             ],
-            "town_code": 4311,
-            "town_name": "진천군"
+            "town_name": "진천군",
+            "town_code": 4311
           },
           {
             "consti_list": [
@@ -3446,8 +3448,8 @@
                 "NAME": "괴산군다선거구"
               }
             ],
-            "town_code": 4312,
-            "town_name": "괴산군"
+            "town_name": "괴산군",
+            "town_code": 4312
           },
           {
             "consti_list": [
@@ -3464,8 +3466,8 @@
                 "NAME": "증평군다선거구"
               }
             ],
-            "town_code": 4313,
-            "town_name": "증평군"
+            "town_name": "증평군",
+            "town_code": 4313
           }
         ],
         "city_name": "충청북도",
@@ -3492,8 +3494,8 @@
                 "NAME": "천안시아선거구"
               }
             ],
-            "town_code": 4417,
-            "town_name": "천안시서북구"
+            "town_name": "천안시서북구",
+            "town_code": 4417
           },
           {
             "consti_list": [
@@ -3514,8 +3516,8 @@
                 "NAME": "천안시라선거구"
               }
             ],
-            "town_code": 4418,
-            "town_name": "천안시동남구"
+            "town_name": "천안시동남구",
+            "town_code": 4418
           },
           {
             "consti_list": [
@@ -3536,8 +3538,8 @@
                 "NAME": "공주시라선거구"
               }
             ],
-            "town_code": 4402,
-            "town_name": "공주시"
+            "town_name": "공주시",
+            "town_code": 4402
           },
           {
             "consti_list": [
@@ -3558,8 +3560,8 @@
                 "NAME": "보령시라선거구"
               }
             ],
-            "town_code": 4403,
-            "town_name": "보령시"
+            "town_name": "보령시",
+            "town_code": 4403
           },
           {
             "consti_list": [
@@ -3580,8 +3582,8 @@
                 "NAME": "아산시라선거구"
               }
             ],
-            "town_code": 4404,
-            "town_name": "아산시"
+            "town_name": "아산시",
+            "town_code": 4404
           },
           {
             "consti_list": [
@@ -3606,8 +3608,8 @@
                 "NAME": "서산시마선거구"
               }
             ],
-            "town_code": 4405,
-            "town_name": "서산시"
+            "town_name": "서산시",
+            "town_code": 4405
           },
           {
             "consti_list": [
@@ -3620,8 +3622,8 @@
                 "NAME": "태안군나선거구"
               }
             ],
-            "town_code": 4406,
-            "town_name": "태안군"
+            "town_name": "태안군",
+            "town_code": 4406
           },
           {
             "consti_list": [
@@ -3638,8 +3640,8 @@
                 "NAME": "금산군다선거구"
               }
             ],
-            "town_code": 4407,
-            "town_name": "금산군"
+            "town_name": "금산군",
+            "town_code": 4407
           },
           {
             "consti_list": [
@@ -3660,8 +3662,8 @@
                 "NAME": "논산시라선거구"
               }
             ],
-            "town_code": 4409,
-            "town_name": "논산시"
+            "town_name": "논산시",
+            "town_code": 4409
           },
           {
             "consti_list": [
@@ -3674,8 +3676,8 @@
                 "NAME": "계룡시나선거구"
               }
             ],
-            "town_code": 4410,
-            "town_name": "계룡시"
+            "town_name": "계룡시",
+            "town_code": 4410
           },
           {
             "consti_list": [
@@ -3696,8 +3698,8 @@
                 "NAME": "당진시라선거구"
               }
             ],
-            "town_code": 4416,
-            "town_name": "당진시"
+            "town_name": "당진시",
+            "town_code": 4416
           },
           {
             "consti_list": [
@@ -3714,8 +3716,8 @@
                 "NAME": "부여군다선거구"
               }
             ],
-            "town_code": 4411,
-            "town_name": "부여군"
+            "town_name": "부여군",
+            "town_code": 4411
           },
           {
             "consti_list": [
@@ -3728,8 +3730,8 @@
                 "NAME": "서천군나선거구"
               }
             ],
-            "town_code": 4412,
-            "town_name": "서천군"
+            "town_name": "서천군",
+            "town_code": 4412
           },
           {
             "consti_list": [
@@ -3750,8 +3752,8 @@
                 "NAME": "홍성군라선거구"
               }
             ],
-            "town_code": 4413,
-            "town_name": "홍성군"
+            "town_name": "홍성군",
+            "town_code": 4413
           },
           {
             "consti_list": [
@@ -3764,8 +3766,8 @@
                 "NAME": "청양군나선거구"
               }
             ],
-            "town_code": 4414,
-            "town_name": "청양군"
+            "town_name": "청양군",
+            "town_code": 4414
           },
           {
             "consti_list": [
@@ -3786,8 +3788,8 @@
                 "NAME": "예산군라선거구"
               }
             ],
-            "town_code": 4415,
-            "town_name": "예산군"
+            "town_name": "예산군",
+            "town_code": 4415
           }
         ],
         "city_name": "충청남도",
@@ -3826,8 +3828,8 @@
                 "NAME": "전주시사선거구"
               }
             ],
-            "town_code": 4501,
-            "town_name": "전주시완산구"
+            "town_name": "전주시완산구",
+            "town_code": 4501
           },
           {
             "consti_list": [
@@ -3856,8 +3858,8 @@
                 "NAME": "전주시파선거구"
               }
             ],
-            "town_code": 4502,
-            "town_name": "전주시덕진구"
+            "town_name": "전주시덕진구",
+            "town_code": 4502
           },
           {
             "consti_list": [
@@ -3894,8 +3896,8 @@
                 "NAME": "군산시아선거구"
               }
             ],
-            "town_code": 4503,
-            "town_name": "군산시"
+            "town_name": "군산시",
+            "town_code": 4503
           },
           {
             "consti_list": [
@@ -3932,8 +3934,8 @@
                 "NAME": "익산시아선거구"
               }
             ],
-            "town_code": 4505,
-            "town_name": "익산시"
+            "town_name": "익산시",
+            "town_code": 4505
           },
           {
             "consti_list": [
@@ -3966,8 +3968,8 @@
                 "NAME": "정읍시사선거구"
               }
             ],
-            "town_code": 4507,
-            "town_name": "정읍시"
+            "town_name": "정읍시",
+            "town_code": 4507
           },
           {
             "consti_list": [
@@ -3996,8 +3998,8 @@
                 "NAME": "남원시바선거구"
               }
             ],
-            "town_code": 4508,
-            "town_name": "남원시"
+            "town_name": "남원시",
+            "town_code": 4508
           },
           {
             "consti_list": [
@@ -4022,8 +4024,8 @@
                 "NAME": "김제시마선거구"
               }
             ],
-            "town_code": 4509,
-            "town_name": "김제시"
+            "town_name": "김제시",
+            "town_code": 4509
           },
           {
             "consti_list": [
@@ -4044,8 +4046,8 @@
                 "NAME": "완주군라선거구"
               }
             ],
-            "town_code": 4510,
-            "town_name": "완주군"
+            "town_name": "완주군",
+            "town_code": 4510
           },
           {
             "consti_list": [
@@ -4058,8 +4060,8 @@
                 "NAME": "진안군나선거구"
               }
             ],
-            "town_code": 4511,
-            "town_name": "진안군"
+            "town_name": "진안군",
+            "town_code": 4511
           },
           {
             "consti_list": [
@@ -4072,8 +4074,8 @@
                 "NAME": "무주군나선거구"
               }
             ],
-            "town_code": 4512,
-            "town_name": "무주군"
+            "town_name": "무주군",
+            "town_code": 4512
           },
           {
             "consti_list": [
@@ -4086,8 +4088,8 @@
                 "NAME": "장수군나선거구"
               }
             ],
-            "town_code": 4513,
-            "town_name": "장수군"
+            "town_name": "장수군",
+            "town_code": 4513
           },
           {
             "consti_list": [
@@ -4104,8 +4106,8 @@
                 "NAME": "임실군다선거구"
               }
             ],
-            "town_code": 4514,
-            "town_name": "임실군"
+            "town_name": "임실군",
+            "town_code": 4514
           },
           {
             "consti_list": [
@@ -4122,8 +4124,8 @@
                 "NAME": "순창군다선거구"
               }
             ],
-            "town_code": 4515,
-            "town_name": "순창군"
+            "town_name": "순창군",
+            "town_code": 4515
           },
           {
             "consti_list": [
@@ -4144,8 +4146,8 @@
                 "NAME": "고창군라선거구"
               }
             ],
-            "town_code": 4516,
-            "town_name": "고창군"
+            "town_name": "고창군",
+            "town_code": 4516
           },
           {
             "consti_list": [
@@ -4166,8 +4168,8 @@
                 "NAME": "부안군라선거구"
               }
             ],
-            "town_code": 4517,
-            "town_name": "부안군"
+            "town_name": "부안군",
+            "town_code": 4517
           }
         ],
         "city_name": "전라북도",
@@ -4210,8 +4212,8 @@
                 "NAME": "목포시아선거구"
               }
             ],
-            "town_code": 4601,
-            "town_name": "목포시"
+            "town_name": "목포시",
+            "town_code": 4601
           },
           {
             "consti_list": [
@@ -4252,8 +4254,8 @@
                 "NAME": "여수시자선거구"
               }
             ],
-            "town_code": 4602,
-            "town_name": "여수시"
+            "town_name": "여수시",
+            "town_code": 4602
           },
           {
             "consti_list": [
@@ -4294,8 +4296,8 @@
                 "NAME": "순천시자선거구"
               }
             ],
-            "town_code": 4604,
-            "town_name": "순천시"
+            "town_name": "순천시",
+            "town_code": 4604
           },
           {
             "consti_list": [
@@ -4316,8 +4318,8 @@
                 "NAME": "나주시라선거구"
               }
             ],
-            "town_code": 4606,
-            "town_name": "나주시"
+            "town_name": "나주시",
+            "town_code": 4606
           },
           {
             "consti_list": [
@@ -4338,8 +4340,8 @@
                 "NAME": "광양시라선거구"
               }
             ],
-            "town_code": 4607,
-            "town_name": "광양시"
+            "town_name": "광양시",
+            "town_code": 4607
           },
           {
             "consti_list": [
@@ -4360,8 +4362,8 @@
                 "NAME": "담양군라선거구"
               }
             ],
-            "town_code": 4608,
-            "town_name": "담양군"
+            "town_name": "담양군",
+            "town_code": 4608
           },
           {
             "consti_list": [
@@ -4378,8 +4380,8 @@
                 "NAME": "장성군다선거구"
               }
             ],
-            "town_code": 4609,
-            "town_name": "장성군"
+            "town_name": "장성군",
+            "town_code": 4609
           },
           {
             "consti_list": [
@@ -4392,8 +4394,8 @@
                 "NAME": "곡성군나선거구"
               }
             ],
-            "town_code": 4610,
-            "town_name": "곡성군"
+            "town_name": "곡성군",
+            "town_code": 4610
           },
           {
             "consti_list": [
@@ -4406,8 +4408,8 @@
                 "NAME": "구례군나선거구"
               }
             ],
-            "town_code": 4611,
-            "town_name": "구례군"
+            "town_name": "구례군",
+            "town_code": 4611
           },
           {
             "consti_list": [
@@ -4428,8 +4430,8 @@
                 "NAME": "고흥군라선거구"
               }
             ],
-            "town_code": 4612,
-            "town_name": "고흥군"
+            "town_name": "고흥군",
+            "town_code": 4612
           },
           {
             "consti_list": [
@@ -4446,8 +4448,8 @@
                 "NAME": "보성군다선거구"
               }
             ],
-            "town_code": 4613,
-            "town_name": "보성군"
+            "town_name": "보성군",
+            "town_code": 4613
           },
           {
             "consti_list": [
@@ -4464,8 +4466,8 @@
                 "NAME": "화순군다선거구"
               }
             ],
-            "town_code": 4614,
-            "town_name": "화순군"
+            "town_name": "화순군",
+            "town_code": 4614
           },
           {
             "consti_list": [
@@ -4478,8 +4480,8 @@
                 "NAME": "장흥군나선거구"
               }
             ],
-            "town_code": 4615,
-            "town_name": "장흥군"
+            "town_name": "장흥군",
+            "town_code": 4615
           },
           {
             "consti_list": [
@@ -4492,8 +4494,8 @@
                 "NAME": "강진군나선거구"
               }
             ],
-            "town_code": 4616,
-            "town_name": "강진군"
+            "town_name": "강진군",
+            "town_code": 4616
           },
           {
             "consti_list": [
@@ -4510,8 +4512,8 @@
                 "NAME": "완도군다선거구"
               }
             ],
-            "town_code": 4617,
-            "town_name": "완도군"
+            "town_name": "완도군",
+            "town_code": 4617
           },
           {
             "consti_list": [
@@ -4532,8 +4534,8 @@
                 "NAME": "해남군라선거구"
               }
             ],
-            "town_code": 4618,
-            "town_name": "해남군"
+            "town_name": "해남군",
+            "town_code": 4618
           },
           {
             "consti_list": [
@@ -4546,8 +4548,8 @@
                 "NAME": "진도군나선거구"
               }
             ],
-            "town_code": 4619,
-            "town_name": "진도군"
+            "town_name": "진도군",
+            "town_code": 4619
           },
           {
             "consti_list": [
@@ -4564,8 +4566,8 @@
                 "NAME": "영암군다선거구"
               }
             ],
-            "town_code": 4620,
-            "town_name": "영암군"
+            "town_name": "영암군",
+            "town_code": 4620
           },
           {
             "consti_list": [
@@ -4582,8 +4584,8 @@
                 "NAME": "무안군다선거구"
               }
             ],
-            "town_code": 4621,
-            "town_name": "무안군"
+            "town_name": "무안군",
+            "town_code": 4621
           },
           {
             "consti_list": [
@@ -4596,8 +4598,8 @@
                 "NAME": "영광군나선거구"
               }
             ],
-            "town_code": 4622,
-            "town_name": "영광군"
+            "town_name": "영광군",
+            "town_code": 4622
           },
           {
             "consti_list": [
@@ -4610,8 +4612,8 @@
                 "NAME": "함평군나선거구"
               }
             ],
-            "town_code": 4623,
-            "town_name": "함평군"
+            "town_name": "함평군",
+            "town_code": 4623
           },
           {
             "consti_list": [
@@ -4632,8 +4634,8 @@
                 "NAME": "신안군라선거구"
               }
             ],
-            "town_code": 4624,
-            "town_name": "신안군"
+            "town_name": "신안군",
+            "town_code": 4624
           }
         ],
         "city_name": "전라남도",
@@ -4664,8 +4666,8 @@
                 "NAME": "포항시마선거구"
               }
             ],
-            "town_code": 4701,
-            "town_name": "포항시북구"
+            "town_name": "포항시북구",
+            "town_code": 4701
           },
           {
             "consti_list": [
@@ -4694,8 +4696,8 @@
                 "NAME": "포항시카선거구"
               }
             ],
-            "town_code": 4702,
-            "town_name": "포항시남구"
+            "town_name": "포항시남구",
+            "town_code": 4702
           },
           {
             "consti_list": [
@@ -4708,8 +4710,8 @@
                 "NAME": "울릉군나선거구"
               }
             ],
-            "town_code": 4703,
-            "town_name": "울릉군"
+            "town_name": "울릉군",
+            "town_code": 4703
           },
           {
             "consti_list": [
@@ -4746,8 +4748,8 @@
                 "NAME": "경주시아선거구"
               }
             ],
-            "town_code": 4704,
-            "town_name": "경주시"
+            "town_name": "경주시",
+            "town_code": 4704
           },
           {
             "consti_list": [
@@ -4776,8 +4778,8 @@
                 "NAME": "김천시바선거구"
               }
             ],
-            "town_code": 4705,
-            "town_name": "김천시"
+            "town_name": "김천시",
+            "town_code": 4705
           },
           {
             "consti_list": [
@@ -4814,8 +4816,8 @@
                 "NAME": "안동시아선거구"
               }
             ],
-            "town_code": 4706,
-            "town_name": "안동시"
+            "town_name": "안동시",
+            "town_code": 4706
           },
           {
             "consti_list": [
@@ -4852,8 +4854,8 @@
                 "NAME": "구미시아선거구"
               }
             ],
-            "town_code": 4707,
-            "town_name": "구미시"
+            "town_name": "구미시",
+            "town_code": 4707
           },
           {
             "consti_list": [
@@ -4882,8 +4884,8 @@
                 "NAME": "영주시바선거구"
               }
             ],
-            "town_code": 4708,
-            "town_name": "영주시"
+            "town_name": "영주시",
+            "town_code": 4708
           },
           {
             "consti_list": [
@@ -4904,8 +4906,8 @@
                 "NAME": "영천시라선거구"
               }
             ],
-            "town_code": 4709,
-            "town_name": "영천시"
+            "town_name": "영천시",
+            "town_code": 4709
           },
           {
             "consti_list": [
@@ -4934,8 +4936,8 @@
                 "NAME": "상주시바선거구"
               }
             ],
-            "town_code": 4710,
-            "town_name": "상주시"
+            "town_name": "상주시",
+            "town_code": 4710
           },
           {
             "consti_list": [
@@ -4956,8 +4958,8 @@
                 "NAME": "문경시라선거구"
               }
             ],
-            "town_code": 4711,
-            "town_name": "문경시"
+            "town_name": "문경시",
+            "town_code": 4711
           },
           {
             "consti_list": [
@@ -4978,8 +4980,8 @@
                 "NAME": "예천군라선거구"
               }
             ],
-            "town_code": 4712,
-            "town_name": "예천군"
+            "town_name": "예천군",
+            "town_code": 4712
           },
           {
             "consti_list": [
@@ -5004,8 +5006,8 @@
                 "NAME": "경산시마선거구"
               }
             ],
-            "town_code": 4713,
-            "town_name": "경산시"
+            "town_name": "경산시",
+            "town_code": 4713
           },
           {
             "consti_list": [
@@ -5018,8 +5020,8 @@
                 "NAME": "청도군나선거구"
               }
             ],
-            "town_code": 4714,
-            "town_name": "청도군"
+            "town_name": "청도군",
+            "town_code": 4714
           },
           {
             "consti_list": [
@@ -5032,8 +5034,8 @@
                 "NAME": "고령군나선거구"
               }
             ],
-            "town_code": 4715,
-            "town_name": "고령군"
+            "town_name": "고령군",
+            "town_code": 4715
           },
           {
             "consti_list": [
@@ -5050,8 +5052,8 @@
                 "NAME": "성주군다선거구"
               }
             ],
-            "town_code": 4716,
-            "town_name": "성주군"
+            "town_name": "성주군",
+            "town_code": 4716
           },
           {
             "consti_list": [
@@ -5072,8 +5074,8 @@
                 "NAME": "칠곡군라선거구"
               }
             ],
-            "town_code": 4717,
-            "town_name": "칠곡군"
+            "town_name": "칠곡군",
+            "town_code": 4717
           },
           {
             "consti_list": [
@@ -5086,8 +5088,8 @@
                 "NAME": "군위군나선거구"
               }
             ],
-            "town_code": 4718,
-            "town_name": "군위군"
+            "town_name": "군위군",
+            "town_code": 4718
           },
           {
             "consti_list": [
@@ -5112,8 +5114,8 @@
                 "NAME": "의성군마선거구"
               }
             ],
-            "town_code": 4719,
-            "town_name": "의성군"
+            "town_name": "의성군",
+            "town_code": 4719
           },
           {
             "consti_list": [
@@ -5126,8 +5128,8 @@
                 "NAME": "청송군나선거구"
               }
             ],
-            "town_code": 4720,
-            "town_name": "청송군"
+            "town_name": "청송군",
+            "town_code": 4720
           },
           {
             "consti_list": [
@@ -5140,8 +5142,8 @@
                 "NAME": "영양군나선거구"
               }
             ],
-            "town_code": 4721,
-            "town_name": "영양군"
+            "town_name": "영양군",
+            "town_code": 4721
           },
           {
             "consti_list": [
@@ -5154,8 +5156,8 @@
                 "NAME": "영덕군나선거구"
               }
             ],
-            "town_code": 4722,
-            "town_name": "영덕군"
+            "town_name": "영덕군",
+            "town_code": 4722
           },
           {
             "consti_list": [
@@ -5172,8 +5174,8 @@
                 "NAME": "봉화군다선거구"
               }
             ],
-            "town_code": 4723,
-            "town_name": "봉화군"
+            "town_name": "봉화군",
+            "town_code": 4723
           },
           {
             "consti_list": [
@@ -5190,8 +5192,8 @@
                 "NAME": "울진군다선거구"
               }
             ],
-            "town_code": 4724,
-            "town_name": "울진군"
+            "town_name": "울진군",
+            "town_code": 4724
           }
         ],
         "city_name": "경상북도",
@@ -5214,8 +5216,8 @@
                 "NAME": "창원시다선거구"
               }
             ],
-            "town_code": 4821,
-            "town_name": "창원시의창구"
+            "town_name": "창원시의창구",
+            "town_code": 4821
           },
           {
             "consti_list": [
@@ -5232,8 +5234,8 @@
                 "NAME": "창원시바선거구"
               }
             ],
-            "town_code": 4822,
-            "town_name": "창원시성산구"
+            "town_name": "창원시성산구",
+            "town_code": 4822
           },
           {
             "consti_list": [
@@ -5254,8 +5256,8 @@
                 "NAME": "창원시차선거구"
               }
             ],
-            "town_code": 4823,
-            "town_name": "창원시마산합포구"
+            "town_name": "창원시마산합포구",
+            "town_code": 4823
           },
           {
             "consti_list": [
@@ -5272,8 +5274,8 @@
                 "NAME": "창원시파선거구"
               }
             ],
-            "town_code": 4824,
-            "town_name": "창원시마산회원구"
+            "town_name": "창원시마산회원구",
+            "town_code": 4824
           },
           {
             "consti_list": [
@@ -5294,8 +5296,8 @@
                 "NAME": "창원시더선거구"
               }
             ],
-            "town_code": 4825,
-            "town_name": "창원시진해구"
+            "town_name": "창원시진해구",
+            "town_code": 4825
           },
           {
             "consti_list": [
@@ -5332,8 +5334,8 @@
                 "NAME": "진주시아선거구"
               }
             ],
-            "town_code": 4803,
-            "town_name": "진주시"
+            "town_name": "진주시",
+            "town_code": 4803
           },
           {
             "consti_list": [
@@ -5358,8 +5360,8 @@
                 "NAME": "통영시마선거구"
               }
             ],
-            "town_code": 4805,
-            "town_name": "통영시"
+            "town_name": "통영시",
+            "town_code": 4805
           },
           {
             "consti_list": [
@@ -5376,8 +5378,8 @@
                 "NAME": "고성군다선거구"
               }
             ],
-            "town_code": 4806,
-            "town_name": "고성군"
+            "town_name": "고성군",
+            "town_code": 4806
           },
           {
             "consti_list": [
@@ -5398,8 +5400,8 @@
                 "NAME": "사천시라선거구"
               }
             ],
-            "town_code": 4807,
-            "town_name": "사천시"
+            "town_name": "사천시",
+            "town_code": 4807
           },
           {
             "consti_list": [
@@ -5432,8 +5434,8 @@
                 "NAME": "김해시사선거구"
               }
             ],
-            "town_code": 4808,
-            "town_name": "김해시"
+            "town_name": "김해시",
+            "town_code": 4808
           },
           {
             "consti_list": [
@@ -5458,8 +5460,8 @@
                 "NAME": "밀양시마선거구"
               }
             ],
-            "town_code": 4809,
-            "town_name": "밀양시"
+            "town_name": "밀양시",
+            "town_code": 4809
           },
           {
             "consti_list": [
@@ -5484,8 +5486,8 @@
                 "NAME": "거제시마선거구"
               }
             ],
-            "town_code": 4810,
-            "town_name": "거제시"
+            "town_name": "거제시",
+            "town_code": 4810
           },
           {
             "consti_list": [
@@ -5506,8 +5508,8 @@
                 "NAME": "의령군라선거구"
               }
             ],
-            "town_code": 4811,
-            "town_name": "의령군"
+            "town_name": "의령군",
+            "town_code": 4811
           },
           {
             "consti_list": [
@@ -5528,8 +5530,8 @@
                 "NAME": "함안군라선거구"
               }
             ],
-            "town_code": 4812,
-            "town_name": "함안군"
+            "town_name": "함안군",
+            "town_code": 4812
           },
           {
             "consti_list": [
@@ -5550,8 +5552,8 @@
                 "NAME": "창녕군라선거구"
               }
             ],
-            "town_code": 4813,
-            "town_name": "창녕군"
+            "town_name": "창녕군",
+            "town_code": 4813
           },
           {
             "consti_list": [
@@ -5580,8 +5582,8 @@
                 "NAME": "양산시바선거구"
               }
             ],
-            "town_code": 4814,
-            "town_name": "양산시"
+            "town_name": "양산시",
+            "town_code": 4814
           },
           {
             "consti_list": [
@@ -5602,8 +5604,8 @@
                 "NAME": "하동군라선거구"
               }
             ],
-            "town_code": 4815,
-            "town_name": "하동군"
+            "town_name": "하동군",
+            "town_code": 4815
           },
           {
             "consti_list": [
@@ -5624,8 +5626,8 @@
                 "NAME": "남해군라선거구"
               }
             ],
-            "town_code": 4816,
-            "town_name": "남해군"
+            "town_name": "남해군",
+            "town_code": 4816
           },
           {
             "consti_list": [
@@ -5642,8 +5644,8 @@
                 "NAME": "함양군다선거구"
               }
             ],
-            "town_code": 4817,
-            "town_name": "함양군"
+            "town_name": "함양군",
+            "town_code": 4817
           },
           {
             "consti_list": [
@@ -5664,8 +5666,8 @@
                 "NAME": "산청군라선거구"
               }
             ],
-            "town_code": 4818,
-            "town_name": "산청군"
+            "town_name": "산청군",
+            "town_code": 4818
           },
           {
             "consti_list": [
@@ -5686,8 +5688,8 @@
                 "NAME": "거창군라선거구"
               }
             ],
-            "town_code": 4819,
-            "town_name": "거창군"
+            "town_name": "거창군",
+            "town_code": 4819
           },
           {
             "consti_list": [
@@ -5708,15 +5710,13 @@
                 "NAME": "합천군라선거구"
               }
             ],
-            "town_code": 4820,
-            "town_name": "합천군"
+            "town_name": "합천군",
+            "town_code": 4820
           }
         ],
         "city_name": "경상남도",
         "city_code": 4800
       }
-    ],
-    "election_type": "local_municipal_parliament",
-    "nth": 6
+    ]
   }
 ]

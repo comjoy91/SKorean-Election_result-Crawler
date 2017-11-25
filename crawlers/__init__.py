@@ -38,10 +38,13 @@ localType_str_dict = {'pg':'local_provincal_administration', \
 
 electionType_kor_dict = {'president':'대통령', \
                         'assembly':'국회의원', \
+                        'assembly_proportional':'국회의원 비례대표', \
                         'local_provincal_administration':'시·도지사', \
                         'local_municipal_administration':'구·시·군의 장', \
                         'local_provincal_parliament':'시·도의회 의원', \
+                        'local_provincal_parliament_proportional':'시·도의회 의원 비례대표', \
                         'local_municipal_parliament':'구·시·군의회 의원', \
+                        'local_municipal_parliament_proportional':'구·시·군의회 의원 비례대표', \
                         'local_eduAdministration':'교육감', \
                         'local_eduParliament':'시·도의회 교육의원'}
 

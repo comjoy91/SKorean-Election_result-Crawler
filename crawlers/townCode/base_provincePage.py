@@ -26,8 +26,8 @@ class BaseCrawler_province(object):
 				x['CODE'] = int(x['CODE'])
 
 		_result = [dict(city_name=city_name, city_code=int(city_code), town_list=_town_list)]
-		#if len(_sgg_list) > 0:
-		#	_result[0]['consti_list'] = _sgg_list
+		if len(_sgg_list) > 0:
+			_result[0]['consti_list'] = _sgg_list
 
 		print('crawled %s election #%d - %s' % (target, self.nth, city_name))
 		print('\t└  %s, %s(%d)...' % ('구시군 행정구역 목록', city_name, len(_town_list)))
