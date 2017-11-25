@@ -3,7 +3,7 @@
 
 from . import counting_vote
 from . import counting_vote_dong
-from . import electorates
+#from . import electorates
 from . import townCode
 from . import partyCode
 from utils import InvalidCrawlerError
@@ -23,21 +23,22 @@ electionCode_dict = {'president':1, 'assembly':2, \
                     'local_provincal_administration':3, 'local_municipal_administration':4, \
                     'local_provincal_parliament':5, 'local_municipal_parliament':6, \
                     'local_eduParliament':10, 'local_eduAdministration':11}
-localType_str_dict = \
-	{'pg':'local_provincal_administration', \
-	'mg':'local_municipal_administration', \
-	'pm':'local_provincal_parliament', \
-	'mm':'local_municipal_parliament', \
-	'em':'local_eduParliament', \
-	'eg':'local_eduAdministration'}
 
-electionType_kor_dict = {'president':'대통령', 'assembly':'국회의원', \
-                'local_provincal_administration':'시·도지사', \
-                'local_municipal_administration':'구·시·군의 장', \
-                'local_provincal_parliament':'시·도의회 의원', \
-                'local_municipal_parliament':'구·시·군의회 의원', \
-                'local_eduAdministration':'교육감', \
-                'local_eduParliament':'시·도의회 교육의원'}
+localType_str_dict = {'pg':'local_provincal_administration', \
+                	'mg':'local_municipal_administration', \
+                	'pm':'local_provincal_parliament', \
+                	'mm':'local_municipal_parliament', \
+                	'em':'local_eduParliament', \
+                	'eg':'local_eduAdministration'}
+
+electionType_kor_dict = {'president':'대통령', \
+                        'assembly':'국회의원', \
+                        'local_provincal_administration':'시·도지사', \
+                        'local_municipal_administration':'구·시·군의 장', \
+                        'local_provincal_parliament':'시·도의회 의원', \
+                        'local_municipal_parliament':'구·시·군의회 의원', \
+                        'local_eduAdministration':'교육감', \
+                        'local_eduParliament':'시·도의회 교육의원'}
 
 def Crawler(_target, _dataType, nth, _localType):
 
@@ -49,10 +50,10 @@ def Crawler(_target, _dataType, nth, _localType):
     electionType_kor = electionType_kor_dict[target]
 
     if _dataType == 'electorates':
-        return raise NotImplementedError("Electorates module is not implemented yet.")
+        raise NotImplementedError("Electorates module is not implemented yet.")
         # 각 지역구/시군구별 선거인수 수집.
     elif _dataType == 'counting_vote':
-        return counting_vote.Crawler(target, nth, election_name, localType)
+        return counting_vote.Crawler(target, nth, election_name, electionType, electionType_kor)
         # 각 지역구별 지역구 득표수 / 시군구별 비례대표 득표수 수집.
     elif _dataType == 'counting_vote_dong':
         return counting_vote_dong.Crawler(target, nth, election_name, localType)

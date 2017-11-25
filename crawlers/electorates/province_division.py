@@ -55,22 +55,22 @@ class Province_ElectorCrawler_GuOld(MultiCityCrawler_province):
 #		consti = super(Province_ElectorCrawler_GuOld, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target, _target_kor):
+	def __init__(self, nth, _election_name, _election_type, _target, _target_kor):
 		self.nth = nth
 		self.target = _target
 		self.target_kor = _target_kor
 		self.isRecent = False
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name)
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										statementId='BIPB92_#1',\
 										oldElectionType=0, electionType=1, searchType=2, electionCode=_election_type)
-										# oldElectionType: ('재외국민수', '외국인수') 포함 여부
-										# electionType: 1-대통령선거, 2-국회의원선거, 3-?, 4-지방선거, 0-재보궐선거, 11-교육감선거
+										# oldElectionType: ('재외국민수', '외국인수') 포함 여부이자, GuOld(=0)냐 Old(=1)냐 여부.
+										# electionType: 1-대통령선거, 2-국회의원선거, 4-지방선거, 0-재보궐선거, 11-교육감선거
 										# searchType: 1-시도별, 2-구시군별, 3-선거구별, 4-읍면동별, 5-투표구별
 
 
@@ -80,22 +80,21 @@ class Province_ElectorCrawler_Old(MultiCityCrawler_province):
 #		consti = super(Province_ElectorCrawler_Old, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target, _target_kor):
+	def __init__(self, nth, _election_name, _election_type, _target, _target_kor):
 		self.nth = nth
 		self.target = _target
 		self.target_kor = _target_kor
 		self.isRecent = False
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name,\
-										subElectionCode=1)
+		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId='0000000000', electionName=_election_name,\
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										statementId='BIPB02_#2',\
-										oldElectionType=0, electionType=1, searchType=2, electionCode=_election_type)
-										# oldElectionType: ('재외국민수', '외국인수') 포함 여부
+										oldElectionType=1, electionType=1, searchType=2, electionCode=_election_type)
+										# oldElectionType: ('재외국민수', '외국인수') 포함 여부이자, GuOld(=0)냐 Old(=1)냐 여부.
 										# electionType: 1-대통령선거, 2-국회의원선거, 4-지방선거, 0-재보궐선거, 11-교육감선거
 										# searchType: 1-시도별, 2-구시군별, 3-선거구별, 4-읍면동별, 5-투표구별
 
@@ -106,14 +105,14 @@ class Province_ElectorCrawler_Recent(MultiCityCrawler_province):
 #		consti = super(Province_ElectorCrawler_Recent, self).parse_tr_xhtml(consti, city_name)
 #		return consti
 
-	def __init__(self, nth, _election_name, _target, _target_kor):
+	def __init__(self, nth, _election_name, _election_type, _target, _target_kor):
 		self.nth = nth
 		self.target = _target
 		self.target_kor = _target_kor
 		self.isRecent = True
 
 		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionCode=_election_type, electionId=_election_name)
+		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
 
 		self.urlPath_town_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_town_list = dict(electionId=_election_name, statementId='BIPB02_#2',\

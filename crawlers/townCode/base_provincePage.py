@@ -46,6 +46,8 @@ class JSONCrawler_province(BaseCrawler_province):
 		param_dict = dict(town=copy.deepcopy(self.urlParam_town_list), sgg=copy.deepcopy(self.urlParam_sgg_list))
 		param_dict['town']['cityCode'] = city_code
 		param_dict['sgg']['cityCode'] = city_code
+		if self.target=='assembly' and self.nth==17:
+			param_dict['sgg']['cityCode'] = city_code+'00'
 		return param_dict
 
 	def crawl(self):

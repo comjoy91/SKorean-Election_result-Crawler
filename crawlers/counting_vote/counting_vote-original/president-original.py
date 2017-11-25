@@ -4,20 +4,29 @@
 from crawlers.counting_vote.base import *
 from utils import sanitize
 
-def Crawler(nth, election_name, electionType, target, target_kor):
-
-	if target == 'president':
-		if nth == 1 or 8 <= nth <= 12:
-			raise NotImplementedError('The %d-th presidential election(in %s) was held as indirect election: We cannot crawl the data.' % (int(nth), election_name))
-		elif 1 <= nth <= 16:
-			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType, target, target_kor)
-		elif 17 <= nth <= 18:
-			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType, target, target_kor)
-		elif nth == 19:
-			crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType, target, target_kor)
-		else:
-			raise InvalidCrawlerError('townCode', nth, election_name, electionType, target, target_kor)
-
+def Crawler(nth, _election_name):
+	if nth == 1:
+		raise NotImplementedError('The 1st presidential election(in 1948) was held in National Assembley: We cannot crawl the data.')
+	elif 2 <= nth <= 7:
+		crawler = CountCrawler_GuOld(int(nth), _election_name)
+	elif nth == 8:
+		raise NotImplementedError('The 8th presidential election(in 1972) was held in 통일주체국민회의: We cannot crawl the data.')
+	elif nth == 9:
+		raise NotImplementedError('The 9th presidential election(in 1978) was held in 통일주체국민회의: We cannot crawl the data.')
+	elif nth == 10:
+		raise NotImplementedError('The 10th presidential election(in 1979) was held in 통일주체국민회의: We cannot crawl the data.')
+	elif nth == 11:
+		raise NotImplementedError('The 11th presidential election(in 1980) was held in 통일주체국민회의: We cannot crawl the data.')
+	elif nth == 12:
+		raise NotImplementedError('The 12th presidential election(in 1981) was held by a indirect election: We cannot crawl the data.')
+	elif 13 <= nth <= 16:
+		crawler = CountCrawler_GuOld(int(nth), _election_name)
+	elif 17 <= nth <= 18:
+		crawler = CountCrawler_Old(int(nth), _election_name)
+	elif nth == 19:
+		crawler = CountCrawler_Recent(int(nth), _election_name)
+	else:
+		raise InvalidCrawlerError('president', 'counting_vote', nth)
 	return crawler
 
 

@@ -168,7 +168,7 @@ class MultiCityCrawler_province(BaseCrawler_province):
 		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)['jsonResult']['body']
 		return [(x['CODE'], x['NAME']) for x in list_]
 
-	def JSON_url_param(self, elemType, city_code): # 각 광역자치단체별 선거구/기초자치단체 code 리스트를 json으로 받을 URL의 parameter.
+	def XHTML_url_param(self, elemType, city_code): # XHTML(결과 아웃풋)을 받을 URL의 parameter.
 		if elemType == 'local_division':
 			param_dict = copy.deepcopy(self.urlParam_town_list)
 		else: # elemType == 'constituency_in_province'
@@ -190,7 +190,7 @@ class MultiCityCrawler_province(BaseCrawler_province):
 				req_url = self.urlPath_town_list
 			else: #elemType == 'constituency_in_province'
 				req_url = self.urlPath_sgg_list
-			req_param = self.JSON_url_param(elemType, city_code)
+			req_param = self.XHTML_url_param(elemType, city_code)
 			job = gevent.spawn(self.parse_city, req_url, req_param, target, elemType, city_name, isRecent)
 			jobs.append(job)
 		gevent.joinall(jobs)
