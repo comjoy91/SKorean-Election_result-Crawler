@@ -1,9 +1,9 @@
 [
   {
+    "election_type": "assembly",
     "nth": 20,
     "results": [
       {
-        "city_code": 1100,
         "city_name": "서울특별시",
         "town_list": [
           {
@@ -304,10 +304,10 @@
             "NAME": "강동구을",
             "CODE": 2112502
           }
-        ]
+        ],
+        "city_code": 1100
       },
       {
-        "city_code": 2600,
         "city_name": "부산광역시",
         "town_list": [
           {
@@ -448,10 +448,10 @@
             "NAME": "사상구",
             "CODE": 2261601
           }
-        ]
+        ],
+        "city_code": 2600
       },
       {
-        "city_code": 2700,
         "city_name": "대구광역시",
         "town_list": [
           {
@@ -536,10 +536,10 @@
             "NAME": "달성군",
             "CODE": 2270801
           }
-        ]
+        ],
+        "city_code": 2700
       },
       {
-        "city_code": 2800,
         "city_name": "인천광역시",
         "town_list": [
           {
@@ -636,10 +636,10 @@
             "NAME": "서구을",
             "CODE": 2280803
           }
-        ]
+        ],
+        "city_code": 2800
       },
       {
-        "city_code": 2900,
         "city_name": "광주광역시",
         "town_list": [
           {
@@ -696,10 +696,10 @@
             "NAME": "광산구을",
             "CODE": 2290502
           }
-        ]
+        ],
+        "city_code": 2900
       },
       {
-        "city_code": 3000,
         "city_name": "대전광역시",
         "town_list": [
           {
@@ -752,10 +752,10 @@
             "NAME": "대덕구",
             "CODE": 2300501
           }
-        ]
+        ],
+        "city_code": 3000
       },
       {
-        "city_code": 3100,
         "city_name": "울산광역시",
         "town_list": [
           {
@@ -804,10 +804,10 @@
             "NAME": "울주군",
             "CODE": 2310501
           }
-        ]
+        ],
+        "city_code": 3100
       },
       {
-        "city_code": 5100,
         "city_name": "세종특별자치시",
         "town_list": [
           {
@@ -820,10 +820,10 @@
             "NAME": "세종특별자치시",
             "CODE": 2510101
           }
-        ]
+        ],
+        "city_code": 5100
       },
       {
-        "city_code": 4100,
         "city_name": "경기도",
         "town_list": [
           {
@@ -1244,10 +1244,10 @@
             "NAME": "포천시가평군",
             "CODE": 2414102
           }
-        ]
+        ],
+        "city_code": 4100
       },
       {
-        "city_code": 4200,
         "city_name": "강원도",
         "town_list": [
           {
@@ -1356,10 +1356,10 @@
             "NAME": "홍천군철원군화천군양구군인제군",
             "CODE": 2421601
           }
-        ]
+        ],
+        "city_code": 4200
       },
       {
-        "city_code": 4300,
         "city_name": "충청북도",
         "town_list": [
           {
@@ -1452,10 +1452,10 @@
             "NAME": "증평군진천군음성군",
             "CODE": 2431002
           }
-        ]
+        ],
+        "city_code": 4300
       },
       {
-        "city_code": 4400,
         "city_name": "충청남도",
         "town_list": [
           {
@@ -1568,10 +1568,10 @@
             "NAME": "당진시",
             "CODE": 2441601
           }
-        ]
+        ],
+        "city_code": 4400
       },
       {
-        "city_code": 4500,
         "city_name": "전라북도",
         "town_list": [
           {
@@ -1676,10 +1676,10 @@
             "NAME": "완주군진안군무주군장수군",
             "CODE": 2451001
           }
-        ]
+        ],
+        "city_code": 4500
       },
       {
-        "city_code": 4600,
         "city_name": "전라남도",
         "town_list": [
           {
@@ -1812,10 +1812,10 @@
             "NAME": "담양군함평군영광군장성군",
             "CODE": 2462202
           }
-        ]
+        ],
+        "city_code": 4600
       },
       {
-        "city_code": 4700,
         "city_name": "경상북도",
         "town_list": [
           {
@@ -1968,10 +1968,10 @@
             "NAME": "영양군영덕군봉화군울진군",
             "CODE": 2472201
           }
-        ]
+        ],
+        "city_code": 4700
       },
       {
-        "city_code": 4800,
         "city_name": "경상남도",
         "town_list": [
           {
@@ -2128,10 +2128,10 @@
             "NAME": "산청군함양군거창군합천군",
             "CODE": 2481901
           }
-        ]
+        ],
+        "city_code": 4800
       },
       {
-        "city_code": 4900,
         "city_name": "제주특별자치도",
         "town_list": [
           {
@@ -2156,9 +2156,9 @@
             "NAME": "서귀포시",
             "CODE": 2490201
           }
-        ]
+        ],
+        "city_code": 4900
       }
-    ],
-    "election_type": "assembly"
+    ]
   }
 ]

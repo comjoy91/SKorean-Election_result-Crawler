@@ -131,8 +131,8 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 
 	if hasattr(crawler, 'next_crawler'):
 		crawler.next_crawler.nth = nth
-		crawler.next_crawler.target = target
-		crawler.next_crawler.target_kor = target_kor
+		crawler.next_crawler.target = target+'_proportional'
+		crawler.next_crawler.target_kor = target_kor+' 비례대표'
 
 	return crawler
 
@@ -140,16 +140,18 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 
 class Constituency_CountCrawler_GuOld(MultiCityCrawler):
 
-	def parse_consti(self, consti, city_name=None):
-		consti = super(Constituency_CountCrawler_GuOld, self).parse_consti(consti, city_name)
-		return consti
+	#def parse_consti(self, consti, city_name=None, district_code=None):
+	#	consti = super(Constituency_CountCrawler_GuOld, self).parse_consti(consti, city_name)
+	#	return consti
 
 	def __init__(self, nth, _election_name, _election_type):
 		self.nth = nth
 		self.constant_candidates = False
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
+		#self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/assembly/townCode/assembly-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -162,16 +164,18 @@ class Constituency_CountCrawler_GuOld(MultiCityCrawler):
 
 class Constituency_CountCrawler_Old(MultiCityCrawler):
 
-	def parse_consti(self, consti, city_name=None):
-		consti = super(Constituency_CountCrawler_Old, self).parse_consti(consti, city_name)
-		return consti
+	#def parse_consti(self, consti, city_name=None, district_code=None):
+	#	consti = super(Constituency_CountCrawler_Old, self).parse_consti(consti, city_name)
+	#	return consti
 
 	def __init__(self, nth, _election_name, _election_type):
 		self.nth = nth
 		self.constant_candidates = False
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
+		#self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/assembly/townCode/assembly-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -184,10 +188,10 @@ class Constituency_CountCrawler_Old(MultiCityCrawler):
 
 class Constituency_CountCrawler_Recent(MultiCityCrawler):
 
-	def parse_consti(self, consti, city_name=None):
-		consti = super(Constituency_CountCrawler_Recent, self).parse_consti(consti, city_name)
-		self.parse_consti_pledge(consti)
-		return consti
+	#def parse_consti(self, consti, city_name=None, district_code=None):
+	#	consti = super(Constituency_CountCrawler_Recent, self).parse_consti(consti, city_name)
+	#	self.parse_consti_pledge(consti)
+	#	return consti
 
 	def parse_consti_pledge(self, consti):
 		pass # TODO: implement
@@ -196,8 +200,10 @@ class Constituency_CountCrawler_Recent(MultiCityCrawler):
 		self.nth = nth
 		self.constant_candidates = False
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
+		#self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/assembly/townCode/assembly-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId=_election_name,\
@@ -212,7 +218,7 @@ class Constituency_CountCrawler_Recent(MultiCityCrawler):
 
 class Proportional_CountCrawler_GuOld(MultiCityCrawler):
 
-	#def parse_consti(self, consti, city_name=None):
+	#def parse_consti(self, consti, city_name=None, district_code=None):
 	#	consti = super(Proportional_CountCrawler_GuOld, self).parse_consti(consti, city_name)
 	#	return consti
 
@@ -220,8 +226,10 @@ class Proportional_CountCrawler_GuOld(MultiCityCrawler):
 		self.nth = nth
 		self.constant_candidates = True
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_GuOld.json'
+		#self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/local-pg/townCode/local-pg-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -234,7 +242,7 @@ class Proportional_CountCrawler_GuOld(MultiCityCrawler):
 
 class Proportional_CountCrawler_Old(MultiCityCrawler):
 
-	#def parse_consti(self, consti, city_name=None):
+	#def parse_consti(self, consti, city_name=None, district_code=None):
 	#	consti = super(Proportional_CountCrawler_Old, self).parse_consti(consti, city_name)
 	#	return consti
 
@@ -242,8 +250,10 @@ class Proportional_CountCrawler_Old(MultiCityCrawler):
 		self.nth = nth
 		self.constant_candidates = True
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
-		self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson_Old.json'
+		#self.urlParam_city_codes = dict(electionId='0000000000', electionCode=_election_name, subElectionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/local-pg/townCode/local-pg-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId='0000000000', electionName=_election_name,\
@@ -257,7 +267,7 @@ class Proportional_CountCrawler_Old(MultiCityCrawler):
 
 class Proportional_CountCrawler_Recent(MultiCityCrawler):
 
-	#def parse_consti(self, consti, city_name=None):
+	#def parse_consti(self, consti, city_name=None, district_code=None):
 	#	consti = super(Proportional_CountCrawler_Recent, self).parse_consti(consti, city_name)
 	#	self.parse_consti_party(consti)
 	#	return consti
@@ -270,8 +280,10 @@ class Proportional_CountCrawler_Recent(MultiCityCrawler):
 		self.nth = nth
 		self.constant_candidates = True
 
-		self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
-		self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
+		#self.urlPath_city_codes = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_cityCodeBySgJson.json'
+		#self.urlParam_city_codes = dict(electionId=_election_name, electionCode=_election_type)
+		self.urlPath_city_codes = 'http://hyunikcho.com/SKorean-election-map/crawled_data/local-pg/townCode/local-pg-townCode-'+str(nth)+'.json'
+		self.urlParam_city_codes = None
 
 		self.urlPath_result_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
 		self.urlParam_result_list = dict(electionId=_election_name,\

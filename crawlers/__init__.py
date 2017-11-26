@@ -64,7 +64,7 @@ def Crawler(_target, _dataType, nth, _localType):
         return counting_vote.Crawler(target, nth, election_name, electionType, electionType_kor)
         # 각 지역구별 지역구 득표수 / 시군구별 비례대표 득표수 수집.
     elif _dataType == 'counting_vote_dong':
-        return counting_vote_dong.Crawler(target, nth, election_name, localType)
+        raise NotImplementedError("Counting_vote_dong module is not implemented yet.")
         # 각 읍면동별 득표수 수집.
     elif _dataType == 'townCode':
         return townCode.Crawler(target, nth, election_name, electionType, electionType_kor)

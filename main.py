@@ -119,7 +119,7 @@ def print_file(arg_namespace):
         datadir = _arg.directory
     else:
         if (target=='local' and localType):
-            datadir = './crawled_data/%s/%s/%s' % (target, localType, dataType)
+            datadir = './crawled_data/%s-%s/%s' % (target, localType, dataType)
         else:
             datadir = './crawled_data/%s/%s' % (target, dataType)
 

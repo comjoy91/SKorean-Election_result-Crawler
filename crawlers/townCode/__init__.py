@@ -17,7 +17,9 @@ def Crawler(target, nth, election_name, electionType, electionType_kor):
 
     elif target == 'local_provincal_parliament' or \
         target == 'local_municipal_parliament':
-        return municipalPage.Crawler(nth, election_name, electionType, target, electionType_kor)
+        #return municipalPage.Crawler(nth, election_name, electionType, target, electionType_kor)
+        return provincePage.Crawler(nth, election_name, electionType, target, electionType_kor)
+
 
     else:
         raise InvalidCrawlerError('townCode', target, nth, election_name, electionType)
