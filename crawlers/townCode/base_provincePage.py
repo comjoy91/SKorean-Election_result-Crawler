@@ -54,12 +54,13 @@ class JSONCrawler_province(BaseCrawler_province):
 
 		jobs = []
 		target = self.target
+		target_eng = self.target_eng
 		target_kor = self.target_kor
 		nth = self.nth
 		req_url = dict(town=self.urlPath_town_list, sgg=self.urlPath_sgg_list)
 
 		# 광역자치단체 단위 페이지의 데이터 크롤링의 기본과정.
-		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target, nth))
+		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target_eng, nth))
 		for city_code, city_name in self.city_codes(): # 각 광역자치단체 별로 아래 단계를 수행.
 			req_param = self.JSON_url_param(city_code)
 			job = gevent.spawn(self.parse_city, req_url, req_param, target, target_kor, city_code, city_name)

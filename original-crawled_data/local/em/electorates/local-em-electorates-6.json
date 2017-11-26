@@ -1,7 +1,7 @@
 [
   {
     "element_type": "constituency_in_province",
-    "election_type": "local_eduParliament",
+    "election_type": "local-ep",
     "nth": 6,
     "results": [
       {

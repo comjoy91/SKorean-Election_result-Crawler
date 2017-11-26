@@ -5,21 +5,21 @@ from .provincePage import *
 from .municipalPage import *
 from utils import InvalidCrawlerError
 
-def Crawler(target, nth, election_name, electionType, electionType_kor):
+def Crawler(target, nth, election_name, electionType, electionType_eng, electionType_kor):
 
-    if target == 'local_eduParliament' or \
+    if target == 'local-ep' or \
         target == 'assembly'or \
-        target == 'local_provincal_administration' or \
-        target == 'local_municipal_administration' or \
-        target == 'local_eduAdministration' or \
+        target == 'local-pa' or \
+        target == 'local-ma' or \
+        target == 'local-ea' or \
         target == 'president':
-        return provincePage.Crawler(nth, election_name, electionType, target, electionType_kor)
+        return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
 
-    elif target == 'local_provincal_parliament' or \
-        target == 'local_municipal_parliament':
-        #return municipalPage.Crawler(nth, election_name, electionType, target, electionType_kor)
-        return provincePage.Crawler(nth, election_name, electionType, target, electionType_kor)
+    elif target == 'local-pp' or \
+        target == 'local-mp':
+        #return municipalPage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+        return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
 
 
     else:
-        raise InvalidCrawlerError('townCode', target, nth, election_name, electionType)
+        raise InvalidCrawlerError('townCode', target, nth, election_name, electionType, electionType_eng, electionType_kor)

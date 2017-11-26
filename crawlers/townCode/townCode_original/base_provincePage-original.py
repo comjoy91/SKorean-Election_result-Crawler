@@ -28,7 +28,7 @@ class BaseCrawler_province(object):
 			_result = [dict(city_name=city_name, city_code=int(city_code), consti_list=_elem_list)]
 			if target=='assembly':
 				_elemType_str = '국회의원 지역구 목록'
-			elif target=='local_eduParliament':
+			elif target=='local-ep':
 				_elemType_str = '교육의원(광역자치의회) 지역구 목록'
 			else:
 				raise InvalidCrawlerError(target, elemType, nth)

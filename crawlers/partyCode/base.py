@@ -25,22 +25,20 @@ class BaseCrawler(object):
 			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
 				x['CODE'] = int(x['CODE'])
 
-		print('crawled #%d - %s, %s(%d)...' % (self.nth, '선거참여 정당', '전국', len(_party_list)))
+		print('crawled %s election #%d - 선거참여 정당, 전국(%d)...' % (self.target_eng, self.nth, len(_party_list)))
 		return _party_list
 
 
 class JSONCrawler(BaseCrawler):
 
-	def url_param(self):
-		return self.param_url_list
-
 	def crawl(self):
 		target = self.target
+		target_eng = self.target_eng
 		jobs = []
 
-		print("Waiting to connect http://info.nec.go.kr server (%s)..." % 'partyList')
-		req_url = self.url_list_base
-		req_param = self.url_param()
+		print("Waiting to connect http://info.nec.go.kr server (%s)..." % target_eng)
+		req_url = self.urlPath_party_codes
+		req_param = self.urlParam_party_codes
 		job = self.parse(req_url, req_param)
 		every_result = [{'election_type':target,'town_type':"전국",'nth':self.nth,'results':job}]
 

@@ -1,0 +1,1324 @@
+[
+  {
+    "results": [
+      {
+        "city_code": 11,
+        "city_name": "서울",
+        "town_list": [
+          {
+            "ORDERNAME": "11010",
+            "NAME": "종로구",
+            "CODE": 1101
+          },
+          {
+            "ORDERNAME": "11020",
+            "NAME": "중구(서울)",
+            "CODE": 1102
+          },
+          {
+            "ORDERNAME": "11030",
+            "NAME": "용산구",
+            "CODE": 1103
+          },
+          {
+            "ORDERNAME": "11040",
+            "NAME": "성동구",
+            "CODE": 1104
+          },
+          {
+            "ORDERNAME": "11050",
+            "NAME": "광진구",
+            "CODE": 1105
+          },
+          {
+            "ORDERNAME": "11060",
+            "NAME": "동대문구",
+            "CODE": 1106
+          },
+          {
+            "ORDERNAME": "11070",
+            "NAME": "중랑구",
+            "CODE": 1107
+          },
+          {
+            "ORDERNAME": "11080",
+            "NAME": "성북구",
+            "CODE": 1108
+          },
+          {
+            "ORDERNAME": "11090",
+            "NAME": "강북구",
+            "CODE": 1109
+          },
+          {
+            "ORDERNAME": "11100",
+            "NAME": "도봉구",
+            "CODE": 1110
+          },
+          {
+            "ORDERNAME": "11110",
+            "NAME": "노원구",
+            "CODE": 1111
+          },
+          {
+            "ORDERNAME": "11120",
+            "NAME": "은평구",
+            "CODE": 1112
+          },
+          {
+            "ORDERNAME": "11130",
+            "NAME": "서대문구",
+            "CODE": 1113
+          },
+          {
+            "ORDERNAME": "11140",
+            "NAME": "마포구",
+            "CODE": 1114
+          },
+          {
+            "ORDERNAME": "11150",
+            "NAME": "양천구",
+            "CODE": 1115
+          },
+          {
+            "ORDERNAME": "11160",
+            "NAME": "강서구",
+            "CODE": 1116
+          },
+          {
+            "ORDERNAME": "11170",
+            "NAME": "구로구",
+            "CODE": 1117
+          },
+          {
+            "ORDERNAME": "11180",
+            "NAME": "금천구",
+            "CODE": 1118
+          },
+          {
+            "ORDERNAME": "11190",
+            "NAME": "영등포구",
+            "CODE": 1119
+          },
+          {
+            "ORDERNAME": "11200",
+            "NAME": "동작구",
+            "CODE": 1120
+          },
+          {
+            "ORDERNAME": "11210",
+            "NAME": "관악구",
+            "CODE": 1121
+          },
+          {
+            "ORDERNAME": "11220",
+            "NAME": "서초구",
+            "CODE": 1122
+          },
+          {
+            "ORDERNAME": "11230",
+            "NAME": "강남구",
+            "CODE": 1123
+          },
+          {
+            "ORDERNAME": "11240",
+            "NAME": "송파구",
+            "CODE": 1124
+          },
+          {
+            "ORDERNAME": "11250",
+            "NAME": "강동구",
+            "CODE": 1125
+          }
+        ]
+      },
+      {
+        "city_code": 26,
+        "city_name": "부산",
+        "town_list": [
+          {
+            "ORDERNAME": "26010",
+            "NAME": "중구(부산)",
+            "CODE": 2601
+          },
+          {
+            "ORDERNAME": "26020",
+            "NAME": "서구(부산)",
+            "CODE": 2602
+          },
+          {
+            "ORDERNAME": "26030",
+            "NAME": "동구(부산)",
+            "CODE": 2603
+          },
+          {
+            "ORDERNAME": "26040",
+            "NAME": "영도구",
+            "CODE": 2604
+          },
+          {
+            "ORDERNAME": "26050",
+            "NAME": "부산진구",
+            "CODE": 2605
+          },
+          {
+            "ORDERNAME": "26060",
+            "NAME": "동래구",
+            "CODE": 2606
+          },
+          {
+            "ORDERNAME": "26070",
+            "NAME": "남구(부산)",
+            "CODE": 2607
+          },
+          {
+            "ORDERNAME": "26080",
+            "NAME": "북구(부산)",
+            "CODE": 2608
+          },
+          {
+            "ORDERNAME": "26090",
+            "NAME": "해운대구",
+            "CODE": 2609
+          },
+          {
+            "ORDERNAME": "26100",
+            "NAME": "기장군",
+            "CODE": 2610
+          },
+          {
+            "ORDERNAME": "26110",
+            "NAME": "사하구",
+            "CODE": 2611
+          },
+          {
+            "ORDERNAME": "26120",
+            "NAME": "금정구",
+            "CODE": 2612
+          },
+          {
+            "ORDERNAME": "26130",
+            "NAME": "강서구(부산)",
+            "CODE": 2613
+          },
+          {
+            "ORDERNAME": "26140",
+            "NAME": "연제구",
+            "CODE": 2614
+          },
+          {
+            "ORDERNAME": "26150",
+            "NAME": "수영구",
+            "CODE": 2615
+          },
+          {
+            "ORDERNAME": "26160",
+            "NAME": "사상구",
+            "CODE": 2616
+          }
+        ]
+      },
+      {
+        "city_code": 27,
+        "city_name": "대구",
+        "town_list": [
+          {
+            "ORDERNAME": "27010",
+            "NAME": "중구(대구)",
+            "CODE": 2701
+          },
+          {
+            "ORDERNAME": "27020",
+            "NAME": "동구(대구)",
+            "CODE": 2702
+          },
+          {
+            "ORDERNAME": "27030",
+            "NAME": "서구(대구)",
+            "CODE": 2703
+          },
+          {
+            "ORDERNAME": "27040",
+            "NAME": "남구(대구)",
+            "CODE": 2704
+          },
+          {
+            "ORDERNAME": "27050",
+            "NAME": "북구(대구)",
+            "CODE": 2705
+          },
+          {
+            "ORDERNAME": "27060",
+            "NAME": "수성구",
+            "CODE": 2706
+          },
+          {
+            "ORDERNAME": "27070",
+            "NAME": "달서구",
+            "CODE": 2707
+          },
+          {
+            "ORDERNAME": "27080",
+            "NAME": "달성군",
+            "CODE": 2708
+          }
+        ]
+      },
+      {
+        "city_code": 28,
+        "city_name": "인천",
+        "town_list": [
+          {
+            "ORDERNAME": "28010",
+            "NAME": "중구(인천)",
+            "CODE": 2801
+          },
+          {
+            "ORDERNAME": "28020",
+            "NAME": "동구(인천)",
+            "CODE": 2802
+          },
+          {
+            "ORDERNAME": "28030",
+            "NAME": "남구(인천)",
+            "CODE": 2803
+          },
+          {
+            "ORDERNAME": "28040",
+            "NAME": "연수구",
+            "CODE": 2804
+          },
+          {
+            "ORDERNAME": "28050",
+            "NAME": "남동구",
+            "CODE": 2805
+          },
+          {
+            "ORDERNAME": "28060",
+            "NAME": "부평구",
+            "CODE": 2806
+          },
+          {
+            "ORDERNAME": "28070",
+            "NAME": "계양구",
+            "CODE": 2807
+          },
+          {
+            "ORDERNAME": "28080",
+            "NAME": "서구(인천)",
+            "CODE": 2808
+          },
+          {
+            "ORDERNAME": "28090",
+            "NAME": "강화군",
+            "CODE": 2809
+          },
+          {
+            "ORDERNAME": "28100",
+            "NAME": "옹진군",
+            "CODE": 2810
+          }
+        ]
+      },
+      {
+        "city_code": 29,
+        "city_name": "광주",
+        "town_list": [
+          {
+            "ORDERNAME": "29010",
+            "NAME": "동구(광주)",
+            "CODE": 2901
+          },
+          {
+            "ORDERNAME": "29020",
+            "NAME": "서구(광주)",
+            "CODE": 2902
+          },
+          {
+            "ORDERNAME": "29030",
+            "NAME": "남구(광주)",
+            "CODE": 2903
+          },
+          {
+            "ORDERNAME": "29040",
+            "NAME": "북구(광주)",
+            "CODE": 2904
+          },
+          {
+            "ORDERNAME": "29060",
+            "NAME": "광산구",
+            "CODE": 2906
+          }
+        ]
+      },
+      {
+        "city_code": 30,
+        "city_name": "대전",
+        "town_list": [
+          {
+            "ORDERNAME": "30010",
+            "NAME": "동구(대전)",
+            "CODE": 3001
+          },
+          {
+            "ORDERNAME": "30020",
+            "NAME": "중구(대전)",
+            "CODE": 3002
+          },
+          {
+            "ORDERNAME": "30030",
+            "NAME": "서구(대전)",
+            "CODE": 3003
+          },
+          {
+            "ORDERNAME": "30040",
+            "NAME": "유성구",
+            "CODE": 3004
+          },
+          {
+            "ORDERNAME": "30050",
+            "NAME": "대덕구",
+            "CODE": 3005
+          }
+        ]
+      },
+      {
+        "city_code": 31,
+        "city_name": "울산",
+        "town_list": [
+          {
+            "ORDERNAME": "31010",
+            "NAME": "중구(울산)",
+            "CODE": 3101
+          },
+          {
+            "ORDERNAME": "31020",
+            "NAME": "남구(울산)",
+            "CODE": 3102
+          },
+          {
+            "ORDERNAME": "31030",
+            "NAME": "동구(울산)",
+            "CODE": 3103
+          },
+          {
+            "ORDERNAME": "31040",
+            "NAME": "북구(울산)",
+            "CODE": 3104
+          },
+          {
+            "ORDERNAME": "31050",
+            "NAME": "울주군",
+            "CODE": 3105
+          }
+        ]
+      },
+      {
+        "city_code": 41,
+        "city_name": "경기",
+        "town_list": [
+          {
+            "ORDERNAME": "41010",
+            "NAME": "수원시장안구",
+            "CODE": 4101
+          },
+          {
+            "ORDERNAME": "41020",
+            "NAME": "수원시권선구",
+            "CODE": 4102
+          },
+          {
+            "ORDERNAME": "41030",
+            "NAME": "수원시팔달구",
+            "CODE": 4103
+          },
+          {
+            "ORDERNAME": "41040",
+            "NAME": "성남시수정구",
+            "CODE": 4104
+          },
+          {
+            "ORDERNAME": "41050",
+            "NAME": "성남시중원구",
+            "CODE": 4105
+          },
+          {
+            "ORDERNAME": "41060",
+            "NAME": "성남시분당구",
+            "CODE": 4106
+          },
+          {
+            "ORDERNAME": "41070",
+            "NAME": "의정부시",
+            "CODE": 4107
+          },
+          {
+            "ORDERNAME": "41080",
+            "NAME": "안양시만안구",
+            "CODE": 4108
+          },
+          {
+            "ORDERNAME": "41090",
+            "NAME": "안양시동안구",
+            "CODE": 4109
+          },
+          {
+            "ORDERNAME": "41100",
+            "NAME": "부천시원미구",
+            "CODE": 4110
+          },
+          {
+            "ORDERNAME": "41110",
+            "NAME": "부천시소사구",
+            "CODE": 4111
+          },
+          {
+            "ORDERNAME": "41120",
+            "NAME": "부천시오정구",
+            "CODE": 4112
+          },
+          {
+            "ORDERNAME": "41130",
+            "NAME": "광명시",
+            "CODE": 4113
+          },
+          {
+            "ORDERNAME": "41140",
+            "NAME": "평택시",
+            "CODE": 4114
+          },
+          {
+            "ORDERNAME": "41150",
+            "NAME": "동두천시",
+            "CODE": 4115
+          },
+          {
+            "ORDERNAME": "41160",
+            "NAME": "양주군",
+            "CODE": 4116
+          },
+          {
+            "ORDERNAME": "41170",
+            "NAME": "안산시상록구",
+            "CODE": 4117
+          },
+          {
+            "ORDERNAME": "41180",
+            "NAME": "안산시단원구",
+            "CODE": 4118
+          },
+          {
+            "ORDERNAME": "41190",
+            "NAME": "고양시덕양구",
+            "CODE": 4119
+          },
+          {
+            "ORDERNAME": "41200",
+            "NAME": "고양시일산구",
+            "CODE": 4120
+          },
+          {
+            "ORDERNAME": "41210",
+            "NAME": "과천시",
+            "CODE": 4121
+          },
+          {
+            "ORDERNAME": "41220",
+            "NAME": "의왕시",
+            "CODE": 4122
+          },
+          {
+            "ORDERNAME": "41230",
+            "NAME": "구리시",
+            "CODE": 4123
+          },
+          {
+            "ORDERNAME": "41240",
+            "NAME": "남양주시",
+            "CODE": 4124
+          },
+          {
+            "ORDERNAME": "41250",
+            "NAME": "오산시",
+            "CODE": 4125
+          },
+          {
+            "ORDERNAME": "41260",
+            "NAME": "화성시",
+            "CODE": 4126
+          },
+          {
+            "ORDERNAME": "41270",
+            "NAME": "시흥시",
+            "CODE": 4127
+          },
+          {
+            "ORDERNAME": "41280",
+            "NAME": "군포시",
+            "CODE": 4128
+          },
+          {
+            "ORDERNAME": "41290",
+            "NAME": "하남시",
+            "CODE": 4129
+          },
+          {
+            "ORDERNAME": "41300",
+            "NAME": "파주시",
+            "CODE": 4130
+          },
+          {
+            "ORDERNAME": "41310",
+            "NAME": "이천시",
+            "CODE": 4131
+          },
+          {
+            "ORDERNAME": "41320",
+            "NAME": "용인시",
+            "CODE": 4132
+          },
+          {
+            "ORDERNAME": "41330",
+            "NAME": "안성시",
+            "CODE": 4133
+          },
+          {
+            "ORDERNAME": "41340",
+            "NAME": "김포시",
+            "CODE": 4134
+          },
+          {
+            "ORDERNAME": "41350",
+            "NAME": "여주군",
+            "CODE": 4135
+          },
+          {
+            "ORDERNAME": "41360",
+            "NAME": "광주시",
+            "CODE": 4136
+          },
+          {
+            "ORDERNAME": "41370",
+            "NAME": "포천군",
+            "CODE": 4137
+          },
+          {
+            "ORDERNAME": "41380",
+            "NAME": "연천군",
+            "CODE": 4138
+          },
+          {
+            "ORDERNAME": "41390",
+            "NAME": "양평군",
+            "CODE": 4139
+          },
+          {
+            "ORDERNAME": "41400",
+            "NAME": "가평군",
+            "CODE": 4140
+          }
+        ]
+      },
+      {
+        "city_code": 42,
+        "city_name": "강원",
+        "town_list": [
+          {
+            "ORDERNAME": "42010",
+            "NAME": "춘천시",
+            "CODE": 4201
+          },
+          {
+            "ORDERNAME": "42020",
+            "NAME": "원주시",
+            "CODE": 4202
+          },
+          {
+            "ORDERNAME": "42030",
+            "NAME": "강릉시",
+            "CODE": 4203
+          },
+          {
+            "ORDERNAME": "42040",
+            "NAME": "동해시",
+            "CODE": 4204
+          },
+          {
+            "ORDERNAME": "42050",
+            "NAME": "삼척시",
+            "CODE": 4205
+          },
+          {
+            "ORDERNAME": "42060",
+            "NAME": "태백시",
+            "CODE": 4206
+          },
+          {
+            "ORDERNAME": "42070",
+            "NAME": "정선군",
+            "CODE": 4207
+          },
+          {
+            "ORDERNAME": "42080",
+            "NAME": "속초시",
+            "CODE": 4208
+          },
+          {
+            "ORDERNAME": "42090",
+            "NAME": "고성군(강원)",
+            "CODE": 4209
+          },
+          {
+            "ORDERNAME": "42100",
+            "NAME": "양양군",
+            "CODE": 4210
+          },
+          {
+            "ORDERNAME": "42110",
+            "NAME": "인제군",
+            "CODE": 4211
+          },
+          {
+            "ORDERNAME": "42120",
+            "NAME": "홍천군",
+            "CODE": 4212
+          },
+          {
+            "ORDERNAME": "42130",
+            "NAME": "횡성군",
+            "CODE": 4213
+          },
+          {
+            "ORDERNAME": "42140",
+            "NAME": "영월군",
+            "CODE": 4214
+          },
+          {
+            "ORDERNAME": "42150",
+            "NAME": "평창군",
+            "CODE": 4215
+          },
+          {
+            "ORDERNAME": "42160",
+            "NAME": "화천군",
+            "CODE": 4216
+          },
+          {
+            "ORDERNAME": "42170",
+            "NAME": "양구군",
+            "CODE": 4217
+          },
+          {
+            "ORDERNAME": "42180",
+            "NAME": "철원군",
+            "CODE": 4218
+          }
+        ]
+      },
+      {
+        "city_code": 43,
+        "city_name": "충북",
+        "town_list": [
+          {
+            "ORDERNAME": "43010",
+            "NAME": "청주시상당구",
+            "CODE": 4301
+          },
+          {
+            "ORDERNAME": "43020",
+            "NAME": "청주시흥덕구",
+            "CODE": 4302
+          },
+          {
+            "ORDERNAME": "43030",
+            "NAME": "충주시",
+            "CODE": 4303
+          },
+          {
+            "ORDERNAME": "43040",
+            "NAME": "제천시",
+            "CODE": 4304
+          },
+          {
+            "ORDERNAME": "43050",
+            "NAME": "단양군",
+            "CODE": 4305
+          },
+          {
+            "ORDERNAME": "43060",
+            "NAME": "청원군",
+            "CODE": 4306
+          },
+          {
+            "ORDERNAME": "43070",
+            "NAME": "영동군",
+            "CODE": 4307
+          },
+          {
+            "ORDERNAME": "43080",
+            "NAME": "보은군",
+            "CODE": 4308
+          },
+          {
+            "ORDERNAME": "43090",
+            "NAME": "옥천군",
+            "CODE": 4309
+          },
+          {
+            "ORDERNAME": "43100",
+            "NAME": "음성군",
+            "CODE": 4310
+          },
+          {
+            "ORDERNAME": "43110",
+            "NAME": "진천군",
+            "CODE": 4311
+          },
+          {
+            "ORDERNAME": "43120",
+            "NAME": "괴산군",
+            "CODE": 4312
+          }
+        ]
+      },
+      {
+        "city_code": 44,
+        "city_name": "충남",
+        "town_list": [
+          {
+            "ORDERNAME": "44010",
+            "NAME": "천안시",
+            "CODE": 4401
+          },
+          {
+            "ORDERNAME": "44020",
+            "NAME": "공주시",
+            "CODE": 4402
+          },
+          {
+            "ORDERNAME": "44030",
+            "NAME": "보령시",
+            "CODE": 4403
+          },
+          {
+            "ORDERNAME": "44040",
+            "NAME": "아산시",
+            "CODE": 4404
+          },
+          {
+            "ORDERNAME": "44050",
+            "NAME": "금산군",
+            "CODE": 4405
+          },
+          {
+            "ORDERNAME": "44060",
+            "NAME": "연기군",
+            "CODE": 4406
+          },
+          {
+            "ORDERNAME": "44070",
+            "NAME": "논산시",
+            "CODE": 4407
+          },
+          {
+            "ORDERNAME": "44080",
+            "NAME": "부여군",
+            "CODE": 4408
+          },
+          {
+            "ORDERNAME": "44090",
+            "NAME": "서천군",
+            "CODE": 4409
+          },
+          {
+            "ORDERNAME": "44100",
+            "NAME": "홍성군",
+            "CODE": 4410
+          },
+          {
+            "ORDERNAME": "44110",
+            "NAME": "청양군",
+            "CODE": 4411
+          },
+          {
+            "ORDERNAME": "44120",
+            "NAME": "예산군",
+            "CODE": 4412
+          },
+          {
+            "ORDERNAME": "44130",
+            "NAME": "서산시",
+            "CODE": 4413
+          },
+          {
+            "ORDERNAME": "44140",
+            "NAME": "태안군",
+            "CODE": 4414
+          },
+          {
+            "ORDERNAME": "44150",
+            "NAME": "당진군",
+            "CODE": 4415
+          }
+        ]
+      },
+      {
+        "city_code": 45,
+        "city_name": "전북",
+        "town_list": [
+          {
+            "ORDERNAME": "45010",
+            "NAME": "전주시완산구",
+            "CODE": 4501
+          },
+          {
+            "ORDERNAME": "45020",
+            "NAME": "전주시덕진구",
+            "CODE": 4502
+          },
+          {
+            "ORDERNAME": "45030",
+            "NAME": "군산시",
+            "CODE": 4503
+          },
+          {
+            "ORDERNAME": "45050",
+            "NAME": "익산시",
+            "CODE": 4505
+          },
+          {
+            "ORDERNAME": "45070",
+            "NAME": "정읍시",
+            "CODE": 4507
+          },
+          {
+            "ORDERNAME": "45080",
+            "NAME": "남원시",
+            "CODE": 4508
+          },
+          {
+            "ORDERNAME": "45090",
+            "NAME": "김제시",
+            "CODE": 4509
+          },
+          {
+            "ORDERNAME": "45100",
+            "NAME": "완주군",
+            "CODE": 4510
+          },
+          {
+            "ORDERNAME": "45110",
+            "NAME": "진안군",
+            "CODE": 4511
+          },
+          {
+            "ORDERNAME": "45120",
+            "NAME": "무주군",
+            "CODE": 4512
+          },
+          {
+            "ORDERNAME": "45130",
+            "NAME": "장수군",
+            "CODE": 4513
+          },
+          {
+            "ORDERNAME": "45140",
+            "NAME": "임실군",
+            "CODE": 4514
+          },
+          {
+            "ORDERNAME": "45150",
+            "NAME": "순창군",
+            "CODE": 4515
+          },
+          {
+            "ORDERNAME": "45160",
+            "NAME": "고창군",
+            "CODE": 4516
+          },
+          {
+            "ORDERNAME": "45170",
+            "NAME": "부안군",
+            "CODE": 4517
+          }
+        ]
+      },
+      {
+        "city_code": 46,
+        "city_name": "전남",
+        "town_list": [
+          {
+            "ORDERNAME": "46010",
+            "NAME": "목포시",
+            "CODE": 4601
+          },
+          {
+            "ORDERNAME": "46020",
+            "NAME": "여수시",
+            "CODE": 4602
+          },
+          {
+            "ORDERNAME": "46040",
+            "NAME": "순천시",
+            "CODE": 4604
+          },
+          {
+            "ORDERNAME": "46060",
+            "NAME": "나주시",
+            "CODE": 4606
+          },
+          {
+            "ORDERNAME": "46070",
+            "NAME": "광양시",
+            "CODE": 4607
+          },
+          {
+            "ORDERNAME": "46080",
+            "NAME": "담양군",
+            "CODE": 4608
+          },
+          {
+            "ORDERNAME": "46090",
+            "NAME": "장성군",
+            "CODE": 4609
+          },
+          {
+            "ORDERNAME": "46100",
+            "NAME": "곡성군",
+            "CODE": 4610
+          },
+          {
+            "ORDERNAME": "46110",
+            "NAME": "구례군",
+            "CODE": 4611
+          },
+          {
+            "ORDERNAME": "46120",
+            "NAME": "고흥군",
+            "CODE": 4612
+          },
+          {
+            "ORDERNAME": "46130",
+            "NAME": "보성군",
+            "CODE": 4613
+          },
+          {
+            "ORDERNAME": "46140",
+            "NAME": "화순군",
+            "CODE": 4614
+          },
+          {
+            "ORDERNAME": "46150",
+            "NAME": "장흥군",
+            "CODE": 4615
+          },
+          {
+            "ORDERNAME": "46160",
+            "NAME": "강진군",
+            "CODE": 4616
+          },
+          {
+            "ORDERNAME": "46170",
+            "NAME": "완도군",
+            "CODE": 4617
+          },
+          {
+            "ORDERNAME": "46180",
+            "NAME": "해남군",
+            "CODE": 4618
+          },
+          {
+            "ORDERNAME": "46190",
+            "NAME": "진도군",
+            "CODE": 4619
+          },
+          {
+            "ORDERNAME": "46200",
+            "NAME": "영암군",
+            "CODE": 4620
+          },
+          {
+            "ORDERNAME": "46210",
+            "NAME": "무안군",
+            "CODE": 4621
+          },
+          {
+            "ORDERNAME": "46220",
+            "NAME": "영광군",
+            "CODE": 4622
+          },
+          {
+            "ORDERNAME": "46230",
+            "NAME": "함평군",
+            "CODE": 4623
+          },
+          {
+            "ORDERNAME": "46240",
+            "NAME": "신안군",
+            "CODE": 4624
+          }
+        ]
+      },
+      {
+        "city_code": 47,
+        "city_name": "경북",
+        "town_list": [
+          {
+            "ORDERNAME": "47010",
+            "NAME": "포항시북구",
+            "CODE": 4701
+          },
+          {
+            "ORDERNAME": "47020",
+            "NAME": "포항시남구",
+            "CODE": 4702
+          },
+          {
+            "ORDERNAME": "47030",
+            "NAME": "울릉군",
+            "CODE": 4703
+          },
+          {
+            "ORDERNAME": "47040",
+            "NAME": "경주시",
+            "CODE": 4704
+          },
+          {
+            "ORDERNAME": "47050",
+            "NAME": "김천시",
+            "CODE": 4705
+          },
+          {
+            "ORDERNAME": "47060",
+            "NAME": "안동시",
+            "CODE": 4706
+          },
+          {
+            "ORDERNAME": "47070",
+            "NAME": "구미시",
+            "CODE": 4707
+          },
+          {
+            "ORDERNAME": "47080",
+            "NAME": "영주시",
+            "CODE": 4708
+          },
+          {
+            "ORDERNAME": "47090",
+            "NAME": "영천시",
+            "CODE": 4709
+          },
+          {
+            "ORDERNAME": "47100",
+            "NAME": "상주시",
+            "CODE": 4710
+          },
+          {
+            "ORDERNAME": "47110",
+            "NAME": "문경시",
+            "CODE": 4711
+          },
+          {
+            "ORDERNAME": "47120",
+            "NAME": "예천군",
+            "CODE": 4712
+          },
+          {
+            "ORDERNAME": "47130",
+            "NAME": "경산시",
+            "CODE": 4713
+          },
+          {
+            "ORDERNAME": "47140",
+            "NAME": "청도군",
+            "CODE": 4714
+          },
+          {
+            "ORDERNAME": "47150",
+            "NAME": "고령군",
+            "CODE": 4715
+          },
+          {
+            "ORDERNAME": "47160",
+            "NAME": "성주군",
+            "CODE": 4716
+          },
+          {
+            "ORDERNAME": "47170",
+            "NAME": "군위군",
+            "CODE": 4717
+          },
+          {
+            "ORDERNAME": "47180",
+            "NAME": "칠곡군",
+            "CODE": 4718
+          },
+          {
+            "ORDERNAME": "47190",
+            "NAME": "의성군",
+            "CODE": 4719
+          },
+          {
+            "ORDERNAME": "47200",
+            "NAME": "청송군",
+            "CODE": 4720
+          },
+          {
+            "ORDERNAME": "47210",
+            "NAME": "영덕군",
+            "CODE": 4721
+          },
+          {
+            "ORDERNAME": "47220",
+            "NAME": "영양군",
+            "CODE": 4722
+          },
+          {
+            "ORDERNAME": "47230",
+            "NAME": "봉화군",
+            "CODE": 4723
+          },
+          {
+            "ORDERNAME": "47240",
+            "NAME": "울진군",
+            "CODE": 4724
+          }
+        ]
+      },
+      {
+        "city_code": 48,
+        "city_name": "경남",
+        "town_list": [
+          {
+            "ORDERNAME": "48010",
+            "NAME": "창원시",
+            "CODE": 4801
+          },
+          {
+            "ORDERNAME": "48020",
+            "NAME": "마산시",
+            "CODE": 4802
+          },
+          {
+            "ORDERNAME": "48030",
+            "NAME": "진주시",
+            "CODE": 4803
+          },
+          {
+            "ORDERNAME": "48040",
+            "NAME": "진해시",
+            "CODE": 4804
+          },
+          {
+            "ORDERNAME": "48050",
+            "NAME": "통영시",
+            "CODE": 4805
+          },
+          {
+            "ORDERNAME": "48060",
+            "NAME": "고성군(경남)",
+            "CODE": 4806
+          },
+          {
+            "ORDERNAME": "48070",
+            "NAME": "사천시",
+            "CODE": 4807
+          },
+          {
+            "ORDERNAME": "48080",
+            "NAME": "김해시",
+            "CODE": 4808
+          },
+          {
+            "ORDERNAME": "48090",
+            "NAME": "밀양시",
+            "CODE": 4809
+          },
+          {
+            "ORDERNAME": "48100",
+            "NAME": "거제시",
+            "CODE": 4810
+          },
+          {
+            "ORDERNAME": "48110",
+            "NAME": "의령군",
+            "CODE": 4811
+          },
+          {
+            "ORDERNAME": "48120",
+            "NAME": "함안군",
+            "CODE": 4812
+          },
+          {
+            "ORDERNAME": "48130",
+            "NAME": "창녕군",
+            "CODE": 4813
+          },
+          {
+            "ORDERNAME": "48140",
+            "NAME": "양산시",
+            "CODE": 4814
+          },
+          {
+            "ORDERNAME": "48150",
+            "NAME": "하동군",
+            "CODE": 4815
+          },
+          {
+            "ORDERNAME": "48160",
+            "NAME": "남해군",
+            "CODE": 4816
+          },
+          {
+            "ORDERNAME": "48170",
+            "NAME": "함양군",
+            "CODE": 4817
+          },
+          {
+            "ORDERNAME": "48180",
+            "NAME": "산청군",
+            "CODE": 4818
+          },
+          {
+            "ORDERNAME": "48190",
+            "NAME": "거창군",
+            "CODE": 4819
+          },
+          {
+            "ORDERNAME": "48200",
+            "NAME": "합천군",
+            "CODE": 4820
+          }
+        ]
+      },
+      {
+        "city_code": 49,
+        "city_name": "제주",
+        "town_list": [
+          {
+            "ORDERNAME": "49010",
+            "NAME": "제주시",
+            "CODE": 4901
+          },
+          {
+            "ORDERNAME": "49020",
+            "NAME": "북제주군",
+            "CODE": 4902
+          },
+          {
+            "ORDERNAME": "49030",
+            "NAME": "서귀포시",
+            "CODE": 4903
+          },
+          {
+            "ORDERNAME": "49040",
+            "NAME": "남제주군",
+            "CODE": 4904
+          }
+        ]
+      }
+    ],
+    "nth": 16,
+    "election_type": "president"
+  }
+]

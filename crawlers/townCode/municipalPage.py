@@ -4,7 +4,7 @@
 from crawlers.townCode.base_municipalPage import *
 from utils import sanitize, InvalidCrawlerError
 
-def Crawler(nth, election_name, electionType, target, target_kor):
+def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 	if 1 <= nth <= 3:
 		crawler = Municipal_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 	elif 4 <= nth <= 6:
@@ -17,6 +17,7 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 
 	crawler.nth = nth
 	crawler.target = target
+	crawler.target_eng = target_eng
 	crawler.target_kor = target_kor
 
 	return crawler

@@ -4,7 +4,7 @@
 from crawlers.townCode.base_provincePage import *
 from utils import sanitize, InvalidCrawlerError
 
-def Crawler(nth, election_name, electionType, target, target_kor):
+def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 
 	if target == 'president':
 		if nth == 1 or 8 <= nth <= 12:
@@ -18,10 +18,10 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
-	elif target == 'local_provincal_administration' or \
-		target == 'local_municipal_administration' or \
-		target == 'local_provincal_parliament' or \
-        target == 'local_municipal_parliament' :
+	elif target == 'local-pa' or \
+		target == 'local-ma' or \
+		target == 'local-pp' or \
+        target == 'local-mp' :
 		if 1 <= nth <= 3:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:
@@ -32,7 +32,7 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
-	elif target == 'local_eduAdministration':
+	elif target == 'local-ea':
 		if 1 <= nth <= 4:
 			raise NotImplementedError('Educational Superintendent Election was not held in %s.' % election_name)
 		elif 5 <= nth <= 6:
@@ -62,7 +62,7 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
-	elif target == 'local_eduParliament':
+	elif target == 'local-ep':
 		if 1 <= nth <= 3:
 			raise NotImplementedError('Educational Parliament Election was not held in %s.' % election_name)
 		elif 4 <= nth <= 6:
@@ -74,10 +74,11 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
 	else:
-		raise InvalidCrawlerError('townCode', nth, election_name)
+		raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
 	crawler.nth = nth
 	crawler.target = target
+	crawler.target_eng = target_eng
 	crawler.target_kor = target_kor
 
 	return crawler

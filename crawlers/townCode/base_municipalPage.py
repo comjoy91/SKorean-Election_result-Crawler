@@ -46,11 +46,12 @@ class JSONCrawler_municipal(BaseCrawler_municipal):
 	def crawl(self):
 
 		target = self.target
+		target_eng = self.target_eng
 		target_kor = self.target_kor
 		nth = self.nth
 
 		# 광역자치단체 내의 기초자치단체 내의 선거구 데이터 크롤링의 기본과정.
-		print("Waiting to connect http://info.nec.go.kr server (%s, %d)..." % (target, nth))
+		print("Waiting to connect http://info.nec.go.kr server (%s, %d)..." % (target_eng, nth))
 
 		every_result = [{'election_type':target,'nth':nth,'results':[]}]
 		# 각 광역자치단체 별로 아래 단계를 수행.

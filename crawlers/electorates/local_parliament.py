@@ -45,7 +45,7 @@ class Constituency_CodeCrawler_GuOld(MultiCityCrawler_municipal):
 										oldElectionType=1, electionType=4, electionCode=_election_type,\
 										searchType=2, townCode=-1, sggCityCode=-1)
 
-		if _target == 'local_provincal_parliament' and nth >= 3:
+		if _target == 'local-pp' and nth >= 3:
 			self.next_crawler = LocalDivision_CodeCrawler_GuOld(nth, _election_name, _election_type, _target)
 
 
@@ -72,9 +72,9 @@ class Constituency_CodeCrawler_Old(MultiCityCrawler_municipal):
 										requestURI='/WEB-INF/jsp/electioninfo/0000000000/bi/bipb02.jsp',\
 										oldElectionType=1, electionType=4, electionCode=_election_type,\
 										searchType=3, sggCityCode=-1)
-		if _target == 'local_provincal_parliament':
+		if _target == 'local-pp':
 			self.urlParam_sgg_list['statementId'] = 'BIPB02_#3_5'
-		else: #_target == 'local_municipal_parliament'
+		else: #_target == 'local-mp'
 			self.urlParam_sgg_list['statementId'] = 'BIPB02_#3_6'
 
 		self.next_crawler = LocalDivision_CodeCrawler_Old(nth, _election_name, _election_type, _target)
@@ -101,9 +101,9 @@ class Constituency_CodeCrawler_Recent(MultiCityCrawler_municipal):
 									requestURI='/WEB-INF/jsp/electioninfo/'+_election_name+'/bi/bipb02.jsp',
 									electionCode=_election_type, searchType=3)
 
-		if _target == 'local_provincal_parliament':
+		if _target == 'local-pp':
 			self.urlParam_sgg_list['statementId'] = 'BIPB02_#3_5'
-		else: #_target == 'local_municipal_parliament'
+		else: #_target == 'local-mp'
 			self.urlParam_sgg_list['statementId'] = 'BIPB02_#3_6'
 
 		self.next_crawler = LocalDivision_CodeCrawler_Recent(nth, _election_name, _election_type, _target)

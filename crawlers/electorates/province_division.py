@@ -19,8 +19,8 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 		else:
 			raise InvalidCrawlerError('electorates', nth, election_name, electionType, target)
 
-	elif target == 'local_provincal_administration' or \
-        target == 'local_municipal_administration':
+	elif target == 'local-pa' or \
+        target == 'local-ma':
 		if 1 <= nth <= 3:
 			crawler = Province_ElectorCrawler_GuOld(int(nth), election_name, electionType, target, target_kor)
 		elif 4 <= nth <= 6:
@@ -31,7 +31,7 @@ def Crawler(nth, election_name, electionType, target, target_kor):
 		else:
 			raise InvalidCrawlerError('electorates', nth, election_name, electionType, target, target_kor)
 
-	elif target == 'local_eduAdministration':
+	elif target == 'local-ea':
 		if 1 <= nth <= 4:
 			raise NotImplementedError('Educational Superintendent Election was not held in %s.' % election_name)
 		elif 5 <= nth <= 6:

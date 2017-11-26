@@ -16,7 +16,7 @@ def Crawler(nth, election_name, electionType, target):
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType, target)
 
-	elif target == 'local_eduParliament':
+	elif target == 'local-ep':
 		if 1 <= nth <= 3:
 			raise NotImplementedError('Educational Parliament Election was not held in %s.' % election_name)
 		elif 4 <= nth <= 6:

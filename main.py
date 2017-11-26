@@ -26,12 +26,11 @@ def create_parser():
     parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
     #target: 의회 총선거-assembly, 지방선거-local, 대통령-president
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
-            help="name of target election")
+            help="name of target election\n"
+            "- if you choose 'local', you have to input -l argument.\n")
     #dataType: 기초자치단체or국회의원선거구 코드-townCode, 선거인수-electorates, 정당 코드-partyCode, 개표결과-counting_vote, 읍면동별 개표결과-counting_vote_dong
     parser.add_argument('dataType', choices=['townCode', 'electorates', 'partyCode', 'counting_vote', 'counting_vote_dong'],\
-            help="type of collecting data\n"
-                "- We DO NOT RECOMMAND to crawl TOWNCODE data: \n"
-                "- KEC categorize townCode data by some rude standard, so we re-classify all the data by hand.")
+            help="type of collecting data\n")
     #start, end: 선거 대수
     parser.add_argument('start', help="starting election id", type=int)
     parser.add_argument('end', help="ending election id", type=int,\
@@ -54,11 +53,11 @@ def create_parser():
     parser.add_argument('-d', dest='directory', help="Specify data directory.")
 
     # TODO: change to subparser
-    parser.add_argument('-l', choices=['pg', 'pm', 'pp', 'mg', 'mm', 'mp', 'eg', 'em'],
+    parser.add_argument('-l', choices=['pa', 'pp', 'ma', 'mp', 'ea', 'ep'],
             dest="localType",
             help="Specify election type for local elections.\n"
                 "- 1st char: {p:province, m:municipality, e:education},\n"
-                "- 2nd char: {g: governor, m: member}")
+                "- 2nd char: {a: administration, p: parliament}")
 
     return parser
 

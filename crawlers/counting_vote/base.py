@@ -106,7 +106,7 @@ class BaseCrawler(object):
 	def parse_various_candiNum(self, url, params, target, target_kor, city_name, city_code, city_index): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
 		tr_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//tr') #개별 <tr> 안에 한 줄씩 <td>들이 들어있음.
 		thead_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th')
-		district_code_list = self.town_codes(city_index) if target=='local_municipal_parliament_proportional' \
+		district_code_list = self.town_codes(city_index) if target=='local-mp_PR' \
 							else self.consti_codes(city_index)
 		max_candidate_num = len(tr_list[2]) - len(thead_list) # +1-1. 후보자 부분의 '계' 때문.
 
@@ -297,17 +297,18 @@ class MultiCityCrawler(BaseCrawler):
 		candidate_type = self.candidate_type
 		nationalSum = self.nationalSum if hasattr(self, 'nationalSum') else False
 		target = self.target
+		target_eng = self.target_eng
 		target_kor = self.target_kor
 		nth = self.nth
 		req_url = self.urlPath_result_list
 
-		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target, nth))
+		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target_eng, nth))
 		for city_index, (city_code, city_name) in list(enumerate(self.city_codes(nationalSum))):
 			req_param = self.XHTML_url_param(city_code)
 			job = gevent.spawn(self.parse, req_url, req_param, constant_candidates, target, target_kor, city_name, city_code, city_index)
 			jobs.append(job)
 		gevent.joinall(jobs)
-		every_result = [{'election_type':target, 'nth':nth, 'candidate_type':candidate_type, \
+		every_result = [{'election_type':target_eng, 'nth':nth, 'candidate_type':candidate_type, \
 						'results':flatten(job.get() for job in jobs)}]
 
 		# 비례대표

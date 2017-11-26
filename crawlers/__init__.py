@@ -19,58 +19,71 @@ _election_names = {\
 					'19721223', '19780706', '19791206', '19800827', '19810225',\
 					'19871216', '19921218', '19971218', '20021219', '20071219', '20121219', '0020170509']}
 
-electionDayType_dict = {'president':1, 'assembly':2, 'local':4, 'by_election':0, 'local_eduAdministration':11}
+localTarget_dict = {'pa':'local-pa', \
+                    'ma':'local-ma', \
+                    'pp':'local-pp', \
+                    'mp':'local-mp', \
+                    'ep':'local-ep', \
+                    'ea':'local-ea'}
+
+electionDayType_dict = {'president':1, 'assembly':2, 'local':4, 'by_election':0, 'local-ea':11}
 # electionType: 1-대통령선거, 2-국회의원선거, 4-전국동시지방선거, 0-재보궐선거, 11-교육감선거
 
 electionCode_dict = {'president':1, 'assembly':2, \
-                    'local_provincal_administration':3, 'local_municipal_administration':4, \
-                    'local_provincal_parliament':5, 'local_municipal_parliament':6, \
-                    'assembly_proportional':7, \
-                    'local_provincal_parliament_proportional':8, 'local_municipal_parliament_proportional':9, \
-                    'local_eduParliament':10, 'local_eduAdministration':11}
+                    'local-pa':3, 'local-ma':4, \
+                    'local-pp':5, 'local-mp':6, \
+                    'assembly_PR':7, \
+                    'local-pp_PR':8, 'local-mp_PR':9, \
+                    'local-ep':10, 'local-ea':11}
 
-localType_str_dict = {'pg':'local_provincal_administration', \
-                	'mg':'local_municipal_administration', \
-                	'pm':'local_provincal_parliament', \
-                	'mm':'local_municipal_parliament', \
-                	'em':'local_eduParliament', \
-                	'eg':'local_eduAdministration'}
+electionType_eng_dict = {'president':'president', \
+                        'assembly':'assembly', \
+                        'assembly_PR':'assembly_PR', \
+                        'local-pa':'local_provincal_administration', \
+                        'local-ma':'local_municipal_administration', \
+                        'local-pp':'local_provincal_parliament', \
+                        'local-pp_PR':'local_provincal_parliament_PR', \
+                        'local-mp':'local_municipal_parliament', \
+                        'local-mp_PR':'local_municipal_parliament_PR', \
+                        'local-ea':'local-eduAdministration', \
+                        'local-ep':'local_eduParliament'}
 
 electionType_kor_dict = {'president':'대통령', \
                         'assembly':'국회의원', \
-                        'assembly_proportional':'국회의원 비례대표', \
-                        'local_provincal_administration':'시·도지사', \
-                        'local_municipal_administration':'구·시·군의 장', \
-                        'local_provincal_parliament':'시·도의회 의원', \
-                        'local_provincal_parliament_proportional':'시·도의회 의원 비례대표', \
-                        'local_municipal_parliament':'구·시·군의회 의원', \
-                        'local_municipal_parliament_proportional':'구·시·군의회 의원 비례대표', \
-                        'local_eduAdministration':'교육감', \
-                        'local_eduParliament':'시·도의회 교육의원'}
+                        'assembly_PR':'국회의원 비례대표', \
+                        'local-pa':'시·도지사', \
+                        'local-ma':'구·시·군의 장', \
+                        'local-pp':'시·도의회 의원', \
+                        'local-pp_PR':'시·도의회 의원 비례대표', \
+                        'local-mp':'구·시·군의회 의원', \
+                        'local-mp_PR':'구·시·군의회 의원 비례대표', \
+                        'local-ea':'교육감', \
+                        'local-ep':'시·도의회 교육의원'}
 
 def Crawler(_target, _dataType, nth, _localType):
 
     election_name = _election_names[_target][int(nth)]
     target = _target
     if target == 'local':
-        target = localType_str_dict[_localType]
+        target = localTarget_dict[_localType]
     electionType = electionCode_dict[target]
+    electionType_eng = electionType_eng_dict[target]
     electionType_kor = electionType_kor_dict[target]
 
     if _dataType == 'electorates':
         raise NotImplementedError("Electorates module is not implemented yet.")
         # 각 지역구/시군구별 선거인수 수집.
     elif _dataType == 'counting_vote':
-        return counting_vote.Crawler(target, nth, election_name, electionType, electionType_kor)
+        return counting_vote.Crawler(target, nth, election_name, electionType, electionType_eng, electionType_kor)
         # 각 지역구별 지역구 득표수 / 시군구별 비례대표 득표수 수집.
     elif _dataType == 'counting_vote_dong':
         raise NotImplementedError("Counting_vote_dong module is not implemented yet.")
         # 각 읍면동별 득표수 수집.
     elif _dataType == 'townCode':
-        return townCode.Crawler(target, nth, election_name, electionType, electionType_kor)
+        return townCode.Crawler(target, nth, election_name, electionType, electionType_eng, electionType_kor)
         # 각 지역구/시군구 인식코드 수집.
     elif _dataType == 'partyCode':
-        return partyCode.Crawler(target, nth, election_name)
+        return partyCode.Crawler(target, nth, election_name, electionType, electionType_eng, electionType_kor)
         # 각 정당 인식코드 수집.
     else:
-        raise InvalidCrawlerError(target, _dataType, nth, election_name, electionType)
+        raise InvalidCrawlerError(target, _dataType, nth, election_name, electionType_eng, electionType)

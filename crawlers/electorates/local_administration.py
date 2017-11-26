@@ -5,7 +5,7 @@ from crawlers.electorates.base_provincePage import *
 from utils import sanitize, InvalidCrawlerError
 
 def Crawler(nth, election_name, electionType, target):
-	if target == 'local_eduAdministration':
+	if target == 'local-ea':
 		if nth == 1:
 			raise NotImplementedError('Educational Superintendent Election was not held in 1995.')
 		elif nth == 2:
