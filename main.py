@@ -17,36 +17,6 @@ def print_json(filename, encoding, data):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2, ensure_ascii=(encoding=='unicode'))
 
-def print_csv(filename, encoding, data):
-
-    raise NotImplementedError('Printing csv file is not implemented.')
-    """
-    def transform(txt):
-        if isinstance(txt, int):
-            txt = str(txt)
-        if isinstance(txt, list):
-            txt = '||'.join(txt)
-        txt = txt.replace(',', '|')
-        if encoding=='utf8' and isinstance(txt, str) :
-            txt = txt.encode('utf8')
-        return txt
-
-    attrs = ['assembly_no', 'time', 'dataType', 'grand_district', 'district',
-             'electorates', 'counted_vote', 'cand_no',
-             'party', 'name_kr', 'votes',
-             'valid_vote', 'undervote', 'blank_ballot']
-
-    with open(filename, 'w') as f:
-        f.write(codecs.BOM_UTF8)
-        f.write(','.join(attrs))
-        f.write('\n')
-        for cand in data:
-            values = (cand[attr] if attr in cand else '' for attr in attrs)
-            values = (transform(value) for value in values)
-            f.write(','.join(values))
-            f.write('\n')
-    """
-
 def crawl(target, _dataType, nth, printer, filename, encoding, localType=None):
     crawler = Crawler(target, _dataType, nth, localType)
     cand_list = crawler.crawl()
@@ -80,10 +50,6 @@ def create_parser():
     parser.add_argument('-e', dest='encoding', choices=['unicode', 'utf8'], default='utf8',\
             help="Korean Hangul encoding.\n"
                 "- utf8 for default.")
-    #-csv: 파일 양식을 json(default)과 csv 중 선택
-    parser.add_argument('-csv', dest='test', action='store_true',
-            help="Assign datatype to csv instead of json.\n"
-                "- We DO NOT RECOMMAND to select -csv type: it is still not be implemented.")
     #-d: 아웃풋 데이터 저장 디렉토리 지정
     parser.add_argument('-d', dest='directory', help="Specify data directory.")
 
@@ -99,7 +65,7 @@ def create_parser():
 def print_file(arg_namespace):
     _arg = arg_namespace
 
-    printer = print_csv if _arg.test else print_json
+    printer = print_json
     encoding = _arg.encoding
 
     target = _arg.target
@@ -107,7 +73,7 @@ def print_file(arg_namespace):
     start = _arg.start
     end = _arg.end if _arg.end else start
     filename_time = _arg.filename_time
-    filetype = 'csv' if _arg.test else 'json'
+    filetype = 'json'
 
     interval_time = _arg.interval_time
     if target=='local':
