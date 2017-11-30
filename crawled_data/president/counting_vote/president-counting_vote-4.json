@@ -1,0 +1,4206 @@
+[
+  {
+    "candidate_type": "party_candidate",
+    "nth": 4,
+    "election_type": "president",
+    "results": [
+      {
+        "region_code": 11,
+        "region_name": "서울",
+        "region_result": {
+          "blank_ballots": 87577,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 684146,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 948339,
+          "region_code": 11,
+          "region_name": "서울",
+          "undervotes": 264193,
+          "electorates": 1035916,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 684146,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 9222,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 76739,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 96850,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 20111,
+            "electorates": 106072,
+            "district_name": "종로구",
+            "district_code": 11013,
+            "valid_votes": 76739,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 10276,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 40649,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 67728,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 27079,
+            "electorates": 78004,
+            "district_name": "중구",
+            "district_code": 11023,
+            "valid_votes": 40649,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 9597,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 85943,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 124556,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 38613,
+            "electorates": 134153,
+            "district_name": "동대문구",
+            "district_code": 11033,
+            "valid_votes": 85943,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 10322,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 93536,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 126398,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 32862,
+            "electorates": 136720,
+            "district_name": "성동구",
+            "district_code": 11043,
+            "valid_votes": 93536,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 8238,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 68600,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 99056,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 30456,
+            "electorates": 107294,
+            "district_name": "성북구",
+            "district_code": 11053,
+            "valid_votes": 68600,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 13364,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 80698,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 125841,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 45143,
+            "electorates": 139205,
+            "district_name": "서대문구",
+            "district_code": 11063,
+            "valid_votes": 80698,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 4842,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 65139,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 89973,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 24834,
+            "electorates": 94815,
+            "district_name": "마포구",
+            "district_code": 11073,
+            "valid_votes": 65139,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 9434,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 77397,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 105032,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 27635,
+            "electorates": 114466,
+            "district_name": "용산구",
+            "district_code": 11083,
+            "valid_votes": 77397,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 12282,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 95445,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 112905,
+            "region_code": 11,
+            "region_name": "서울",
+            "undervotes": 17460,
+            "electorates": 125187,
+            "district_name": "영등포구",
+            "district_code": 11093,
+            "valid_votes": 95445,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 41,
+        "region_name": "경기",
+        "region_result": {
+          "blank_ballots": 34990,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 1139927,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1308328,
+          "region_code": 41,
+          "region_name": "경기",
+          "undervotes": 168401,
+          "electorates": 1343318,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 1139927,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 2273,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45797,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 58715,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 12918,
+            "electorates": 60988,
+            "district_name": "인천시제1",
+            "district_code": 41013,
+            "valid_votes": 45797,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2499,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 46155,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 53300,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 7145,
+            "electorates": 55799,
+            "district_name": "인천시제2",
+            "district_code": 41023,
+            "valid_votes": 46155,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3270,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 44815,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 63960,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 19145,
+            "electorates": 67230,
+            "district_name": "인천시제3",
+            "district_code": 41033,
+            "valid_votes": 44815,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1439,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 31797,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 38883,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 7086,
+            "electorates": 40322,
+            "district_name": "수원시",
+            "district_code": 41044,
+            "valid_votes": 31797,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 380,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 29571,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 33391,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 3820,
+            "electorates": 33771,
+            "district_name": "고양군",
+            "district_code": 41055,
+            "valid_votes": 29571,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 746,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 52555,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 59721,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 7166,
+            "electorates": 60467,
+            "district_name": "광주군",
+            "district_code": 41065,
+            "valid_votes": 52555,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2889,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 114307,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 127010,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 12703,
+            "electorates": 129899,
+            "district_name": "양주군",
+            "district_code": 41075,
+            "valid_votes": 114307,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 111,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45578,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 50086,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 4508,
+            "electorates": 50197,
+            "district_name": "연천군",
+            "district_code": 41085,
+            "valid_votes": 45578,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1729,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 75275,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 88315,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 13040,
+            "electorates": 90044,
+            "district_name": "포천군",
+            "district_code": 41095,
+            "valid_votes": 75275,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 657,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 30107,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 34560,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 4453,
+            "electorates": 35217,
+            "district_name": "가평군",
+            "district_code": 41105,
+            "valid_votes": 30107,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 68,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47976,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 53283,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 5307,
+            "electorates": 53351,
+            "district_name": "양평군",
+            "district_code": 41115,
+            "valid_votes": 47976,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 736,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 43081,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49389,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 6308,
+            "electorates": 50125,
+            "district_name": "여주군",
+            "district_code": 41125,
+            "valid_votes": 43081,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1787,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 40165,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44012,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 3847,
+            "electorates": 45799,
+            "district_name": "이천군",
+            "district_code": 41135,
+            "valid_votes": 40165,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2061,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 40578,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 45065,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 4487,
+            "electorates": 47126,
+            "district_name": "용인군",
+            "district_code": 41145,
+            "valid_votes": 40578,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 738,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 50775,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 55790,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 5015,
+            "electorates": 56528,
+            "district_name": "안성군",
+            "district_code": 41155,
+            "valid_votes": 50775,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2750,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 61116,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 67012,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 5896,
+            "electorates": 69762,
+            "district_name": "평택군",
+            "district_code": 41165,
+            "valid_votes": 61116,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3342,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 77927,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 90392,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 12465,
+            "electorates": 93734,
+            "district_name": "화성군",
+            "district_code": 41175,
+            "valid_votes": 77927,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1423,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 43723,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49956,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 6233,
+            "electorates": 51379,
+            "district_name": "시흥군",
+            "district_code": 41185,
+            "valid_votes": 43723,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1383,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 52933,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 59484,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 6551,
+            "electorates": 60867,
+            "district_name": "부천군",
+            "district_code": 41195,
+            "valid_votes": 52933,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1437,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 49288,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 54465,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 5177,
+            "electorates": 55902,
+            "district_name": "김포군",
+            "district_code": 41205,
+            "valid_votes": 49288,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1819,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 44259,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 48817,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 4558,
+            "electorates": 50636,
+            "district_name": "강화군",
+            "district_code": 41215,
+            "valid_votes": 44259,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1412,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 64988,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 74953,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 9965,
+            "electorates": 76365,
+            "district_name": "파주군",
+            "district_code": 41225,
+            "valid_votes": 64988,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 41,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 7161,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 7769,
+            "region_code": 41,
+            "region_name": "경기",
+            "undervotes": 608,
+            "electorates": 7810,
+            "district_name": "옹진군",
+            "district_code": 41235,
+            "valid_votes": 7161,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 42,
+        "region_name": "강원",
+        "region_result": {
+          "blank_ballots": 7902,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 829131,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 873796,
+          "region_code": 42,
+          "region_name": "강원",
+          "undervotes": 44665,
+          "electorates": 881698,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 829131,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 843,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 32735,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 38233,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 5498,
+            "electorates": 39076,
+            "district_name": "춘천시",
+            "district_code": 42011,
+            "valid_votes": 32735,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1929,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 32149,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36901,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 4752,
+            "electorates": 38830,
+            "district_name": "원주시",
+            "district_code": 42021,
+            "valid_votes": 32149,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 222,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 22639,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 24607,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 1968,
+            "electorates": 24829,
+            "district_name": "강릉시",
+            "district_code": 42031,
+            "valid_votes": 22639,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 477,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 39826,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 42336,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 2510,
+            "electorates": 42813,
+            "district_name": "춘성군",
+            "district_code": 42042,
+            "valid_votes": 39826,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 69,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 64874,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 66695,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 1821,
+            "electorates": 66764,
+            "district_name": "홍천군",
+            "district_code": 42052,
+            "valid_votes": 64874,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 367,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 38248,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 38774,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 526,
+            "electorates": 39141,
+            "district_name": "횡성군",
+            "district_code": 42062,
+            "valid_votes": 38248,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 195,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 42978,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 46337,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 3359,
+            "electorates": 46532,
+            "district_name": "원주군",
+            "district_code": 42072,
+            "valid_votes": 42978,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 357,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 43938,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44835,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 897,
+            "electorates": 45192,
+            "district_name": "영월군",
+            "district_code": 42082,
+            "valid_votes": 43938,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 96,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 35889,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36245,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 356,
+            "electorates": 36341,
+            "district_name": "평창군",
+            "district_code": 42092,
+            "valid_votes": 35889,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 60,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 29481,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 29630,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 149,
+            "electorates": 29690,
+            "district_name": "정선군",
+            "district_code": 42102,
+            "valid_votes": 29481,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 41,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 49389,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 52436,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 3047,
+            "electorates": 52477,
+            "district_name": "철원군",
+            "district_code": 42112,
+            "valid_votes": 49389,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 24,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 20618,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 22110,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 1492,
+            "electorates": 22134,
+            "district_name": "김화군",
+            "district_code": 42122,
+            "valid_votes": 20618,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 192,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 67679,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 71049,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 3370,
+            "electorates": 71241,
+            "district_name": "화천군",
+            "district_code": 42132,
+            "valid_votes": 67679,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 127,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 33678,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36687,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 3009,
+            "electorates": 36814,
+            "district_name": "양구군",
+            "district_code": 42142,
+            "valid_votes": 33678,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 485,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 39186,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 40587,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 1401,
+            "electorates": 41072,
+            "district_name": "인제군",
+            "district_code": 42152,
+            "valid_votes": 39186,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 33,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 15543,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 15570,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 27,
+            "electorates": 15603,
+            "district_name": "고성군",
+            "district_code": 42162,
+            "valid_votes": 15543,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 274,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 40897,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 43029,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 2132,
+            "electorates": 43303,
+            "district_name": "양양군",
+            "district_code": 42172,
+            "valid_votes": 40897,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 305,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 56471,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 60075,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 3604,
+            "electorates": 60380,
+            "district_name": "명주군",
+            "district_code": 42182,
+            "valid_votes": 56471,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1197,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 77790,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 81991,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 4201,
+            "electorates": 83188,
+            "district_name": "삼척군",
+            "district_code": 42192,
+            "valid_votes": 77790,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 609,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45123,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 45669,
+            "region_code": 42,
+            "region_name": "강원",
+            "undervotes": 546,
+            "electorates": 46278,
+            "district_name": "울진군",
+            "district_code": 42202,
+            "valid_votes": 45123,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 43,
+        "region_name": "충북",
+        "region_result": {
+          "blank_ballots": 15855,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 510369,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 576437,
+          "region_code": 43,
+          "region_name": "충북",
+          "undervotes": 66068,
+          "electorates": 592292,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 510369,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 1533,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 30878,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36456,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 5578,
+            "electorates": 37989,
+            "district_name": "청주시",
+            "district_code": 43014,
+            "valid_votes": 30878,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 885,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 22730,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 27890,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 5160,
+            "electorates": 28775,
+            "district_name": "충주시",
+            "district_code": 43024,
+            "valid_votes": 22730,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2754,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 83537,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 93749,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 10212,
+            "electorates": 96503,
+            "district_name": "청원군",
+            "district_code": 43035,
+            "valid_votes": 83537,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 711,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 38484,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 42049,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 3565,
+            "electorates": 42760,
+            "district_name": "보은군",
+            "district_code": 43045,
+            "valid_votes": 38484,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 666,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 37714,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 42328,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 4614,
+            "electorates": 42994,
+            "district_name": "옥천군",
+            "district_code": 43055,
+            "valid_votes": 37714,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1512,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 41409,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 47670,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 6261,
+            "electorates": 49182,
+            "district_name": "영동군",
+            "district_code": 43065,
+            "valid_votes": 41409,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 818,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 30884,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 33976,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 3092,
+            "electorates": 34794,
+            "district_name": "진천군",
+            "district_code": 43075,
+            "valid_votes": 30884,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2502,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 61257,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 68983,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 7726,
+            "electorates": 71485,
+            "district_name": "괴산군",
+            "district_code": 43085,
+            "valid_votes": 61257,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 741,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 44585,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 50150,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 5565,
+            "electorates": 50891,
+            "district_name": "음성군",
+            "district_code": 43095,
+            "valid_votes": 44585,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1601,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47094,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 52445,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 5351,
+            "electorates": 54046,
+            "district_name": "중원군",
+            "district_code": 43105,
+            "valid_votes": 47094,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1627,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 46138,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 52850,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 6712,
+            "electorates": 54477,
+            "district_name": "제천군",
+            "district_code": 43115,
+            "valid_votes": 46138,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 505,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 25659,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 27891,
+            "region_code": 43,
+            "region_name": "충북",
+            "undervotes": 2232,
+            "electorates": 28396,
+            "district_name": "단양군",
+            "district_code": 43125,
+            "valid_votes": 25659,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 44,
+        "region_name": "충남",
+        "region_result": {
+          "blank_ballots": 32755,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 988180,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1057132,
+          "region_code": 44,
+          "region_name": "충남",
+          "undervotes": 68952,
+          "electorates": 1089887,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 988180,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 6843,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 72431,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 89903,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 17472,
+            "electorates": 96746,
+            "district_name": "대전시",
+            "district_code": 44014,
+            "valid_votes": 72431,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1118,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 50976,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 54755,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3779,
+            "electorates": 55873,
+            "district_name": "대덕군",
+            "district_code": 44025,
+            "valid_votes": 50976,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2078,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 39255,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 43025,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3770,
+            "electorates": 45103,
+            "district_name": "연기군",
+            "district_code": 44035,
+            "valid_votes": 39255,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1217,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 70985,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 77133,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 6148,
+            "electorates": 78350,
+            "district_name": "공주군",
+            "district_code": 44045,
+            "valid_votes": 70985,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3201,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 109432,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 112395,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 2963,
+            "electorates": 115596,
+            "district_name": "논산군",
+            "district_code": 44055,
+            "valid_votes": 109432,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 646,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 75349,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 79629,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 4280,
+            "electorates": 80275,
+            "district_name": "부여군",
+            "district_code": 44065,
+            "valid_votes": 75349,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2096,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 57735,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 62416,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 4681,
+            "electorates": 64512,
+            "district_name": "서천군",
+            "district_code": 44075,
+            "valid_votes": 57735,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3066,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 49488,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 53702,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 4214,
+            "electorates": 56768,
+            "district_name": "보령군",
+            "district_code": 44085,
+            "valid_votes": 49488,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1175,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 37806,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 41546,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3740,
+            "electorates": 42721,
+            "district_name": "청양군",
+            "district_code": 44095,
+            "valid_votes": 37806,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1026,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 55297,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 58433,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3136,
+            "electorates": 59459,
+            "district_name": "홍성군",
+            "district_code": 44105,
+            "valid_votes": 55297,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3233,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 65136,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 68139,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3003,
+            "electorates": 71372,
+            "district_name": "예산군",
+            "district_code": 44115,
+            "valid_votes": 65136,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1882,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 91022,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 95672,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 4650,
+            "electorates": 97554,
+            "district_name": "서산군",
+            "district_code": 44125,
+            "valid_votes": 91022,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1502,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 72321,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 73833,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 1512,
+            "electorates": 75335,
+            "district_name": "당진군",
+            "district_code": 44135,
+            "valid_votes": 72321,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1963,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 64270,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 67502,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 3232,
+            "electorates": 69465,
+            "district_name": "아산군",
+            "district_code": 44145,
+            "valid_votes": 64270,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1709,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 76677,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 79049,
+            "region_code": 44,
+            "region_name": "충남",
+            "undervotes": 2372,
+            "electorates": 80758,
+            "district_name": "천안군",
+            "district_code": 44155,
+            "valid_votes": 76677,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 45,
+        "region_name": "전북",
+        "region_result": {
+          "blank_ballots": 14619,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 919529,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1033169,
+          "region_code": 45,
+          "region_name": "전북",
+          "undervotes": 113640,
+          "electorates": 1047788,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 919529,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 2751,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 68529,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 76144,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 7615,
+            "electorates": 78895,
+            "district_name": "전주시",
+            "district_code": 45014,
+            "valid_votes": 68529,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 543,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 34231,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 39666,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 5435,
+            "electorates": 40209,
+            "district_name": "군산시",
+            "district_code": 45024,
+            "valid_votes": 34231,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 569,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 25080,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 28109,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 3029,
+            "electorates": 28678,
+            "district_name": "이리시",
+            "district_code": 45034,
+            "valid_votes": 25080,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1480,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 64193,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 70546,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 6353,
+            "electorates": 72026,
+            "district_name": "완주군",
+            "district_code": 45045,
+            "valid_votes": 64193,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 278,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 35375,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 39036,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 3661,
+            "electorates": 39314,
+            "district_name": "진안군",
+            "district_code": 45055,
+            "valid_votes": 35375,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 505,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 41519,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 47160,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 5641,
+            "electorates": 47665,
+            "district_name": "금산군",
+            "district_code": 45065,
+            "valid_votes": 41519,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 128,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 25833,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 28608,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 2775,
+            "electorates": 28736,
+            "district_name": "무주군",
+            "district_code": 45075,
+            "valid_votes": 25833,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 68,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 27147,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 30669,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 3522,
+            "electorates": 30737,
+            "district_name": "장수군",
+            "district_code": 45085,
+            "valid_votes": 27147,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 502,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 41467,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 46330,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 4863,
+            "electorates": 46832,
+            "district_name": "임실군",
+            "district_code": 45095,
+            "valid_votes": 41467,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 422,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 67347,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 76969,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 9622,
+            "electorates": 77391,
+            "district_name": "남원군",
+            "district_code": 45105,
+            "valid_votes": 67347,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2704,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 38227,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 40309,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 2082,
+            "electorates": 43013,
+            "district_name": "순창군",
+            "district_code": 45115,
+            "valid_votes": 38227,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 568,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 94479,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 108154,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 13675,
+            "electorates": 108722,
+            "district_name": "정읍군",
+            "district_code": 45125,
+            "valid_votes": 94479,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 524,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 68982,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 75555,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 6573,
+            "electorates": 76079,
+            "district_name": "고창군",
+            "district_code": 45135,
+            "valid_votes": 68982,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 939,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 56510,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 62335,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 5825,
+            "electorates": 63274,
+            "district_name": "부안군",
+            "district_code": 45145,
+            "valid_votes": 56510,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 601,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 88292,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 103872,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 15580,
+            "electorates": 104473,
+            "district_name": "김제군",
+            "district_code": 45155,
+            "valid_votes": 88292,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 291,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 53795,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 61481,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 7686,
+            "electorates": 61772,
+            "district_name": "옥구군",
+            "district_code": 45165,
+            "valid_votes": 53795,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1746,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 88523,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 98226,
+            "region_code": 45,
+            "region_name": "전북",
+            "undervotes": 9703,
+            "electorates": 99972,
+            "district_name": "익산군",
+            "district_code": 45175,
+            "valid_votes": 88523,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 46,
+        "region_name": "전남",
+        "region_result": {
+          "blank_ballots": 12802,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 1398887,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1507789,
+          "region_code": 46,
+          "region_name": "전남",
+          "undervotes": 108902,
+          "electorates": 1520591,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 1398887,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 2591,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 127439,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 147249,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 19810,
+            "electorates": 149840,
+            "district_name": "광주시",
+            "district_code": 46014,
+            "valid_votes": 127439,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1074,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45659,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49999,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4340,
+            "electorates": 51073,
+            "district_name": "목포시",
+            "district_code": 46024,
+            "valid_votes": 45659,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 907,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 32933,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36593,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3660,
+            "electorates": 37500,
+            "district_name": "여수시",
+            "district_code": 46034,
+            "valid_votes": 32933,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 319,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 26405,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 28742,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 2337,
+            "electorates": 29061,
+            "district_name": "순천시",
+            "district_code": 46044,
+            "valid_votes": 26405,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 381,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 36802,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 40789,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3987,
+            "electorates": 41170,
+            "district_name": "광산군",
+            "district_code": 46055,
+            "valid_votes": 36802,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 165,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47536,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 51076,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3540,
+            "electorates": 51241,
+            "district_name": "담양군",
+            "district_code": 46065,
+            "valid_votes": 47536,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 226,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 41781,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44067,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 2286,
+            "electorates": 44293,
+            "district_name": "곡성군",
+            "district_code": 46075,
+            "valid_votes": 41781,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 124,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 27060,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 28786,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 1726,
+            "electorates": 28910,
+            "district_name": "구례군",
+            "district_code": 46085,
+            "valid_votes": 27060,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 151,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 35067,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 38116,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3049,
+            "electorates": 38267,
+            "district_name": "광양군",
+            "district_code": 46095,
+            "valid_votes": 35067,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 890,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 58540,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 61099,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 2559,
+            "electorates": 61989,
+            "district_name": "여천군",
+            "district_code": 46105,
+            "valid_votes": 58540,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 228,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 52020,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 58735,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 6715,
+            "electorates": 58963,
+            "district_name": "승주군",
+            "district_code": 46115,
+            "valid_votes": 52020,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 157,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 85033,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 89509,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4476,
+            "electorates": 89666,
+            "district_name": "고흥군",
+            "district_code": 46125,
+            "valid_votes": 85033,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 501,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 64292,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 68862,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4570,
+            "electorates": 69363,
+            "district_name": "보성군",
+            "district_code": 46135,
+            "valid_votes": 64292,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 146,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 51906,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 55813,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3907,
+            "electorates": 55959,
+            "district_name": "화순군",
+            "district_code": 46145,
+            "valid_votes": 51906,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 248,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47665,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 51923,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4258,
+            "electorates": 52171,
+            "district_name": "장흥군",
+            "district_code": 46155,
+            "valid_votes": 47665,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 308,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 44612,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 48923,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4311,
+            "electorates": 49231,
+            "district_name": "강진군",
+            "district_code": 46165,
+            "valid_votes": 44612,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 216,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 74125,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 81460,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 7335,
+            "electorates": 81676,
+            "district_name": "해남군",
+            "district_code": 46175,
+            "valid_votes": 74125,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 228,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47792,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 51741,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 3949,
+            "electorates": 51969,
+            "district_name": "영암군",
+            "district_code": 46185,
+            "valid_votes": 47792,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1551,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 120583,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 121925,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 1342,
+            "electorates": 123476,
+            "district_name": "무안군",
+            "district_code": 46195,
+            "valid_votes": 120583,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 360,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 94019,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 98959,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4940,
+            "electorates": 99319,
+            "district_name": "나주군",
+            "district_code": 46205,
+            "valid_votes": 94019,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 450,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47176,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 51390,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4214,
+            "electorates": 51840,
+            "district_name": "함평군",
+            "district_code": 46215,
+            "valid_votes": 47176,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 766,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 58889,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 60369,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 1480,
+            "electorates": 61135,
+            "district_name": "영광군",
+            "district_code": 46225,
+            "valid_votes": 58889,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 103,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 46370,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 50956,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 4586,
+            "electorates": 51059,
+            "district_name": "장성군",
+            "district_code": 46235,
+            "valid_votes": 46370,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 514,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 46090,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 51212,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 5122,
+            "electorates": 51726,
+            "district_name": "완도군",
+            "district_code": 46245,
+            "valid_votes": 46090,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 198,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 39093,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 39496,
+            "region_code": 46,
+            "region_name": "전남",
+            "undervotes": 403,
+            "electorates": 39694,
+            "district_name": "진도군",
+            "district_code": 46255,
+            "valid_votes": 39093,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 47,
+        "region_name": "경북",
+        "region_result": {
+          "blank_ballots": 66956,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 1403461,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1606566,
+          "region_code": 47,
+          "region_name": "경북",
+          "undervotes": 203105,
+          "electorates": 1673522,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 1403461,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 2562,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 28159,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 36316,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 8157,
+            "electorates": 38878,
+            "district_name": "대구시제1",
+            "district_code": 47014,
+            "valid_votes": 28159,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2266,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 34028,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 43324,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 9296,
+            "electorates": 45590,
+            "district_name": "대구시제2",
+            "district_code": 47024,
+            "valid_votes": 34028,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 5684,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 34766,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44459,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 9693,
+            "electorates": 50143,
+            "district_name": "대구시제3",
+            "district_code": 47034,
+            "valid_votes": 34766,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3256,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 42805,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 55530,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 12725,
+            "electorates": 58786,
+            "district_name": "대구시제4",
+            "district_code": 47044,
+            "valid_votes": 42805,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3686,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 35186,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 45012,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 9826,
+            "electorates": 48698,
+            "district_name": "대구시제5",
+            "district_code": 47054,
+            "valid_votes": 35186,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2001,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 33411,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 42562,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 9151,
+            "electorates": 44563,
+            "district_name": "대구시제6",
+            "district_code": 47064,
+            "valid_votes": 33411,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 263,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 21619,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 25514,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 3895,
+            "electorates": 25777,
+            "district_name": "포항시",
+            "district_code": 47074,
+            "valid_votes": 21619,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1055,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 17577,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 20215,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 2638,
+            "electorates": 21270,
+            "district_name": "김천시",
+            "district_code": 47084,
+            "valid_votes": 17577,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1061,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 28194,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 33288,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 5094,
+            "electorates": 34349,
+            "district_name": "경주시",
+            "district_code": 47094,
+            "valid_votes": 28194,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1043,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 31008,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 34377,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 3369,
+            "electorates": 35420,
+            "district_name": "달성군",
+            "district_code": 47105,
+            "valid_votes": 31008,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 117,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 27995,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 31092,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 3097,
+            "electorates": 31209,
+            "district_name": "군위군",
+            "district_code": 47115,
+            "valid_votes": 27995,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1819,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 67447,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 79362,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 11915,
+            "electorates": 81181,
+            "district_name": "의성군",
+            "district_code": 47125,
+            "valid_votes": 67447,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 4224,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 84878,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 92950,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 8072,
+            "electorates": 97174,
+            "district_name": "안동군",
+            "district_code": 47135,
+            "valid_votes": 84878,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 62,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 29426,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 31985,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 2559,
+            "electorates": 32047,
+            "district_name": "청송군",
+            "district_code": 47145,
+            "valid_votes": 29426,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 251,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 24276,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 24347,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 71,
+            "electorates": 24598,
+            "district_name": "영양군",
+            "district_code": 47155,
+            "valid_votes": 24276,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1542,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 39478,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 43869,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 4391,
+            "electorates": 45411,
+            "district_name": "영덕군",
+            "district_code": 47165,
+            "valid_votes": 39478,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2544,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 83940,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 93016,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 9076,
+            "electorates": 95560,
+            "district_name": "영일군",
+            "district_code": 47175,
+            "valid_votes": 83940,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2208,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 76174,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 84580,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 8406,
+            "electorates": 86788,
+            "district_name": "월성군",
+            "district_code": 47185,
+            "valid_votes": 76174,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 4573,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 72542,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 80577,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 8035,
+            "electorates": 85150,
+            "district_name": "영천군",
+            "district_code": 47195,
+            "valid_votes": 72542,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2720,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 55174,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 61196,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 6022,
+            "electorates": 63916,
+            "district_name": "경산군",
+            "district_code": 47205,
+            "valid_votes": 55174,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1155,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 43263,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 48237,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 4974,
+            "electorates": 49392,
+            "district_name": "청도군",
+            "district_code": 47215,
+            "valid_votes": 43263,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 855,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 26472,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 29514,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 3042,
+            "electorates": 30369,
+            "district_name": "고령군",
+            "district_code": 47225,
+            "valid_votes": 26472,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2502,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 42204,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 46945,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 4741,
+            "electorates": 49447,
+            "district_name": "성주군",
+            "district_code": 47235,
+            "valid_votes": 42204,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1149,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 37857,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44538,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 6681,
+            "electorates": 45687,
+            "district_name": "칠곡군",
+            "district_code": 47245,
+            "valid_votes": 37857,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2834,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 52218,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 59906,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 7688,
+            "electorates": 62740,
+            "district_name": "금릉군",
+            "district_code": 47255,
+            "valid_votes": 52218,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1008,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 41417,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 45968,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 4551,
+            "electorates": 46976,
+            "district_name": "선산군",
+            "district_code": 47265,
+            "valid_votes": 41417,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 8486,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 81503,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 95887,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 14384,
+            "electorates": 104373,
+            "district_name": "상주군",
+            "district_code": 47275,
+            "valid_votes": 81503,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1794,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 55262,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 61373,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 6111,
+            "electorates": 63167,
+            "district_name": "문경군",
+            "district_code": 47285,
+            "valid_votes": 55262,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2171,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 55497,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 61190,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 5693,
+            "electorates": 63361,
+            "district_name": "예천군",
+            "district_code": 47295,
+            "valid_votes": 55497,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1341,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 51059,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 56729,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 5670,
+            "electorates": 58070,
+            "district_name": "영주군",
+            "district_code": 47305,
+            "valid_votes": 51059,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 472,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 40898,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 44912,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 4014,
+            "electorates": 45384,
+            "district_name": "봉화군",
+            "district_code": 47315,
+            "valid_votes": 40898,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 252,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 7728,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 7796,
+            "region_code": 47,
+            "region_name": "경북",
+            "undervotes": 68,
+            "electorates": 8048,
+            "district_name": "울릉군",
+            "district_code": 47325,
+            "valid_votes": 7728,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 48,
+        "region_name": "경남",
+        "region_result": {
+          "blank_ballots": 60249,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 1632159,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 1822317,
+          "region_code": 48,
+          "region_name": "경남",
+          "undervotes": 190158,
+          "electorates": 1882566,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 1632159,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 5320,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 37353,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 46629,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 9276,
+            "electorates": 51949,
+            "district_name": "부산시중구",
+            "district_code": 4801,
+            "valid_votes": 37353,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 7657,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 94967,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 111726,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 16759,
+            "electorates": 119383,
+            "district_name": "부산시서구",
+            "district_code": 4802,
+            "valid_votes": 94967,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2297,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 48929,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 60406,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 11477,
+            "electorates": 62703,
+            "district_name": "부산시영도구",
+            "district_code": 4803,
+            "valid_votes": 48929,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 6356,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 74343,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 92804,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 18461,
+            "electorates": 99160,
+            "district_name": "부산시동구",
+            "district_code": 4804,
+            "valid_votes": 74343,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 10845,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 102283,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 124713,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 22430,
+            "electorates": 135558,
+            "district_name": "부산시부산진구",
+            "district_code": 4805,
+            "valid_votes": 102283,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1314,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47663,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 60332,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 12669,
+            "electorates": 61646,
+            "district_name": "부산시동래구",
+            "district_code": 4806,
+            "valid_votes": 47663,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 3138,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 53083,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 65942,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 12859,
+            "electorates": 69080,
+            "district_name": "마산시",
+            "district_code": 48071,
+            "valid_votes": 53083,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1086,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 29804,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 37348,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 7544,
+            "electorates": 38434,
+            "district_name": "진주시",
+            "district_code": 48081,
+            "valid_votes": 29804,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 562,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 20320,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 21130,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 810,
+            "electorates": 21692,
+            "district_name": "충무시",
+            "district_code": 48091,
+            "valid_votes": 20320,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1443,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 34576,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 37332,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 2756,
+            "electorates": 38775,
+            "district_name": "진해시",
+            "district_code": 48101,
+            "valid_votes": 34576,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1094,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 19642,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 22650,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 3008,
+            "electorates": 23744,
+            "district_name": "삼천포시",
+            "district_code": 48111,
+            "valid_votes": 19642,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1111,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 56004,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 62823,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 6819,
+            "electorates": 63934,
+            "district_name": "진양군",
+            "district_code": 48122,
+            "valid_votes": 56004,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 236,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 38987,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 43892,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 4905,
+            "electorates": 44128,
+            "district_name": "의령군",
+            "district_code": 48132,
+            "valid_votes": 38987,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1776,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 46376,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 50658,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 4282,
+            "electorates": 52434,
+            "district_name": "함안군",
+            "district_code": 48142,
+            "valid_votes": 46376,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 356,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 58147,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 62037,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 3890,
+            "electorates": 62393,
+            "district_name": "창녕군",
+            "district_code": 48152,
+            "valid_votes": 58147,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2134,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 81846,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 85523,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 3677,
+            "electorates": 87657,
+            "district_name": "밀양군",
+            "district_code": 48162,
+            "valid_votes": 81846,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 657,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 22294,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 24370,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 2076,
+            "electorates": 25027,
+            "district_name": "양산군",
+            "district_code": 48172,
+            "valid_votes": 22294,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 2289,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 88189,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 89487,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 1298,
+            "electorates": 91776,
+            "district_name": "울산군",
+            "district_code": 48182,
+            "valid_votes": 88189,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1102,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 30058,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 37568,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 7510,
+            "electorates": 38670,
+            "district_name": "동래군",
+            "district_code": 48192,
+            "valid_votes": 30058,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1637,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 79401,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 86707,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 7306,
+            "electorates": 88344,
+            "district_name": "김해군",
+            "district_code": 48202,
+            "valid_votes": 79401,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1618,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 73575,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 79256,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 5681,
+            "electorates": 80874,
+            "district_name": "창원군",
+            "district_code": 48212,
+            "valid_votes": 73575,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 753,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 30829,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 33123,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 2294,
+            "electorates": 33876,
+            "district_name": "통영군",
+            "district_code": 48222,
+            "valid_votes": 30829,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 543,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 47588,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49057,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 1469,
+            "electorates": 49600,
+            "district_name": "거제군",
+            "district_code": 48232,
+            "valid_votes": 47588,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1035,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 53575,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 54545,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 970,
+            "electorates": 55580,
+            "district_name": "고성군",
+            "district_code": 48242,
+            "valid_votes": 53575,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 1278,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 36921,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 39929,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 3008,
+            "electorates": 41207,
+            "district_name": "사천군",
+            "district_code": 48252,
+            "valid_votes": 36921,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 10,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 57786,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 57985,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 199,
+            "electorates": 57995,
+            "district_name": "남해군",
+            "district_code": 48262,
+            "valid_votes": 57786,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 299,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 51359,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 56128,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 4769,
+            "electorates": 56427,
+            "district_name": "하동군",
+            "district_code": 48272,
+            "valid_votes": 51359,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 651,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45191,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 45280,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 89,
+            "electorates": 45931,
+            "district_name": "산청군",
+            "district_code": 48282,
+            "valid_votes": 45191,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 552,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 45234,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49155,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 3921,
+            "electorates": 49707,
+            "district_name": "함양군",
+            "district_code": 48292,
+            "valid_votes": 45234,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 579,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 48745,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 54463,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 5718,
+            "electorates": 55042,
+            "district_name": "거창군",
+            "district_code": 48302,
+            "valid_votes": 48745,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 521,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 77091,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 79319,
+            "region_code": 48,
+            "region_name": "경남",
+            "undervotes": 2228,
+            "electorates": 79840,
+            "district_name": "합천군",
+            "district_code": 48312,
+            "valid_votes": 77091,
+            "nth": 4
+          }
+        ]
+      },
+      {
+        "region_code": 49,
+        "region_name": "제주",
+        "region_result": {
+          "blank_ballots": 513,
+          "cand_no": 1,
+          "result": [
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 127587,
+              "voterate": 100.0
+            }
+          ],
+          "counted_votes": 128399,
+          "region_code": 49,
+          "region_name": "제주",
+          "undervotes": 812,
+          "electorates": 128912,
+          "district_name": "전체",
+          "district_code": -1,
+          "valid_votes": 127587,
+          "nth": 4
+        },
+        "district_result": [
+          {
+            "blank_ballots": 142,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 29972,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 30248,
+            "region_code": 49,
+            "region_name": "제주",
+            "undervotes": 276,
+            "electorates": 30390,
+            "district_name": "제주시",
+            "district_code": 49011,
+            "valid_votes": 29972,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 165,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 49311,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 49748,
+            "region_code": 49,
+            "region_name": "제주",
+            "undervotes": 437,
+            "electorates": 49913,
+            "district_name": "북제주군",
+            "district_code": 49022,
+            "valid_votes": 49311,
+            "nth": 4
+          },
+          {
+            "blank_ballots": 206,
+            "cand_no": 1,
+            "result": [
+              {
+                "name_kr": "이승만",
+                "party_name_kr": "자유당",
+                "votenum": 48304,
+                "voterate": 100.0
+              }
+            ],
+            "counted_votes": 48403,
+            "region_code": 49,
+            "region_name": "제주",
+            "undervotes": 99,
+            "electorates": 48609,
+            "district_name": "남제주군",
+            "district_code": 49032,
+            "valid_votes": 48304,
+            "nth": 4
+          }
+        ]
+      }
+    ]
+  }
+]

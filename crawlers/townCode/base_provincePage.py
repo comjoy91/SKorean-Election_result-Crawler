@@ -14,24 +14,56 @@ monkey.patch_all()
 
 class BaseCrawler_province(object):
 
-	def parse_city(self, url, params, target, target_kor, city_code=None, city_name=None):
+	def parse_city(self, url, params, target, target_kor, nth, city_code=None, city_name=None):
 		_town_list = get_json(url['town'], params['town'])['jsonResult']['body']
+		_town_dict = dict()
+		_town_dict_ORDERNAME = dict()
 		for x in _town_list:
 			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
 				x['CODE'] = int(x['CODE'])
+			_town_dict[x['NAME']] = x['CODE']
+
+		if target=='president' and nth==15 or \
+			target=='local-pa' and nth==1 or \
+			target=='local-pa' and nth==2:
+			for x in _town_list:
+				_town_dict_ORDERNAME[x['NAME']] = int(x['ORDERNAME'])
 
 		_sgg_list = get_json(url['sgg'], params['sgg'])['jsonResult']['body']
+		_sgg_dict = dict()
 		for x in _sgg_list:
 			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
 				x['CODE'] = int(x['CODE'])
+			if not x['NAME'] in _sgg_dict:
+				_sgg_dict[x['NAME']] = []
+			_sgg_dict[x['NAME']].append(x['CODE'])
 
-		_result = [dict(city_name=city_name, city_code=int(city_code), town_list=_town_list)]
+		_PR_sgg_dict = dict()
+		if hasattr(self, 'urlParam_PR_sgg_list'):
+			_PR_sgg_list = get_json(url['sgg'], params['PR_sgg'])['jsonResult']['body']
+			for x in _PR_sgg_list:
+				if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
+					x['CODE'] = int(x['CODE'])
+				if not x['NAME'] in _PR_sgg_dict:
+					_PR_sgg_dict[x['NAME']] = []
+				_PR_sgg_dict[x['NAME']].append(x['CODE'])
+
+		_result = [dict(city_name=city_name, city_code=int(city_code), town_list=_town_list, town_dict=_town_dict)]
 		if len(_sgg_list) > 0:
 			_result[0]['consti_list'] = _sgg_list
+			_result[0]['consti_dict'] = _sgg_dict
+		if len(_town_dict_ORDERNAME) > 0:
+			_result[0]['town_dict_ORDERNAME'] = _town_dict_ORDERNAME
+		if len(_PR_sgg_dict) > 0:
+			_result[0]['PR_consti_list'] = _PR_sgg_list
+			_result[0]['PR_consti_dict'] = _PR_sgg_dict
 
 		print('crawled %s election #%d - %s' % (target, self.nth, city_name))
 		print('\t└  %s, %s(%d)...' % ('구시군 행정구역 목록', city_name, len(_town_list)))
-		print('\t└  %s, %s(%d)...\n' % (target_kor+' 선거구 목록', city_name, len(_sgg_list)))
+		print('\t└  %s, %s(%d)...' % (target_kor+' 선거구 목록', city_name, len(_sgg_list)))
+		if hasattr(self, 'urlParam_PR_sgg_list'):
+			print('\t└  %s, %s(%d)...' % (target_kor+' 비례대표 선거구(자치구시군) 목록', city_name, len(_PR_sgg_list)))
+		print('')
 
 		return _result
 
@@ -46,6 +78,10 @@ class JSONCrawler_province(BaseCrawler_province):
 		param_dict = dict(town=copy.deepcopy(self.urlParam_town_list), sgg=copy.deepcopy(self.urlParam_sgg_list))
 		param_dict['town']['cityCode'] = city_code
 		param_dict['sgg']['cityCode'] = city_code
+		if hasattr(self, 'urlParam_PR_sgg_list'):
+			param_dict['PR_sgg'] = copy.deepcopy(self.urlParam_PR_sgg_list)
+			param_dict['PR_sgg']['cityCode'] = city_code
+
 		if self.target=='assembly' and self.nth==17:
 			param_dict['sgg']['cityCode'] = city_code+'00'
 		return param_dict
@@ -63,7 +99,7 @@ class JSONCrawler_province(BaseCrawler_province):
 		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target_eng, nth))
 		for city_code, city_name in self.city_codes(): # 각 광역자치단체 별로 아래 단계를 수행.
 			req_param = self.JSON_url_param(city_code)
-			job = gevent.spawn(self.parse_city, req_url, req_param, target, target_kor, city_code, city_name)
+			job = gevent.spawn(self.parse_city, req_url, req_param, target, target_kor, nth, city_code, city_name)
 			jobs.append(job)
 		gevent.joinall(jobs)
 		every_result = [{'election_type':target,'nth':nth,'results':flatten(job.get() for job in jobs)}]

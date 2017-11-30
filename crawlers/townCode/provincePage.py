@@ -11,21 +11,34 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 			raise NotImplementedError('The %d-th presidential election(in %s) was held as indirect election: We cannot crawl the data.' % (int(nth), election_name))
 		elif 1 <= nth <= 16:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
-		elif 17 <= nth <= 18:
+		elif 17 <= nth <= 19:
 			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
-		elif nth == 19:
-			crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
+		elif nth == 20:
+			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
+			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
 	elif target == 'local-pa' or \
 		target == 'local-ma' or \
-		target == 'local-pp' or \
-        target == 'local-mp' :
+		target == 'local-pp' :
 		if 1 <= nth <= 3:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:
 			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
+		elif nth == 7:
+			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
+			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
+		else:
+			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
+
+	elif target == 'local-mp' :
+		if 1 <= nth <= 3:
+			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
+		elif 4 <= nth <= 6:
+			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
+			crawler.urlPath_PR_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
+			crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=9)
 		elif nth == 7:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)

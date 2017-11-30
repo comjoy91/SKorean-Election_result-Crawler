@@ -24,13 +24,28 @@ class BaseCrawler(object):
 	attrs_result = ['name', 'vote']
 	attrs_exclude_parse_cell = ['district_name', 'district_code', 'district_orderName', 'cand_no', 'result', 'image']
 
+	def noElection_consti(self, district_name, district_code):
+		return dict(district_name=district_name, \
+					district_code=district_code, \
+					electorates=0, \
+					counted_vote=0, \
+					candidate_num=0, \
+					cand_list=[], \
+					valid_vote=0, \
+					undervote=0, \
+					blank_ballot=0)
+
+	def repeated_consti(self, target, nth, district_name):
+		return (target=='local-pp' and nth==1 and district_name=='마산시제7') or \
+				(target=='local-pp' and nth==4 and district_name=='용인시제3선거구')
+
 
 	def parse_constant_candiNum(self, url, params, target, target_kor, city_name, city_code, city_index): #지금 이건 비례대표만 해당하는 거임 ㅇㅇㅇㅇㅇ
 		elems = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//td') #fucking_4th_president_ths!!!!
 		th_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th') #fucking_4th_president_ths!!!!
-		district_code_list = self.town_codes(city_index)
-		district_code_list.sort(key=operator.itemgetter('CODE'))
-		exist_ordername = 'ORDERNAME' in district_code_list[0]
+		district_code_dict = self.town_codes(city_index)
+		district_code_ORDERNAME_dict = self.town_codes_ORDERNAME(city_index)
+		exist_ordername = False if district_code_ORDERNAME_dict==None else True
 
 		if th_list[0].get('rowspan') != None: #"최근선거"가 아니라면
 			for i in range(int(len(th_list))):
@@ -59,18 +74,20 @@ class BaseCrawler(object):
 		candidate_num = max_candidate_num
 
 		for i in range(num_rows - row_head):
+			index = (i+row_head) * num_tds
+
 			if i==0: # 이 region '전체'의 개표결과를 담음.
 				district_name = '전체'
 				district_code = -1
 				if exist_ordername:
 					district_orderName = -1
 			else: # 이 region 내의 각 district별 개표결과를 담음.
-				district_name = district_code_list[i-1]['NAME'] # 여기 저장되는 district 이름은 선거구 이름임.
-				district_code = district_code_list[i-1]['CODE']
+				district_name = elems[index].text # 여기 저장되는 district 이름은 선거구 이름임.
+				district_code = district_code_dict[district_name]
+				#district_code = district_code_list[i-1]['CODE']
 				if exist_ordername:
-					district_orderName = int(district_code_list[i-1]['ORDERNAME'])
+					district_orderName = district_code_ORDERNAME_dict[district_name]
 
-			index = (i+row_head) * num_tds
 			electorates = elems[index + 1]
 			counted_vote = elems[index + 2]
 
@@ -106,7 +123,7 @@ class BaseCrawler(object):
 	def parse_various_candiNum(self, url, params, target, target_kor, city_name, city_code, city_index): #지금 이건 지역구만 해당하는 거임 ㅇㅇㅇㅇㅇ
 		tr_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//tr') #개별 <tr> 안에 한 줄씩 <td>들이 들어있음.
 		thead_list = get_xpath(url, params, './/table[@id="table01"]')[0].findall('.//th')
-		district_code_list = self.town_codes(city_index) if target=='local-mp_PR' \
+		district_code_dict = self.PR_consti_codes(city_index) if target=='local-mp_PR' \
 							else self.consti_codes(city_index)
 		max_candidate_num = len(tr_list[2]) - len(thead_list) # +1-1. 후보자 부분의 '계' 때문.
 
@@ -122,13 +139,17 @@ class BaseCrawler(object):
 			if len(tr_list[i]) < 2:
 				pass
 			elif tr_list[i][1].text == None: # 선거인수 칸이 blank인 줄을 찾으면, 그 칸 아래가 실득표수이므로...
-				#index = i+1
+				#while tr_list[i][0].text != district_code_list[index]['NAME']:
+				#	consti_list.append(self.noElection_consti(district_code_list[index]))
+				#	index = index+1
+
 				candidate_num = 0
 				candi_name_list = []
 				votes_num_percent = []
 
-				district_name = district_code_list[index]['NAME'] # 여기 저장되는 district 이름은 선거구 이름임.
-				district_code = district_code_list[index]['CODE']
+				district_name = tr_list[i][0].text#district_code_list[index]['NAME'] # 여기 저장되는 district 이름은 선거구 이름임.
+				district_code = district_code_dict[district_name][0]#district_code_list[index]['CODE']
+				del district_code_dict[district_name][0]
 				electorates = tr_list[i+1][num_ths_left-2]
 				counted_vote = tr_list[i+1][num_ths_left-1]
 
@@ -148,7 +169,19 @@ class BaseCrawler(object):
 				district_info = (district_name, district_code, electorates, counted_vote, candidate_num, cand_list, valid_vote, undervote, blank_ballot)
 				district_info = dict(list(zip(self.attrs_district, district_info)))
 				consti_list.append(self.parse_consti(district_info, city_name=city_name, city_code=city_code))
+
+				#print("json: %s" % district_code_list[index]['NAME'])
+				print("html: %s" % district_name)
+				if (not self.repeated_consti(target, self.nth, district_name)) and len(district_code_dict[district_name])==0:
+					#print(district_name)
+					del district_code_dict[district_name]
+
 				index = index+1
+
+		for noElection_name in district_code_dict:
+			for code in district_code_dict[noElection_name]:
+				print("무투표: %s" % noElection_name)
+				consti_list.append(self.noElection_consti(noElection_name, code))
 
 		return_result = [{'region_name': city_name, 'region_code': city_code, 'district_result': consti_list}]
 		print('crawled %s election #%d - %s, %s(%d)' % \
@@ -273,16 +306,27 @@ class BaseCrawler(object):
 
 class MultiCityCrawler(BaseCrawler):
 
-	def city_codes(self, nationalSum=False): # 광역자치단체 code 리스트를 json으로 받게 됨.
+	def city_codes(self): # 광역자치단체 code 리스트를 json으로 받게 됨.
 		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results']
 		return [(x['city_code'], x['city_name']) for x in list_]
 
-	def town_codes(self, city_index, nationalSum=False): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
-		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]['town_list']
+	def town_codes(self, city_index): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
+		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]['town_dict']
 		return list_
 
-	def consti_codes(self, city_index, nationalSum=False): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
-		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]['consti_list']
+	def town_codes_ORDERNAME(self, city_index): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
+		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]
+		if 'town_dict_ORDERNAME' in list_:
+			return list_['town_dict_ORDERNAME']
+		else:
+			return None
+
+	def consti_codes(self, city_index): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
+		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]['consti_dict']
+		return list_
+
+	def PR_consti_codes(self, city_index): # 광역자치단체 내의 시군구 code 리스트를 json으로 받게 됨. 이 때는 city_code가 아닌 city_index(city가 나열된 순서에 따른 index)를 받음.
+		list_ = get_json(self.urlPath_city_codes, self.urlParam_city_codes)[0]['results'][city_index]['PR_consti_dict']
 		return list_
 
 	def XHTML_url_param(self, city_code): # XHTML(결과 아웃풋)을 받을 URL의 parameter.
@@ -295,7 +339,6 @@ class MultiCityCrawler(BaseCrawler):
 		jobs = []
 		constant_candidates = self.constant_candidates
 		candidate_type = self.candidate_type
-		nationalSum = self.nationalSum if hasattr(self, 'nationalSum') else False
 		target = self.target
 		target_eng = self.target_eng
 		target_kor = self.target_kor
@@ -303,7 +346,7 @@ class MultiCityCrawler(BaseCrawler):
 		req_url = self.urlPath_result_list
 
 		print("Waiting to connect http://info.nec.go.kr server (%s, %d-th)..." % (target_eng, nth))
-		for city_index, (city_code, city_name) in list(enumerate(self.city_codes(nationalSum))):
+		for city_index, (city_code, city_name) in list(enumerate(self.city_codes())):
 			req_param = self.XHTML_url_param(city_code)
 			job = gevent.spawn(self.parse, req_url, req_param, constant_candidates, target, target_kor, city_name, city_code, city_index)
 			jobs.append(job)

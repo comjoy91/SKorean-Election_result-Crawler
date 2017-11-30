@@ -1,0 +1,2671 @@
+[
+  {
+    "election_type": "local_eduParliament",
+    "candidate_type": "independent_candidate",
+    "results": [
+      {
+        "district_result": [
+          {
+            "region_code": 1100,
+            "cand_no": 5,
+            "district_name": "서울특별시 제1선거구",
+            "region_name": "서울특별시",
+            "undervotes": 30942,
+            "district_code": 10110001,
+            "electorates": 907596,
+            "result": [
+              {
+                "voterate": 28.13,
+                "name_kr": "정상천",
+                "votenum": 127884
+              },
+              {
+                "voterate": 24.97,
+                "name_kr": "김대성",
+                "votenum": 113495
+              },
+              {
+                "voterate": 18.81,
+                "name_kr": "정영택",
+                "votenum": 85490
+              },
+              {
+                "voterate": 3.18,
+                "name_kr": "어양우",
+                "votenum": 14475
+              },
+              {
+                "voterate": 24.89,
+                "name_kr": "정영배",
+                "votenum": 113119
+              }
+            ],
+            "counted_votes": 485405,
+            "valid_votes": 454463,
+            "blank_ballots": 422191,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 4,
+            "district_name": "서울특별시 제2선거구",
+            "region_name": "서울특별시",
+            "undervotes": 38182,
+            "district_code": 10110002,
+            "electorates": 1154958,
+            "result": [
+              {
+                "voterate": 25.86,
+                "name_kr": "임종달",
+                "votenum": 149872
+              },
+              {
+                "voterate": 25.18,
+                "name_kr": "이종석",
+                "votenum": 145963
+              },
+              {
+                "voterate": 26.38,
+                "name_kr": "최보선",
+                "votenum": 152903
+              },
+              {
+                "voterate": 22.56,
+                "name_kr": "구본순",
+                "votenum": 130782
+              }
+            ],
+            "counted_votes": 617702,
+            "valid_votes": 579520,
+            "blank_ballots": 537256,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 7,
+            "district_name": "서울특별시 제3선거구",
+            "region_name": "서울특별시",
+            "undervotes": 47514,
+            "district_code": 10110003,
+            "electorates": 1106977,
+            "result": [
+              {
+                "voterate": 30.72,
+                "name_kr": "김덕영",
+                "votenum": 168648
+              },
+              {
+                "voterate": 15.1,
+                "name_kr": "김익수",
+                "votenum": 82917
+              },
+              {
+                "voterate": 5.92,
+                "name_kr": "박춘엽",
+                "votenum": 32516
+              },
+              {
+                "voterate": 5.71,
+                "name_kr": "오영규",
+                "votenum": 31389
+              },
+              {
+                "voterate": 9.16,
+                "name_kr": "박헌화",
+                "votenum": 50334
+              },
+              {
+                "voterate": 26.79,
+                "name_kr": "이부영",
+                "votenum": 147080
+              },
+              {
+                "voterate": 6.56,
+                "name_kr": "하홍모",
+                "votenum": 36046
+              }
+            ],
+            "counted_votes": 596444,
+            "valid_votes": 548930,
+            "blank_ballots": 510533,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 3,
+            "district_name": "서울특별시 제4선거구",
+            "region_name": "서울특별시",
+            "undervotes": 27807,
+            "district_code": 10110004,
+            "electorates": 849125,
+            "result": [
+              {
+                "voterate": 44.44,
+                "name_kr": "한학수",
+                "votenum": 189811
+              },
+              {
+                "voterate": 42.36,
+                "name_kr": "이건",
+                "votenum": 180933
+              },
+              {
+                "voterate": 13.18,
+                "name_kr": "구덕길",
+                "votenum": 56321
+              }
+            ],
+            "counted_votes": 454872,
+            "valid_votes": 427065,
+            "blank_ballots": 394253,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 7,
+            "district_name": "서울특별시 제5선거구",
+            "region_name": "서울특별시",
+            "undervotes": 44255,
+            "district_code": 10110005,
+            "electorates": 1166784,
+            "result": [
+              {
+                "voterate": 23.21,
+                "name_kr": "임헌만",
+                "votenum": 137866
+              },
+              {
+                "voterate": 15.65,
+                "name_kr": "서동목",
+                "votenum": 92966
+              },
+              {
+                "voterate": 11.84,
+                "name_kr": "신동성",
+                "votenum": 70348
+              },
+              {
+                "voterate": 7.49,
+                "name_kr": "김동래",
+                "votenum": 44485
+              },
+              {
+                "voterate": 6.82,
+                "name_kr": "정채동",
+                "votenum": 40507
+              },
+              {
+                "voterate": 11.12,
+                "name_kr": "이주명",
+                "votenum": 66045
+              },
+              {
+                "voterate": 23.84,
+                "name_kr": "김형태",
+                "votenum": 141609
+              }
+            ],
+            "counted_votes": 638081,
+            "valid_votes": 593826,
+            "blank_ballots": 528703,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 4,
+            "district_name": "서울특별시 제6선거구",
+            "region_name": "서울특별시",
+            "undervotes": 29311,
+            "district_code": 10110006,
+            "electorates": 978697,
+            "result": [
+              {
+                "voterate": 26.65,
+                "name_kr": "김주현",
+                "votenum": 133486
+              },
+              {
+                "voterate": 23.71,
+                "name_kr": "김홍민",
+                "votenum": 118748
+              },
+              {
+                "voterate": 29.33,
+                "name_kr": "최홍이",
+                "votenum": 146882
+              },
+              {
+                "voterate": 20.29,
+                "name_kr": "양인자",
+                "votenum": 101656
+              }
+            ],
+            "counted_votes": 530083,
+            "valid_votes": 500772,
+            "blank_ballots": 448614,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 6,
+            "district_name": "서울특별시 제7선거구",
+            "region_name": "서울특별시",
+            "undervotes": 55888,
+            "district_code": 10110007,
+            "electorates": 1119901,
+            "result": [
+              {
+                "voterate": 29.77,
+                "name_kr": "최명복",
+                "votenum": 162630
+              },
+              {
+                "voterate": 20.53,
+                "name_kr": "정관희",
+                "votenum": 112193
+              },
+              {
+                "voterate": 13.47,
+                "name_kr": "이광양",
+                "votenum": 73588
+              },
+              {
+                "voterate": 11.79,
+                "name_kr": "박문영",
+                "votenum": 64432
+              },
+              {
+                "voterate": 10.99,
+                "name_kr": "김병철",
+                "votenum": 60067
+              },
+              {
+                "voterate": 13.42,
+                "name_kr": "장길호",
+                "votenum": 73349
+              }
+            ],
+            "counted_votes": 602147,
+            "valid_votes": 546259,
+            "blank_ballots": 517754,
+            "nth": 5
+          },
+          {
+            "region_code": 1100,
+            "cand_no": 6,
+            "district_name": "서울특별시 제8선거구",
+            "region_name": "서울특별시",
+            "undervotes": 36772,
+            "district_code": 10110008,
+            "electorates": 927423,
+            "result": [
+              {
+                "voterate": 29.31,
+                "name_kr": "김영수",
+                "votenum": 136481
+              },
+              {
+                "voterate": 25.96,
+                "name_kr": "황수연",
+                "votenum": 120886
+              },
+              {
+                "voterate": 15.62,
+                "name_kr": "정병수",
+                "votenum": 72728
+              },
+              {
+                "voterate": 9.66,
+                "name_kr": "최재규",
+                "votenum": 45002
+              },
+              {
+                "voterate": 7.4,
+                "name_kr": "김용신",
+                "votenum": 34455
+              },
+              {
+                "voterate": 12.01,
+                "name_kr": "강호봉",
+                "votenum": 55938
+              }
+            ],
+            "counted_votes": 502262,
+            "valid_votes": 465490,
+            "blank_ballots": 425161,
+            "nth": 5
+          }
+        ],
+        "region_code": 1100,
+        "region_name": "서울특별시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 2600,
+            "cand_no": 3,
+            "district_name": "부산광역시 제1선거구",
+            "region_name": "부산광역시",
+            "undervotes": 30049,
+            "district_code": 10260001,
+            "electorates": 388569,
+            "result": [
+              {
+                "voterate": 40.27,
+                "name_kr": "이동철",
+                "votenum": 62272
+              },
+              {
+                "voterate": 43.6,
+                "name_kr": "배종웅",
+                "votenum": 67431
+              },
+              {
+                "voterate": 16.11,
+                "name_kr": "김건",
+                "votenum": 24923
+              }
+            ],
+            "counted_votes": 184675,
+            "valid_votes": 154626,
+            "blank_ballots": 203894,
+            "nth": 5
+          },
+          {
+            "region_code": 2600,
+            "cand_no": 3,
+            "district_name": "부산광역시 제2선거구",
+            "region_name": "부산광역시",
+            "undervotes": 19922,
+            "district_code": 10260002,
+            "electorates": 489650,
+            "result": [
+              {
+                "voterate": 32.34,
+                "name_kr": "장대원",
+                "votenum": 71605
+              },
+              {
+                "voterate": 35.68,
+                "name_kr": "최부야",
+                "votenum": 78991
+              },
+              {
+                "voterate": 31.96,
+                "name_kr": "이승준",
+                "votenum": 70749
+              }
+            ],
+            "counted_votes": 241267,
+            "valid_votes": 221345,
+            "blank_ballots": 248383,
+            "nth": 5
+          },
+          {
+            "region_code": 2600,
+            "cand_no": 4,
+            "district_name": "부산광역시 제3선거구",
+            "region_name": "부산광역시",
+            "undervotes": 17187,
+            "district_code": 10260003,
+            "electorates": 491739,
+            "result": [
+              {
+                "voterate": 31.4,
+                "name_kr": "김정선",
+                "votenum": 71840
+              },
+              {
+                "voterate": 25.38,
+                "name_kr": "정도영",
+                "votenum": 58079
+              },
+              {
+                "voterate": 29.6,
+                "name_kr": "조병태",
+                "votenum": 67725
+              },
+              {
+                "voterate": 13.6,
+                "name_kr": "윤대혁",
+                "votenum": 31122
+              }
+            ],
+            "counted_votes": 245953,
+            "valid_votes": 228766,
+            "blank_ballots": 245786,
+            "nth": 5
+          },
+          {
+            "region_code": 2600,
+            "cand_no": 3,
+            "district_name": "부산광역시 제4선거구",
+            "region_name": "부산광역시",
+            "undervotes": 16487,
+            "district_code": 10260004,
+            "electorates": 499086,
+            "result": [
+              {
+                "voterate": 39.08,
+                "name_kr": "황상주",
+                "votenum": 91818
+              },
+              {
+                "voterate": 28.8,
+                "name_kr": "최낙건",
+                "votenum": 67677
+              },
+              {
+                "voterate": 32.11,
+                "name_kr": "강기원",
+                "votenum": 75452
+              }
+            ],
+            "counted_votes": 251434,
+            "valid_votes": 234947,
+            "blank_ballots": 247652,
+            "nth": 5
+          },
+          {
+            "region_code": 2600,
+            "cand_no": 5,
+            "district_name": "부산광역시 제5선거구",
+            "region_name": "부산광역시",
+            "undervotes": 13233,
+            "district_code": 10260005,
+            "electorates": 428607,
+            "result": [
+              {
+                "voterate": 35.31,
+                "name_kr": "이일권",
+                "votenum": 70648
+              },
+              {
+                "voterate": 17.49,
+                "name_kr": "황해문",
+                "votenum": 35001
+              },
+              {
+                "voterate": 15.21,
+                "name_kr": "이명우",
+                "votenum": 30441
+              },
+              {
+                "voterate": 14.94,
+                "name_kr": "정남식",
+                "votenum": 29888
+              },
+              {
+                "voterate": 17.03,
+                "name_kr": "강신평",
+                "votenum": 34069
+              }
+            ],
+            "counted_votes": 213280,
+            "valid_votes": 200047,
+            "blank_ballots": 215327,
+            "nth": 5
+          },
+          {
+            "region_code": 2600,
+            "cand_no": 4,
+            "district_name": "부산광역시 제6선거구",
+            "region_name": "부산광역시",
+            "undervotes": 20276,
+            "district_code": 10260006,
+            "electorates": 552244,
+            "result": [
+              {
+                "voterate": 32.77,
+                "name_kr": "김길용",
+                "votenum": 83030
+              },
+              {
+                "voterate": 20.34,
+                "name_kr": "권옥현",
+                "votenum": 51559
+              },
+              {
+                "voterate": 22.03,
+                "name_kr": "조선백",
+                "votenum": 55816
+              },
+              {
+                "voterate": 24.84,
+                "name_kr": "이성현",
+                "votenum": 62958
+              }
+            ],
+            "counted_votes": 273639,
+            "valid_votes": 253363,
+            "blank_ballots": 278605,
+            "nth": 5
+          }
+        ],
+        "region_code": 2600,
+        "region_name": "부산광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 2700,
+            "cand_no": 3,
+            "district_name": "대구광역시 제1선거구",
+            "region_name": "대구광역시",
+            "undervotes": 12699,
+            "district_code": 10270001,
+            "electorates": 390982,
+            "result": [
+              {
+                "voterate": 50.3,
+                "name_kr": "김경식",
+                "votenum": 82474
+              },
+              {
+                "voterate": 17.63,
+                "name_kr": "김영곤",
+                "votenum": 28911
+              },
+              {
+                "voterate": 32.06,
+                "name_kr": "정인표",
+                "votenum": 52570
+              }
+            ],
+            "counted_votes": 176654,
+            "valid_votes": 163955,
+            "blank_ballots": 214328,
+            "nth": 5
+          },
+          {
+            "region_code": 2700,
+            "cand_no": 4,
+            "district_name": "대구광역시 제2선거구",
+            "region_name": "대구광역시",
+            "undervotes": 6724,
+            "district_code": 10270002,
+            "electorates": 266834,
+            "result": [
+              {
+                "voterate": 31.58,
+                "name_kr": "최병욱",
+                "votenum": 37027
+              },
+              {
+                "voterate": 18.13,
+                "name_kr": "김영근",
+                "votenum": 21255
+              },
+              {
+                "voterate": 31.18,
+                "name_kr": "이인희",
+                "votenum": 36553
+              },
+              {
+                "voterate": 19.09,
+                "name_kr": "김철수",
+                "votenum": 22386
+              }
+            ],
+            "counted_votes": 123945,
+            "valid_votes": 117221,
+            "blank_ballots": 142889,
+            "nth": 5
+          },
+          {
+            "region_code": 2700,
+            "cand_no": 5,
+            "district_name": "대구광역시 제3선거구",
+            "region_name": "대구광역시",
+            "undervotes": 7354,
+            "district_code": 10270003,
+            "electorates": 339490,
+            "result": [
+              {
+                "voterate": 31.49,
+                "name_kr": "장식환",
+                "votenum": 45150
+              },
+              {
+                "voterate": 19.57,
+                "name_kr": "조병훈",
+                "votenum": 28071
+              },
+              {
+                "voterate": 19.51,
+                "name_kr": "황정자",
+                "votenum": 27978
+              },
+              {
+                "voterate": 18.86,
+                "name_kr": "손영현",
+                "votenum": 27048
+              },
+              {
+                "voterate": 10.55,
+                "name_kr": "곽영희",
+                "votenum": 15128
+              }
+            ],
+            "counted_votes": 150729,
+            "valid_votes": 143375,
+            "blank_ballots": 188761,
+            "nth": 5
+          },
+          {
+            "region_code": 2700,
+            "cand_no": 5,
+            "district_name": "대구광역시 제4선거구",
+            "region_name": "대구광역시",
+            "undervotes": 11046,
+            "district_code": 10270004,
+            "electorates": 454805,
+            "result": [
+              {
+                "voterate": 36.95,
+                "name_kr": "남정달",
+                "votenum": 69900
+              },
+              {
+                "voterate": 13.34,
+                "name_kr": "이창우",
+                "votenum": 25249
+              },
+              {
+                "voterate": 14.25,
+                "name_kr": "송영환",
+                "votenum": 26968
+              },
+              {
+                "voterate": 15.13,
+                "name_kr": "김동석",
+                "votenum": 28630
+              },
+              {
+                "voterate": 20.3,
+                "name_kr": "안준근",
+                "votenum": 38413
+              }
+            ],
+            "counted_votes": 200206,
+            "valid_votes": 189160,
+            "blank_ballots": 254599,
+            "nth": 5
+          },
+          {
+            "region_code": 2700,
+            "cand_no": 3,
+            "district_name": "대구광역시 제5선거구",
+            "region_name": "대구광역시",
+            "undervotes": 15730,
+            "district_code": 10270005,
+            "electorates": 476724,
+            "result": [
+              {
+                "voterate": 49.35,
+                "name_kr": "이상규",
+                "votenum": 108047
+              },
+              {
+                "voterate": 29.1,
+                "name_kr": "윤충기",
+                "votenum": 63707
+              },
+              {
+                "voterate": 21.54,
+                "name_kr": "백춘실",
+                "votenum": 47169
+              }
+            ],
+            "counted_votes": 234653,
+            "valid_votes": 218923,
+            "blank_ballots": 242071,
+            "nth": 5
+          }
+        ],
+        "region_code": 2700,
+        "region_name": "대구광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 2800,
+            "cand_no": 2,
+            "district_name": "인천광역시 제1선거구",
+            "region_name": "인천광역시",
+            "undervotes": 14451,
+            "district_code": 10280001,
+            "electorates": 426899,
+            "result": [
+              {
+                "voterate": 46.89,
+                "name_kr": "허원기",
+                "votenum": 93945
+              },
+              {
+                "voterate": 53.1,
+                "name_kr": "배상만",
+                "votenum": 106403
+              }
+            ],
+            "counted_votes": 214799,
+            "valid_votes": 200348,
+            "blank_ballots": 212100,
+            "nth": 5
+          },
+          {
+            "region_code": 2800,
+            "cand_no": 5,
+            "district_name": "인천광역시 제2선거구",
+            "region_name": "인천광역시",
+            "undervotes": 9875,
+            "district_code": 10280002,
+            "electorates": 356575,
+            "result": [
+              {
+                "voterate": 30.22,
+                "name_kr": "권용오",
+                "votenum": 50961
+              },
+              {
+                "voterate": 19.3,
+                "name_kr": "오재궁",
+                "votenum": 32550
+              },
+              {
+                "voterate": 18.95,
+                "name_kr": "하상철",
+                "votenum": 31949
+              },
+              {
+                "voterate": 13.5,
+                "name_kr": "최병준",
+                "votenum": 22764
+              },
+              {
+                "voterate": 18.0,
+                "name_kr": "이강식",
+                "votenum": 30357
+              }
+            ],
+            "counted_votes": 178456,
+            "valid_votes": 168581,
+            "blank_ballots": 178119,
+            "nth": 5
+          },
+          {
+            "region_code": 2800,
+            "cand_no": 2,
+            "district_name": "인천광역시 제3선거구",
+            "region_name": "인천광역시",
+            "undervotes": 14514,
+            "district_code": 10280003,
+            "electorates": 562049,
+            "result": [
+              {
+                "voterate": 59.21,
+                "name_kr": "김원희",
+                "votenum": 161864
+              },
+              {
+                "voterate": 40.78,
+                "name_kr": "김기수",
+                "votenum": 111497
+              }
+            ],
+            "counted_votes": 287875,
+            "valid_votes": 273361,
+            "blank_ballots": 274174,
+            "nth": 5
+          },
+          {
+            "region_code": 2800,
+            "cand_no": 3,
+            "district_name": "인천광역시 제4선거구",
+            "region_name": "인천광역시",
+            "undervotes": 11494,
+            "district_code": 10280004,
+            "electorates": 435655,
+            "result": [
+              {
+                "voterate": 39.84,
+                "name_kr": "이수영",
+                "votenum": 82390
+              },
+              {
+                "voterate": 34.75,
+                "name_kr": "이동현",
+                "votenum": 71855
+              },
+              {
+                "voterate": 25.4,
+                "name_kr": "이병용",
+                "votenum": 52518
+              }
+            ],
+            "counted_votes": 218257,
+            "valid_votes": 206763,
+            "blank_ballots": 217398,
+            "nth": 5
+          },
+          {
+            "region_code": 2800,
+            "cand_no": 2,
+            "district_name": "인천광역시 제5선거구",
+            "region_name": "인천광역시",
+            "undervotes": 11409,
+            "district_code": 10280005,
+            "electorates": 315675,
+            "result": [
+              {
+                "voterate": 59.06,
+                "name_kr": "김영태",
+                "votenum": 92630
+              },
+              {
+                "voterate": 40.93,
+                "name_kr": "이언기",
+                "votenum": 64192
+              }
+            ],
+            "counted_votes": 168231,
+            "valid_votes": 156822,
+            "blank_ballots": 147444,
+            "nth": 5
+          }
+        ],
+        "region_code": 2800,
+        "region_name": "인천광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 2900,
+            "cand_no": 2,
+            "district_name": "광주광역시 제1선거구",
+            "region_name": "광주광역시",
+            "undervotes": 7753,
+            "district_code": 10290001,
+            "electorates": 248932,
+            "result": [
+              {
+                "voterate": 50.53,
+                "name_kr": "임동호",
+                "votenum": 62332
+              },
+              {
+                "voterate": 49.46,
+                "name_kr": "김영목",
+                "votenum": 61008
+              }
+            ],
+            "counted_votes": 131093,
+            "valid_votes": 123340,
+            "blank_ballots": 117839,
+            "nth": 5
+          },
+          {
+            "region_code": 2900,
+            "cand_no": 2,
+            "district_name": "광주광역시 제2선거구",
+            "region_name": "광주광역시",
+            "undervotes": 4653,
+            "district_code": 10290002,
+            "electorates": 222260,
+            "result": [
+              {
+                "voterate": 61.43,
+                "name_kr": "김선호",
+                "votenum": 67039
+              },
+              {
+                "voterate": 38.56,
+                "name_kr": "장관수",
+                "votenum": 42080
+              }
+            ],
+            "counted_votes": 113772,
+            "valid_votes": 109119,
+            "blank_ballots": 108488,
+            "nth": 5
+          },
+          {
+            "region_code": 2900,
+            "cand_no": 4,
+            "district_name": "광주광역시 제3선거구",
+            "region_name": "광주광역시",
+            "undervotes": 6506,
+            "district_code": 10290003,
+            "electorates": 351029,
+            "result": [
+              {
+                "voterate": 18.01,
+                "name_kr": "박기훈",
+                "votenum": 29135
+              },
+              {
+                "voterate": 30.95,
+                "name_kr": "윤광현",
+                "votenum": 50049
+              },
+              {
+                "voterate": 35.08,
+                "name_kr": "정희곤",
+                "votenum": 56739
+              },
+              {
+                "voterate": 15.94,
+                "name_kr": "임종대",
+                "votenum": 25775
+              }
+            ],
+            "counted_votes": 168204,
+            "valid_votes": 161698,
+            "blank_ballots": 182825,
+            "nth": 5
+          },
+          {
+            "region_code": 2900,
+            "cand_no": 2,
+            "district_name": "광주광역시 제4선거구",
+            "region_name": "광주광역시",
+            "undervotes": 5337,
+            "district_code": 10290004,
+            "electorates": 242692,
+            "result": [
+              {
+                "voterate": 51.9,
+                "name_kr": "박인화",
+                "votenum": 57985
+              },
+              {
+                "voterate": 48.09,
+                "name_kr": "오덕렬",
+                "votenum": 53734
+              }
+            ],
+            "counted_votes": 117056,
+            "valid_votes": 111719,
+            "blank_ballots": 125636,
+            "nth": 5
+          }
+        ],
+        "region_code": 2900,
+        "region_name": "광주광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 3000,
+            "cand_no": 3,
+            "district_name": "대전광역시 제1선거구",
+            "region_name": "대전광역시",
+            "undervotes": 11097,
+            "district_code": 10300001,
+            "electorates": 352222,
+            "result": [
+              {
+                "voterate": 35.03,
+                "name_kr": "오창윤",
+                "votenum": 59137
+              },
+              {
+                "voterate": 38.99,
+                "name_kr": "김창규",
+                "votenum": 65827
+              },
+              {
+                "voterate": 25.97,
+                "name_kr": "백동기",
+                "votenum": 43842
+              }
+            ],
+            "counted_votes": 179903,
+            "valid_votes": 168806,
+            "blank_ballots": 172319,
+            "nth": 5
+          },
+          {
+            "region_code": 3000,
+            "cand_no": 3,
+            "district_name": "대전광역시 제2선거구",
+            "region_name": "대전광역시",
+            "undervotes": 5530,
+            "district_code": 10300002,
+            "electorates": 206384,
+            "result": [
+              {
+                "voterate": 34.42,
+                "name_kr": "정상범",
+                "votenum": 35886
+              },
+              {
+                "voterate": 26.76,
+                "name_kr": "김관익",
+                "votenum": 27902
+              },
+              {
+                "voterate": 38.81,
+                "name_kr": "강영자",
+                "votenum": 40465
+              }
+            ],
+            "counted_votes": 109783,
+            "valid_votes": 104253,
+            "blank_ballots": 96601,
+            "nth": 5
+          },
+          {
+            "region_code": 3000,
+            "cand_no": 4,
+            "district_name": "대전광역시 제3선거구",
+            "region_name": "대전광역시",
+            "undervotes": 11379,
+            "district_code": 10300003,
+            "electorates": 375073,
+            "result": [
+              {
+                "voterate": 30.58,
+                "name_kr": "최영일",
+                "votenum": 56919
+              },
+              {
+                "voterate": 34.38,
+                "name_kr": "김동건",
+                "votenum": 63993
+              },
+              {
+                "voterate": 20.19,
+                "name_kr": "이영재",
+                "votenum": 37577
+              },
+              {
+                "voterate": 14.84,
+                "name_kr": "최기환",
+                "votenum": 27620
+              }
+            ],
+            "counted_votes": 197488,
+            "valid_votes": 186109,
+            "blank_ballots": 177585,
+            "nth": 5
+          },
+          {
+            "region_code": 3000,
+            "cand_no": 3,
+            "district_name": "대전광역시 제4선거구",
+            "region_name": "대전광역시",
+            "undervotes": 5927,
+            "district_code": 10300004,
+            "electorates": 193868,
+            "result": [
+              {
+                "voterate": 34.08,
+                "name_kr": "최진동",
+                "votenum": 35370
+              },
+              {
+                "voterate": 32.38,
+                "name_kr": "이기황",
+                "votenum": 33613
+              },
+              {
+                "voterate": 33.53,
+                "name_kr": "박종현",
+                "votenum": 34802
+              }
+            ],
+            "counted_votes": 109712,
+            "valid_votes": 103785,
+            "blank_ballots": 84156,
+            "nth": 5
+          }
+        ],
+        "region_code": 3000,
+        "region_name": "대전광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 3100,
+            "cand_no": 2,
+            "district_name": "울산광역시 제1선거구",
+            "region_name": "울산광역시",
+            "undervotes": 5245,
+            "district_code": 10310001,
+            "electorates": 178158,
+            "result": [
+              {
+                "voterate": 48.55,
+                "name_kr": "이성근",
+                "votenum": 45126
+              },
+              {
+                "voterate": 51.44,
+                "name_kr": "권오영",
+                "votenum": 47804
+              }
+            ],
+            "counted_votes": 98175,
+            "valid_votes": 92930,
+            "blank_ballots": 79983,
+            "nth": 5
+          },
+          {
+            "region_code": 3100,
+            "cand_no": 3,
+            "district_name": "울산광역시 제2선거구",
+            "region_name": "울산광역시",
+            "undervotes": 6027,
+            "district_code": 10310002,
+            "electorates": 258699,
+            "result": [
+              {
+                "voterate": 33.89,
+                "name_kr": "박홍경",
+                "votenum": 44450
+              },
+              {
+                "voterate": 32.38,
+                "name_kr": "김해철",
+                "votenum": 42473
+              },
+              {
+                "voterate": 33.71,
+                "name_kr": "오흥일",
+                "votenum": 44210
+              }
+            ],
+            "counted_votes": 137160,
+            "valid_votes": 131133,
+            "blank_ballots": 121539,
+            "nth": 5
+          },
+          {
+            "region_code": 3100,
+            "cand_no": 2,
+            "district_name": "울산광역시 제3선거구",
+            "region_name": "울산광역시",
+            "undervotes": 6246,
+            "district_code": 10310003,
+            "electorates": 254888,
+            "result": [
+              {
+                "voterate": 55.41,
+                "name_kr": "이선철",
+                "votenum": 76592
+              },
+              {
+                "voterate": 44.58,
+                "name_kr": "이구락",
+                "votenum": 61631
+              }
+            ],
+            "counted_votes": 144469,
+            "valid_votes": 138223,
+            "blank_ballots": 110419,
+            "nth": 5
+          },
+          {
+            "region_code": 3100,
+            "cand_no": 5,
+            "district_name": "울산광역시 제4선거구",
+            "region_name": "울산광역시",
+            "undervotes": 3478,
+            "district_code": 10310004,
+            "electorates": 147060,
+            "result": [
+              {
+                "voterate": 22.35,
+                "name_kr": "심원오",
+                "votenum": 17636
+              },
+              {
+                "voterate": 29.24,
+                "name_kr": "정찬모",
+                "votenum": 23078
+              },
+              {
+                "voterate": 20.37,
+                "name_kr": "최성식",
+                "votenum": 16076
+              },
+              {
+                "voterate": 8.64,
+                "name_kr": "이종직",
+                "votenum": 6819
+              },
+              {
+                "voterate": 19.38,
+                "name_kr": "정성모",
+                "votenum": 15298
+              }
+            ],
+            "counted_votes": 82385,
+            "valid_votes": 78907,
+            "blank_ballots": 64675,
+            "nth": 5
+          }
+        ],
+        "region_code": 3100,
+        "region_name": "울산광역시"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4100,
+            "cand_no": 2,
+            "district_name": "경기도 제1선거구",
+            "region_name": "경기도",
+            "undervotes": 28482,
+            "district_code": 10410001,
+            "electorates": 1105834,
+            "result": [
+              {
+                "voterate": 58.4,
+                "name_kr": "최철환",
+                "votenum": 348877
+              },
+              {
+                "voterate": 41.59,
+                "name_kr": "이철두",
+                "votenum": 248458
+              }
+            ],
+            "counted_votes": 625817,
+            "valid_votes": 597335,
+            "blank_ballots": 480017,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 3,
+            "district_name": "경기도 제2선거구",
+            "region_name": "경기도",
+            "undervotes": 50184,
+            "district_code": 10410002,
+            "electorates": 1209961,
+            "result": [
+              {
+                "voterate": 42.86,
+                "name_kr": "김광래",
+                "votenum": 249039
+              },
+              {
+                "voterate": 37.85,
+                "name_kr": "조영효",
+                "votenum": 219924
+              },
+              {
+                "voterate": 19.27,
+                "name_kr": "김석희",
+                "votenum": 111987
+              }
+            ],
+            "counted_votes": 631134,
+            "valid_votes": 580950,
+            "blank_ballots": 578827,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 2,
+            "district_name": "경기도 제3선거구",
+            "region_name": "경기도",
+            "undervotes": 32397,
+            "district_code": 10410003,
+            "electorates": 976572,
+            "result": [
+              {
+                "voterate": 47.29,
+                "name_kr": "조돈창",
+                "votenum": 217121
+              },
+              {
+                "voterate": 52.7,
+                "name_kr": "이재삼",
+                "votenum": 241939
+              }
+            ],
+            "counted_votes": 491457,
+            "valid_votes": 459060,
+            "blank_ballots": 485115,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 3,
+            "district_name": "경기도 제4선거구",
+            "region_name": "경기도",
+            "undervotes": 33708,
+            "district_code": 10410004,
+            "electorates": 1487049,
+            "result": [
+              {
+                "voterate": 37.83,
+                "name_kr": "조평호",
+                "votenum": 256135
+              },
+              {
+                "voterate": 30.99,
+                "name_kr": "최운용",
+                "votenum": 209813
+              },
+              {
+                "voterate": 31.17,
+                "name_kr": "유옥희",
+                "votenum": 211010
+              }
+            ],
+            "counted_votes": 710666,
+            "valid_votes": 676958,
+            "blank_ballots": 776383,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 4,
+            "district_name": "경기도 제5선거구",
+            "region_name": "경기도",
+            "undervotes": 46360,
+            "district_code": 10410005,
+            "electorates": 1600696,
+            "result": [
+              {
+                "voterate": 34.7,
+                "name_kr": "강관희",
+                "votenum": 268014
+              },
+              {
+                "voterate": 26.19,
+                "name_kr": "조현무",
+                "votenum": 202271
+              },
+              {
+                "voterate": 16.3,
+                "name_kr": "이병진",
+                "votenum": 125883
+              },
+              {
+                "voterate": 22.79,
+                "name_kr": "류귀현",
+                "votenum": 176033
+              }
+            ],
+            "counted_votes": 818561,
+            "valid_votes": 772201,
+            "blank_ballots": 782135,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 4,
+            "district_name": "경기도 제6선거구",
+            "region_name": "경기도",
+            "undervotes": 39182,
+            "district_code": 10410006,
+            "electorates": 1313344,
+            "result": [
+              {
+                "voterate": 27.57,
+                "name_kr": "박상훈",
+                "votenum": 179262
+              },
+              {
+                "voterate": 37.33,
+                "name_kr": "최창의",
+                "votenum": 242701
+              },
+              {
+                "voterate": 10.07,
+                "name_kr": "정명선",
+                "votenum": 65493
+              },
+              {
+                "voterate": 25.02,
+                "name_kr": "정헌모",
+                "votenum": 162690
+              }
+            ],
+            "counted_votes": 689328,
+            "valid_votes": 650146,
+            "blank_ballots": 624016,
+            "nth": 5
+          },
+          {
+            "region_code": 4100,
+            "cand_no": 3,
+            "district_name": "경기도 제7선거구",
+            "region_name": "경기도",
+            "undervotes": 41274,
+            "district_code": 10410007,
+            "electorates": 1068384,
+            "result": [
+              {
+                "voterate": 36.75,
+                "name_kr": "문형호",
+                "votenum": 193747
+              },
+              {
+                "voterate": 35.49,
+                "name_kr": "최의석",
+                "votenum": 187130
+              },
+              {
+                "voterate": 27.75,
+                "name_kr": "지정환",
+                "votenum": 146303
+              }
+            ],
+            "counted_votes": 568454,
+            "valid_votes": 527180,
+            "blank_ballots": 499930,
+            "nth": 5
+          }
+        ],
+        "region_code": 4100,
+        "region_name": "경기도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4200,
+            "cand_no": 5,
+            "district_name": "강원도 제1선거구",
+            "region_name": "강원도",
+            "undervotes": 10662,
+            "district_code": 10420001,
+            "electorates": 279710,
+            "result": [
+              {
+                "voterate": 30.01,
+                "name_kr": "유창옥",
+                "votenum": 49035
+              },
+              {
+                "voterate": 20.89,
+                "name_kr": "사준환",
+                "votenum": 34127
+              },
+              {
+                "voterate": 10.27,
+                "name_kr": "김동림",
+                "votenum": 16777
+              },
+              {
+                "voterate": 19.49,
+                "name_kr": "강금주",
+                "votenum": 31848
+              },
+              {
+                "voterate": 19.32,
+                "name_kr": "김종열",
+                "votenum": 31563
+              }
+            ],
+            "counted_votes": 174012,
+            "valid_votes": 163350,
+            "blank_ballots": 105698,
+            "nth": 5
+          },
+          {
+            "region_code": 4200,
+            "cand_no": 3,
+            "district_name": "강원도 제2선거구",
+            "region_name": "강원도",
+            "undervotes": 11208,
+            "district_code": 10420002,
+            "electorates": 326604,
+            "result": [
+              {
+                "voterate": 36.27,
+                "name_kr": "허만봉",
+                "votenum": 66315
+              },
+              {
+                "voterate": 42.24,
+                "name_kr": "이문희",
+                "votenum": 77229
+              },
+              {
+                "voterate": 21.47,
+                "name_kr": "한상철",
+                "votenum": 39268
+              }
+            ],
+            "counted_votes": 194020,
+            "valid_votes": 182812,
+            "blank_ballots": 132584,
+            "nth": 5
+          },
+          {
+            "region_code": 4200,
+            "cand_no": 2,
+            "district_name": "강원도 제3선거구",
+            "region_name": "강원도",
+            "undervotes": 11100,
+            "district_code": 10420003,
+            "electorates": 240272,
+            "result": [
+              {
+                "voterate": 62.59,
+                "name_kr": "최돈국",
+                "votenum": 85830
+              },
+              {
+                "voterate": 37.4,
+                "name_kr": "김형욱",
+                "votenum": 51286
+              }
+            ],
+            "counted_votes": 148216,
+            "valid_votes": 137116,
+            "blank_ballots": 92056,
+            "nth": 5
+          },
+          {
+            "region_code": 4200,
+            "cand_no": 2,
+            "district_name": "강원도 제5선거구",
+            "region_name": "강원도",
+            "undervotes": 6880,
+            "district_code": 10420005,
+            "electorates": 137980,
+            "result": [
+              {
+                "voterate": 55.46,
+                "name_kr": "김세영",
+                "votenum": 46749
+              },
+              {
+                "voterate": 44.53,
+                "name_kr": "윤중학",
+                "votenum": 37533
+              }
+            ],
+            "counted_votes": 91162,
+            "valid_votes": 84282,
+            "blank_ballots": 46818,
+            "nth": 5
+          },
+          {
+            "cand_list": [],
+            "electorates": 0,
+            "candidate_num": 0,
+            "district_name": "강원도 제4선거구",
+            "district_code": 10420004,
+            "valid_vote": 0,
+            "blank_ballot": 0,
+            "counted_vote": 0,
+            "undervote": 0
+          }
+        ],
+        "region_code": 4200,
+        "region_name": "강원도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4300,
+            "cand_no": 2,
+            "district_name": "충청북도 제1선거구",
+            "region_name": "충청북도",
+            "undervotes": 12942,
+            "district_code": 10430001,
+            "electorates": 297967,
+            "result": [
+              {
+                "voterate": 50.49,
+                "name_kr": "하재성",
+                "votenum": 85072
+              },
+              {
+                "voterate": 49.5,
+                "name_kr": "홍성범",
+                "votenum": 83420
+              }
+            ],
+            "counted_votes": 181434,
+            "valid_votes": 168492,
+            "blank_ballots": 116533,
+            "nth": 5
+          },
+          {
+            "region_code": 4300,
+            "cand_no": 4,
+            "district_name": "충청북도 제2선거구",
+            "region_name": "충청북도",
+            "undervotes": 7220,
+            "district_code": 10430002,
+            "electorates": 296977,
+            "result": [
+              {
+                "voterate": 38.93,
+                "name_kr": "강호천",
+                "votenum": 59433
+              },
+              {
+                "voterate": 41.04,
+                "name_kr": "박상필",
+                "votenum": 62666
+              },
+              {
+                "voterate": 14.3,
+                "name_kr": "박종대",
+                "votenum": 21836
+              },
+              {
+                "voterate": 5.71,
+                "name_kr": "장형원",
+                "votenum": 8730
+              }
+            ],
+            "counted_votes": 159885,
+            "valid_votes": 152665,
+            "blank_ballots": 137092,
+            "nth": 5
+          },
+          {
+            "region_code": 4300,
+            "cand_no": 3,
+            "district_name": "충청북도 제3선거구",
+            "region_name": "충청북도",
+            "undervotes": 10728,
+            "district_code": 10430003,
+            "electorates": 295068,
+            "result": [
+              {
+                "voterate": 41.35,
+                "name_kr": "전응천",
+                "votenum": 68744
+              },
+              {
+                "voterate": 36.23,
+                "name_kr": "김문배",
+                "votenum": 60228
+              },
+              {
+                "voterate": 22.41,
+                "name_kr": "고동희",
+                "votenum": 37260
+              }
+            ],
+            "counted_votes": 176960,
+            "valid_votes": 166232,
+            "blank_ballots": 118108,
+            "nth": 5
+          },
+          {
+            "region_code": 4300,
+            "cand_no": 4,
+            "district_name": "충청북도 제4선거구",
+            "region_name": "충청북도",
+            "undervotes": 12628,
+            "district_code": 10430004,
+            "electorates": 293799,
+            "result": [
+              {
+                "voterate": 35.61,
+                "name_kr": "장병학",
+                "votenum": 58957
+              },
+              {
+                "voterate": 29.01,
+                "name_kr": "서수웅",
+                "votenum": 48031
+              },
+              {
+                "voterate": 17.15,
+                "name_kr": "권혁풍",
+                "votenum": 28407
+              },
+              {
+                "voterate": 18.21,
+                "name_kr": "김윤기",
+                "votenum": 30152
+              }
+            ],
+            "counted_votes": 178175,
+            "valid_votes": 165547,
+            "blank_ballots": 115624,
+            "nth": 5
+          }
+        ],
+        "region_code": 4300,
+        "region_name": "충청북도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4400,
+            "cand_no": 3,
+            "district_name": "충청남도 제1선거구",
+            "region_name": "충청남도",
+            "undervotes": 9510,
+            "district_code": 10440001,
+            "electorates": 404722,
+            "result": [
+              {
+                "voterate": 44.32,
+                "name_kr": "김지철",
+                "votenum": 81636
+              },
+              {
+                "voterate": 30.3,
+                "name_kr": "류승호",
+                "votenum": 55809
+              },
+              {
+                "voterate": 25.37,
+                "name_kr": "조동호",
+                "votenum": 46743
+              }
+            ],
+            "counted_votes": 193698,
+            "valid_votes": 184188,
+            "blank_ballots": 211024,
+            "nth": 5
+          },
+          {
+            "region_code": 4400,
+            "cand_no": 2,
+            "district_name": "충청남도 제2선거구",
+            "region_name": "충청남도",
+            "undervotes": 16897,
+            "district_code": 10440002,
+            "electorates": 359686,
+            "result": [
+              {
+                "voterate": 42.96,
+                "name_kr": "이우룡",
+                "votenum": 78194
+              },
+              {
+                "voterate": 57.03,
+                "name_kr": "이은철",
+                "votenum": 103796
+              }
+            ],
+            "counted_votes": 198887,
+            "valid_votes": 181990,
+            "blank_ballots": 160799,
+            "nth": 5
+          },
+          {
+            "region_code": 4400,
+            "cand_no": 3,
+            "district_name": "충청남도 제3선거구",
+            "region_name": "충청남도",
+            "undervotes": 16981,
+            "district_code": 10440003,
+            "electorates": 255338,
+            "result": [
+              {
+                "voterate": 38.29,
+                "name_kr": "임춘근",
+                "votenum": 55310
+              },
+              {
+                "voterate": 34.7,
+                "name_kr": "장광순",
+                "votenum": 50131
+              },
+              {
+                "voterate": 27.0,
+                "name_kr": "채광호",
+                "votenum": 39002
+              }
+            ],
+            "counted_votes": 161424,
+            "valid_votes": 144443,
+            "blank_ballots": 93914,
+            "nth": 5
+          },
+          {
+            "region_code": 4400,
+            "cand_no": 4,
+            "district_name": "충청남도 제4선거구",
+            "region_name": "충청남도",
+            "undervotes": 13396,
+            "district_code": 10440004,
+            "electorates": 284968,
+            "result": [
+              {
+                "voterate": 31.87,
+                "name_kr": "명노희",
+                "votenum": 47541
+              },
+              {
+                "voterate": 30.29,
+                "name_kr": "유장식",
+                "votenum": 45194
+              },
+              {
+                "voterate": 21.45,
+                "name_kr": "정헌찬",
+                "votenum": 32003
+              },
+              {
+                "voterate": 16.37,
+                "name_kr": "이상배",
+                "votenum": 24421
+              }
+            ],
+            "counted_votes": 162555,
+            "valid_votes": 149159,
+            "blank_ballots": 122413,
+            "nth": 5
+          },
+          {
+            "region_code": 4400,
+            "cand_no": 4,
+            "district_name": "충청남도 제5선거구",
+            "region_name": "충청남도",
+            "undervotes": 18131,
+            "district_code": 10440005,
+            "electorates": 290873,
+            "result": [
+              {
+                "voterate": 33.8,
+                "name_kr": "조남권",
+                "votenum": 56549
+              },
+              {
+                "voterate": 21.02,
+                "name_kr": "최태호",
+                "votenum": 35174
+              },
+              {
+                "voterate": 26.46,
+                "name_kr": "남우직",
+                "votenum": 44264
+              },
+              {
+                "voterate": 18.69,
+                "name_kr": "서대식",
+                "votenum": 31276
+              }
+            ],
+            "counted_votes": 185394,
+            "valid_votes": 167263,
+            "blank_ballots": 105479,
+            "nth": 5
+          }
+        ],
+        "region_code": 4400,
+        "region_name": "충청남도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4500,
+            "cand_no": 3,
+            "district_name": "전라북도 제1선거구",
+            "region_name": "전라북도",
+            "undervotes": 11236,
+            "district_code": 10450001,
+            "electorates": 330196,
+            "result": [
+              {
+                "voterate": 35.84,
+                "name_kr": "최남렬",
+                "votenum": 61269
+              },
+              {
+                "voterate": 32.06,
+                "name_kr": "권진홍",
+                "votenum": 54806
+              },
+              {
+                "voterate": 32.08,
+                "name_kr": "최병균",
+                "votenum": 54830
+              }
+            ],
+            "counted_votes": 182141,
+            "valid_votes": 170905,
+            "blank_ballots": 148055,
+            "nth": 5
+          },
+          {
+            "region_code": 4500,
+            "cand_no": 4,
+            "district_name": "전라북도 제2선거구",
+            "region_name": "전라북도",
+            "undervotes": 15611,
+            "district_code": 10450002,
+            "electorates": 444735,
+            "result": [
+              {
+                "voterate": 20.95,
+                "name_kr": "채수철",
+                "votenum": 45856
+              },
+              {
+                "voterate": 33.94,
+                "name_kr": "유기태",
+                "votenum": 74280
+              },
+              {
+                "voterate": 30.24,
+                "name_kr": "김상현",
+                "votenum": 66175
+              },
+              {
+                "voterate": 14.86,
+                "name_kr": "유종태",
+                "votenum": 32519
+              }
+            ],
+            "counted_votes": 234441,
+            "valid_votes": 218830,
+            "blank_ballots": 210294,
+            "nth": 5
+          },
+          {
+            "region_code": 4500,
+            "cand_no": 3,
+            "district_name": "전라북도 제3선거구",
+            "region_name": "전라북도",
+            "undervotes": 23157,
+            "district_code": 10450003,
+            "electorates": 285545,
+            "result": [
+              {
+                "voterate": 42.65,
+                "name_kr": "박용성",
+                "votenum": 60717
+              },
+              {
+                "voterate": 37.84,
+                "name_kr": "문원익",
+                "votenum": 53867
+              },
+              {
+                "voterate": 19.49,
+                "name_kr": "이위성",
+                "votenum": 27748
+              }
+            ],
+            "counted_votes": 165489,
+            "valid_votes": 142332,
+            "blank_ballots": 120056,
+            "nth": 5
+          },
+          {
+            "region_code": 4500,
+            "cand_no": 2,
+            "district_name": "전라북도 제4선거구",
+            "region_name": "전라북도",
+            "undervotes": 11864,
+            "district_code": 10450004,
+            "electorates": 196882,
+            "result": [
+              {
+                "voterate": 47.19,
+                "name_kr": "김환철",
+                "votenum": 59043
+              },
+              {
+                "voterate": 52.8,
+                "name_kr": "김규령",
+                "votenum": 66073
+              }
+            ],
+            "counted_votes": 136980,
+            "valid_votes": 125116,
+            "blank_ballots": 59902,
+            "nth": 5
+          },
+          {
+            "region_code": 4500,
+            "cand_no": 2,
+            "district_name": "전라북도 제5선거구",
+            "region_name": "전라북도",
+            "undervotes": 12194,
+            "district_code": 10450005,
+            "electorates": 185447,
+            "result": [
+              {
+                "voterate": 46.15,
+                "name_kr": "서혁춘",
+                "votenum": 57640
+              },
+              {
+                "voterate": 53.84,
+                "name_kr": "김정호",
+                "votenum": 67252
+              }
+            ],
+            "counted_votes": 137086,
+            "valid_votes": 124892,
+            "blank_ballots": 48361,
+            "nth": 5
+          }
+        ],
+        "region_code": 4500,
+        "region_name": "전라북도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4600,
+            "cand_no": 4,
+            "district_name": "전라남도 제1선거구",
+            "region_name": "전라남도",
+            "undervotes": 19543,
+            "district_code": 10460001,
+            "electorates": 360619,
+            "result": [
+              {
+                "voterate": 31.02,
+                "name_kr": "박병학",
+                "votenum": 62517
+              },
+              {
+                "voterate": 22.59,
+                "name_kr": "김봉근",
+                "votenum": 45533
+              },
+              {
+                "voterate": 18.59,
+                "name_kr": "김성철",
+                "votenum": 37473
+              },
+              {
+                "voterate": 27.77,
+                "name_kr": "오영석",
+                "votenum": 55964
+              }
+            ],
+            "counted_votes": 221030,
+            "valid_votes": 201487,
+            "blank_ballots": 139589,
+            "nth": 5
+          },
+          {
+            "region_code": 4600,
+            "cand_no": 4,
+            "district_name": "전라남도 제2선거구",
+            "region_name": "전라남도",
+            "undervotes": 6164,
+            "district_code": 10460002,
+            "electorates": 225147,
+            "result": [
+              {
+                "voterate": 30.32,
+                "name_kr": "윤문칠",
+                "votenum": 37759
+              },
+              {
+                "voterate": 22.49,
+                "name_kr": "김성",
+                "votenum": 28007
+              },
+              {
+                "voterate": 29.57,
+                "name_kr": "한창진",
+                "votenum": 36826
+              },
+              {
+                "voterate": 17.59,
+                "name_kr": "조철규",
+                "votenum": 21907
+              }
+            ],
+            "counted_votes": 130663,
+            "valid_votes": 124499,
+            "blank_ballots": 94484,
+            "nth": 5
+          },
+          {
+            "region_code": 4600,
+            "cand_no": 3,
+            "district_name": "전라남도 제3선거구",
+            "region_name": "전라남도",
+            "undervotes": 17478,
+            "district_code": 10460003,
+            "electorates": 305067,
+            "result": [
+              {
+                "voterate": 33.73,
+                "name_kr": "김동철",
+                "votenum": 61588
+              },
+              {
+                "voterate": 32.81,
+                "name_kr": "임영은",
+                "votenum": 59914
+              },
+              {
+                "voterate": 33.45,
+                "name_kr": "한이춘",
+                "votenum": 61076
+              }
+            ],
+            "counted_votes": 200056,
+            "valid_votes": 182578,
+            "blank_ballots": 105011,
+            "nth": 5
+          },
+          {
+            "region_code": 4600,
+            "cand_no": 4,
+            "district_name": "전라남도 제4선거구",
+            "region_name": "전라남도",
+            "undervotes": 19691,
+            "district_code": 10460004,
+            "electorates": 326767,
+            "result": [
+              {
+                "voterate": 31.06,
+                "name_kr": "김목",
+                "votenum": 61997
+              },
+              {
+                "voterate": 33.77,
+                "name_kr": "나승옥",
+                "votenum": 67417
+              },
+              {
+                "voterate": 19.03,
+                "name_kr": "유제원",
+                "votenum": 37999
+              },
+              {
+                "voterate": 16.12,
+                "name_kr": "박봉민",
+                "votenum": 32187
+              }
+            ],
+            "counted_votes": 219291,
+            "valid_votes": 199600,
+            "blank_ballots": 107476,
+            "nth": 5
+          },
+          {
+            "region_code": 4600,
+            "cand_no": 4,
+            "district_name": "전라남도 제5선거구",
+            "region_name": "전라남도",
+            "undervotes": 14620,
+            "district_code": 10460005,
+            "electorates": 287302,
+            "result": [
+              {
+                "voterate": 23.78,
+                "name_kr": "민병흥",
+                "votenum": 43220
+              },
+              {
+                "voterate": 30.6,
+                "name_kr": "배병채",
+                "votenum": 55598
+              },
+              {
+                "voterate": 27.36,
+                "name_kr": "박두규",
+                "votenum": 49723
+              },
+              {
+                "voterate": 18.23,
+                "name_kr": "허영석",
+                "votenum": 33132
+              }
+            ],
+            "counted_votes": 196293,
+            "valid_votes": 181673,
+            "blank_ballots": 91009,
+            "nth": 5
+          }
+        ],
+        "region_code": 4600,
+        "region_name": "전라남도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4700,
+            "cand_no": 3,
+            "district_name": "경상북도 제1선거구",
+            "region_name": "경상북도",
+            "undervotes": 13658,
+            "district_code": 10470001,
+            "electorates": 441531,
+            "result": [
+              {
+                "voterate": 46.48,
+                "name_kr": "김원석",
+                "votenum": 107964
+              },
+              {
+                "voterate": 34.02,
+                "name_kr": "이해우",
+                "votenum": 79032
+              },
+              {
+                "voterate": 19.48,
+                "name_kr": "이상원",
+                "votenum": 45256
+              }
+            ],
+            "counted_votes": 245910,
+            "valid_votes": 232252,
+            "blank_ballots": 195621,
+            "nth": 5
+          },
+          {
+            "region_code": 4700,
+            "cand_no": 2,
+            "district_name": "경상북도 제2선거구",
+            "region_name": "경상북도",
+            "undervotes": 61350,
+            "district_code": 10470002,
+            "electorates": 520183,
+            "result": [
+              {
+                "voterate": 65.66,
+                "name_kr": "최우섭",
+                "votenum": 154848
+              },
+              {
+                "voterate": 34.33,
+                "name_kr": "천태오",
+                "votenum": 80984
+              }
+            ],
+            "counted_votes": 297182,
+            "valid_votes": 235832,
+            "blank_ballots": 223001,
+            "nth": 5
+          },
+          {
+            "region_code": 4700,
+            "cand_no": 2,
+            "district_name": "경상북도 제3선거구",
+            "region_name": "경상북도",
+            "undervotes": 19993,
+            "district_code": 10470003,
+            "electorates": 355205,
+            "result": [
+              {
+                "voterate": 50.95,
+                "name_kr": "추재천",
+                "votenum": 103179
+              },
+              {
+                "voterate": 49.04,
+                "name_kr": "권시태",
+                "votenum": 99293
+              }
+            ],
+            "counted_votes": 222465,
+            "valid_votes": 202472,
+            "blank_ballots": 132740,
+            "nth": 5
+          },
+          {
+            "region_code": 4700,
+            "cand_no": 3,
+            "district_name": "경상북도 제4선거구",
+            "region_name": "경상북도",
+            "undervotes": 30619,
+            "district_code": 10470004,
+            "electorates": 439907,
+            "result": [
+              {
+                "voterate": 45.39,
+                "name_kr": "홍광중",
+                "votenum": 123591
+              },
+              {
+                "voterate": 31.81,
+                "name_kr": "김호열",
+                "votenum": 86633
+              },
+              {
+                "voterate": 22.78,
+                "name_kr": "강성해",
+                "votenum": 62042
+              }
+            ],
+            "counted_votes": 302885,
+            "valid_votes": 272266,
+            "blank_ballots": 137022,
+            "nth": 5
+          },
+          {
+            "region_code": 4700,
+            "cand_no": 3,
+            "district_name": "경상북도 제5선거구",
+            "region_name": "경상북도",
+            "undervotes": 14106,
+            "district_code": 10470005,
+            "electorates": 366079,
+            "result": [
+              {
+                "voterate": 20.91,
+                "name_kr": "고재경",
+                "votenum": 37254
+              },
+              {
+                "voterate": 32.79,
+                "name_kr": "박수봉",
+                "votenum": 58410
+              },
+              {
+                "voterate": 46.28,
+                "name_kr": "박태환",
+                "votenum": 82438
+              }
+            ],
+            "counted_votes": 192208,
+            "valid_votes": 178102,
+            "blank_ballots": 173871,
+            "nth": 5
+          }
+        ],
+        "region_code": 4700,
+        "region_name": "경상북도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4800,
+            "cand_no": 3,
+            "district_name": "경상남도 제1선거구",
+            "region_name": "경상남도",
+            "undervotes": 21051,
+            "district_code": 10480001,
+            "electorates": 513285,
+            "result": [
+              {
+                "voterate": 37.88,
+                "name_kr": "정윤영",
+                "votenum": 112760
+              },
+              {
+                "voterate": 40.33,
+                "name_kr": "조형래",
+                "votenum": 120045
+              },
+              {
+                "voterate": 21.77,
+                "name_kr": "정인선",
+                "votenum": 64820
+              }
+            ],
+            "counted_votes": 318676,
+            "valid_votes": 297625,
+            "blank_ballots": 194609,
+            "nth": 5
+          },
+          {
+            "region_code": 4800,
+            "cand_no": 2,
+            "district_name": "경상남도 제2선거구",
+            "region_name": "경상남도",
+            "undervotes": 16330,
+            "district_code": 10480002,
+            "electorates": 402009,
+            "result": [
+              {
+                "voterate": 48.2,
+                "name_kr": "강수명",
+                "votenum": 112536
+              },
+              {
+                "voterate": 51.79,
+                "name_kr": "김종수",
+                "votenum": 120896
+              }
+            ],
+            "counted_votes": 249762,
+            "valid_votes": 233432,
+            "blank_ballots": 152247,
+            "nth": 5
+          },
+          {
+            "region_code": 4800,
+            "cand_no": 3,
+            "district_name": "경상남도 제3선거구",
+            "region_name": "경상남도",
+            "undervotes": 19651,
+            "district_code": 10480003,
+            "electorates": 414085,
+            "result": [
+              {
+                "voterate": 37.11,
+                "name_kr": "박성조",
+                "votenum": 98586
+              },
+              {
+                "voterate": 37.54,
+                "name_kr": "조재규",
+                "votenum": 99748
+              },
+              {
+                "voterate": 25.34,
+                "name_kr": "허두천",
+                "votenum": 67320
+              }
+            ],
+            "counted_votes": 285305,
+            "valid_votes": 265654,
+            "blank_ballots": 128780,
+            "nth": 5
+          },
+          {
+            "region_code": 4800,
+            "cand_no": 4,
+            "district_name": "경상남도 제4선거구",
+            "region_name": "경상남도",
+            "undervotes": 23242,
+            "district_code": 10480004,
+            "electorates": 679856,
+            "result": [
+              {
+                "voterate": 24.64,
+                "name_kr": "반해동",
+                "votenum": 86725
+              },
+              {
+                "voterate": 28.61,
+                "name_kr": "성경호",
+                "votenum": 100696
+              },
+              {
+                "voterate": 18.76,
+                "name_kr": "김종팔",
+                "votenum": 66019
+              },
+              {
+                "voterate": 27.98,
+                "name_kr": "송광복",
+                "votenum": 98467
+              }
+            ],
+            "counted_votes": 375149,
+            "valid_votes": 351907,
+            "blank_ballots": 304707,
+            "nth": 5
+          },
+          {
+            "region_code": 4800,
+            "cand_no": 3,
+            "district_name": "경상남도 제5선거구",
+            "region_name": "경상남도",
+            "undervotes": 24960,
+            "district_code": 10480005,
+            "electorates": 497158,
+            "result": [
+              {
+                "voterate": 48.66,
+                "name_kr": "정동한",
+                "votenum": 144076
+              },
+              {
+                "voterate": 35.1,
+                "name_kr": "옥정호",
+                "votenum": 103908
+              },
+              {
+                "voterate": 16.23,
+                "name_kr": "손만식",
+                "votenum": 48050
+              }
+            ],
+            "counted_votes": 320994,
+            "valid_votes": 296034,
+            "blank_ballots": 176164,
+            "nth": 5
+          }
+        ],
+        "region_code": 4800,
+        "region_name": "경상남도"
+      },
+      {
+        "district_result": [
+          {
+            "region_code": 4900,
+            "cand_no": 2,
+            "district_name": "제주특별자치도 제1선거구",
+            "region_name": "제주특별자치도",
+            "undervotes": 1912,
+            "district_code": 10490101,
+            "electorates": 91397,
+            "result": [
+              {
+                "voterate": 56.89,
+                "name_kr": "윤두호",
+                "votenum": 33963
+              },
+              {
+                "voterate": 43.1,
+                "name_kr": "강남진",
+                "votenum": 25733
+              }
+            ],
+            "counted_votes": 61608,
+            "valid_votes": 59696,
+            "blank_ballots": 29789,
+            "nth": 5
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 3,
+            "district_name": "제주특별자치도 제2선거구",
+            "region_name": "제주특별자치도",
+            "undervotes": 1458,
+            "district_code": 10490102,
+            "electorates": 90354,
+            "result": [
+              {
+                "voterate": 32.26,
+                "name_kr": "강무중",
+                "votenum": 17707
+              },
+              {
+                "voterate": 45.29,
+                "name_kr": "이석문",
+                "votenum": 24859
+              },
+              {
+                "voterate": 22.44,
+                "name_kr": "정영배",
+                "votenum": 12320
+              }
+            ],
+            "counted_votes": 56344,
+            "valid_votes": 54886,
+            "blank_ballots": 34010,
+            "nth": 5
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 3,
+            "district_name": "제주특별자치도 제3선거구",
+            "region_name": "제주특별자치도",
+            "undervotes": 2395,
+            "district_code": 10490103,
+            "electorates": 124014,
+            "result": [
+              {
+                "voterate": 35.56,
+                "name_kr": "강경찬",
+                "votenum": 26747
+              },
+              {
+                "voterate": 32.03,
+                "name_kr": "손승천",
+                "votenum": 24098
+              },
+              {
+                "voterate": 32.4,
+                "name_kr": "김승근",
+                "votenum": 24371
+              }
+            ],
+            "counted_votes": 77611,
+            "valid_votes": 75216,
+            "blank_ballots": 46403,
+            "nth": 5
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 2,
+            "district_name": "제주특별자치도 제4선거구",
+            "region_name": "제주특별자치도",
+            "undervotes": 1125,
+            "district_code": 10490201,
+            "electorates": 60582,
+            "result": [
+              {
+                "voterate": 59.11,
+                "name_kr": "오대익",
+                "votenum": 24181
+              },
+              {
+                "voterate": 40.88,
+                "name_kr": "양상홍",
+                "votenum": 16723
+              }
+            ],
+            "counted_votes": 42029,
+            "valid_votes": 40904,
+            "blank_ballots": 18553,
+            "nth": 5
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 2,
+            "district_name": "제주특별자치도 제5선거구",
+            "region_name": "제주특별자치도",
+            "undervotes": 1076,
+            "district_code": 10490202,
+            "electorates": 57751,
+            "result": [
+              {
+                "voterate": 55.76,
+                "name_kr": "문석호",
+                "votenum": 20918
+              },
+              {
+                "voterate": 44.23,
+                "name_kr": "지하식",
+                "votenum": 16596
+              }
+            ],
+            "counted_votes": 38590,
+            "valid_votes": 37514,
+            "blank_ballots": 19161,
+            "nth": 5
+          }
+        ],
+        "region_code": 4900,
+        "region_name": "제주특별자치도"
+      }
+    ],
+    "nth": 5
+  }
+]

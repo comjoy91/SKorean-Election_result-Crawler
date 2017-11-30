@@ -1,0 +1,160 @@
+[
+  {
+    "election_type": "local_eduParliament",
+    "candidate_type": "independent_candidate",
+    "results": [
+      {
+        "district_result": [
+          {
+            "region_code": 4900,
+            "cand_no": 2,
+            "district_name": "제주도교육의원 제1선거구",
+            "region_name": "제주도",
+            "undervotes": 1442,
+            "district_code": 8490101,
+            "electorates": 106158,
+            "result": [
+              {
+                "voterate": 58.85,
+                "name_kr": "고점유",
+                "votenum": 40178
+              },
+              {
+                "voterate": 41.14,
+                "name_kr": "오창수",
+                "votenum": 28089
+              }
+            ],
+            "counted_votes": 69709,
+            "valid_votes": 68267,
+            "blank_ballots": 36449,
+            "nth": 4
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 4,
+            "district_name": "제주도교육의원 제2선거구",
+            "region_name": "제주도",
+            "undervotes": 1492,
+            "district_code": 8490102,
+            "electorates": 112610,
+            "result": [
+              {
+                "voterate": 30.74,
+                "name_kr": "강무중",
+                "votenum": 20748
+              },
+              {
+                "voterate": 25.61,
+                "name_kr": "고병련",
+                "votenum": 17289
+              },
+              {
+                "voterate": 22.43,
+                "name_kr": "고정언",
+                "votenum": 15141
+              },
+              {
+                "voterate": 21.2,
+                "name_kr": "박경후",
+                "votenum": 14315
+              }
+            ],
+            "counted_votes": 68985,
+            "valid_votes": 67493,
+            "blank_ballots": 43625,
+            "nth": 4
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 3,
+            "district_name": "제주도교육의원 제3선거구",
+            "region_name": "제주도",
+            "undervotes": 1621,
+            "district_code": 8490203,
+            "electorates": 74387,
+            "result": [
+              {
+                "voterate": 34.3,
+                "name_kr": "강남진",
+                "votenum": 17160
+              },
+              {
+                "voterate": 32.97,
+                "name_kr": "김봉익",
+                "votenum": 16495
+              },
+              {
+                "voterate": 32.72,
+                "name_kr": "김봉추",
+                "votenum": 16373
+              }
+            ],
+            "counted_votes": 51649,
+            "valid_votes": 50028,
+            "blank_ballots": 22738,
+            "nth": 4
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 3,
+            "district_name": "제주도교육의원 제4선거구",
+            "region_name": "제주도",
+            "undervotes": 806,
+            "district_code": 8490304,
+            "electorates": 62209,
+            "result": [
+              {
+                "voterate": 39.49,
+                "name_kr": "고태우",
+                "votenum": 16889
+              },
+              {
+                "voterate": 32.07,
+                "name_kr": "김형탁",
+                "votenum": 13714
+              },
+              {
+                "voterate": 28.42,
+                "name_kr": "이성무",
+                "votenum": 12155
+              }
+            ],
+            "counted_votes": 43564,
+            "valid_votes": 42758,
+            "blank_ballots": 18645,
+            "nth": 4
+          },
+          {
+            "region_code": 4900,
+            "cand_no": 2,
+            "district_name": "제주도교육의원 제5선거구",
+            "region_name": "제주도",
+            "undervotes": 1221,
+            "district_code": 8490405,
+            "electorates": 56498,
+            "result": [
+              {
+                "voterate": 43.54,
+                "name_kr": "강길정",
+                "votenum": 18228
+              },
+              {
+                "voterate": 56.45,
+                "name_kr": "지하식",
+                "votenum": 23632
+              }
+            ],
+            "counted_votes": 43081,
+            "valid_votes": 41860,
+            "blank_ballots": 13417,
+            "nth": 4
+          }
+        ],
+        "region_code": 4900,
+        "region_name": "제주도"
+      }
+    ],
+    "nth": 4
+  }
+]

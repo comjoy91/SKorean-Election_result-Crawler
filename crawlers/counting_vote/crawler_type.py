@@ -22,9 +22,6 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 		else:
 			raise InvalidCrawlerError('counting_vote', nth, election_name, electionType, target, target_eng, target_kor)
 		crawler.candidate_type = 'party_candidate'
-		if hasattr(crawler, 'next_crawler'):
-			crawler.next_crawler.candidate_type = 'party_list'
-			crawler.next_crawler.nationalSum = True
 
 	elif target == 'local-pp':
 		if 1 <= nth <= 2:
@@ -43,8 +40,6 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 		else:
 			raise InvalidCrawlerError('counting_vote', nth, election_name, electionType, target, target_eng, target_kor)
 		crawler.candidate_type = 'party_candidate'
-		if hasattr(crawler, 'next_crawler'):
-			crawler.next_crawler.candidate_type = 'party_list'
 
 	elif target == 'local-mp':
 		if 1 <= nth <= 3:
@@ -60,8 +55,6 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 		else:
 			raise InvalidCrawlerError('counting_vote', nth, election_name, electionType, target, target_eng, target_kor)
 		crawler.candidate_type = 'party_candidate'
-		if hasattr(crawler, 'next_crawler'):
-			crawler.next_crawler.candidate_type = 'party_list'
 
 	elif target == 'local-ep':
 		if 1 <= nth <= 3:
@@ -80,14 +73,14 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 			raise NotImplementedError('The %d-th presidential election(in %s) was held as indirect election: We cannot crawl the data.' % (int(nth), election_name))
 		elif 1 <= nth <= 16:
 			crawler = Proportional_CountCrawler_GuOld(int(nth), election_name, electionType, target)
-		elif 17 <= nth <= 18:
+		elif 17 <= nth <= 19:
 			crawler = Proportional_CountCrawler_Old(int(nth), election_name, electionType, target)
-		elif nth == 19:
-			crawler = Proportional_CountCrawler_Recent(int(nth), election_name, electionType, target)
+		elif nth == 20:
+			raise InvalidCrawlerError('counting_vote', nth, election_name, electionType, target, target_eng, target_kor)
+			#"최근선거"로 들어갈 때의 code: crawler = Proportional_CountCrawler_Recent(int(nth), election_name, electionType, target)
 		else:
 			raise InvalidCrawlerError('counting_vote', nth, election_name, electionType, target, target_eng, target_kor)
 		crawler.candidate_type = 'party_candidate'
-		crawler.nationalSum = True
 
 	elif target == 'local-pa':
 		if 1 <= nth <= 3:
@@ -135,9 +128,10 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 
 	if hasattr(crawler, 'next_crawler'):
 		crawler.next_crawler.nth = nth
-		crawler.next_crawler.target = target
+		crawler.next_crawler.target = target+'_PR'
 		crawler.next_crawler.target_eng = target_eng+'_PR'
 		crawler.next_crawler.target_kor = target_kor+' 비례대표'
+		crawler.next_crawler.candidate_type = 'party_list'
 
 	return crawler
 
