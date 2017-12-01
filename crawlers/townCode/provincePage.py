@@ -37,7 +37,6 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:
 			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
-			crawler.urlPath_PR_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
 			crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=9)
 		elif nth == 7:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)

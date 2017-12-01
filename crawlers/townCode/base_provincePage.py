@@ -17,33 +17,35 @@ class BaseCrawler_province(object):
 	def parse_city(self, url, params, target, target_kor, nth, city_code=None, city_name=None):
 		_town_list = get_json(url['town'], params['town'])['jsonResult']['body']
 		_town_dict = dict()
-		_town_dict_ORDERNAME = dict()
-		for x in _town_list:
-			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
-				x['CODE'] = int(x['CODE'])
-			_town_dict[x['NAME']] = x['CODE']
-
-		if target=='president' and nth==15 or \
-			target=='local-pa' and nth==1 or \
-			target=='local-pa' and nth==2:
+		if (target=='president' and nth <= 15) or \
+			(target=='assembly' and nth <= 16) or \
+			(target=='local-ma' and nth <= 3) or \
+			(target=='local-mp' and nth <= 3) or \
+			(target=='local-pa' and nth <= 3) or \
+			(target=='local-pp' and nth <= 3):
 			for x in _town_list:
-				_town_dict_ORDERNAME[x['NAME']] = int(x['ORDERNAME'])
+				x['CODE'] = int(x['CODE'])
+				if x['CODE'] < 10000:
+					_town_dict[x['NAME']] = x['CODE']*10 + 3
+				else:
+					_town_dict[x['NAME']] = x['CODE']
+		else:
+			for x in _town_list:
+				x['CODE'] = int(x['CODE'])
+				_town_dict[x['NAME']] = x['CODE']
 
 		_sgg_list = get_json(url['sgg'], params['sgg'])['jsonResult']['body']
 		_sgg_dict = dict()
 		for x in _sgg_list:
-			if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
-				x['CODE'] = int(x['CODE'])
+			x['CODE'] = int(x['CODE'])
 			if not x['NAME'] in _sgg_dict:
 				_sgg_dict[x['NAME']] = []
 			_sgg_dict[x['NAME']].append(x['CODE'])
 
 		_PR_sgg_dict = dict()
-		if hasattr(self, 'urlParam_PR_sgg_list'):
+		if 'PR_sgg' in params:
 			_PR_sgg_list = get_json(url['sgg'], params['PR_sgg'])['jsonResult']['body']
 			for x in _PR_sgg_list:
-				if isinstance(x['CODE'], str): # if x['CODE'] is string type object...
-					x['CODE'] = int(x['CODE'])
 				if not x['NAME'] in _PR_sgg_dict:
 					_PR_sgg_dict[x['NAME']] = []
 				_PR_sgg_dict[x['NAME']].append(x['CODE'])
@@ -52,18 +54,15 @@ class BaseCrawler_province(object):
 		if len(_sgg_list) > 0:
 			_result[0]['consti_list'] = _sgg_list
 			_result[0]['consti_dict'] = _sgg_dict
-		if len(_town_dict_ORDERNAME) > 0:
-			_result[0]['town_dict_ORDERNAME'] = _town_dict_ORDERNAME
 		if len(_PR_sgg_dict) > 0:
 			_result[0]['PR_consti_list'] = _PR_sgg_list
 			_result[0]['PR_consti_dict'] = _PR_sgg_dict
 
 		print('crawled %s election #%d - %s' % (target, self.nth, city_name))
-		print('\t└  %s, %s(%d)...' % ('구시군 행정구역 목록', city_name, len(_town_list)))
-		print('\t└  %s, %s(%d)...' % (target_kor+' 선거구 목록', city_name, len(_sgg_list)))
-		if hasattr(self, 'urlParam_PR_sgg_list'):
-			print('\t└  %s, %s(%d)...' % (target_kor+' 비례대표 선거구(자치구시군) 목록', city_name, len(_PR_sgg_list)))
-		print('')
+		print('\t└  %s, %s(%d)...' % ('구시군 행정구역 목록', city_name, len(_town_dict)))
+		if len(_PR_sgg_dict) > 0:
+			print('\t└  %s, %s(%d)...\n' % (target_kor+' 비례대표 선거구(자치구시군) 목록', city_name, len(_PR_sgg_dict)))
+		print('\t└  %s, %s(%d)...\n' % (target_kor+' 선거구 목록', city_name, len(_sgg_dict)))
 
 		return _result
 
