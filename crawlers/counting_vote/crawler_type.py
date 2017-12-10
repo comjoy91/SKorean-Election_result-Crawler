@@ -189,7 +189,6 @@ class Constituency_CountCrawler_Recent(MultiCityCrawler):
 
 	#def parse_consti(self, consti, city_name=None, district_code=None):
 	#	consti = super(Constituency_CountCrawler_Recent, self).parse_consti(consti, city_name)
-	#	self.parse_consti_pledge(consti)
 	#	return consti
 
 	def parse_consti_pledge(self, consti):
@@ -271,8 +270,8 @@ class Proportional_CountCrawler_Recent(MultiCityCrawler):
 	#	self.parse_consti_party(consti)
 	#	return consti
 
-	def parse_consti_party(self, consti):
-		pass # TODO: implement
+	#def parse_consti_party(self, consti):
+	#	pass  TODO: implement
 		#consti['party'] = sanitize(consti['party'][0])
 
 	def __init__(self, nth, _election_name, _election_type, _target):

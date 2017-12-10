@@ -16,14 +16,16 @@ def Crawler(target, nth, election_name, electionType, electionType_eng, election
         return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
 
     elif target == 'local-pp':
-        #return municipalPage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
-        return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+        return municipalPage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+        #return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
 
     elif target == 'local-mp':
         if 1 <= nth <= 3:
-            return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+            return municipalPage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+            #return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
         else:
-            return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+            return municipalPage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
+            #return provincePage.Crawler(nth, election_name, electionType, target, electionType_eng, electionType_kor)
 
 
     else:

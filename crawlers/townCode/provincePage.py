@@ -20,8 +20,7 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
 	elif target == 'local-pa' or \
-		target == 'local-ma' or \
-		target == 'local-pp' :
+		target == 'local-ma':
 		if 1 <= nth <= 3:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:
@@ -32,12 +31,43 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 		else:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 
+
+	elif target == 'local-pp' :
+		if 1 <= nth <= 3:
+			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
+			if nth == 3:
+				crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=7)
+				crawler.urlParam_PR_elector_list = dict(electionId='0000000000', electionName=election_name,\
+														requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+														statementId='EPEI01_#91',\
+														oldElectionType=0, electionType=2, electionCode=8,\
+														townCode=-1)
+		elif 4 <= nth <= 6:
+			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
+			crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=8)
+			crawler.urlParam_PR_elector_list = dict(electionId='0000000000', electionName=election_name,\
+													requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+													statementId='EPEI01_#1',\
+													oldElectionType=1, electionType=2, electionCode=8,\
+													townCode=-1)
+		elif nth == 7:
+			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
+			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
+		else:
+			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
+
+
 	elif target == 'local-mp' :
 		if 1 <= nth <= 3:
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 		elif 4 <= nth <= 6:
 			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
 			crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=9)
+			crawler.urlParam_PR_elector_list = dict(electionId='0000000000', electionName=election_name,\
+													requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+													statementId='EPEI01_#1',\
+													oldElectionType=1, electionType=2, electionCode=9,\
+													townCode=-1)
 		elif nth == 7:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
@@ -64,10 +94,20 @@ def Crawler(nth, election_name, electionType, target, target_eng, target_kor):
 			crawler = Province_townCodeCrawler_GuOld(int(nth), election_name, electionType)
 			if nth==17:
 				crawler.urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
+				crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=7)
+				crawler.urlParam_PR_elector_list = dict(electionId='0000000000', electionName=election_name,\
+														requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+														statementId='EPEI01_#91',\
+														oldElectionType=0, electionType=2, electionCode=7,\
+														townCode=-1)
 		elif 18 <= nth <= 20:
 			crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
-		#if 1 <= nth <= 20:
-		#	crawler = Province_townCodeCrawler_Old(int(nth), election_name, electionType)
+			crawler.urlParam_PR_sgg_list = dict(electionId='0000000000', electionName=election_name, electionCode=7)
+			crawler.urlParam_PR_elector_list = dict(electionId='0000000000', electionName=election_name,\
+													requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+													statementId='EPEI01_#1',\
+													oldElectionType=1, electionType=2, electionCode=7,\
+													townCode=-1)
 		elif nth == 21:
 			raise InvalidCrawlerError('townCode', nth, election_name, electionType)
 			#"최근선거"로 들어갈 때의 code: crawler = Province_townCodeCrawler_Recent(int(nth), election_name, electionType)
@@ -111,6 +151,13 @@ class Province_townCodeCrawler_GuOld(JSONCrawler_province):
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_GuOld.json'
 		self.urlParam_sgg_list = dict(electionId='0000000000', electionName=_election_name, electionCode=_election_type)
 
+		self.urlPath_elector_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+		self.urlParam_elector_list = dict(electionId='0000000000', electionName=_election_name,\
+										requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+										statementId='EPEI01_#91',\
+										oldElectionType=0, electionType=2, electionCode=_election_type,\
+										townCode=-1)
+
 
 class Province_townCodeCrawler_Old(JSONCrawler_province):
 
@@ -125,6 +172,13 @@ class Province_townCodeCrawler_Old(JSONCrawler_province):
 		# 여기서 크롤링된 데이터는 선거구 단위로 분류됨.
 		self.urlPath_sgg_list = 'http://info.nec.go.kr/bizcommon/selectbox/selectbox_getSggCityCodeJson_Old.json'
 		self.urlParam_sgg_list = dict(electionId='0000000000', electionName=_election_name, electionCode=_election_type)
+
+		self.urlPath_elector_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'
+		self.urlParam_elector_list = dict(electionId='0000000000', electionName=_election_name,\
+										requestURI='/WEB-INF/jsp/electioninfo/0000000000/ep/epei01.jsp',\
+										statementId='EPEI01_#1',\
+										oldElectionType=1, electionType=2, electionCode=_election_type,\
+										townCode=-1)
 
 
 class Province_townCodeCrawler_Recent(JSONCrawler_province):

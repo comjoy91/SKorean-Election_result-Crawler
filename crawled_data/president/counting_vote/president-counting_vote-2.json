@@ -1,55 +1,16 @@
 [
   {
+    "election_type": "president",
     "candidate_type": "party_candidate",
     "nth": 2,
-    "election_type": "president",
     "results": [
       {
-        "region_code": 11,
-        "region_name": "서울",
-        "region_result": {
-          "blank_ballots": 23596,
-          "cand_no": 4,
-          "result": [
-            {
-              "name_kr": "조봉암",
-              "party_name_kr": "무소속",
-              "votenum": 25631,
-              "voterate": 10.26
-            },
-            {
-              "name_kr": "이승만",
-              "party_name_kr": "자유당",
-              "votenum": 205300,
-              "voterate": 82.2
-            },
-            {
-              "name_kr": "이시영",
-              "party_name_kr": "무소속",
-              "votenum": 14883,
-              "voterate": 5.95
-            },
-            {
-              "name_kr": "신흥우",
-              "party_name_kr": "무소속",
-              "votenum": 3923,
-              "voterate": 1.57
-            }
-          ],
-          "counted_votes": 258989,
-          "region_code": 11,
-          "region_name": "서울",
-          "undervotes": 9252,
-          "electorates": 282585,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 249737,
-          "nth": 2
-        },
         "district_result": [
           {
-            "blank_ballots": 2291,
-            "cand_no": 4,
+            "valid_votes": 20696,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "중구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -76,19 +37,20 @@
                 "voterate": 1.44
               }
             ],
-            "counted_votes": 21423,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2291,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 727,
+            "counted_votes": 21423,
             "electorates": 23714,
-            "district_name": "중구",
-            "district_code": 11013,
-            "valid_votes": 20696,
-            "nth": 2
+            "district_code": 11013
           },
           {
-            "blank_ballots": 2218,
-            "cand_no": 4,
+            "valid_votes": 31996,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "종로구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -115,19 +77,20 @@
                 "voterate": 1.99
               }
             ],
-            "counted_votes": 33392,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2218,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 1396,
+            "counted_votes": 33392,
             "electorates": 35610,
-            "district_name": "종로구",
-            "district_code": 11023,
-            "valid_votes": 31996,
-            "nth": 2
+            "district_code": 11023
           },
           {
-            "blank_ballots": 1934,
-            "cand_no": 4,
+            "valid_votes": 25290,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "동대문구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -154,19 +117,20 @@
                 "voterate": 1.43
               }
             ],
-            "counted_votes": 26275,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1934,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 985,
+            "counted_votes": 26275,
             "electorates": 28209,
-            "district_name": "동대문구",
-            "district_code": 11033,
-            "valid_votes": 25290,
-            "nth": 2
+            "district_code": 11033
           },
           {
-            "blank_ballots": 2824,
-            "cand_no": 4,
+            "valid_votes": 32908,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "성동구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -193,19 +157,20 @@
                 "voterate": 1.14
               }
             ],
-            "counted_votes": 34251,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2824,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 1343,
+            "counted_votes": 34251,
             "electorates": 37075,
-            "district_name": "성동구",
-            "district_code": 11043,
-            "valid_votes": 32908,
-            "nth": 2
+            "district_code": 11043
           },
           {
-            "blank_ballots": 1870,
-            "cand_no": 4,
+            "valid_votes": 19267,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "성북구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -232,19 +197,20 @@
                 "voterate": 1.53
               }
             ],
-            "counted_votes": 19829,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1870,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 562,
+            "counted_votes": 19829,
             "electorates": 21699,
-            "district_name": "성북구",
-            "district_code": 11053,
-            "valid_votes": 19267,
-            "nth": 2
+            "district_code": 11053
           },
           {
-            "blank_ballots": 2073,
-            "cand_no": 4,
+            "valid_votes": 28658,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "서대문구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -271,19 +237,20 @@
                 "voterate": 1.23
               }
             ],
-            "counted_votes": 29688,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2073,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 1030,
+            "counted_votes": 29688,
             "electorates": 31761,
-            "district_name": "서대문구",
-            "district_code": 11063,
-            "valid_votes": 28658,
-            "nth": 2
+            "district_code": 11063
           },
           {
-            "blank_ballots": 1411,
-            "cand_no": 4,
+            "valid_votes": 24215,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "마포구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -310,19 +277,20 @@
                 "voterate": 0.91
               }
             ],
-            "counted_votes": 24890,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1411,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 675,
+            "counted_votes": 24890,
             "electorates": 26301,
-            "district_name": "마포구",
-            "district_code": 11073,
-            "valid_votes": 24215,
-            "nth": 2
+            "district_code": 11073
           },
           {
-            "blank_ballots": 1062,
-            "cand_no": 4,
+            "valid_votes": 16558,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "용산구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -349,19 +317,20 @@
                 "voterate": 1.29
               }
             ],
-            "counted_votes": 16962,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1062,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 404,
+            "counted_votes": 16962,
             "electorates": 18024,
-            "district_name": "용산구",
-            "district_code": 11083,
-            "valid_votes": 16558,
-            "nth": 2
+            "district_code": 11083
           },
           {
-            "blank_ballots": 7913,
-            "cand_no": 4,
+            "valid_votes": 50149,
+            "region_name": "서울",
+            "num_elected": 1,
+            "district_name": "영등포구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -388,64 +357,66 @@
                 "voterate": 2.31
               }
             ],
-            "counted_votes": 52279,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7913,
             "region_code": 11,
-            "region_name": "서울",
             "undervotes": 2130,
+            "counted_votes": 52279,
             "electorates": 60192,
-            "district_name": "영등포구",
-            "district_code": 11093,
-            "valid_votes": 50149,
-            "nth": 2
+            "district_code": 11093
           }
-        ]
-      },
-      {
-        "region_code": 41,
-        "region_name": "경기",
+        ],
         "region_result": {
-          "blank_ballots": 136491,
-          "cand_no": 4,
+          "valid_votes": 249737,
+          "region_name": "서울",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 44967,
-              "voterate": 5.99
+              "votenum": 25631,
+              "voterate": 10.26
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 657174,
-              "voterate": 87.65
+              "votenum": 205300,
+              "voterate": 82.2
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 34704,
-              "voterate": 4.62
+              "votenum": 14883,
+              "voterate": 5.95
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 12891,
-              "voterate": 1.71
+              "votenum": 3923,
+              "voterate": 1.57
             }
           ],
-          "counted_votes": 775808,
-          "region_code": 41,
-          "region_name": "경기",
-          "undervotes": 26072,
-          "electorates": 912299,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 749736,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 23596,
+          "region_code": 11,
+          "undervotes": 9252,
+          "counted_votes": 258989,
+          "electorates": 282585,
+          "district_code": -1
         },
+        "region_name": "서울",
+        "region_code": 11
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 27272,
-            "cand_no": 4,
+            "valid_votes": 76317,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "인천시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -472,19 +443,20 @@
                 "voterate": 1.86
               }
             ],
-            "counted_votes": 79172,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 27272,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 2855,
+            "counted_votes": 79172,
             "electorates": 106444,
-            "district_name": "인천시",
-            "district_code": 41014,
-            "valid_votes": 76317,
-            "nth": 2
+            "district_code": 41014
           },
           {
-            "blank_ballots": 8676,
-            "cand_no": 4,
+            "valid_votes": 24459,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "수원시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -511,19 +483,20 @@
                 "voterate": 1.88
               }
             ],
-            "counted_votes": 25431,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8676,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 972,
+            "counted_votes": 25431,
             "electorates": 34107,
-            "district_name": "수원시",
-            "district_code": 41024,
-            "valid_votes": 24459,
-            "nth": 2
+            "district_code": 41024
           },
           {
-            "blank_ballots": 108,
-            "cand_no": 4,
+            "valid_votes": 24073,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "고양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -550,19 +523,20 @@
                 "voterate": 1.47
               }
             ],
-            "counted_votes": 24833,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 108,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 760,
+            "counted_votes": 24833,
             "electorates": 24941,
-            "district_name": "고양군",
-            "district_code": 41035,
-            "valid_votes": 24073,
-            "nth": 2
+            "district_code": 41035
           },
           {
-            "blank_ballots": 10783,
-            "cand_no": 4,
+            "valid_votes": 48208,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "광주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -589,19 +563,20 @@
                 "voterate": 1.65
               }
             ],
-            "counted_votes": 49694,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10783,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1486,
+            "counted_votes": 49694,
             "electorates": 60477,
-            "district_name": "광주군",
-            "district_code": 41045,
-            "valid_votes": 48208,
-            "nth": 2
+            "district_code": 41045
           },
           {
-            "blank_ballots": 2772,
-            "cand_no": 4,
+            "valid_votes": 60265,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "양주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -628,19 +603,20 @@
                 "voterate": 1.51
               }
             ],
-            "counted_votes": 62195,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2772,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1930,
+            "counted_votes": 62195,
             "electorates": 64967,
-            "district_name": "양주군",
-            "district_code": 41055,
-            "valid_votes": 60265,
-            "nth": 2
+            "district_code": 41055
           },
           {
-            "blank_ballots": 443,
-            "cand_no": 4,
+            "valid_votes": 22575,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "포천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -667,19 +643,20 @@
                 "voterate": 1.47
               }
             ],
-            "counted_votes": 23230,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 443,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 655,
+            "counted_votes": 23230,
             "electorates": 23673,
-            "district_name": "포천군",
-            "district_code": 41065,
-            "valid_votes": 22575,
-            "nth": 2
+            "district_code": 41065
           },
           {
-            "blank_ballots": 1689,
-            "cand_no": 4,
+            "valid_votes": 23191,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "가평군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -706,19 +683,20 @@
                 "voterate": 2.27
               }
             ],
-            "counted_votes": 24309,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1689,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1118,
+            "counted_votes": 24309,
             "electorates": 25998,
-            "district_name": "가평군",
-            "district_code": 41075,
-            "valid_votes": 23191,
-            "nth": 2
+            "district_code": 41075
           },
           {
-            "blank_ballots": 397,
-            "cand_no": 4,
+            "valid_votes": 34653,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "양평군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -745,19 +723,20 @@
                 "voterate": 1.28
               }
             ],
-            "counted_votes": 35577,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 397,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 924,
+            "counted_votes": 35577,
             "electorates": 35974,
-            "district_name": "양평군",
-            "district_code": 41085,
-            "valid_votes": 34653,
-            "nth": 2
+            "district_code": 41085
           },
           {
-            "blank_ballots": 6668,
-            "cand_no": 4,
+            "valid_votes": 33927,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "여주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -784,19 +763,20 @@
                 "voterate": 1.7
               }
             ],
-            "counted_votes": 35317,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6668,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1390,
+            "counted_votes": 35317,
             "electorates": 41985,
-            "district_name": "여주군",
-            "district_code": 41095,
-            "valid_votes": 33927,
-            "nth": 2
+            "district_code": 41095
           },
           {
-            "blank_ballots": 6833,
-            "cand_no": 4,
+            "valid_votes": 33428,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "이천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -823,19 +803,20 @@
                 "voterate": 1.41
               }
             ],
-            "counted_votes": 34398,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6833,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 970,
+            "counted_votes": 34398,
             "electorates": 41231,
-            "district_name": "이천군",
-            "district_code": 41105,
-            "valid_votes": 33428,
-            "nth": 2
+            "district_code": 41105
           },
           {
-            "blank_ballots": 8035,
-            "cand_no": 4,
+            "valid_votes": 38644,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "용인군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -862,19 +843,20 @@
                 "voterate": 2.3
               }
             ],
-            "counted_votes": 40218,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8035,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1574,
+            "counted_votes": 40218,
             "electorates": 48253,
-            "district_name": "용인군",
-            "district_code": 41115,
-            "valid_votes": 38644,
-            "nth": 2
+            "district_code": 41115
           },
           {
-            "blank_ballots": 9716,
-            "cand_no": 4,
+            "valid_votes": 44346,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "안성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -901,19 +883,20 @@
                 "voterate": 1.73
               }
             ],
-            "counted_votes": 46031,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9716,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1685,
+            "counted_votes": 46031,
             "electorates": 55747,
-            "district_name": "안성군",
-            "district_code": 41125,
-            "valid_votes": 44346,
-            "nth": 2
+            "district_code": 41125
           },
           {
-            "blank_ballots": 8712,
-            "cand_no": 4,
+            "valid_votes": 38449,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "평택군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -940,19 +923,20 @@
                 "voterate": 1.91
               }
             ],
-            "counted_votes": 39793,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8712,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1344,
+            "counted_votes": 39793,
             "electorates": 48505,
-            "district_name": "평택군",
-            "district_code": 41135,
-            "valid_votes": 38449,
-            "nth": 2
+            "district_code": 41135
           },
           {
-            "blank_ballots": 14425,
-            "cand_no": 4,
+            "valid_votes": 74187,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "화성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -979,19 +963,20 @@
                 "voterate": 1.1
               }
             ],
-            "counted_votes": 76231,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 14425,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 2044,
+            "counted_votes": 76231,
             "electorates": 90656,
-            "district_name": "화성군",
-            "district_code": 41145,
-            "valid_votes": 74187,
-            "nth": 2
+            "district_code": 41145
           },
           {
-            "blank_ballots": 8791,
-            "cand_no": 4,
+            "valid_votes": 33003,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "시흥군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1018,19 +1003,20 @@
                 "voterate": 2.75
               }
             ],
-            "counted_votes": 34337,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8791,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1334,
+            "counted_votes": 34337,
             "electorates": 43128,
-            "district_name": "시흥군",
-            "district_code": 41155,
-            "valid_votes": 33003,
-            "nth": 2
+            "district_code": 41155
           },
           {
-            "blank_ballots": 7469,
-            "cand_no": 4,
+            "valid_votes": 32697,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "부천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1057,19 +1043,20 @@
                 "voterate": 1.87
               }
             ],
-            "counted_votes": 33835,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7469,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1138,
+            "counted_votes": 33835,
             "electorates": 41304,
-            "district_name": "부천군",
-            "district_code": 41165,
-            "valid_votes": 32697,
-            "nth": 2
+            "district_code": 41165
           },
           {
-            "blank_ballots": 3770,
-            "cand_no": 4,
+            "valid_votes": 33109,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "김포군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1096,19 +1083,20 @@
                 "voterate": 1.46
               }
             ],
-            "counted_votes": 34378,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3770,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1269,
+            "counted_votes": 34378,
             "electorates": 38148,
-            "district_name": "김포군",
-            "district_code": 41175,
-            "valid_votes": 33109,
-            "nth": 2
+            "district_code": 41175
           },
           {
-            "blank_ballots": 9021,
-            "cand_no": 4,
+            "valid_votes": 39692,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "강화군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1135,19 +1123,20 @@
                 "voterate": 2.69
               }
             ],
-            "counted_votes": 41412,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9021,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 1720,
+            "counted_votes": 41412,
             "electorates": 50433,
-            "district_name": "강화군",
-            "district_code": 41185,
-            "valid_votes": 39692,
-            "nth": 2
+            "district_code": 41185
           },
           {
-            "blank_ballots": 911,
-            "cand_no": 4,
+            "valid_votes": 34513,
+            "region_name": "경기",
+            "num_elected": 1,
+            "district_name": "파주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1174,64 +1163,66 @@
                 "voterate": 0.82
               }
             ],
-            "counted_votes": 35417,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 911,
             "region_code": 41,
-            "region_name": "경기",
             "undervotes": 904,
+            "counted_votes": 35417,
             "electorates": 36328,
-            "district_name": "파주군",
-            "district_code": 41195,
-            "valid_votes": 34513,
-            "nth": 2
+            "district_code": 41195
           }
-        ]
-      },
-      {
-        "region_code": 42,
-        "region_name": "강원",
+        ],
         "region_result": {
-          "blank_ballots": 32734,
-          "cand_no": 4,
+          "valid_votes": 749736,
+          "region_name": "경기",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 10516,
-              "voterate": 2.65
+              "votenum": 44967,
+              "voterate": 5.99
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 366583,
-              "voterate": 92.38
+              "votenum": 657174,
+              "voterate": 87.65
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 13378,
-              "voterate": 3.37
+              "votenum": 34704,
+              "voterate": 4.62
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 6305,
-              "voterate": 1.58
+              "votenum": 12891,
+              "voterate": 1.71
             }
           ],
-          "counted_votes": 406785,
-          "region_code": 42,
-          "region_name": "강원",
-          "undervotes": 10003,
-          "electorates": 439519,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 396782,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 136491,
+          "region_code": 41,
+          "undervotes": 26072,
+          "counted_votes": 775808,
+          "electorates": 912299,
+          "district_code": -1
         },
+        "region_name": "경기",
+        "region_code": 41
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 1147,
-            "cand_no": 4,
+            "valid_votes": 12933,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "춘천시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1258,19 +1249,20 @@
                 "voterate": 2.0
               }
             ],
-            "counted_votes": 13369,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1147,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 436,
+            "counted_votes": 13369,
             "electorates": 14516,
-            "district_name": "춘천시",
-            "district_code": 42011,
-            "valid_votes": 12933,
-            "nth": 2
+            "district_code": 42011
           },
           {
-            "blank_ballots": 481,
-            "cand_no": 4,
+            "valid_votes": 19649,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "춘성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1297,19 +1289,20 @@
                 "voterate": 0.99
               }
             ],
-            "counted_votes": 20153,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 481,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 504,
+            "counted_votes": 20153,
             "electorates": 20634,
-            "district_name": "춘성군",
-            "district_code": 42022,
-            "valid_votes": 19649,
-            "nth": 2
+            "district_code": 42022
           },
           {
-            "blank_ballots": 680,
-            "cand_no": 4,
+            "valid_votes": 48145,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "홍천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1336,19 +1329,20 @@
                 "voterate": 0.64
               }
             ],
-            "counted_votes": 48834,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 680,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 689,
+            "counted_votes": 48834,
             "electorates": 49514,
-            "district_name": "홍천군",
-            "district_code": 42032,
-            "valid_votes": 48145,
-            "nth": 2
+            "district_code": 42032
           },
           {
-            "blank_ballots": 2270,
-            "cand_no": 4,
+            "valid_votes": 30632,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "횡성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1375,19 +1369,20 @@
                 "voterate": 1.43
               }
             ],
-            "counted_votes": 31228,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2270,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 596,
+            "counted_votes": 31228,
             "electorates": 33498,
-            "district_name": "횡성군",
-            "district_code": 42042,
-            "valid_votes": 30632,
-            "nth": 2
+            "district_code": 42042
           },
           {
-            "blank_ballots": 10417,
-            "cand_no": 4,
+            "valid_votes": 40966,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "원주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1414,19 +1409,20 @@
                 "voterate": 3.47
               }
             ],
-            "counted_votes": 42502,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10417,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 1536,
+            "counted_votes": 42502,
             "electorates": 52919,
-            "district_name": "원주군",
-            "district_code": 42052,
-            "valid_votes": 40966,
-            "nth": 2
+            "district_code": 42052
           },
           {
-            "blank_ballots": 3246,
-            "cand_no": 4,
+            "valid_votes": 33358,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "영월군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1453,19 +1449,20 @@
                 "voterate": 1.47
               }
             ],
-            "counted_votes": 34005,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3246,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 647,
+            "counted_votes": 34005,
             "electorates": 37251,
-            "district_name": "영월군",
-            "district_code": 42062,
-            "valid_votes": 33358,
-            "nth": 2
+            "district_code": 42062
           },
           {
-            "blank_ballots": 1785,
-            "cand_no": 4,
+            "valid_votes": 31585,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "평창군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1492,19 +1489,20 @@
                 "voterate": 1.27
               }
             ],
-            "counted_votes": 32105,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1785,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 520,
+            "counted_votes": 32105,
             "electorates": 33890,
-            "district_name": "평창군",
-            "district_code": 42072,
-            "valid_votes": 31585,
-            "nth": 2
+            "district_code": 42072
           },
           {
-            "blank_ballots": 1418,
-            "cand_no": 4,
+            "valid_votes": 23186,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "정선군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1531,19 +1529,20 @@
                 "voterate": 0.47
               }
             ],
-            "counted_votes": 23553,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1418,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 367,
+            "counted_votes": 23553,
             "electorates": 24971,
-            "district_name": "정선군",
-            "district_code": 42082,
-            "valid_votes": 23186,
-            "nth": 2
+            "district_code": 42082
           },
           {
-            "blank_ballots": 4549,
-            "cand_no": 4,
+            "valid_votes": 64535,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "강릉군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1570,19 +1569,20 @@
                 "voterate": 1.83
               }
             ],
-            "counted_votes": 66714,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4549,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 2179,
+            "counted_votes": 66714,
             "electorates": 71263,
-            "district_name": "강릉군",
-            "district_code": 42092,
-            "valid_votes": 64535,
-            "nth": 2
+            "district_code": 42092
           },
           {
-            "blank_ballots": 4292,
-            "cand_no": 4,
+            "valid_votes": 52711,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "삼척군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1609,19 +1609,20 @@
                 "voterate": 1.62
               }
             ],
-            "counted_votes": 54187,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4292,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 1476,
+            "counted_votes": 54187,
             "electorates": 58479,
-            "district_name": "삼척군",
-            "district_code": 42102,
-            "valid_votes": 52711,
-            "nth": 2
+            "district_code": 42102
           },
           {
-            "blank_ballots": 2449,
-            "cand_no": 4,
+            "valid_votes": 39082,
+            "region_name": "강원",
+            "num_elected": 1,
+            "district_name": "울진군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1648,64 +1649,66 @@
                 "voterate": 1.61
               }
             ],
-            "counted_votes": 40135,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2449,
             "region_code": 42,
-            "region_name": "강원",
             "undervotes": 1053,
+            "counted_votes": 40135,
             "electorates": 42584,
-            "district_name": "울진군",
-            "district_code": 42112,
-            "valid_votes": 39082,
-            "nth": 2
+            "district_code": 42112
           }
-        ]
-      },
-      {
-        "region_code": 43,
-        "region_name": "충북",
+        ],
         "region_result": {
-          "blank_ballots": 52199,
-          "cand_no": 4,
+          "valid_votes": 396782,
+          "region_name": "강원",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 25875,
-              "voterate": 5.8
+              "votenum": 10516,
+              "voterate": 2.65
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 386665,
-              "voterate": 86.7
+              "votenum": 366583,
+              "voterate": 92.38
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 23006,
-              "voterate": 5.15
+              "votenum": 13378,
+              "voterate": 3.37
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 10409,
-              "voterate": 2.33
+              "votenum": 6305,
+              "voterate": 1.58
             }
           ],
-          "counted_votes": 457815,
-          "region_code": 43,
-          "region_name": "충북",
-          "undervotes": 11860,
-          "electorates": 510014,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 445955,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 32734,
+          "region_code": 42,
+          "undervotes": 10003,
+          "counted_votes": 406785,
+          "electorates": 439519,
+          "district_code": -1
         },
+        "region_name": "강원",
+        "region_code": 42
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 6617,
-            "cand_no": 4,
+            "valid_votes": 23842,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "청주시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1732,19 +1735,20 @@
                 "voterate": 2.89
               }
             ],
-            "counted_votes": 24605,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6617,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 763,
+            "counted_votes": 24605,
             "electorates": 31222,
-            "district_name": "청주시",
-            "district_code": 43014,
-            "valid_votes": 23842,
-            "nth": 2
+            "district_code": 43014
           },
           {
-            "blank_ballots": 9967,
-            "cand_no": 4,
+            "valid_votes": 73280,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "청원군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1771,19 +1775,20 @@
                 "voterate": 3.48
               }
             ],
-            "counted_votes": 74984,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9967,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1704,
+            "counted_votes": 74984,
             "electorates": 84951,
-            "district_name": "청원군",
-            "district_code": 43025,
-            "valid_votes": 73280,
-            "nth": 2
+            "district_code": 43025
           },
           {
-            "blank_ballots": 2965,
-            "cand_no": 4,
+            "valid_votes": 36211,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "보은군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1810,19 +1815,20 @@
                 "voterate": 0.97
               }
             ],
-            "counted_votes": 36931,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2965,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 720,
+            "counted_votes": 36931,
             "electorates": 39896,
-            "district_name": "보은군",
-            "district_code": 43035,
-            "valid_votes": 36211,
-            "nth": 2
+            "district_code": 43035
           },
           {
-            "blank_ballots": 3821,
-            "cand_no": 4,
+            "valid_votes": 34290,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "옥천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1849,19 +1855,20 @@
                 "voterate": 4.81
               }
             ],
-            "counted_votes": 35388,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3821,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1098,
+            "counted_votes": 35388,
             "electorates": 39209,
-            "district_name": "옥천군",
-            "district_code": 43045,
-            "valid_votes": 34290,
-            "nth": 2
+            "district_code": 43045
           },
           {
-            "blank_ballots": 2598,
-            "cand_no": 4,
+            "valid_votes": 41569,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "영동군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1888,19 +1895,20 @@
                 "voterate": 3.51
               }
             ],
-            "counted_votes": 42975,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2598,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1406,
+            "counted_votes": 42975,
             "electorates": 45573,
-            "district_name": "영동군",
-            "district_code": 43055,
-            "valid_votes": 41569,
-            "nth": 2
+            "district_code": 43055
           },
           {
-            "blank_ballots": 2966,
-            "cand_no": 4,
+            "valid_votes": 25841,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "진천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1927,19 +1935,20 @@
                 "voterate": 2.17
               }
             ],
-            "counted_votes": 26605,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2966,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 764,
+            "counted_votes": 26605,
             "electorates": 29571,
-            "district_name": "진천군",
-            "district_code": 43065,
-            "valid_votes": 25841,
-            "nth": 2
+            "district_code": 43065
           },
           {
-            "blank_ballots": 5361,
-            "cand_no": 4,
+            "valid_votes": 53835,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "괴산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -1966,19 +1975,20 @@
                 "voterate": 1.65
               }
             ],
-            "counted_votes": 54913,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5361,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1078,
+            "counted_votes": 54913,
             "electorates": 60274,
-            "district_name": "괴산군",
-            "district_code": 43075,
-            "valid_votes": 53835,
-            "nth": 2
+            "district_code": 43075
           },
           {
-            "blank_ballots": 4325,
-            "cand_no": 4,
+            "valid_votes": 38644,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "음성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2005,19 +2015,20 @@
                 "voterate": 0.92
               }
             ],
-            "counted_votes": 39649,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4325,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1005,
+            "counted_votes": 39649,
             "electorates": 43974,
-            "district_name": "음성군",
-            "district_code": 43085,
-            "valid_votes": 38644,
-            "nth": 2
+            "district_code": 43085
           },
           {
-            "blank_ballots": 6485,
-            "cand_no": 4,
+            "valid_votes": 56722,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "충주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2044,19 +2055,20 @@
                 "voterate": 1.42
               }
             ],
-            "counted_votes": 58414,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6485,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1692,
+            "counted_votes": 58414,
             "electorates": 64899,
-            "district_name": "충주군",
-            "district_code": 43095,
-            "valid_votes": 56722,
-            "nth": 2
+            "district_code": 43095
           },
           {
-            "blank_ballots": 4743,
-            "cand_no": 4,
+            "valid_votes": 39408,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "제천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2083,19 +2095,20 @@
                 "voterate": 1.91
               }
             ],
-            "counted_votes": 40625,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4743,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 1217,
+            "counted_votes": 40625,
             "electorates": 45368,
-            "district_name": "제천군",
-            "district_code": 43105,
-            "valid_votes": 39408,
-            "nth": 2
+            "district_code": 43105
           },
           {
-            "blank_ballots": 2351,
-            "cand_no": 4,
+            "valid_votes": 22313,
+            "region_name": "충북",
+            "num_elected": 1,
+            "district_name": "단양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2122,64 +2135,66 @@
                 "voterate": 1.46
               }
             ],
-            "counted_votes": 22726,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2351,
             "region_code": 43,
-            "region_name": "충북",
             "undervotes": 413,
+            "counted_votes": 22726,
             "electorates": 25077,
-            "district_name": "단양군",
-            "district_code": 43115,
-            "valid_votes": 22313,
-            "nth": 2
+            "district_code": 43115
           }
-        ]
-      },
-      {
-        "region_code": 44,
-        "region_name": "충남",
+        ],
         "region_result": {
-          "blank_ballots": 115817,
-          "cand_no": 4,
+          "valid_votes": 445955,
+          "region_name": "충북",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 56590,
-              "voterate": 7.32
+              "votenum": 25875,
+              "voterate": 5.8
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 636061,
-              "voterate": 82.35
+              "votenum": 386665,
+              "voterate": 86.7
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 58754,
-              "voterate": 7.6
+              "votenum": 23006,
+              "voterate": 5.15
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 20947,
-              "voterate": 2.71
+              "votenum": 10409,
+              "voterate": 2.33
             }
           ],
-          "counted_votes": 797610,
-          "region_code": 44,
-          "region_name": "충남",
-          "undervotes": 25258,
-          "electorates": 913427,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 772352,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 52199,
+          "region_code": 43,
+          "undervotes": 11860,
+          "counted_votes": 457815,
+          "electorates": 510014,
+          "district_code": -1
         },
+        "region_name": "충북",
+        "region_code": 43
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 15375,
-            "cand_no": 4,
+            "valid_votes": 44266,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "대전시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2206,19 +2221,20 @@
                 "voterate": 2.2
               }
             ],
-            "counted_votes": 45751,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 15375,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1485,
+            "counted_votes": 45751,
             "electorates": 61126,
-            "district_name": "대전시",
-            "district_code": 44014,
-            "valid_votes": 44266,
-            "nth": 2
+            "district_code": 44014
           },
           {
-            "blank_ballots": 5607,
-            "cand_no": 4,
+            "valid_votes": 39748,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "대덕군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2245,19 +2261,20 @@
                 "voterate": 1.69
               }
             ],
-            "counted_votes": 40842,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5607,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1094,
+            "counted_votes": 40842,
             "electorates": 46449,
-            "district_name": "대덕군",
-            "district_code": 44025,
-            "valid_votes": 39748,
-            "nth": 2
+            "district_code": 44025
           },
           {
-            "blank_ballots": 5233,
-            "cand_no": 4,
+            "valid_votes": 33358,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "연기군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2284,19 +2301,20 @@
                 "voterate": 2.65
               }
             ],
-            "counted_votes": 34651,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5233,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1293,
+            "counted_votes": 34651,
             "electorates": 39884,
-            "district_name": "연기군",
-            "district_code": 44035,
-            "valid_votes": 33358,
-            "nth": 2
+            "district_code": 44035
           },
           {
-            "blank_ballots": 8915,
-            "cand_no": 4,
+            "valid_votes": 62957,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "공주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2323,19 +2341,20 @@
                 "voterate": 3.05
               }
             ],
-            "counted_votes": 65021,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8915,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 2064,
+            "counted_votes": 65021,
             "electorates": 73936,
-            "district_name": "공주군",
-            "district_code": 44045,
-            "valid_votes": 62957,
-            "nth": 2
+            "district_code": 44045
           },
           {
-            "blank_ballots": 10996,
-            "cand_no": 4,
+            "valid_votes": 69795,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "논산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2362,19 +2381,20 @@
                 "voterate": 3.56
               }
             ],
-            "counted_votes": 72261,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10996,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 2466,
+            "counted_votes": 72261,
             "electorates": 83257,
-            "district_name": "논산군",
-            "district_code": 44055,
-            "valid_votes": 69795,
-            "nth": 2
+            "district_code": 44055
           },
           {
-            "blank_ballots": 6414,
-            "cand_no": 4,
+            "valid_votes": 62812,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "부여군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2401,19 +2421,20 @@
                 "voterate": 1.6
               }
             ],
-            "counted_votes": 64457,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6414,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1645,
+            "counted_votes": 64457,
             "electorates": 70871,
-            "district_name": "부여군",
-            "district_code": 44065,
-            "valid_votes": 62812,
-            "nth": 2
+            "district_code": 44065
           },
           {
-            "blank_ballots": 7491,
-            "cand_no": 4,
+            "valid_votes": 51663,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "서천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2440,19 +2461,20 @@
                 "voterate": 3.97
               }
             ],
-            "counted_votes": 53447,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7491,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1784,
+            "counted_votes": 53447,
             "electorates": 60938,
-            "district_name": "서천군",
-            "district_code": 44075,
-            "valid_votes": 51663,
-            "nth": 2
+            "district_code": 44075
           },
           {
-            "blank_ballots": 5423,
-            "cand_no": 4,
+            "valid_votes": 44850,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "보령군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2479,19 +2501,20 @@
                 "voterate": 2.93
               }
             ],
-            "counted_votes": 46388,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5423,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1538,
+            "counted_votes": 46388,
             "electorates": 51811,
-            "district_name": "보령군",
-            "district_code": 44085,
-            "valid_votes": 44850,
-            "nth": 2
+            "district_code": 44085
           },
           {
-            "blank_ballots": 5135,
-            "cand_no": 4,
+            "valid_votes": 34555,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "청양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2518,19 +2541,20 @@
                 "voterate": 2.44
               }
             ],
-            "counted_votes": 35616,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5135,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1061,
+            "counted_votes": 35616,
             "electorates": 40751,
-            "district_name": "청양군",
-            "district_code": 44095,
-            "valid_votes": 34555,
-            "nth": 2
+            "district_code": 44095
           },
           {
-            "blank_ballots": 7691,
-            "cand_no": 4,
+            "valid_votes": 43694,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "홍성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2557,19 +2581,20 @@
                 "voterate": 3.48
               }
             ],
-            "counted_votes": 45740,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7691,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 2046,
+            "counted_votes": 45740,
             "electorates": 53431,
-            "district_name": "홍성군",
-            "district_code": 44105,
-            "valid_votes": 43694,
-            "nth": 2
+            "district_code": 44105
           },
           {
-            "blank_ballots": 6473,
-            "cand_no": 4,
+            "valid_votes": 54594,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "예산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2596,19 +2621,20 @@
                 "voterate": 2.99
               }
             ],
-            "counted_votes": 56743,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6473,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 2149,
+            "counted_votes": 56743,
             "electorates": 63216,
-            "district_name": "예산군",
-            "district_code": 44115,
-            "valid_votes": 54594,
-            "nth": 2
+            "district_code": 44115
           },
           {
-            "blank_ballots": 9112,
-            "cand_no": 4,
+            "valid_votes": 79296,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "서산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2635,19 +2661,20 @@
                 "voterate": 2.38
               }
             ],
-            "counted_votes": 81195,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9112,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1899,
+            "counted_votes": 81195,
             "electorates": 90307,
-            "district_name": "서산군",
-            "district_code": 44125,
-            "valid_votes": 79296,
-            "nth": 2
+            "district_code": 44125
           },
           {
-            "blank_ballots": 7529,
-            "cand_no": 4,
+            "valid_votes": 44954,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "당진군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2674,19 +2701,20 @@
                 "voterate": 2.68
               }
             ],
-            "counted_votes": 46589,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7529,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1635,
+            "counted_votes": 46589,
             "electorates": 54118,
-            "district_name": "당진군",
-            "district_code": 44135,
-            "valid_votes": 44954,
-            "nth": 2
+            "district_code": 44135
           },
           {
-            "blank_ballots": 6070,
-            "cand_no": 4,
+            "valid_votes": 51148,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "아산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2713,19 +2741,20 @@
                 "voterate": 2.14
               }
             ],
-            "counted_votes": 52652,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6070,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1504,
+            "counted_votes": 52652,
             "electorates": 58722,
-            "district_name": "아산군",
-            "district_code": 44145,
-            "valid_votes": 51148,
-            "nth": 2
+            "district_code": 44145
           },
           {
-            "blank_ballots": 8353,
-            "cand_no": 4,
+            "valid_votes": 54662,
+            "region_name": "충남",
+            "num_elected": 1,
+            "district_name": "천안군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2752,64 +2781,66 @@
                 "voterate": 2.58
               }
             ],
-            "counted_votes": 56257,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8353,
             "region_code": 44,
-            "region_name": "충남",
             "undervotes": 1595,
+            "counted_votes": 56257,
             "electorates": 64610,
-            "district_name": "천안군",
-            "district_code": 44155,
-            "valid_votes": 54662,
-            "nth": 2
+            "district_code": 44155
           }
-        ]
-      },
-      {
-        "region_code": 45,
-        "region_name": "전북",
+        ],
         "region_result": {
-          "blank_ballots": 110925,
-          "cand_no": 4,
+          "valid_votes": 772352,
+          "region_name": "충남",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 109490,
-              "voterate": 15.41
+              "votenum": 56590,
+              "voterate": 7.32
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 468220,
-              "voterate": 65.92
+              "votenum": 636061,
+              "voterate": 82.35
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 96271,
-              "voterate": 13.55
+              "votenum": 58754,
+              "voterate": 7.6
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 36221,
-              "voterate": 5.1
+              "votenum": 20947,
+              "voterate": 2.71
             }
           ],
-          "counted_votes": 743499,
-          "region_code": 45,
-          "region_name": "전북",
-          "undervotes": 33297,
-          "electorates": 854424,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 710202,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 115817,
+          "region_code": 44,
+          "undervotes": 25258,
+          "counted_votes": 797610,
+          "electorates": 913427,
+          "district_code": -1
         },
+        "region_name": "충남",
+        "region_code": 44
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 11656,
-            "cand_no": 4,
+            "valid_votes": 31715,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "전주시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2836,19 +2867,20 @@
                 "voterate": 4.07
               }
             ],
-            "counted_votes": 32920,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 11656,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1205,
+            "counted_votes": 32920,
             "electorates": 44576,
-            "district_name": "전주시",
-            "district_code": 45014,
-            "valid_votes": 31715,
-            "nth": 2
+            "district_code": 45014
           },
           {
-            "blank_ballots": 7922,
-            "cand_no": 4,
+            "valid_votes": 27637,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "군산시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2875,19 +2907,20 @@
                 "voterate": 4.0
               }
             ],
-            "counted_votes": 28789,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7922,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1152,
+            "counted_votes": 28789,
             "electorates": 36711,
-            "district_name": "군산시",
-            "district_code": 45024,
-            "valid_votes": 27637,
-            "nth": 2
+            "district_code": 45024
           },
           {
-            "blank_ballots": 4755,
-            "cand_no": 4,
+            "valid_votes": 16476,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "이리시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2914,19 +2947,20 @@
                 "voterate": 4.18
               }
             ],
-            "counted_votes": 17132,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4755,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 656,
+            "counted_votes": 17132,
             "electorates": 21887,
-            "district_name": "이리시",
-            "district_code": 45034,
-            "valid_votes": 16476,
-            "nth": 2
+            "district_code": 45034
           },
           {
-            "blank_ballots": 10444,
-            "cand_no": 4,
+            "valid_votes": 58521,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "완주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2953,19 +2987,20 @@
                 "voterate": 5.32
               }
             ],
-            "counted_votes": 62160,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10444,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 3639,
+            "counted_votes": 62160,
             "electorates": 72604,
-            "district_name": "완주군",
-            "district_code": 45045,
-            "valid_votes": 58521,
-            "nth": 2
+            "district_code": 45045
           },
           {
-            "blank_ballots": 2342,
-            "cand_no": 4,
+            "valid_votes": 27603,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "진안군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -2992,19 +3027,20 @@
                 "voterate": 3.38
               }
             ],
-            "counted_votes": 28512,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2342,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 909,
+            "counted_votes": 28512,
             "electorates": 30854,
-            "district_name": "진안군",
-            "district_code": 45055,
-            "valid_votes": 27603,
-            "nth": 2
+            "district_code": 45055
           },
           {
-            "blank_ballots": 3662,
-            "cand_no": 4,
+            "valid_votes": 31878,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "금산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3031,19 +3067,20 @@
                 "voterate": 7.35
               }
             ],
-            "counted_votes": 33308,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3662,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1430,
+            "counted_votes": 33308,
             "electorates": 36970,
-            "district_name": "금산군",
-            "district_code": 45065,
-            "valid_votes": 31878,
-            "nth": 2
+            "district_code": 45065
           },
           {
-            "blank_ballots": 1167,
-            "cand_no": 4,
+            "valid_votes": 22631,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "무주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3070,19 +3107,20 @@
                 "voterate": 3.61
               }
             ],
-            "counted_votes": 23416,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1167,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 785,
+            "counted_votes": 23416,
             "electorates": 24583,
-            "district_name": "무주군",
-            "district_code": 45075,
-            "valid_votes": 22631,
-            "nth": 2
+            "district_code": 45075
           },
           {
-            "blank_ballots": 1181,
-            "cand_no": 4,
+            "valid_votes": 21897,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "장수군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3109,19 +3147,20 @@
                 "voterate": 4.67
               }
             ],
-            "counted_votes": 22860,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1181,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 963,
+            "counted_votes": 22860,
             "electorates": 24041,
-            "district_name": "장수군",
-            "district_code": 45085,
-            "valid_votes": 21897,
-            "nth": 2
+            "district_code": 45085
           },
           {
-            "blank_ballots": 2019,
-            "cand_no": 4,
+            "valid_votes": 32412,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "임실군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3148,19 +3187,20 @@
                 "voterate": 3.41
               }
             ],
-            "counted_votes": 33410,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2019,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 998,
+            "counted_votes": 33410,
             "electorates": 35429,
-            "district_name": "임실군",
-            "district_code": 45095,
-            "valid_votes": 32412,
-            "nth": 2
+            "district_code": 45095
           },
           {
-            "blank_ballots": 4165,
-            "cand_no": 4,
+            "valid_votes": 55095,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "남원군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3187,19 +3227,20 @@
                 "voterate": 4.27
               }
             ],
-            "counted_votes": 57349,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4165,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 2254,
+            "counted_votes": 57349,
             "electorates": 61514,
-            "district_name": "남원군",
-            "district_code": 45105,
-            "valid_votes": 55095,
-            "nth": 2
+            "district_code": 45105
           },
           {
-            "blank_ballots": 1844,
-            "cand_no": 4,
+            "valid_votes": 28550,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "순창군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3226,19 +3267,20 @@
                 "voterate": 5.24
               }
             ],
-            "counted_votes": 29724,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1844,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1174,
+            "counted_votes": 29724,
             "electorates": 31568,
-            "district_name": "순창군",
-            "district_code": 45115,
-            "valid_votes": 28550,
-            "nth": 2
+            "district_code": 45115
           },
           {
-            "blank_ballots": 14059,
-            "cand_no": 4,
+            "valid_votes": 68662,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "정읍군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3265,19 +3307,20 @@
                 "voterate": 6.08
               }
             ],
-            "counted_votes": 73110,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 14059,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 4448,
+            "counted_votes": 73110,
             "electorates": 87169,
-            "district_name": "정읍군",
-            "district_code": 45125,
-            "valid_votes": 68662,
-            "nth": 2
+            "district_code": 45125
           },
           {
-            "blank_ballots": 5807,
-            "cand_no": 4,
+            "valid_votes": 53746,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "고창군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3304,19 +3347,20 @@
                 "voterate": 4.79
               }
             ],
-            "counted_votes": 57024,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5807,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 3278,
+            "counted_votes": 57024,
             "electorates": 62831,
-            "district_name": "고창군",
-            "district_code": 45135,
-            "valid_votes": 53746,
-            "nth": 2
+            "district_code": 45135
           },
           {
-            "blank_ballots": 8859,
-            "cand_no": 4,
+            "valid_votes": 44664,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "부안군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3343,19 +3387,20 @@
                 "voterate": 7.22
               }
             ],
-            "counted_votes": 46611,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8859,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1947,
+            "counted_votes": 46611,
             "electorates": 55470,
-            "district_name": "부안군",
-            "district_code": 45145,
-            "valid_votes": 44664,
-            "nth": 2
+            "district_code": 45145
           },
           {
-            "blank_ballots": 8760,
-            "cand_no": 4,
+            "valid_votes": 78843,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "김제군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3382,19 +3427,20 @@
                 "voterate": 6.19
               }
             ],
-            "counted_votes": 82488,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8760,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 3645,
+            "counted_votes": 82488,
             "electorates": 91248,
-            "district_name": "김제군",
-            "district_code": 45155,
-            "valid_votes": 78843,
-            "nth": 2
+            "district_code": 45155
           },
           {
-            "blank_ballots": 9060,
-            "cand_no": 4,
+            "valid_votes": 44480,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "옥구군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3421,19 +3467,20 @@
                 "voterate": 3.65
               }
             ],
-            "counted_votes": 46251,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9060,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 1771,
+            "counted_votes": 46251,
             "electorates": 55311,
-            "district_name": "옥구군",
-            "district_code": 45165,
-            "valid_votes": 44480,
-            "nth": 2
+            "district_code": 45165
           },
           {
-            "blank_ballots": 13223,
-            "cand_no": 4,
+            "valid_votes": 65392,
+            "region_name": "전북",
+            "num_elected": 1,
+            "district_name": "익산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3460,64 +3507,66 @@
                 "voterate": 5.26
               }
             ],
-            "counted_votes": 68435,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 13223,
             "region_code": 45,
-            "region_name": "전북",
             "undervotes": 3043,
+            "counted_votes": 68435,
             "electorates": 81658,
-            "district_name": "익산군",
-            "district_code": 45175,
-            "valid_votes": 65392,
-            "nth": 2
+            "district_code": 45175
           }
-        ]
-      },
-      {
-        "region_code": 46,
-        "region_name": "전남",
+        ],
         "region_result": {
-          "blank_ballots": 113262,
-          "cand_no": 4,
+          "valid_votes": 710202,
+          "region_name": "전북",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 99885,
-              "voterate": 8.92
+              "votenum": 109490,
+              "voterate": 15.41
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 823587,
-              "voterate": 73.57
+              "votenum": 468220,
+              "voterate": 65.92
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 165245,
-              "voterate": 14.76
+              "votenum": 96271,
+              "voterate": 13.55
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 30677,
-              "voterate": 2.74
+              "votenum": 36221,
+              "voterate": 5.1
             }
           ],
-          "counted_votes": 1164923,
-          "region_code": 46,
-          "region_name": "전남",
-          "undervotes": 45529,
-          "electorates": 1278185,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 1119394,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 110925,
+          "region_code": 45,
+          "undervotes": 33297,
+          "counted_votes": 743499,
+          "electorates": 854424,
+          "district_code": -1
         },
+        "region_name": "전북",
+        "region_code": 45
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 14541,
-            "cand_no": 4,
+            "valid_votes": 43104,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "광주시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3544,19 +3593,20 @@
                 "voterate": 5.04
               }
             ],
-            "counted_votes": 45157,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 14541,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2053,
+            "counted_votes": 45157,
             "electorates": 59698,
-            "district_name": "광주시",
-            "district_code": 46014,
-            "valid_votes": 43104,
-            "nth": 2
+            "district_code": 46014
           },
           {
-            "blank_ballots": 9211,
-            "cand_no": 4,
+            "valid_votes": 32653,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "목포시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3583,19 +3633,20 @@
                 "voterate": 2.69
               }
             ],
-            "counted_votes": 33894,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9211,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1241,
+            "counted_votes": 33894,
             "electorates": 43105,
-            "district_name": "목포시",
-            "district_code": 46024,
-            "valid_votes": 32653,
-            "nth": 2
+            "district_code": 46024
           },
           {
-            "blank_ballots": 3698,
-            "cand_no": 4,
+            "valid_votes": 23158,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "여수시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3622,19 +3673,20 @@
                 "voterate": 2.76
               }
             ],
-            "counted_votes": 24239,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3698,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1081,
+            "counted_votes": 24239,
             "electorates": 27937,
-            "district_name": "여수시",
-            "district_code": 46034,
-            "valid_votes": 23158,
-            "nth": 2
+            "district_code": 46034
           },
           {
-            "blank_ballots": 3359,
-            "cand_no": 4,
+            "valid_votes": 20153,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "순천시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3661,19 +3713,20 @@
                 "voterate": 4.99
               }
             ],
-            "counted_votes": 21265,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3359,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1112,
+            "counted_votes": 21265,
             "electorates": 24624,
-            "district_name": "순천시",
-            "district_code": 46044,
-            "valid_votes": 20153,
-            "nth": 2
+            "district_code": 46044
           },
           {
-            "blank_ballots": 8111,
-            "cand_no": 4,
+            "valid_votes": 56510,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "광산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3700,19 +3753,20 @@
                 "voterate": 4.09
               }
             ],
-            "counted_votes": 59720,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8111,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 3210,
+            "counted_votes": 59720,
             "electorates": 67831,
-            "district_name": "광산군",
-            "district_code": 46055,
-            "valid_votes": 56510,
-            "nth": 2
+            "district_code": 46055
           },
           {
-            "blank_ballots": 2014,
-            "cand_no": 4,
+            "valid_votes": 40959,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "담양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3739,19 +3793,20 @@
                 "voterate": 1.04
               }
             ],
-            "counted_votes": 41808,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2014,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 849,
+            "counted_votes": 41808,
             "electorates": 43822,
-            "district_name": "담양군",
-            "district_code": 46065,
-            "valid_votes": 40959,
-            "nth": 2
+            "district_code": 46065
           },
           {
-            "blank_ballots": 1816,
-            "cand_no": 4,
+            "valid_votes": 33929,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "곡성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3778,19 +3833,20 @@
                 "voterate": 1.88
               }
             ],
-            "counted_votes": 35213,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1816,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1284,
+            "counted_votes": 35213,
             "electorates": 37029,
-            "district_name": "곡성군",
-            "district_code": 46075,
-            "valid_votes": 33929,
-            "nth": 2
+            "district_code": 46075
           },
           {
-            "blank_ballots": 1766,
-            "cand_no": 4,
+            "valid_votes": 23535,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "구례군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3817,19 +3873,20 @@
                 "voterate": 0.82
               }
             ],
-            "counted_votes": 23958,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1766,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 423,
+            "counted_votes": 23958,
             "electorates": 25724,
-            "district_name": "구례군",
-            "district_code": 46085,
-            "valid_votes": 23535,
-            "nth": 2
+            "district_code": 46085
           },
           {
-            "blank_ballots": 2090,
-            "cand_no": 4,
+            "valid_votes": 29294,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "광양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3856,19 +3913,20 @@
                 "voterate": 0.78
               }
             ],
-            "counted_votes": 30460,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2090,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1166,
+            "counted_votes": 30460,
             "electorates": 32550,
-            "district_name": "광양군",
-            "district_code": 46095,
-            "valid_votes": 29294,
-            "nth": 2
+            "district_code": 46095
           },
           {
-            "blank_ballots": 3358,
-            "cand_no": 4,
+            "valid_votes": 50570,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "여천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3895,19 +3953,20 @@
                 "voterate": 2.58
               }
             ],
-            "counted_votes": 52900,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3358,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2330,
+            "counted_votes": 52900,
             "electorates": 56258,
-            "district_name": "여천군",
-            "district_code": 46105,
-            "valid_votes": 50570,
-            "nth": 2
+            "district_code": 46105
           },
           {
-            "blank_ballots": 3298,
-            "cand_no": 4,
+            "valid_votes": 45458,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "승주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3934,19 +3993,20 @@
                 "voterate": 1.7
               }
             ],
-            "counted_votes": 47243,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3298,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1785,
+            "counted_votes": 47243,
             "electorates": 50541,
-            "district_name": "승주군",
-            "district_code": 46115,
-            "valid_votes": 45458,
-            "nth": 2
+            "district_code": 46115
           },
           {
-            "blank_ballots": 5982,
-            "cand_no": 4,
+            "valid_votes": 69883,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "고흥군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -3973,19 +4033,20 @@
                 "voterate": 5.94
               }
             ],
-            "counted_votes": 73543,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5982,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 3660,
+            "counted_votes": 73543,
             "electorates": 79525,
-            "district_name": "고흥군",
-            "district_code": 46125,
-            "valid_votes": 69883,
-            "nth": 2
+            "district_code": 46125
           },
           {
-            "blank_ballots": 3154,
-            "cand_no": 4,
+            "valid_votes": 58343,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "보성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4012,19 +4073,20 @@
                 "voterate": 2.6
               }
             ],
-            "counted_votes": 60463,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3154,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2120,
+            "counted_votes": 60463,
             "electorates": 63617,
-            "district_name": "보성군",
-            "district_code": 46135,
-            "valid_votes": 58343,
-            "nth": 2
+            "district_code": 46135
           },
           {
-            "blank_ballots": 2779,
-            "cand_no": 4,
+            "valid_votes": 41736,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "화순군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4051,19 +4113,20 @@
                 "voterate": 3.38
               }
             ],
-            "counted_votes": 43812,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2779,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2076,
+            "counted_votes": 43812,
             "electorates": 46591,
-            "district_name": "화순군",
-            "district_code": 46145,
-            "valid_votes": 41736,
-            "nth": 2
+            "district_code": 46145
           },
           {
-            "blank_ballots": 2871,
-            "cand_no": 4,
+            "valid_votes": 41724,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "장흥군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4090,19 +4153,20 @@
                 "voterate": 2.25
               }
             ],
-            "counted_votes": 42843,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2871,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1119,
+            "counted_votes": 42843,
             "electorates": 45714,
-            "district_name": "장흥군",
-            "district_code": 46155,
-            "valid_votes": 41724,
-            "nth": 2
+            "district_code": 46155
           },
           {
-            "blank_ballots": 2399,
-            "cand_no": 4,
+            "valid_votes": 41509,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "강진군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4129,19 +4193,20 @@
                 "voterate": 1.35
               }
             ],
-            "counted_votes": 42861,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2399,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1352,
+            "counted_votes": 42861,
             "electorates": 45260,
-            "district_name": "강진군",
-            "district_code": 46165,
-            "valid_votes": 41509,
-            "nth": 2
+            "district_code": 46165
           },
           {
-            "blank_ballots": 6118,
-            "cand_no": 4,
+            "valid_votes": 68085,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "해남군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4168,19 +4233,20 @@
                 "voterate": 3.2
               }
             ],
-            "counted_votes": 71344,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6118,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 3259,
+            "counted_votes": 71344,
             "electorates": 77462,
-            "district_name": "해남군",
-            "district_code": 46175,
-            "valid_votes": 68085,
-            "nth": 2
+            "district_code": 46175
           },
           {
-            "blank_ballots": 1442,
-            "cand_no": 4,
+            "valid_votes": 42140,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "영암군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4207,19 +4273,20 @@
                 "voterate": 0.51
               }
             ],
-            "counted_votes": 42593,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1442,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 453,
+            "counted_votes": 42593,
             "electorates": 44035,
-            "district_name": "영암군",
-            "district_code": 46185,
-            "valid_votes": 42140,
-            "nth": 2
+            "district_code": 46185
           },
           {
-            "blank_ballots": 6731,
-            "cand_no": 4,
+            "valid_votes": 93911,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "무안군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4246,19 +4313,20 @@
                 "voterate": 1.49
               }
             ],
-            "counted_votes": 97276,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6731,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 3365,
+            "counted_votes": 97276,
             "electorates": 104007,
-            "district_name": "무안군",
-            "district_code": 46195,
-            "valid_votes": 93911,
-            "nth": 2
+            "district_code": 46195
           },
           {
-            "blank_ballots": 4720,
-            "cand_no": 4,
+            "valid_votes": 76145,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "나주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4285,19 +4353,20 @@
                 "voterate": 1.96
               }
             ],
-            "counted_votes": 78806,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4720,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2661,
+            "counted_votes": 78806,
             "electorates": 83526,
-            "district_name": "나주군",
-            "district_code": 46205,
-            "valid_votes": 76145,
-            "nth": 2
+            "district_code": 46205
           },
           {
-            "blank_ballots": 4460,
-            "cand_no": 4,
+            "valid_votes": 38760,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "함평군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4324,19 +4393,20 @@
                 "voterate": 2.98
               }
             ],
-            "counted_votes": 40369,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4460,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1609,
+            "counted_votes": 40369,
             "electorates": 44829,
-            "district_name": "함평군",
-            "district_code": 46215,
-            "valid_votes": 38760,
-            "nth": 2
+            "district_code": 46215
           },
           {
-            "blank_ballots": 5673,
-            "cand_no": 4,
+            "valid_votes": 43990,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "영광군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4363,19 +4433,20 @@
                 "voterate": 3.58
               }
             ],
-            "counted_votes": 46329,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5673,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 2339,
+            "counted_votes": 46329,
             "electorates": 52002,
-            "district_name": "영광군",
-            "district_code": 46225,
-            "valid_votes": 43990,
-            "nth": 2
+            "district_code": 46225
           },
           {
-            "blank_ballots": 5436,
-            "cand_no": 4,
+            "valid_votes": 35237,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "장성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4402,19 +4473,20 @@
                 "voterate": 6.07
               }
             ],
-            "counted_votes": 37214,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5436,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1977,
+            "counted_votes": 37214,
             "electorates": 42650,
-            "district_name": "장성군",
-            "district_code": 46235,
-            "valid_votes": 35237,
-            "nth": 2
+            "district_code": 46235
           },
           {
-            "blank_ballots": 3932,
-            "cand_no": 4,
+            "valid_votes": 39723,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "완도군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4441,19 +4513,20 @@
                 "voterate": 2.47
               }
             ],
-            "counted_votes": 41192,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3932,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1469,
+            "counted_votes": 41192,
             "electorates": 45124,
-            "district_name": "완도군",
-            "district_code": 46245,
-            "valid_votes": 39723,
-            "nth": 2
+            "district_code": 46245
           },
           {
-            "blank_ballots": 4303,
-            "cand_no": 4,
+            "valid_votes": 28885,
+            "region_name": "전남",
+            "num_elected": 1,
+            "district_name": "진도군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4480,64 +4553,66 @@
                 "voterate": 1.15
               }
             ],
-            "counted_votes": 30421,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4303,
             "region_code": 46,
-            "region_name": "전남",
             "undervotes": 1536,
+            "counted_votes": 30421,
             "electorates": 34724,
-            "district_name": "진도군",
-            "district_code": 46255,
-            "valid_votes": 28885,
-            "nth": 2
+            "district_code": 46255
           }
-        ]
-      },
-      {
-        "region_code": 47,
-        "region_name": "경북",
+        ],
         "region_result": {
-          "blank_ballots": 146863,
-          "cand_no": 4,
+          "valid_votes": 1119394,
+          "region_name": "전남",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 129791,
-              "voterate": 10.55
+              "votenum": 99885,
+              "voterate": 8.92
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 921988,
-              "voterate": 75.01
+              "votenum": 823587,
+              "voterate": 73.57
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 140271,
-              "voterate": 11.41
+              "votenum": 165245,
+              "voterate": 14.76
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 37100,
-              "voterate": 3.01
+              "votenum": 30677,
+              "voterate": 2.74
             }
           ],
-          "counted_votes": 1269863,
-          "region_code": 47,
-          "region_name": "경북",
-          "undervotes": 40713,
-          "electorates": 1416726,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 1229150,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 113262,
+          "region_code": 46,
+          "undervotes": 45529,
+          "counted_votes": 1164923,
+          "electorates": 1278185,
+          "district_code": -1
         },
+        "region_name": "전남",
+        "region_code": 46
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 19475,
-            "cand_no": 4,
+            "valid_votes": 42642,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "대구시갑",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4564,19 +4639,20 @@
                 "voterate": 3.26
               }
             ],
-            "counted_votes": 44343,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 19475,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1701,
+            "counted_votes": 44343,
             "electorates": 63818,
-            "district_name": "대구시갑",
-            "district_code": 47014,
-            "valid_votes": 42642,
-            "nth": 2
+            "district_code": 47014
           },
           {
-            "blank_ballots": 10885,
-            "cand_no": 4,
+            "valid_votes": 36869,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "대구시을",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4603,19 +4679,20 @@
                 "voterate": 4.43
               }
             ],
-            "counted_votes": 38527,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10885,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1658,
+            "counted_votes": 38527,
             "electorates": 49412,
-            "district_name": "대구시을",
-            "district_code": 47024,
-            "valid_votes": 36869,
-            "nth": 2
+            "district_code": 47024
           },
           {
-            "blank_ballots": 15438,
-            "cand_no": 4,
+            "valid_votes": 38632,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "대구시병",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4642,19 +4719,20 @@
                 "voterate": 4.16
               }
             ],
-            "counted_votes": 41049,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 15438,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 2417,
+            "counted_votes": 41049,
             "electorates": 56487,
-            "district_name": "대구시병",
-            "district_code": 47034,
-            "valid_votes": 38632,
-            "nth": 2
+            "district_code": 47034
           },
           {
-            "blank_ballots": 2329,
-            "cand_no": 4,
+            "valid_votes": 19343,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "포항시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4681,19 +4759,20 @@
                 "voterate": 1.54
               }
             ],
-            "counted_votes": 19856,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2329,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 513,
+            "counted_votes": 19856,
             "electorates": 22185,
-            "district_name": "포항시",
-            "district_code": 47044,
-            "valid_votes": 19343,
-            "nth": 2
+            "district_code": 47044
           },
           {
-            "blank_ballots": 3330,
-            "cand_no": 4,
+            "valid_votes": 13675,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "김천시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4720,19 +4799,20 @@
                 "voterate": 2.81
               }
             ],
-            "counted_votes": 14557,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3330,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 882,
+            "counted_votes": 14557,
             "electorates": 17887,
-            "district_name": "김천시",
-            "district_code": 47054,
-            "valid_votes": 13675,
-            "nth": 2
+            "district_code": 47054
           },
           {
-            "blank_ballots": 4008,
-            "cand_no": 4,
+            "valid_votes": 53453,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "달성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4759,19 +4839,20 @@
                 "voterate": 4.22
               }
             ],
-            "counted_votes": 55156,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4008,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1703,
+            "counted_votes": 55156,
             "electorates": 59164,
-            "district_name": "달성군",
-            "district_code": 47065,
-            "valid_votes": 53453,
-            "nth": 2
+            "district_code": 47065
           },
           {
-            "blank_ballots": 2218,
-            "cand_no": 4,
+            "valid_votes": 26915,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "군위군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4798,19 +4879,20 @@
                 "voterate": 2.32
               }
             ],
-            "counted_votes": 27720,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2218,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 805,
+            "counted_votes": 27720,
             "electorates": 29938,
-            "district_name": "군위군",
-            "district_code": 47075,
-            "valid_votes": 26915,
-            "nth": 2
+            "district_code": 47075
           },
           {
-            "blank_ballots": 5972,
-            "cand_no": 4,
+            "valid_votes": 66463,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "의성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4837,19 +4919,20 @@
                 "voterate": 3.34
               }
             ],
-            "counted_votes": 68172,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5972,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1709,
+            "counted_votes": 68172,
             "electorates": 74144,
-            "district_name": "의성군",
-            "district_code": 47085,
-            "valid_votes": 66463,
-            "nth": 2
+            "district_code": 47085
           },
           {
-            "blank_ballots": 6744,
-            "cand_no": 4,
+            "valid_votes": 75286,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "안동군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4876,19 +4959,20 @@
                 "voterate": 2.03
               }
             ],
-            "counted_votes": 77688,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6744,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 2402,
+            "counted_votes": 77688,
             "electorates": 84432,
-            "district_name": "안동군",
-            "district_code": 47095,
-            "valid_votes": 75286,
-            "nth": 2
+            "district_code": 47095
           },
           {
-            "blank_ballots": 2924,
-            "cand_no": 4,
+            "valid_votes": 24243,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "청송군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4915,19 +4999,20 @@
                 "voterate": 3.6
               }
             ],
-            "counted_votes": 24795,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2924,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 552,
+            "counted_votes": 24795,
             "electorates": 27719,
-            "district_name": "청송군",
-            "district_code": 47105,
-            "valid_votes": 24243,
-            "nth": 2
+            "district_code": 47105
           },
           {
-            "blank_ballots": 1889,
-            "cand_no": 4,
+            "valid_votes": 18191,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "영양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4954,19 +5039,20 @@
                 "voterate": 3.71
               }
             ],
-            "counted_votes": 18811,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1889,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 620,
+            "counted_votes": 18811,
             "electorates": 20700,
-            "district_name": "영양군",
-            "district_code": 47115,
-            "valid_votes": 18191,
-            "nth": 2
+            "district_code": 47115
           },
           {
-            "blank_ballots": 2904,
-            "cand_no": 4,
+            "valid_votes": 35493,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "영덕군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -4993,19 +5079,20 @@
                 "voterate": 4.52
               }
             ],
-            "counted_votes": 36645,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2904,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1152,
+            "counted_votes": 36645,
             "electorates": 39549,
-            "district_name": "영덕군",
-            "district_code": 47125,
-            "valid_votes": 35493,
-            "nth": 2
+            "district_code": 47125
           },
           {
-            "blank_ballots": 3832,
-            "cand_no": 4,
+            "valid_votes": 74837,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "영일군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5032,19 +5119,20 @@
                 "voterate": 1.46
               }
             ],
-            "counted_votes": 76542,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3832,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1705,
+            "counted_votes": 76542,
             "electorates": 80374,
-            "district_name": "영일군",
-            "district_code": 47135,
-            "valid_votes": 74837,
-            "nth": 2
+            "district_code": 47135
           },
           {
-            "blank_ballots": 11580,
-            "cand_no": 4,
+            "valid_votes": 86166,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "경주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5071,19 +5159,20 @@
                 "voterate": 3.54
               }
             ],
-            "counted_votes": 89652,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 11580,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 3486,
+            "counted_votes": 89652,
             "electorates": 101232,
-            "district_name": "경주군",
-            "district_code": 47145,
-            "valid_votes": 86166,
-            "nth": 2
+            "district_code": 47145
           },
           {
-            "blank_ballots": 5783,
-            "cand_no": 4,
+            "valid_votes": 60104,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "영천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5110,19 +5199,20 @@
                 "voterate": 3.71
               }
             ],
-            "counted_votes": 62176,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5783,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 2072,
+            "counted_votes": 62176,
             "electorates": 67959,
-            "district_name": "영천군",
-            "district_code": 47155,
-            "valid_votes": 60104,
-            "nth": 2
+            "district_code": 47155
           },
           {
-            "blank_ballots": 4717,
-            "cand_no": 4,
+            "valid_votes": 48035,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "경산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5149,19 +5239,20 @@
                 "voterate": 4.87
               }
             ],
-            "counted_votes": 50211,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4717,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 2176,
+            "counted_votes": 50211,
             "electorates": 54928,
-            "district_name": "경산군",
-            "district_code": 47165,
-            "valid_votes": 48035,
-            "nth": 2
+            "district_code": 47165
           },
           {
-            "blank_ballots": 3080,
-            "cand_no": 4,
+            "valid_votes": 40662,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "청도군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5188,19 +5279,20 @@
                 "voterate": 4.65
               }
             ],
-            "counted_votes": 42099,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3080,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1437,
+            "counted_votes": 42099,
             "electorates": 45179,
-            "district_name": "청도군",
-            "district_code": 47175,
-            "valid_votes": 40662,
-            "nth": 2
+            "district_code": 47175
           },
           {
-            "blank_ballots": 2184,
-            "cand_no": 4,
+            "valid_votes": 24679,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "고령군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5227,19 +5319,20 @@
                 "voterate": 4.17
               }
             ],
-            "counted_votes": 25746,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2184,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1067,
+            "counted_votes": 25746,
             "electorates": 27930,
-            "district_name": "고령군",
-            "district_code": 47185,
-            "valid_votes": 24679,
-            "nth": 2
+            "district_code": 47185
           },
           {
-            "blank_ballots": 4380,
-            "cand_no": 4,
+            "valid_votes": 39952,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "성주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5266,19 +5359,20 @@
                 "voterate": 3.77
               }
             ],
-            "counted_votes": 41511,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4380,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1559,
+            "counted_votes": 41511,
             "electorates": 45891,
-            "district_name": "성주군",
-            "district_code": 47195,
-            "valid_votes": 39952,
-            "nth": 2
+            "district_code": 47195
           },
           {
-            "blank_ballots": 2609,
-            "cand_no": 4,
+            "valid_votes": 36406,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "칠곡군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5305,19 +5399,20 @@
                 "voterate": 2.56
               }
             ],
-            "counted_votes": 37412,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2609,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1006,
+            "counted_votes": 37412,
             "electorates": 40021,
-            "district_name": "칠곡군",
-            "district_code": 47205,
-            "valid_votes": 36406,
-            "nth": 2
+            "district_code": 47205
           },
           {
-            "blank_ballots": 4953,
-            "cand_no": 4,
+            "valid_votes": 51074,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "금릉군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5344,19 +5439,20 @@
                 "voterate": 3.02
               }
             ],
-            "counted_votes": 52642,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4953,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1568,
+            "counted_votes": 52642,
             "electorates": 57595,
-            "district_name": "금릉군",
-            "district_code": 47215,
-            "valid_votes": 51074,
-            "nth": 2
+            "district_code": 47215
           },
           {
-            "blank_ballots": 1696,
-            "cand_no": 4,
+            "valid_votes": 40435,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "선산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5383,19 +5479,20 @@
                 "voterate": 2.17
               }
             ],
-            "counted_votes": 40761,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1696,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 326,
+            "counted_votes": 40761,
             "electorates": 42457,
-            "district_name": "선산군",
-            "district_code": 47225,
-            "valid_votes": 40435,
-            "nth": 2
+            "district_code": 47225
           },
           {
-            "blank_ballots": 9681,
-            "cand_no": 4,
+            "valid_votes": 84695,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "상주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5422,19 +5519,20 @@
                 "voterate": 2.08
               }
             ],
-            "counted_votes": 87740,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9681,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 3045,
+            "counted_votes": 87740,
             "electorates": 97421,
-            "district_name": "상주군",
-            "district_code": 47235,
-            "valid_votes": 84695,
-            "nth": 2
+            "district_code": 47235
           },
           {
-            "blank_ballots": 2728,
-            "cand_no": 4,
+            "valid_votes": 47035,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "문경군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5461,19 +5559,20 @@
                 "voterate": 1.5
               }
             ],
-            "counted_votes": 48045,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2728,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 1010,
+            "counted_votes": 48045,
             "electorates": 50773,
-            "district_name": "문경군",
-            "district_code": 47245,
-            "valid_votes": 47035,
-            "nth": 2
+            "district_code": 47245
           },
           {
-            "blank_ballots": 4944,
-            "cand_no": 4,
+            "valid_votes": 52920,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "예천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5500,19 +5599,20 @@
                 "voterate": 3.65
               }
             ],
-            "counted_votes": 55354,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4944,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 2434,
+            "counted_votes": 55354,
             "electorates": 60298,
-            "district_name": "예천군",
-            "district_code": 47255,
-            "valid_votes": 52920,
-            "nth": 2
+            "district_code": 47255
           },
           {
-            "blank_ballots": 3967,
-            "cand_no": 4,
+            "valid_votes": 47483,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "영주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5539,19 +5639,20 @@
                 "voterate": 1.27
               }
             ],
-            "counted_votes": 48411,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3967,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 928,
+            "counted_votes": 48411,
             "electorates": 52378,
-            "district_name": "영주군",
-            "district_code": 47265,
-            "valid_votes": 47483,
-            "nth": 2
+            "district_code": 47265
           },
           {
-            "blank_ballots": 1827,
-            "cand_no": 4,
+            "valid_votes": 38400,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "봉화군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5578,19 +5679,20 @@
                 "voterate": 0.67
               }
             ],
-            "counted_votes": 38982,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 1827,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 582,
+            "counted_votes": 38982,
             "electorates": 40809,
-            "district_name": "봉화군",
-            "district_code": 47275,
-            "valid_votes": 38400,
-            "nth": 2
+            "district_code": 47275
           },
           {
-            "blank_ballots": 786,
-            "cand_no": 4,
+            "valid_votes": 5062,
+            "region_name": "경북",
+            "num_elected": 1,
+            "district_name": "울릉군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5617,64 +5719,66 @@
                 "voterate": 3.71
               }
             ],
-            "counted_votes": 5260,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 786,
             "region_code": 47,
-            "region_name": "경북",
             "undervotes": 198,
+            "counted_votes": 5260,
             "electorates": 6046,
-            "district_name": "울릉군",
-            "district_code": 47285,
-            "valid_votes": 5062,
-            "nth": 2
+            "district_code": 47285
           }
-        ]
-      },
-      {
-        "region_code": 48,
-        "region_name": "경남",
+        ],
         "region_result": {
-          "blank_ballots": 234040,
-          "cand_no": 4,
+          "valid_votes": 1229150,
+          "region_name": "경북",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 288654,
-              "voterate": 23.04
+              "votenum": 129791,
+              "voterate": 10.55
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 693523,
-              "voterate": 55.37
+              "votenum": 921988,
+              "voterate": 75.01
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 211544,
-              "voterate": 16.89
+              "votenum": 140271,
+              "voterate": 11.41
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 58586,
-              "voterate": 4.67
+              "votenum": 37100,
+              "voterate": 3.01
             }
           ],
-          "counted_votes": 1301770,
-          "region_code": 48,
-          "region_name": "경남",
-          "undervotes": 49463,
-          "electorates": 1535810,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 1252307,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 146863,
+          "region_code": 47,
+          "undervotes": 40713,
+          "counted_votes": 1269863,
+          "electorates": 1416726,
+          "district_code": -1
         },
+        "region_name": "경북",
+        "region_code": 47
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 17462,
-            "cand_no": 4,
+            "valid_votes": 59600,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "부산시갑구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5701,19 +5805,20 @@
                 "voterate": 3.42
               }
             ],
-            "counted_votes": 61817,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 17462,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2217,
+            "counted_votes": 61817,
             "electorates": 79279,
-            "district_name": "부산시갑구",
-            "district_code": 48011,
-            "valid_votes": 59600,
-            "nth": 2
+            "district_code": 48011
           },
           {
-            "blank_ballots": 22973,
-            "cand_no": 4,
+            "valid_votes": 56041,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "부산시을구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5740,19 +5845,20 @@
                 "voterate": 2.36
               }
             ],
-            "counted_votes": 58154,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 22973,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2113,
+            "counted_votes": 58154,
             "electorates": 81127,
-            "district_name": "부산시을구",
-            "district_code": 48021,
-            "valid_votes": 56041,
-            "nth": 2
+            "district_code": 48021
           },
           {
-            "blank_ballots": 24394,
-            "cand_no": 4,
+            "valid_votes": 44881,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "부산시병구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5779,19 +5885,20 @@
                 "voterate": 2.56
               }
             ],
-            "counted_votes": 46885,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 24394,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2004,
+            "counted_votes": 46885,
             "electorates": 71279,
-            "district_name": "부산시병구",
-            "district_code": 48031,
-            "valid_votes": 44881,
-            "nth": 2
+            "district_code": 48031
           },
           {
-            "blank_ballots": 17830,
-            "cand_no": 4,
+            "valid_votes": 47041,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "부산시정구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5818,19 +5925,20 @@
                 "voterate": 3.61
               }
             ],
-            "counted_votes": 49246,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 17830,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2205,
+            "counted_votes": 49246,
             "electorates": 67076,
-            "district_name": "부산시정구",
-            "district_code": 48041,
-            "valid_votes": 47041,
-            "nth": 2
+            "district_code": 48041
           },
           {
-            "blank_ballots": 11290,
-            "cand_no": 4,
+            "valid_votes": 28123,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "부산시무구",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5857,19 +5965,20 @@
                 "voterate": 3.31
               }
             ],
-            "counted_votes": 29154,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 11290,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1031,
+            "counted_votes": 29154,
             "electorates": 40444,
-            "district_name": "부산시무구",
-            "district_code": 48051,
-            "valid_votes": 28123,
-            "nth": 2
+            "district_code": 48051
           },
           {
-            "blank_ballots": 8541,
-            "cand_no": 4,
+            "valid_votes": 33559,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "마산시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5896,19 +6005,20 @@
                 "voterate": 4.19
               }
             ],
-            "counted_votes": 35151,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8541,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1592,
+            "counted_votes": 35151,
             "electorates": 43692,
-            "district_name": "마산시",
-            "district_code": 48061,
-            "valid_votes": 33559,
-            "nth": 2
+            "district_code": 48061
           },
           {
-            "blank_ballots": 3890,
-            "cand_no": 4,
+            "valid_votes": 23481,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "진주시",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5935,19 +6045,20 @@
                 "voterate": 4.47
               }
             ],
-            "counted_votes": 24638,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3890,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1157,
+            "counted_votes": 24638,
             "electorates": 28528,
-            "district_name": "진주시",
-            "district_code": 48071,
-            "valid_votes": 23481,
-            "nth": 2
+            "district_code": 48071
           },
           {
-            "blank_ballots": 5918,
-            "cand_no": 4,
+            "valid_votes": 48168,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "진양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -5974,19 +6085,20 @@
                 "voterate": 5.92
               }
             ],
-            "counted_votes": 49553,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5918,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1385,
+            "counted_votes": 49553,
             "electorates": 55471,
-            "district_name": "진양군",
-            "district_code": 48082,
-            "valid_votes": 48168,
-            "nth": 2
+            "district_code": 48082
           },
           {
-            "blank_ballots": 3294,
-            "cand_no": 4,
+            "valid_votes": 34582,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "의령군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6013,19 +6125,20 @@
                 "voterate": 5.47
               }
             ],
-            "counted_votes": 35923,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3294,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1341,
+            "counted_votes": 35923,
             "electorates": 39217,
-            "district_name": "의령군",
-            "district_code": 48092,
-            "valid_votes": 34582,
-            "nth": 2
+            "district_code": 48092
           },
           {
-            "blank_ballots": 5540,
-            "cand_no": 4,
+            "valid_votes": 39324,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "함안군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6052,19 +6165,20 @@
                 "voterate": 5.73
               }
             ],
-            "counted_votes": 40845,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5540,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1521,
+            "counted_votes": 40845,
             "electorates": 46385,
-            "district_name": "함안군",
-            "district_code": 48102,
-            "valid_votes": 39324,
-            "nth": 2
+            "district_code": 48102
           },
           {
-            "blank_ballots": 4511,
-            "cand_no": 4,
+            "valid_votes": 51973,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "창녕군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6091,19 +6205,20 @@
                 "voterate": 3.09
               }
             ],
-            "counted_votes": 53183,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4511,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1210,
+            "counted_votes": 53183,
             "electorates": 57694,
-            "district_name": "창녕군",
-            "district_code": 48112,
-            "valid_votes": 51973,
-            "nth": 2
+            "district_code": 48112
           },
           {
-            "blank_ballots": 9217,
-            "cand_no": 4,
+            "valid_votes": 69814,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "밀양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6130,19 +6245,20 @@
                 "voterate": 6.44
               }
             ],
-            "counted_votes": 72610,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9217,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2796,
+            "counted_votes": 72610,
             "electorates": 81827,
-            "district_name": "밀양군",
-            "district_code": 48122,
-            "valid_votes": 69814,
-            "nth": 2
+            "district_code": 48122
           },
           {
-            "blank_ballots": 3035,
-            "cand_no": 4,
+            "valid_votes": 19793,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "양산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6169,19 +6285,20 @@
                 "voterate": 5.56
               }
             ],
-            "counted_votes": 20409,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 3035,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 616,
+            "counted_votes": 20409,
             "electorates": 23444,
-            "district_name": "양산군",
-            "district_code": 48132,
-            "valid_votes": 19793,
-            "nth": 2
+            "district_code": 48132
           },
           {
-            "blank_ballots": 11712,
-            "cand_no": 4,
+            "valid_votes": 68680,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "울산군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6208,19 +6325,20 @@
                 "voterate": 6.39
               }
             ],
-            "counted_votes": 70867,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 11712,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2187,
+            "counted_votes": 70867,
             "electorates": 82579,
-            "district_name": "울산군",
-            "district_code": 48142,
-            "valid_votes": 68680,
-            "nth": 2
+            "district_code": 48142
           },
           {
-            "blank_ballots": 4880,
-            "cand_no": 4,
+            "valid_votes": 27454,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "동래군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6247,19 +6365,20 @@
                 "voterate": 3.96
               }
             ],
-            "counted_votes": 28583,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4880,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1129,
+            "counted_votes": 28583,
             "electorates": 33463,
-            "district_name": "동래군",
-            "district_code": 48152,
-            "valid_votes": 27454,
-            "nth": 2
+            "district_code": 48152
           },
           {
-            "blank_ballots": 8933,
-            "cand_no": 4,
+            "valid_votes": 66079,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "김해군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6286,19 +6405,20 @@
                 "voterate": 2.83
               }
             ],
-            "counted_votes": 68045,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 8933,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1966,
+            "counted_votes": 68045,
             "electorates": 76978,
-            "district_name": "김해군",
-            "district_code": 48162,
-            "valid_votes": 66079,
-            "nth": 2
+            "district_code": 48162
           },
           {
-            "blank_ballots": 9409,
-            "cand_no": 4,
+            "valid_votes": 77332,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "창원군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6325,19 +6445,20 @@
                 "voterate": 4.08
               }
             ],
-            "counted_votes": 80043,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 9409,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2711,
+            "counted_votes": 80043,
             "electorates": 89452,
-            "district_name": "창원군",
-            "district_code": 48172,
-            "valid_votes": 77332,
-            "nth": 2
+            "district_code": 48172
           },
           {
-            "blank_ballots": 20536,
-            "cand_no": 4,
+            "valid_votes": 96523,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "통영군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6364,19 +6485,20 @@
                 "voterate": 4.22
               }
             ],
-            "counted_votes": 100640,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 20536,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 4117,
+            "counted_votes": 100640,
             "electorates": 121176,
-            "district_name": "통영군",
-            "district_code": 48182,
-            "valid_votes": 96523,
-            "nth": 2
+            "district_code": 48182
           },
           {
-            "blank_ballots": 4310,
-            "cand_no": 4,
+            "valid_votes": 45028,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "고성군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6403,19 +6525,20 @@
                 "voterate": 5.4
               }
             ],
-            "counted_votes": 47037,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4310,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2009,
+            "counted_votes": 47037,
             "electorates": 51347,
-            "district_name": "고성군",
-            "district_code": 48192,
-            "valid_votes": 45028,
-            "nth": 2
+            "district_code": 48192
           },
           {
-            "blank_ballots": 6307,
-            "cand_no": 4,
+            "valid_votes": 45382,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "사천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6442,19 +6565,20 @@
                 "voterate": 5.79
               }
             ],
-            "counted_votes": 47235,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6307,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1853,
+            "counted_votes": 47235,
             "electorates": 53542,
-            "district_name": "사천군",
-            "district_code": 48202,
-            "valid_votes": 45382,
-            "nth": 2
+            "district_code": 48202
           },
           {
-            "blank_ballots": 6914,
-            "cand_no": 4,
+            "valid_votes": 44147,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "남해군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6481,19 +6605,20 @@
                 "voterate": 4.4
               }
             ],
-            "counted_votes": 46037,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6914,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1890,
+            "counted_votes": 46037,
             "electorates": 52951,
-            "district_name": "남해군",
-            "district_code": 48212,
-            "valid_votes": 44147,
-            "nth": 2
+            "district_code": 48212
           },
           {
-            "blank_ballots": 4643,
-            "cand_no": 4,
+            "valid_votes": 46536,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "하동군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6520,19 +6645,20 @@
                 "voterate": 5.18
               }
             ],
-            "counted_votes": 47582,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4643,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1046,
+            "counted_votes": 47582,
             "electorates": 52225,
-            "district_name": "하동군",
-            "district_code": 48222,
-            "valid_votes": 46536,
-            "nth": 2
+            "district_code": 48222
           },
           {
-            "blank_ballots": 2734,
-            "cand_no": 4,
+            "valid_votes": 35783,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "산청군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6559,19 +6685,20 @@
                 "voterate": 5.97
               }
             ],
-            "counted_votes": 37615,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 2734,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1832,
+            "counted_votes": 37615,
             "electorates": 40349,
-            "district_name": "산청군",
-            "district_code": 48232,
-            "valid_votes": 35783,
-            "nth": 2
+            "district_code": 48232
           },
           {
-            "blank_ballots": 4573,
-            "cand_no": 4,
+            "valid_votes": 38754,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "함양군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6598,19 +6725,20 @@
                 "voterate": 4.75
               }
             ],
-            "counted_votes": 40222,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 4573,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 1468,
+            "counted_votes": 40222,
             "electorates": 44795,
-            "district_name": "함양군",
-            "district_code": 48242,
-            "valid_votes": 38754,
-            "nth": 2
+            "district_code": 48242
           },
           {
-            "blank_ballots": 5093,
-            "cand_no": 4,
+            "valid_votes": 43680,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "거창군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6637,19 +6765,20 @@
                 "voterate": 7.69
               }
             ],
-            "counted_votes": 46014,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 5093,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 2334,
+            "counted_votes": 46014,
             "electorates": 51107,
-            "district_name": "거창군",
-            "district_code": 48252,
-            "valid_votes": 43680,
-            "nth": 2
+            "district_code": 48252
           },
           {
-            "blank_ballots": 6101,
-            "cand_no": 4,
+            "valid_votes": 60549,
+            "region_name": "경남",
+            "num_elected": 1,
+            "district_name": "합천군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6676,64 +6805,66 @@
                 "voterate": 5.61
               }
             ],
-            "counted_votes": 64282,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 6101,
             "region_code": 48,
-            "region_name": "경남",
             "undervotes": 3733,
+            "counted_votes": 64282,
             "electorates": 70383,
-            "district_name": "합천군",
-            "district_code": 48262,
-            "valid_votes": 60549,
-            "nth": 2
+            "district_code": 48262
           }
-        ]
-      },
-      {
-        "region_code": 49,
-        "region_name": "제주",
+        ],
         "region_result": {
-          "blank_ballots": 17618,
-          "cand_no": 4,
+          "valid_votes": 1252307,
+          "region_name": "경남",
+          "num_elected": 1,
+          "district_name": "합계",
           "result": [
             {
               "name_kr": "조봉암",
               "party_name_kr": "무소속",
-              "votenum": 6105,
-              "voterate": 6.42
+              "votenum": 288654,
+              "voterate": 23.04
             },
             {
               "name_kr": "이승만",
               "party_name_kr": "자유당",
-              "votenum": 79668,
-              "voterate": 83.8
+              "votenum": 693523,
+              "voterate": 55.37
             },
             {
               "name_kr": "이시영",
               "party_name_kr": "무소속",
-              "votenum": 6659,
-              "voterate": 7.0
+              "votenum": 211544,
+              "voterate": 16.89
             },
             {
               "name_kr": "신흥우",
               "party_name_kr": "무소속",
-              "votenum": 2637,
-              "voterate": 2.77
+              "votenum": 58586,
+              "voterate": 4.67
             }
           ],
-          "counted_votes": 98821,
-          "region_code": 49,
-          "region_name": "제주",
-          "undervotes": 3752,
-          "electorates": 116439,
-          "district_name": "전체",
-          "district_code": -1,
-          "valid_votes": 95069,
-          "nth": 2
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 234040,
+          "region_code": 48,
+          "undervotes": 49463,
+          "counted_votes": 1301770,
+          "electorates": 1535810,
+          "district_code": -1
         },
+        "region_name": "경남",
+        "region_code": 48
+      },
+      {
         "district_result": [
           {
-            "blank_ballots": 7441,
-            "cand_no": 4,
+            "valid_votes": 58933,
+            "region_name": "제주",
+            "num_elected": 1,
+            "district_name": "북제주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6760,19 +6891,20 @@
                 "voterate": 3.07
               }
             ],
-            "counted_votes": 61480,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 7441,
             "region_code": 49,
-            "region_name": "제주",
             "undervotes": 2547,
+            "counted_votes": 61480,
             "electorates": 68921,
-            "district_name": "북제주군",
-            "district_code": 49012,
-            "valid_votes": 58933,
-            "nth": 2
+            "district_code": 49012
           },
           {
-            "blank_ballots": 10177,
-            "cand_no": 4,
+            "valid_votes": 36136,
+            "region_name": "제주",
+            "num_elected": 1,
+            "district_name": "남제주군",
             "result": [
               {
                 "name_kr": "조봉암",
@@ -6799,17 +6931,58 @@
                 "voterate": 2.28
               }
             ],
-            "counted_votes": 37341,
+            "nth": 2,
+            "cand_no": 4,
+            "blank_ballots": 10177,
             "region_code": 49,
-            "region_name": "제주",
             "undervotes": 1205,
+            "counted_votes": 37341,
             "electorates": 47518,
-            "district_name": "남제주군",
-            "district_code": 49022,
-            "valid_votes": 36136,
-            "nth": 2
+            "district_code": 49022
           }
-        ]
+        ],
+        "region_result": {
+          "valid_votes": 95069,
+          "region_name": "제주",
+          "num_elected": 1,
+          "district_name": "합계",
+          "result": [
+            {
+              "name_kr": "조봉암",
+              "party_name_kr": "무소속",
+              "votenum": 6105,
+              "voterate": 6.42
+            },
+            {
+              "name_kr": "이승만",
+              "party_name_kr": "자유당",
+              "votenum": 79668,
+              "voterate": 83.8
+            },
+            {
+              "name_kr": "이시영",
+              "party_name_kr": "무소속",
+              "votenum": 6659,
+              "voterate": 7.0
+            },
+            {
+              "name_kr": "신흥우",
+              "party_name_kr": "무소속",
+              "votenum": 2637,
+              "voterate": 2.77
+            }
+          ],
+          "nth": 2,
+          "cand_no": 4,
+          "blank_ballots": 17618,
+          "region_code": 49,
+          "undervotes": 3752,
+          "counted_votes": 98821,
+          "electorates": 116439,
+          "district_code": -1
+        },
+        "region_name": "제주",
+        "region_code": 49
       }
     ]
   }

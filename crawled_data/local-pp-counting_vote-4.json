@@ -1,0 +1,73 @@
+
+          {
+            "electorates": 134877,
+            "district_name": "용인시제3선거구",
+            "valid_votes": 66082,
+            "region_name": "경기도",
+            "blank_ballots": 67926,
+            "region_code": 4100,
+            "nth": 4,
+            "counted_votes": 66951,
+            "result": [
+              {
+                "party_name_kr": "열린우리당",
+                "votenum": 15898,
+                "name_kr": "김해곤",
+                "voterate": 24.05
+              },
+              {
+                "party_name_kr": "한나라당",
+                "votenum": 46226,
+                "name_kr": "김기선",
+                "voterate": 69.95
+              },
+              {
+                "party_name_kr": "무소속",
+                "votenum": 3958,
+                "name_kr": "이홍복",
+                "voterate": 5.98
+              }
+            ],
+            "cand_no": 3,
+            "undervotes": 869,
+            "district_code": 3413702
+          },
+          {
+            "electorates": 92997,
+            "district_name": "용인시제2선거구",
+            "valid_votes": 42421,
+            "region_name": "경기도",
+            "blank_ballots": 49979,
+            "region_code": 4100,
+            "nth": 4,
+            "counted_votes": 43018,
+            "result": [
+              {
+                "party_name_kr": "열린우리당",
+                "votenum": 12142,
+                "name_kr": "김기준",
+                "voterate": 28.62
+              },
+              {
+                "party_name_kr": "한나라당",
+                "votenum": 23437,
+                "name_kr": "조봉희",
+                "voterate": 55.24
+              },
+              {
+                "party_name_kr": "무소속",
+                "votenum": 1942,
+                "name_kr": "김완래",
+                "voterate": 4.57
+              },
+              {
+                "party_name_kr": "무소속",
+                "votenum": 4900,
+                "name_kr": "정식",
+                "voterate": 11.55
+              }
+            ],
+            "cand_no": 4,
+            "undervotes": 597,
+            "district_code": 3413701
+          },

@@ -1,0 +1,34 @@
+
+          {
+            "region_name": "경남",
+            "cand_no": 3,
+            "nth": 1,
+            "blank_ballots": 9975,
+            "valid_votes": 28198,
+            "counted_votes": 29461,
+            "result": [
+              {
+                "name_kr": "김천태",
+                "votenum": 12222,
+                "party_name_kr": "민주자유당",
+                "voterate": 43.34
+              },
+              {
+                "name_kr": "박창오",
+                "votenum": 4457,
+                "party_name_kr": "무소속",
+                "voterate": 15.80
+              },
+              {
+                "name_kr": "백상원",
+                "votenum": 11519,
+                "party_name_kr": "무소속",
+                "voterate": 40.85
+              }
+            ],
+            "district_code": 54807007,
+            "district_name": "마산시제7",
+            "undervotes": 1263,
+            "region_code": 48,
+            "electorates": 39436
+          },

@@ -1,131 +1,136 @@
 [
   {
-    "election_type": "local_eduParliament",
-    "candidate_type": "independent_candidate",
+    "nth": 6,
     "results": [
       {
+        "region_name": "제주특별자치도",
+        "region_code": 4900,
         "district_result": [
           {
-            "region_code": 4900,
-            "cand_no": 2,
-            "district_name": "제주특별자치도 제1선거구",
-            "region_name": "제주특별자치도",
-            "undervotes": 3671,
             "district_code": 10490101,
+            "nth": 6,
+            "region_name": "제주특별자치도",
             "electorates": 103714,
             "result": [
               {
-                "voterate": 53.94,
                 "name_kr": "부공남",
+                "voterate": 53.94,
                 "votenum": 33621
               },
               {
-                "voterate": 46.05,
                 "name_kr": "부광훈",
+                "voterate": 46.05,
                 "votenum": 28701
               }
             ],
-            "counted_votes": 65993,
-            "valid_votes": 62322,
             "blank_ballots": 37721,
-            "nth": 6
+            "undervotes": 3671,
+            "counted_votes": 65993,
+            "district_name": "제주특별자치도 제1선거구",
+            "cand_no": 2,
+            "num_elected": 1,
+            "region_code": 4900,
+            "valid_votes": 62322
           },
           {
-            "region_code": 4900,
-            "cand_no": 2,
-            "district_name": "제주특별자치도 제2선거구",
-            "region_name": "제주특별자치도",
-            "undervotes": 3094,
             "district_code": 10490102,
+            "nth": 6,
+            "region_name": "제주특별자치도",
             "electorates": 100458,
             "result": [
               {
-                "voterate": 56.52,
                 "name_kr": "김광수",
+                "voterate": 56.52,
                 "votenum": 32185
               },
               {
-                "voterate": 43.47,
                 "name_kr": "오창수",
+                "voterate": 43.47,
                 "votenum": 24751
               }
             ],
-            "counted_votes": 60030,
-            "valid_votes": 56936,
             "blank_ballots": 40428,
-            "nth": 6
+            "undervotes": 3094,
+            "counted_votes": 60030,
+            "district_name": "제주특별자치도 제2선거구",
+            "cand_no": 2,
+            "num_elected": 1,
+            "region_code": 4900,
+            "valid_votes": 56936
           },
           {
-            "region_code": 4900,
-            "cand_no": 2,
-            "district_name": "제주특별자치도 제3선거구",
-            "region_name": "제주특별자치도",
-            "undervotes": 4871,
             "district_code": 10490103,
+            "nth": 6,
+            "region_name": "제주특별자치도",
             "electorates": 136432,
             "result": [
               {
-                "voterate": 57.37,
                 "name_kr": "강성균",
+                "voterate": 57.37,
                 "votenum": 44340
               },
               {
-                "voterate": 42.62,
                 "name_kr": "강덕부",
+                "voterate": 42.62,
                 "votenum": 32947
               }
             ],
-            "counted_votes": 82158,
-            "valid_votes": 77287,
             "blank_ballots": 54274,
-            "nth": 6
-          },
-          {
+            "undervotes": 4871,
+            "counted_votes": 82158,
+            "district_name": "제주특별자치도 제3선거구",
+            "cand_no": 2,
+            "num_elected": 1,
             "region_code": 4900,
-            "cand_no": 3,
-            "district_name": "제주특별자치도 제5선거구",
-            "region_name": "제주특별자치도",
-            "undervotes": 1679,
-            "district_code": 10490202,
-            "electorates": 62364,
-            "result": [
-              {
-                "voterate": 29.96,
-                "name_kr": "지하식",
-                "votenum": 11655
-              },
-              {
-                "voterate": 38.39,
-                "name_kr": "강시백",
-                "votenum": 14933
-              },
-              {
-                "voterate": 31.63,
-                "name_kr": "문석호",
-                "votenum": 12306
-              }
-            ],
-            "counted_votes": 40573,
-            "valid_votes": 38894,
-            "blank_ballots": 21791,
-            "nth": 6
+            "valid_votes": 77287
           },
           {
-            "cand_list": [],
-            "electorates": 0,
-            "candidate_num": 0,
-            "district_name": "제주특별자치도 제4선거구",
             "district_code": 10490201,
             "valid_vote": 0,
             "blank_ballot": 0,
+            "num_elected": 1,
+            "district_name": "제주특별자치도 제4선거구",
+            "cand_list": [],
+            "electorates": 0,
             "counted_vote": 0,
-            "undervote": 0
+            "undervote": 0,
+            "candidate_num": 0
+          },
+          {
+            "district_code": 10490202,
+            "nth": 6,
+            "region_name": "제주특별자치도",
+            "electorates": 62364,
+            "result": [
+              {
+                "name_kr": "지하식",
+                "voterate": 29.96,
+                "votenum": 11655
+              },
+              {
+                "name_kr": "강시백",
+                "voterate": 38.39,
+                "votenum": 14933
+              },
+              {
+                "name_kr": "문석호",
+                "voterate": 31.63,
+                "votenum": 12306
+              }
+            ],
+            "blank_ballots": 21791,
+            "undervotes": 1679,
+            "counted_votes": 40573,
+            "district_name": "제주특별자치도 제5선거구",
+            "cand_no": 3,
+            "num_elected": 1,
+            "region_code": 4900,
+            "valid_votes": 38894
           }
-        ],
-        "region_code": 4900,
-        "region_name": "제주특별자치도"
+        ]
       }
     ],
-    "nth": 6
+    "election_type": "local_eduParliament",
+    "candidate_type": "independent_candidate"
   }
 ]

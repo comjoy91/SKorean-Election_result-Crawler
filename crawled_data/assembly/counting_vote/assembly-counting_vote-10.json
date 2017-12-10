@@ -1,4062 +1,4139 @@
 [
   {
+    "candidate_type": "party_candidate",
     "election_type": "assembly",
     "results": [
       {
-        "region_code": 11,
         "region_name": "서울",
         "district_result": [
           {
             "region_name": "서울",
-            "undervotes": 2126,
-            "blank_ballots": 101228,
+            "cand_no": 6,
             "counted_votes": 251291,
+            "electorates": 352519,
+            "num_elected": 2,
+            "blank_ballots": 101228,
             "valid_votes": 249165,
             "district_name": "제1선거구",
-            "electorates": 352519,
-            "cand_no": 6,
             "district_code": 21101600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "민관식",
-                "voterate": 29.18,
+                "votenum": 72715,
                 "party_name_kr": "민주공화당",
-                "votenum": 72715
+                "voterate": 29.18,
+                "name_kr": "민관식"
               },
               {
-                "name_kr": "정대철",
-                "voterate": 42.53,
+                "votenum": 105983,
                 "party_name_kr": "신민당",
-                "votenum": 105983
+                "voterate": 42.53,
+                "name_kr": "정대철"
               },
               {
-                "name_kr": "유택형",
-                "voterate": 1.98,
+                "votenum": 4938,
                 "party_name_kr": "민주통일당",
-                "votenum": 4938
+                "voterate": 1.98,
+                "name_kr": "유택형"
               },
               {
-                "name_kr": "오제도",
+                "votenum": 61270,
+                "party_name_kr": "무소속",
                 "voterate": 24.59,
-                "party_name_kr": "무소속",
-                "votenum": 61270
+                "name_kr": "오제도"
               },
               {
-                "name_kr": "최병훈",
+                "votenum": 1943,
+                "party_name_kr": "무소속",
                 "voterate": 0.77,
-                "party_name_kr": "무소속",
-                "votenum": 1943
+                "name_kr": "최병훈"
               },
               {
-                "name_kr": "홍순철",
-                "voterate": 0.92,
+                "votenum": 2316,
                 "party_name_kr": "무소속",
-                "votenum": 2316
+                "voterate": 0.92,
+                "name_kr": "홍순철"
               }
             ],
-            "region_code": 11,
+            "undervotes": 2126,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 3539,
-            "blank_ballots": 148699,
+            "cand_no": 6,
             "counted_votes": 330060,
+            "electorates": 478759,
+            "num_elected": 2,
+            "blank_ballots": 148699,
             "valid_votes": 326521,
             "district_name": "제2선거구",
-            "electorates": 478759,
-            "cand_no": 6,
             "district_code": 21103600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "이인근",
-                "voterate": 18.25,
+                "votenum": 59621,
                 "party_name_kr": "민주공화당",
-                "votenum": 59621
+                "voterate": 18.25,
+                "name_kr": "이인근"
               },
               {
-                "name_kr": "송원영",
-                "voterate": 50.91,
+                "votenum": 166244,
                 "party_name_kr": "신민당",
-                "votenum": 166244
+                "voterate": 50.91,
+                "name_kr": "송원영"
               },
               {
-                "name_kr": "안균섭",
-                "voterate": 7.2,
+                "votenum": 23542,
                 "party_name_kr": "민주통일당",
-                "votenum": 23542
+                "voterate": 7.2,
+                "name_kr": "안균섭"
               },
               {
-                "name_kr": "강상욱",
+                "votenum": 58233,
+                "party_name_kr": "무소속",
                 "voterate": 17.83,
-                "party_name_kr": "무소속",
-                "votenum": 58233
+                "name_kr": "강상욱"
               },
               {
-                "name_kr": "박훈",
+                "votenum": 11578,
+                "party_name_kr": "무소속",
                 "voterate": 3.54,
-                "party_name_kr": "무소속",
-                "votenum": 11578
+                "name_kr": "박훈"
               },
               {
-                "name_kr": "한상무",
-                "voterate": 2.23,
+                "votenum": 7303,
                 "party_name_kr": "무소속",
-                "votenum": 7303
+                "voterate": 2.23,
+                "name_kr": "한상무"
               }
             ],
-            "region_code": 11,
+            "undervotes": 3539,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 2439,
-            "blank_ballots": 117151,
+            "cand_no": 5,
             "counted_votes": 257976,
+            "electorates": 375127,
+            "num_elected": 2,
+            "blank_ballots": 117151,
             "valid_votes": 255574,
             "district_name": "제3선거구",
-            "electorates": 375127,
-            "cand_no": 5,
             "district_code": 21105600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "민병기",
-                "voterate": 29.17,
+                "votenum": 74564,
                 "party_name_kr": "민주공화당",
-                "votenum": 74564
+                "voterate": 29.17,
+                "name_kr": "민병기"
               },
               {
-                "name_kr": "김제만",
-                "voterate": 35.83,
+                "votenum": 91589,
                 "party_name_kr": "신민당",
-                "votenum": 91589
+                "voterate": 35.83,
+                "name_kr": "김제만"
               },
               {
-                "name_kr": "양일동",
-                "voterate": 30.77,
+                "votenum": 78647,
                 "party_name_kr": "민주통일당",
-                "votenum": 78647
+                "voterate": 30.77,
+                "name_kr": "양일동"
               },
               {
-                "name_kr": "김길웅",
+                "votenum": 7235,
+                "party_name_kr": "무소속",
                 "voterate": 2.83,
-                "party_name_kr": "무소속",
-                "votenum": 7235
+                "name_kr": "김길웅"
               },
               {
-                "name_kr": "김흥린",
-                "voterate": 1.38,
+                "votenum": 3539,
                 "party_name_kr": "무소속",
-                "votenum": 3539
+                "voterate": 1.38,
+                "name_kr": "김흥린"
               }
             ],
-            "region_code": 11,
+            "undervotes": 2439,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 2800,
-            "blank_ballots": 106164,
+            "cand_no": 6,
             "counted_votes": 241819,
+            "electorates": 347983,
+            "num_elected": 2,
+            "blank_ballots": 106164,
             "valid_votes": 239019,
             "district_name": "제4선거구",
-            "electorates": 347983,
-            "cand_no": 6,
             "district_code": 21107600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "정래혁",
-                "voterate": 29.87,
+                "votenum": 71408,
                 "party_name_kr": "민주공화당",
-                "votenum": 71408
+                "voterate": 29.87,
+                "name_kr": "정래혁"
               },
               {
-                "name_kr": "조세형",
-                "voterate": 56.9,
+                "votenum": 136016,
                 "party_name_kr": "신민당",
-                "votenum": 136016
+                "voterate": 56.9,
+                "name_kr": "조세형"
               },
               {
-                "name_kr": "양택영",
-                "voterate": 5.23,
+                "votenum": 12510,
                 "party_name_kr": "민주통일당",
-                "votenum": 12510
+                "voterate": 5.23,
+                "name_kr": "양택영"
               },
               {
-                "name_kr": "이수춘",
+                "votenum": 3655,
+                "party_name_kr": "무소속",
                 "voterate": 1.52,
-                "party_name_kr": "무소속",
-                "votenum": 3655
+                "name_kr": "이수춘"
               },
               {
-                "name_kr": "임태백",
+                "votenum": 7030,
+                "party_name_kr": "무소속",
                 "voterate": 2.94,
-                "party_name_kr": "무소속",
-                "votenum": 7030
+                "name_kr": "임태백"
               },
               {
-                "name_kr": "최호훈",
-                "voterate": 3.51,
+                "votenum": 8400,
                 "party_name_kr": "무소속",
-                "votenum": 8400
+                "voterate": 3.51,
+                "name_kr": "최호훈"
               }
             ],
-            "region_code": 11,
+            "undervotes": 2800,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 2963,
-            "blank_ballots": 129839,
+            "cand_no": 7,
             "counted_votes": 280883,
+            "electorates": 410722,
+            "num_elected": 2,
+            "blank_ballots": 129839,
             "valid_votes": 277920,
             "district_name": "제5선거구",
-            "electorates": 410722,
-            "cand_no": 7,
             "district_code": 21109600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "신오철",
-                "voterate": 21.23,
+                "votenum": 59021,
                 "party_name_kr": "민주공화당",
-                "votenum": 59021
+                "voterate": 21.23,
+                "name_kr": "신오철"
               },
               {
-                "name_kr": "고흥문",
-                "voterate": 40.86,
+                "votenum": 113566,
                 "party_name_kr": "신민당",
-                "votenum": 113566
+                "voterate": 40.86,
+                "name_kr": "고흥문"
               },
               {
-                "name_kr": "조희철",
-                "voterate": 4.26,
+                "votenum": 11858,
                 "party_name_kr": "민주통일당",
-                "votenum": 11858
+                "voterate": 4.26,
+                "name_kr": "조희철"
               },
               {
-                "name_kr": "문창기",
+                "votenum": 3057,
+                "party_name_kr": "무소속",
                 "voterate": 1.09,
-                "party_name_kr": "무소속",
-                "votenum": 3057
+                "name_kr": "문창기"
               },
               {
-                "name_kr": "박경희",
+                "votenum": 14811,
+                "party_name_kr": "무소속",
                 "voterate": 5.32,
-                "party_name_kr": "무소속",
-                "votenum": 14811
+                "name_kr": "박경희"
               },
               {
-                "name_kr": "임창진",
+                "votenum": 4541,
+                "party_name_kr": "무소속",
                 "voterate": 1.63,
-                "party_name_kr": "무소속",
-                "votenum": 4541
+                "name_kr": "임창진"
               },
               {
-                "name_kr": "홍성우",
-                "voterate": 25.57,
+                "votenum": 71066,
                 "party_name_kr": "무소속",
-                "votenum": 71066
+                "voterate": 25.57,
+                "name_kr": "홍성우"
               }
             ],
-            "region_code": 11,
+            "undervotes": 2963,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 3421,
-            "blank_ballots": 153248,
+            "cand_no": 6,
             "counted_votes": 319226,
+            "electorates": 472474,
+            "num_elected": 2,
+            "blank_ballots": 153248,
             "valid_votes": 315805,
             "district_name": "제6선거구",
-            "electorates": 472474,
-            "cand_no": 6,
             "district_code": 21111600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "오유방",
-                "voterate": 29.12,
+                "votenum": 91988,
                 "party_name_kr": "민주공화당",
-                "votenum": 91988
+                "voterate": 29.12,
+                "name_kr": "오유방"
               },
               {
-                "name_kr": "김재광",
-                "voterate": 54.85,
+                "votenum": 173243,
                 "party_name_kr": "신민당",
-                "votenum": 173243
+                "voterate": 54.85,
+                "name_kr": "김재광"
               },
               {
-                "name_kr": "장정곤",
-                "voterate": 7.31,
+                "votenum": 23101,
                 "party_name_kr": "민주통일당",
-                "votenum": 23101
+                "voterate": 7.31,
+                "name_kr": "장정곤"
               },
               {
-                "name_kr": "곽용식",
+                "votenum": 5987,
+                "party_name_kr": "무소속",
                 "voterate": 1.89,
-                "party_name_kr": "무소속",
-                "votenum": 5987
+                "name_kr": "곽용식"
               },
               {
-                "name_kr": "민승",
+                "votenum": 12968,
+                "party_name_kr": "무소속",
                 "voterate": 4.1,
-                "party_name_kr": "무소속",
-                "votenum": 12968
+                "name_kr": "민승"
               },
               {
-                "name_kr": "서대두",
-                "voterate": 2.69,
+                "votenum": 8518,
                 "party_name_kr": "무소속",
-                "votenum": 8518
+                "voterate": 2.69,
+                "name_kr": "서대두"
               }
             ],
-            "region_code": 11,
+            "undervotes": 3421,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 3562,
-            "blank_ballots": 140627,
+            "cand_no": 4,
             "counted_votes": 324819,
+            "electorates": 465446,
+            "num_elected": 2,
+            "blank_ballots": 140627,
             "valid_votes": 321257,
             "district_name": "제7선거구",
-            "electorates": 465446,
-            "cand_no": 4,
             "district_code": 21113600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "박경원",
-                "voterate": 35.62,
+                "votenum": 114444,
                 "party_name_kr": "민주공화당",
-                "votenum": 114444
+                "voterate": 35.62,
+                "name_kr": "박경원"
               },
               {
-                "name_kr": "김원만",
+                "votenum": 84207,
+                "party_name_kr": "신민당",
                 "voterate": 26.21,
-                "party_name_kr": "신민당",
-                "votenum": 84207
+                "name_kr": "김원만"
               },
               {
-                "name_kr": "노승환",
+                "votenum": 113924,
+                "party_name_kr": "신민당",
                 "voterate": 35.46,
-                "party_name_kr": "신민당",
-                "votenum": 113924
+                "name_kr": "노승환"
               },
               {
-                "name_kr": "장세환",
-                "voterate": 2.7,
+                "votenum": 8682,
                 "party_name_kr": "민주통일당",
-                "votenum": 8682
+                "voterate": 2.7,
+                "name_kr": "장세환"
               }
             ],
-            "region_code": 11,
+            "undervotes": 3562,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 5742,
-            "blank_ballots": 177154,
+            "cand_no": 4,
             "counted_votes": 352883,
+            "electorates": 530037,
+            "num_elected": 2,
+            "blank_ballots": 177154,
             "valid_votes": 347141,
             "district_name": "제8선거구",
-            "electorates": 530037,
-            "cand_no": 4,
             "district_code": 21115600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "강병규",
-                "voterate": 25.32,
+                "votenum": 87918,
                 "party_name_kr": "민주공화당",
-                "votenum": 87918
+                "voterate": 25.32,
+                "name_kr": "강병규"
               },
               {
-                "name_kr": "박한상",
-                "voterate": 54.01,
+                "votenum": 187495,
                 "party_name_kr": "신민당",
-                "votenum": 187495
+                "voterate": 54.01,
+                "name_kr": "박한상"
               },
               {
-                "name_kr": "김수일",
-                "voterate": 16.52,
+                "votenum": 57360,
                 "party_name_kr": "민주통일당",
-                "votenum": 57360
+                "voterate": 16.52,
+                "name_kr": "김수일"
               },
               {
-                "name_kr": "성진환",
-                "voterate": 4.13,
+                "votenum": 14368,
                 "party_name_kr": "무소속",
-                "votenum": 14368
+                "voterate": 4.13,
+                "name_kr": "성진환"
               }
             ],
-            "region_code": 11,
+            "undervotes": 5742,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 3970,
-            "blank_ballots": 177055,
+            "cand_no": 5,
             "counted_votes": 349401,
+            "electorates": 526456,
+            "num_elected": 2,
+            "blank_ballots": 177055,
             "valid_votes": 345431,
             "district_name": "제9선거구",
-            "electorates": 526456,
-            "cand_no": 5,
             "district_code": 21118600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "정희섭",
-                "voterate": 20.49,
+                "votenum": 70812,
                 "party_name_kr": "민주공화당",
-                "votenum": 70812
+                "voterate": 20.49,
+                "name_kr": "정희섭"
               },
               {
-                "name_kr": "김수한",
-                "voterate": 61.39,
+                "votenum": 212061,
                 "party_name_kr": "신민당",
-                "votenum": 212061
+                "voterate": 61.39,
+                "name_kr": "김수한"
               },
               {
-                "name_kr": "공창덕",
-                "voterate": 11.15,
+                "votenum": 38525,
                 "party_name_kr": "민주통일당",
-                "votenum": 38525
+                "voterate": 11.15,
+                "name_kr": "공창덕"
               },
               {
-                "name_kr": "김목호",
+                "votenum": 12678,
+                "party_name_kr": "무소속",
                 "voterate": 3.67,
-                "party_name_kr": "무소속",
-                "votenum": 12678
+                "name_kr": "김목호"
               },
               {
-                "name_kr": "노기만",
-                "voterate": 3.28,
+                "votenum": 11355,
                 "party_name_kr": "무소속",
-                "votenum": 11355
+                "voterate": 3.28,
+                "name_kr": "노기만"
               }
             ],
-            "region_code": 11,
+            "undervotes": 3970,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 2692,
-            "blank_ballots": 129423,
+            "cand_no": 5,
             "counted_votes": 245951,
+            "electorates": 375374,
+            "num_elected": 2,
+            "blank_ballots": 129423,
             "valid_votes": 243259,
             "district_name": "제10선거구",
-            "electorates": 375374,
-            "cand_no": 5,
             "district_code": 21120600,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "이태섭",
-                "voterate": 29.27,
+                "votenum": 71220,
                 "party_name_kr": "민주공화당",
-                "votenum": 71220
+                "voterate": 29.27,
+                "name_kr": "이태섭"
               },
               {
-                "name_kr": "정운갑",
-                "voterate": 50.88,
+                "votenum": 123785,
                 "party_name_kr": "신민당",
-                "votenum": 123785
+                "voterate": 50.88,
+                "name_kr": "정운갑"
               },
               {
-                "name_kr": "곽인식",
-                "voterate": 4.67,
+                "votenum": 11376,
                 "party_name_kr": "민주통일당",
-                "votenum": 11376
+                "voterate": 4.67,
+                "name_kr": "곽인식"
               },
               {
-                "name_kr": "이종민",
+                "votenum": 8715,
+                "party_name_kr": "무소속",
                 "voterate": 3.58,
-                "party_name_kr": "무소속",
-                "votenum": 8715
+                "name_kr": "이종민"
               },
               {
-                "name_kr": "조경철",
-                "voterate": 11.57,
+                "votenum": 28163,
                 "party_name_kr": "무소속",
-                "votenum": 28163
+                "voterate": 11.57,
+                "name_kr": "조경철"
               }
             ],
-            "region_code": 11,
+            "undervotes": 2692,
             "nth": 10
           },
           {
             "region_name": "서울",
-            "undervotes": 1883,
-            "blank_ballots": 80546,
+            "cand_no": 8,
             "counted_votes": 159516,
+            "electorates": 240062,
+            "num_elected": 2,
+            "blank_ballots": 80546,
             "valid_votes": 157633,
             "district_name": "제11선거구",
-            "electorates": 240062,
-            "cand_no": 8,
             "district_code": 21122300,
+            "region_code": 11,
             "result": [
               {
-                "name_kr": "남재희",
-                "voterate": 28.81,
+                "votenum": 45426,
                 "party_name_kr": "민주공화당",
-                "votenum": 45426
+                "voterate": 28.81,
+                "name_kr": "남재희"
               },
               {
-                "name_kr": "고병현",
+                "votenum": 34707,
+                "party_name_kr": "신민당",
                 "voterate": 22.01,
-                "party_name_kr": "신민당",
-                "votenum": 34707
+                "name_kr": "고병현"
               },
               {
-                "name_kr": "김영배",
+                "votenum": 35459,
+                "party_name_kr": "신민당",
                 "voterate": 22.49,
-                "party_name_kr": "신민당",
-                "votenum": 35459
+                "name_kr": "김영배"
               },
               {
-                "name_kr": "이태구",
-                "voterate": 5.34,
+                "votenum": 8432,
                 "party_name_kr": "민주통일당",
-                "votenum": 8432
+                "voterate": 5.34,
+                "name_kr": "이태구"
               },
               {
-                "name_kr": "강인애",
+                "votenum": 16928,
+                "party_name_kr": "무소속",
                 "voterate": 10.73,
-                "party_name_kr": "무소속",
-                "votenum": 16928
+                "name_kr": "강인애"
               },
               {
-                "name_kr": "권중돈",
+                "votenum": 7538,
+                "party_name_kr": "무소속",
                 "voterate": 4.78,
-                "party_name_kr": "무소속",
-                "votenum": 7538
+                "name_kr": "권중돈"
               },
               {
-                "name_kr": "류온",
+                "votenum": 2748,
+                "party_name_kr": "무소속",
                 "voterate": 1.74,
-                "party_name_kr": "무소속",
-                "votenum": 2748
+                "name_kr": "류온"
               },
               {
-                "name_kr": "이종화",
-                "voterate": 4.05,
+                "votenum": 6395,
                 "party_name_kr": "무소속",
-                "votenum": 6395
+                "voterate": 4.05,
+                "name_kr": "이종화"
               }
             ],
-            "region_code": 11,
+            "undervotes": 1883,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 11
       },
       {
-        "region_code": 26,
         "region_name": "부산",
         "district_result": [
           {
             "region_name": "부산",
-            "undervotes": 1463,
-            "blank_ballots": 39864,
+            "cand_no": 11,
             "counted_votes": 137448,
+            "electorates": 177312,
+            "num_elected": 2,
+            "blank_ballots": 39864,
             "valid_votes": 135985,
             "district_name": "제1선거구",
-            "electorates": 177312,
-            "cand_no": 11,
             "district_code": 22601600,
+            "region_code": 26,
             "result": [
               {
-                "name_kr": "한남석",
-                "voterate": 23.2,
+                "votenum": 31560,
                 "party_name_kr": "민주공화당",
-                "votenum": 31560
+                "voterate": 23.2,
+                "name_kr": "한남석"
               },
               {
-                "name_kr": "김상진",
-                "voterate": 28.87,
+                "votenum": 39261,
                 "party_name_kr": "신민당",
-                "votenum": 39261
+                "voterate": 28.87,
+                "name_kr": "김상진"
               },
               {
-                "name_kr": "여인태",
-                "voterate": 1.5,
+                "votenum": 2053,
                 "party_name_kr": "민주통일당",
-                "votenum": 2053
+                "voterate": 1.5,
+                "name_kr": "여인태"
               },
               {
-                "name_kr": "김자일",
+                "votenum": 5204,
+                "party_name_kr": "무소속",
                 "voterate": 3.82,
-                "party_name_kr": "무소속",
-                "votenum": 5204
+                "name_kr": "김자일"
               },
               {
-                "name_kr": "김정길",
+                "votenum": 8284,
+                "party_name_kr": "무소속",
                 "voterate": 6.09,
-                "party_name_kr": "무소속",
-                "votenum": 8284
+                "name_kr": "김정길"
               },
               {
-                "name_kr": "문무일",
+                "votenum": 1459,
+                "party_name_kr": "무소속",
                 "voterate": 1.07,
-                "party_name_kr": "무소속",
-                "votenum": 1459
+                "name_kr": "문무일"
               },
               {
-                "name_kr": "문영팔",
+                "votenum": 1128,
+                "party_name_kr": "무소속",
                 "voterate": 0.82,
-                "party_name_kr": "무소속",
-                "votenum": 1128
+                "name_kr": "문영팔"
               },
               {
-                "name_kr": "예춘호",
+                "votenum": 42421,
+                "party_name_kr": "무소속",
                 "voterate": 31.19,
-                "party_name_kr": "무소속",
-                "votenum": 42421
+                "name_kr": "예춘호"
               },
               {
-                "name_kr": "이갑성",
+                "votenum": 804,
+                "party_name_kr": "무소속",
                 "voterate": 0.59,
-                "party_name_kr": "무소속",
-                "votenum": 804
+                "name_kr": "이갑성"
               },
               {
-                "name_kr": "이삼한",
+                "votenum": 1255,
+                "party_name_kr": "무소속",
                 "voterate": 0.92,
-                "party_name_kr": "무소속",
-                "votenum": 1255
+                "name_kr": "이삼한"
               },
               {
-                "name_kr": "이영희",
-                "voterate": 1.87,
+                "votenum": 2556,
                 "party_name_kr": "무소속",
-                "votenum": 2556
+                "voterate": 1.87,
+                "name_kr": "이영희"
               }
             ],
-            "region_code": 26,
+            "undervotes": 1463,
             "nth": 10
           },
           {
             "region_name": "부산",
-            "undervotes": 3415,
-            "blank_ballots": 86233,
+            "cand_no": 4,
             "counted_votes": 259721,
+            "electorates": 345954,
+            "num_elected": 2,
+            "blank_ballots": 86233,
             "valid_votes": 256306,
             "district_name": "제2선거구",
-            "electorates": 345954,
-            "cand_no": 4,
             "district_code": 22603600,
+            "region_code": 26,
             "result": [
               {
-                "name_kr": "박찬종",
-                "voterate": 33.33,
+                "votenum": 85439,
                 "party_name_kr": "민주공화당",
-                "votenum": 85439
+                "voterate": 33.33,
+                "name_kr": "박찬종"
               },
               {
-                "name_kr": "김영삼",
-                "voterate": 53.77,
+                "votenum": 137826,
                 "party_name_kr": "신민당",
-                "votenum": 137826
+                "voterate": 53.77,
+                "name_kr": "김영삼"
               },
               {
-                "name_kr": "이상철",
-                "voterate": 10.42,
+                "votenum": 26716,
                 "party_name_kr": "민주통일당",
-                "votenum": 26716
+                "voterate": 10.42,
+                "name_kr": "이상철"
               },
               {
-                "name_kr": "정철오",
-                "voterate": 2.46,
+                "votenum": 6325,
                 "party_name_kr": "무소속",
-                "votenum": 6325
+                "voterate": 2.46,
+                "name_kr": "정철오"
               }
             ],
-            "region_code": 26,
+            "undervotes": 3415,
             "nth": 10
           },
           {
             "region_name": "부산",
-            "undervotes": 4439,
-            "blank_ballots": 99702,
+            "cand_no": 6,
             "counted_votes": 315818,
+            "electorates": 415520,
+            "num_elected": 2,
+            "blank_ballots": 99702,
             "valid_votes": 311379,
             "district_name": "제3선거구",
-            "electorates": 415520,
-            "cand_no": 6,
             "district_code": 22605600,
+            "region_code": 26,
             "result": [
               {
-                "name_kr": "김임식",
-                "voterate": 33.78,
+                "votenum": 105213,
                 "party_name_kr": "민주공화당",
-                "votenum": 105213
+                "voterate": 33.78,
+                "name_kr": "김임식"
               },
               {
-                "name_kr": "정해영",
-                "voterate": 38.39,
+                "votenum": 119539,
                 "party_name_kr": "신민당",
-                "votenum": 119539
+                "voterate": 38.39,
+                "name_kr": "정해영"
               },
               {
-                "name_kr": "이봉학",
-                "voterate": 2.24,
+                "votenum": 6992,
                 "party_name_kr": "민주통일당",
-                "votenum": 6992
+                "voterate": 2.24,
+                "name_kr": "이봉학"
               },
               {
-                "name_kr": "강경식",
+                "votenum": 24050,
+                "party_name_kr": "무소속",
                 "voterate": 7.72,
-                "party_name_kr": "무소속",
-                "votenum": 24050
+                "name_kr": "강경식"
               },
               {
-                "name_kr": "김정수",
+                "votenum": 49924,
+                "party_name_kr": "무소속",
                 "voterate": 16.03,
-                "party_name_kr": "무소속",
-                "votenum": 49924
+                "name_kr": "김정수"
               },
               {
-                "name_kr": "최명수",
-                "voterate": 1.81,
+                "votenum": 5661,
                 "party_name_kr": "무소속",
-                "votenum": 5661
+                "voterate": 1.81,
+                "name_kr": "최명수"
               }
             ],
-            "region_code": 26,
+            "undervotes": 4439,
             "nth": 10
           },
           {
             "region_name": "부산",
-            "undervotes": 3472,
-            "blank_ballots": 95046,
+            "cand_no": 5,
             "counted_votes": 295475,
+            "electorates": 390521,
+            "num_elected": 2,
+            "blank_ballots": 95046,
             "valid_votes": 292003,
             "district_name": "제4선거구",
-            "electorates": 390521,
-            "cand_no": 5,
             "district_code": 22608600,
+            "region_code": 26,
             "result": [
               {
-                "name_kr": "양찬우",
-                "voterate": 29.85,
+                "votenum": 87171,
                 "party_name_kr": "민주공화당",
-                "votenum": 87171
+                "voterate": 29.85,
+                "name_kr": "양찬우"
               },
               {
-                "name_kr": "이기택",
-                "voterate": 40.14,
+                "votenum": 117216,
                 "party_name_kr": "신민당",
-                "votenum": 117216
+                "voterate": 40.14,
+                "name_kr": "이기택"
               },
               {
-                "name_kr": "이건일",
-                "voterate": 24.4,
+                "votenum": 71252,
                 "party_name_kr": "민주통일당",
-                "votenum": 71252
+                "voterate": 24.4,
+                "name_kr": "이건일"
               },
               {
-                "name_kr": "전한도",
+                "votenum": 6270,
+                "party_name_kr": "무소속",
                 "voterate": 2.14,
-                "party_name_kr": "무소속",
-                "votenum": 6270
+                "name_kr": "전한도"
               },
               {
-                "name_kr": "주성태",
-                "voterate": 3.45,
+                "votenum": 10094,
                 "party_name_kr": "무소속",
-                "votenum": 10094
+                "voterate": 3.45,
+                "name_kr": "주성태"
               }
             ],
-            "region_code": 26,
+            "undervotes": 3472,
             "nth": 10
           },
           {
             "region_name": "부산",
-            "undervotes": 2437,
-            "blank_ballots": 51056,
+            "cand_no": 6,
             "counted_votes": 178596,
+            "electorates": 229652,
+            "num_elected": 2,
+            "blank_ballots": 51056,
             "valid_votes": 176159,
             "district_name": "제5선거구",
-            "electorates": 229652,
-            "cand_no": 6,
             "district_code": 22610300,
+            "region_code": 26,
             "result": [
               {
-                "name_kr": "김재홍",
-                "voterate": 22.33,
+                "votenum": 39347,
                 "party_name_kr": "민주공화당",
-                "votenum": 39347
+                "voterate": 22.33,
+                "name_kr": "김재홍"
               },
               {
-                "name_kr": "김승목",
-                "voterate": 28.77,
+                "votenum": 50697,
                 "party_name_kr": "신민당",
-                "votenum": 50697
+                "voterate": 28.77,
+                "name_kr": "김승목"
               },
               {
-                "name_kr": "정상구",
-                "voterate": 21.73,
+                "votenum": 38295,
                 "party_name_kr": "민주통일당",
-                "votenum": 38295
+                "voterate": 21.73,
+                "name_kr": "정상구"
               },
               {
-                "name_kr": "김영하",
+                "votenum": 7039,
+                "party_name_kr": "무소속",
                 "voterate": 3.99,
-                "party_name_kr": "무소속",
-                "votenum": 7039
+                "name_kr": "김영하"
               },
               {
-                "name_kr": "이영근",
+                "votenum": 7236,
+                "party_name_kr": "무소속",
                 "voterate": 4.1,
-                "party_name_kr": "무소속",
-                "votenum": 7236
+                "name_kr": "이영근"
               },
               {
-                "name_kr": "최두고",
-                "voterate": 19.04,
+                "votenum": 33545,
                 "party_name_kr": "무소속",
-                "votenum": 33545
+                "voterate": 19.04,
+                "name_kr": "최두고"
               }
             ],
-            "region_code": 26,
+            "undervotes": 2437,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 26
       },
       {
-        "region_code": 41,
         "region_name": "경기",
         "district_result": [
           {
             "region_name": "경기",
-            "undervotes": 5406,
-            "blank_ballots": 160893,
+            "cand_no": 5,
             "counted_votes": 368294,
+            "electorates": 529187,
+            "num_elected": 2,
+            "blank_ballots": 160893,
             "valid_votes": 362888,
             "district_name": "제1선거구",
-            "electorates": 529187,
-            "cand_no": 5,
             "district_code": 24101600,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "유승원",
-                "voterate": 31.82,
+                "votenum": 115506,
                 "party_name_kr": "민주공화당",
-                "votenum": 115506
+                "voterate": 31.82,
+                "name_kr": "유승원"
               },
               {
-                "name_kr": "김은하",
-                "voterate": 34.9,
+                "votenum": 126683,
                 "party_name_kr": "신민당",
-                "votenum": 126683
+                "voterate": 34.9,
+                "name_kr": "김은하"
               },
               {
-                "name_kr": "한종수",
-                "voterate": 4.92,
+                "votenum": 17885,
                 "party_name_kr": "민주통일당",
-                "votenum": 17885
+                "voterate": 4.92,
+                "name_kr": "한종수"
               },
               {
-                "name_kr": "김숙현",
+                "votenum": 59281,
+                "party_name_kr": "무소속",
                 "voterate": 16.33,
-                "party_name_kr": "무소속",
-                "votenum": 59281
+                "name_kr": "김숙현"
               },
               {
-                "name_kr": "최낙구",
-                "voterate": 11.99,
+                "votenum": 43533,
                 "party_name_kr": "무소속",
-                "votenum": 43533
+                "voterate": 11.99,
+                "name_kr": "최낙구"
               }
             ],
-            "region_code": 41,
+            "undervotes": 5406,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 2475,
-            "blank_ballots": 71365,
+            "cand_no": 11,
             "counted_votes": 204676,
+            "electorates": 276041,
+            "num_elected": 2,
+            "blank_ballots": 71365,
             "valid_votes": 202201,
             "district_name": "제2선거구",
-            "electorates": 276041,
-            "cand_no": 11,
             "district_code": 24105700,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "이병희",
-                "voterate": 33.24,
+                "votenum": 67221,
                 "party_name_kr": "민주공화당",
-                "votenum": 67221
+                "voterate": 33.24,
+                "name_kr": "이병희"
               },
               {
-                "name_kr": "유용근",
-                "voterate": 25.92,
+                "votenum": 52426,
                 "party_name_kr": "신민당",
-                "votenum": 52426
+                "voterate": 25.92,
+                "name_kr": "유용근"
               },
               {
-                "name_kr": "손도심",
-                "voterate": 5.18,
+                "votenum": 10492,
                 "party_name_kr": "민주통일당",
-                "votenum": 10492
+                "voterate": 5.18,
+                "name_kr": "손도심"
               },
               {
-                "name_kr": "공상진",
+                "votenum": 2343,
+                "party_name_kr": "무소속",
                 "voterate": 1.15,
-                "party_name_kr": "무소속",
-                "votenum": 2343
+                "name_kr": "공상진"
               },
               {
-                "name_kr": "김일수",
+                "votenum": 21018,
+                "party_name_kr": "무소속",
                 "voterate": 10.39,
-                "party_name_kr": "무소속",
-                "votenum": 21018
+                "name_kr": "김일수"
               },
               {
-                "name_kr": "김진구",
+                "votenum": 5083,
+                "party_name_kr": "무소속",
                 "voterate": 2.51,
-                "party_name_kr": "무소속",
-                "votenum": 5083
+                "name_kr": "김진구"
               },
               {
-                "name_kr": "서태원",
+                "votenum": 7777,
+                "party_name_kr": "무소속",
                 "voterate": 3.84,
-                "party_name_kr": "무소속",
-                "votenum": 7777
+                "name_kr": "서태원"
               },
               {
-                "name_kr": "차진모",
+                "votenum": 5067,
+                "party_name_kr": "무소속",
                 "voterate": 2.5,
-                "party_name_kr": "무소속",
-                "votenum": 5067
+                "name_kr": "차진모"
               },
               {
-                "name_kr": "최영재",
+                "votenum": 2897,
+                "party_name_kr": "무소속",
                 "voterate": 1.43,
-                "party_name_kr": "무소속",
-                "votenum": 2897
+                "name_kr": "최영재"
               },
               {
-                "name_kr": "홍기유",
+                "votenum": 7220,
+                "party_name_kr": "무소속",
                 "voterate": 3.57,
-                "party_name_kr": "무소속",
-                "votenum": 7220
+                "name_kr": "홍기유"
               },
               {
-                "name_kr": "황선정",
-                "voterate": 10.21,
+                "votenum": 20657,
                 "party_name_kr": "무소속",
-                "votenum": 20657
+                "voterate": 10.21,
+                "name_kr": "황선정"
               }
             ],
-            "region_code": 41,
+            "undervotes": 2475,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 3224,
-            "blank_ballots": 83107,
+            "cand_no": 4,
             "counted_votes": 243284,
+            "electorates": 326391,
+            "num_elected": 2,
+            "blank_ballots": 83107,
             "valid_votes": 240060,
             "district_name": "제3선거구",
-            "electorates": 326391,
-            "cand_no": 4,
             "district_code": 24107700,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "박명근",
-                "voterate": 42.38,
+                "votenum": 101757,
                 "party_name_kr": "민주공화당",
-                "votenum": 101757
+                "voterate": 42.38,
+                "name_kr": "박명근"
               },
               {
-                "name_kr": "김형광",
-                "voterate": 39.34,
+                "votenum": 94445,
                 "party_name_kr": "신민당",
-                "votenum": 94445
+                "voterate": 39.34,
+                "name_kr": "김형광"
               },
               {
-                "name_kr": "조정무",
-                "voterate": 3.44,
+                "votenum": 8272,
                 "party_name_kr": "민주통일당",
-                "votenum": 8272
+                "voterate": 3.44,
+                "name_kr": "조정무"
               },
               {
-                "name_kr": "이진용",
-                "voterate": 14.82,
+                "votenum": 35586,
                 "party_name_kr": "무소속",
-                "votenum": 35586
+                "voterate": 14.82,
+                "name_kr": "이진용"
               }
             ],
-            "region_code": 41,
+            "undervotes": 3224,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 3347,
-            "blank_ballots": 104679,
+            "cand_no": 7,
             "counted_votes": 253567,
+            "electorates": 358246,
+            "num_elected": 2,
+            "blank_ballots": 104679,
             "valid_votes": 250220,
             "district_name": "제4선거구",
-            "electorates": 358246,
-            "cand_no": 7,
             "district_code": 24110700,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "정동성",
-                "voterate": 30.6,
+                "votenum": 76569,
                 "party_name_kr": "민주공화당",
-                "votenum": 76569
+                "voterate": 30.6,
+                "name_kr": "정동성"
               },
               {
-                "name_kr": "유기준",
-                "voterate": 24.28,
+                "votenum": 60776,
                 "party_name_kr": "신민당",
-                "votenum": 60776
+                "voterate": 24.28,
+                "name_kr": "유기준"
               },
               {
-                "name_kr": "박종진",
-                "voterate": 7.62,
+                "votenum": 19082,
                 "party_name_kr": "민주통일당",
-                "votenum": 19082
+                "voterate": 7.62,
+                "name_kr": "박종진"
               },
               {
-                "name_kr": "민호영",
+                "votenum": 4298,
+                "party_name_kr": "무소속",
                 "voterate": 1.71,
-                "party_name_kr": "무소속",
-                "votenum": 4298
+                "name_kr": "민호영"
               },
               {
-                "name_kr": "신동명",
+                "votenum": 4131,
+                "party_name_kr": "무소속",
                 "voterate": 1.65,
-                "party_name_kr": "무소속",
-                "votenum": 4131
+                "name_kr": "신동명"
               },
               {
-                "name_kr": "오세응",
+                "votenum": 75076,
+                "party_name_kr": "무소속",
                 "voterate": 30.0,
-                "party_name_kr": "무소속",
-                "votenum": 75076
+                "name_kr": "오세응"
               },
               {
-                "name_kr": "황두영",
-                "voterate": 4.11,
+                "votenum": 10288,
                 "party_name_kr": "무소속",
-                "votenum": 10288
+                "voterate": 4.11,
+                "name_kr": "황두영"
               }
             ],
-            "region_code": 41,
+            "undervotes": 3347,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 2582,
-            "blank_ballots": 75225,
+            "cand_no": 6,
             "counted_votes": 201583,
+            "electorates": 276808,
+            "num_elected": 2,
+            "blank_ballots": 75225,
             "valid_votes": 199001,
             "district_name": "제5선거구",
-            "electorates": 276808,
-            "cand_no": 6,
             "district_code": 24114800,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "서상린",
-                "voterate": 26.22,
+                "votenum": 52197,
                 "party_name_kr": "민주공화당",
-                "votenum": 52197
+                "voterate": 26.22,
+                "name_kr": "서상린"
               },
               {
-                "name_kr": "유치송",
-                "voterate": 35.81,
+                "votenum": 71267,
                 "party_name_kr": "신민당",
-                "votenum": 71267
+                "voterate": 35.81,
+                "name_kr": "유치송"
               },
               {
-                "name_kr": "정진환",
+                "votenum": 26755,
+                "party_name_kr": "무소속",
                 "voterate": 13.44,
-                "party_name_kr": "무소속",
-                "votenum": 26755
+                "name_kr": "정진환"
               },
               {
-                "name_kr": "조종익",
+                "votenum": 19022,
+                "party_name_kr": "무소속",
                 "voterate": 9.55,
-                "party_name_kr": "무소속",
-                "votenum": 19022
+                "name_kr": "조종익"
               },
               {
-                "name_kr": "한민수",
+                "votenum": 24014,
+                "party_name_kr": "무소속",
                 "voterate": 12.06,
-                "party_name_kr": "무소속",
-                "votenum": 24014
+                "name_kr": "한민수"
               },
               {
-                "name_kr": "한재은",
-                "voterate": 2.88,
+                "votenum": 5746,
                 "party_name_kr": "무소속",
-                "votenum": 5746
+                "voterate": 2.88,
+                "name_kr": "한재은"
               }
             ],
-            "region_code": 41,
+            "undervotes": 2582,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 2846,
-            "blank_ballots": 112743,
+            "cand_no": 4,
             "counted_votes": 249529,
+            "electorates": 362272,
+            "num_elected": 2,
+            "blank_ballots": 112743,
             "valid_votes": 246683,
             "district_name": "제6선거구",
-            "electorates": 362272,
-            "cand_no": 4,
             "district_code": 24117700,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "윤국노",
-                "voterate": 32.9,
+                "votenum": 81161,
                 "party_name_kr": "민주공화당",
-                "votenum": 81161
+                "voterate": 32.9,
+                "name_kr": "윤국노"
               },
               {
-                "name_kr": "이택돈",
-                "voterate": 43.8,
+                "votenum": 108066,
                 "party_name_kr": "신민당",
-                "votenum": 108066
+                "voterate": 43.8,
+                "name_kr": "이택돈"
               },
               {
-                "name_kr": "신하철",
-                "voterate": 8.42,
+                "votenum": 20778,
                 "party_name_kr": "민주통일당",
-                "votenum": 20778
+                "voterate": 8.42,
+                "name_kr": "신하철"
               },
               {
-                "name_kr": "안동선",
-                "voterate": 14.86,
+                "votenum": 36678,
                 "party_name_kr": "무소속",
-                "votenum": 36678
+                "voterate": 14.86,
+                "name_kr": "안동선"
               }
             ],
-            "region_code": 41,
+            "undervotes": 2846,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 1919,
-            "blank_ballots": 39725,
+            "cand_no": 7,
             "counted_votes": 148803,
+            "electorates": 188528,
+            "num_elected": 2,
+            "blank_ballots": 39725,
             "valid_votes": 146884,
             "district_name": "제7선거구",
-            "electorates": 188528,
-            "cand_no": 7,
             "district_code": 24121800,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "김유탁",
-                "voterate": 27.12,
+                "votenum": 39844,
                 "party_name_kr": "민주공화당",
-                "votenum": 39844
+                "voterate": 27.12,
+                "name_kr": "김유탁"
               },
               {
-                "name_kr": "오홍석",
-                "voterate": 29.31,
+                "votenum": 43058,
                 "party_name_kr": "신민당",
-                "votenum": 43058
+                "voterate": 29.31,
+                "name_kr": "오홍석"
               },
               {
-                "name_kr": "김두섭",
-                "voterate": 9.27,
+                "votenum": 13629,
                 "party_name_kr": "민주통일당",
-                "votenum": 13629
+                "voterate": 9.27,
+                "name_kr": "김두섭"
               },
               {
-                "name_kr": "고철룡",
+                "votenum": 5214,
+                "party_name_kr": "무소속",
                 "voterate": 3.54,
-                "party_name_kr": "무소속",
-                "votenum": 5214
+                "name_kr": "고철룡"
               },
               {
-                "name_kr": "김재춘",
+                "votenum": 23797,
+                "party_name_kr": "무소속",
                 "voterate": 16.2,
-                "party_name_kr": "무소속",
-                "votenum": 23797
+                "name_kr": "김재춘"
               },
               {
-                "name_kr": "남궁타",
+                "votenum": 9532,
+                "party_name_kr": "무소속",
                 "voterate": 6.48,
-                "party_name_kr": "무소속",
-                "votenum": 9532
+                "name_kr": "남궁타"
               },
               {
-                "name_kr": "어한",
-                "voterate": 8.04,
+                "votenum": 11810,
                 "party_name_kr": "무소속",
-                "votenum": 11810
+                "voterate": 8.04,
+                "name_kr": "어한"
               }
             ],
-            "region_code": 41,
+            "undervotes": 1919,
             "nth": 10
           },
           {
             "region_name": "경기",
-            "undervotes": 2465,
-            "blank_ballots": 35202,
+            "cand_no": 3,
             "counted_votes": 157428,
+            "electorates": 192630,
+            "num_elected": 2,
+            "blank_ballots": 35202,
             "valid_votes": 154963,
             "district_name": "제8선거구",
-            "electorates": 192630,
-            "cand_no": 3,
             "district_code": 24124800,
+            "region_code": 41,
             "result": [
               {
-                "name_kr": "오치성",
-                "voterate": 70.72,
+                "votenum": 109595,
                 "party_name_kr": "민주공화당",
-                "votenum": 109595
+                "voterate": 70.72,
+                "name_kr": "오치성"
               },
               {
-                "name_kr": "천명기",
-                "voterate": 24.61,
+                "votenum": 38150,
                 "party_name_kr": "신민당",
-                "votenum": 38150
+                "voterate": 24.61,
+                "name_kr": "천명기"
               },
               {
-                "name_kr": "편복우",
-                "voterate": 4.65,
+                "votenum": 7218,
                 "party_name_kr": "무소속",
-                "votenum": 7218
+                "voterate": 4.65,
+                "name_kr": "편복우"
               }
             ],
-            "region_code": 41,
+            "undervotes": 2465,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 41
       },
       {
-        "region_code": 42,
         "region_name": "강원",
         "district_result": [
           {
             "region_name": "강원",
-            "undervotes": 1868,
-            "blank_ballots": 26158,
+            "cand_no": 7,
             "counted_votes": 154104,
+            "electorates": 180262,
+            "num_elected": 2,
+            "blank_ballots": 26158,
             "valid_votes": 152299,
             "district_name": "제1선거구",
-            "electorates": 180262,
-            "cand_no": 7,
             "district_code": 24201700,
+            "region_code": 42,
             "result": [
               {
-                "name_kr": "손승덕",
-                "voterate": 30.5,
+                "votenum": 46455,
                 "party_name_kr": "민주공화당",
-                "votenum": 46455
+                "voterate": 30.5,
+                "name_kr": "손승덕"
               },
               {
-                "name_kr": "김준섭",
-                "voterate": 30.18,
+                "votenum": 45965,
                 "party_name_kr": "신민당",
-                "votenum": 45965
+                "voterate": 30.18,
+                "name_kr": "김준섭"
               },
               {
-                "name_kr": "양건주",
-                "voterate": 2.26,
+                "votenum": 3446,
                 "party_name_kr": "민주통일당",
-                "votenum": 3446
+                "voterate": 2.26,
+                "name_kr": "양건주"
               },
               {
-                "name_kr": "김재순",
+                "votenum": 29024,
+                "party_name_kr": "무소속",
                 "voterate": 19.05,
-                "party_name_kr": "무소속",
-                "votenum": 29024
+                "name_kr": "김재순"
               },
               {
-                "name_kr": "유연국",
+                "votenum": 5354,
+                "party_name_kr": "무소속",
                 "voterate": 3.51,
-                "party_name_kr": "무소속",
-                "votenum": 5354
+                "name_kr": "유연국"
               },
               {
-                "name_kr": "이수복",
+                "votenum": 6707,
+                "party_name_kr": "무소속",
                 "voterate": 4.4,
-                "party_name_kr": "무소속",
-                "votenum": 6707
+                "name_kr": "이수복"
               },
               {
-                "name_kr": "홍창섭",
-                "voterate": 10.07,
+                "votenum": 15348,
                 "party_name_kr": "무소속",
-                "votenum": 15348
+                "voterate": 10.07,
+                "name_kr": "홍창섭"
               }
             ],
-            "region_code": 42,
+            "undervotes": 1868,
             "nth": 10
           },
           {
             "region_name": "강원",
-            "undervotes": 2857,
-            "blank_ballots": 28042,
+            "cand_no": 6,
             "counted_votes": 171392,
+            "electorates": 199434,
+            "num_elected": 2,
+            "blank_ballots": 28042,
             "valid_votes": 168535,
             "district_name": "제2선거구",
-            "electorates": 199434,
-            "cand_no": 6,
             "district_code": 24206700,
+            "region_code": 42,
             "result": [
               {
-                "name_kr": "김용호",
-                "voterate": 32.65,
+                "votenum": 55038,
                 "party_name_kr": "민주공화당",
-                "votenum": 55038
+                "voterate": 32.65,
+                "name_kr": "김용호"
               },
               {
-                "name_kr": "박영록",
-                "voterate": 32.88,
+                "votenum": 55424,
                 "party_name_kr": "신민당",
-                "votenum": 55424
+                "voterate": 32.88,
+                "name_kr": "박영록"
               },
               {
-                "name_kr": "정현우",
-                "voterate": 5.82,
+                "votenum": 9811,
                 "party_name_kr": "민주통일당",
-                "votenum": 9811
+                "voterate": 5.82,
+                "name_kr": "정현우"
               },
               {
-                "name_kr": "김병렬",
+                "votenum": 29741,
+                "party_name_kr": "무소속",
                 "voterate": 17.64,
-                "party_name_kr": "무소속",
-                "votenum": 29741
+                "name_kr": "김병렬"
               },
               {
-                "name_kr": "김학규",
+                "votenum": 8931,
+                "party_name_kr": "무소속",
                 "voterate": 5.29,
-                "party_name_kr": "무소속",
-                "votenum": 8931
+                "name_kr": "김학규"
               },
               {
-                "name_kr": "이종원",
-                "voterate": 5.69,
+                "votenum": 9590,
                 "party_name_kr": "무소속",
-                "votenum": 9590
+                "voterate": 5.69,
+                "name_kr": "이종원"
               }
             ],
-            "region_code": 42,
+            "undervotes": 2857,
             "nth": 10
           },
           {
             "region_name": "강원",
-            "undervotes": 2747,
-            "blank_ballots": 47590,
+            "cand_no": 7,
             "counted_votes": 224747,
+            "electorates": 272337,
+            "num_elected": 2,
+            "blank_ballots": 47590,
             "valid_votes": 222000,
             "district_name": "제3선거구",
-            "electorates": 272337,
-            "cand_no": 7,
             "district_code": 24210700,
+            "region_code": 42,
             "result": [
               {
-                "name_kr": "김효영",
-                "voterate": 33.54,
+                "votenum": 74479,
                 "party_name_kr": "민주공화당",
-                "votenum": 74479
+                "voterate": 33.54,
+                "name_kr": "김효영"
               },
               {
-                "name_kr": "함영주",
-                "voterate": 11.87,
+                "votenum": 26363,
                 "party_name_kr": "신민당",
-                "votenum": 26363
+                "voterate": 11.87,
+                "name_kr": "함영주"
               },
               {
-                "name_kr": "김명윤",
+                "votenum": 21456,
+                "party_name_kr": "무소속",
                 "voterate": 9.66,
-                "party_name_kr": "무소속",
-                "votenum": 21456
+                "name_kr": "김명윤"
               },
               {
-                "name_kr": "김재철",
+                "votenum": 5987,
+                "party_name_kr": "무소속",
                 "voterate": 2.69,
-                "party_name_kr": "무소속",
-                "votenum": 5987
+                "name_kr": "김재철"
               },
               {
-                "name_kr": "김진만",
+                "votenum": 42386,
+                "party_name_kr": "무소속",
                 "voterate": 19.09,
-                "party_name_kr": "무소속",
-                "votenum": 42386
+                "name_kr": "김진만"
               },
               {
-                "name_kr": "이관형",
+                "votenum": 41248,
+                "party_name_kr": "무소속",
                 "voterate": 18.58,
-                "party_name_kr": "무소속",
-                "votenum": 41248
+                "name_kr": "이관형"
               },
               {
-                "name_kr": "정인수",
-                "voterate": 4.54,
+                "votenum": 10081,
                 "party_name_kr": "무소속",
-                "votenum": 10081
+                "voterate": 4.54,
+                "name_kr": "정인수"
               }
             ],
-            "region_code": 42,
+            "undervotes": 2747,
             "nth": 10
           },
           {
             "region_name": "강원",
-            "undervotes": 1158,
-            "blank_ballots": 11865,
+            "cand_no": 6,
             "counted_votes": 97777,
+            "electorates": 109642,
+            "num_elected": 2,
+            "blank_ballots": 11865,
             "valid_votes": 96619,
             "district_name": "제4선거구",
-            "electorates": 109642,
-            "cand_no": 6,
             "district_code": 24213700,
+            "region_code": 42,
             "result": [
               {
-                "name_kr": "정일권",
-                "voterate": 60.28,
+                "votenum": 58251,
                 "party_name_kr": "민주공화당",
-                "votenum": 58251
+                "voterate": 60.28,
+                "name_kr": "정일권"
               },
               {
-                "name_kr": "허경구",
-                "voterate": 10.61,
+                "votenum": 10258,
                 "party_name_kr": "신민당",
-                "votenum": 10258
+                "voterate": 10.61,
+                "name_kr": "허경구"
               },
               {
-                "name_kr": "김기환",
+                "votenum": 1551,
+                "party_name_kr": "무소속",
                 "voterate": 1.6,
-                "party_name_kr": "무소속",
-                "votenum": 1551
+                "name_kr": "김기환"
               },
               {
-                "name_kr": "박경원",
+                "votenum": 10789,
+                "party_name_kr": "무소속",
                 "voterate": 11.16,
-                "party_name_kr": "무소속",
-                "votenum": 10789
+                "name_kr": "박경원"
               },
               {
-                "name_kr": "이참수",
+                "votenum": 3991,
+                "party_name_kr": "무소속",
                 "voterate": 4.13,
-                "party_name_kr": "무소속",
-                "votenum": 3991
+                "name_kr": "이참수"
               },
               {
-                "name_kr": "함종빈",
-                "voterate": 12.19,
+                "votenum": 11779,
                 "party_name_kr": "무소속",
-                "votenum": 11779
+                "voterate": 12.19,
+                "name_kr": "함종빈"
               }
             ],
-            "region_code": 42,
+            "undervotes": 1158,
             "nth": 10
           },
           {
             "region_name": "강원",
-            "undervotes": 2212,
-            "blank_ballots": 26471,
+            "cand_no": 4,
             "counted_votes": 134084,
+            "electorates": 160555,
+            "num_elected": 2,
+            "blank_ballots": 26471,
             "valid_votes": 131872,
             "district_name": "제5선거구",
-            "electorates": 160555,
-            "cand_no": 4,
             "district_code": 24217800,
+            "region_code": 42,
             "result": [
               {
-                "name_kr": "장승태",
-                "voterate": 51.01,
+                "votenum": 67280,
                 "party_name_kr": "민주공화당",
-                "votenum": 67280
+                "voterate": 51.01,
+                "name_kr": "장승태"
               },
               {
-                "name_kr": "엄영달",
-                "voterate": 34.37,
+                "votenum": 45330,
                 "party_name_kr": "신민당",
-                "votenum": 45330
+                "voterate": 34.37,
+                "name_kr": "엄영달"
               },
               {
-                "name_kr": "원성희",
-                "voterate": 6.74,
+                "votenum": 8892,
                 "party_name_kr": "민주통일당",
-                "votenum": 8892
+                "voterate": 6.74,
+                "name_kr": "원성희"
               },
               {
-                "name_kr": "신민선",
-                "voterate": 7.86,
+                "votenum": 10370,
                 "party_name_kr": "무소속",
-                "votenum": 10370
+                "voterate": 7.86,
+                "name_kr": "신민선"
               }
             ],
-            "region_code": 42,
+            "undervotes": 2212,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 42
       },
       {
-        "region_code": 43,
         "region_name": "충북",
         "district_result": [
           {
             "region_name": "충북",
-            "undervotes": 2739,
-            "blank_ballots": 34273,
+            "cand_no": 4,
             "counted_votes": 177416,
+            "electorates": 211689,
+            "num_elected": 2,
+            "blank_ballots": 34273,
             "valid_votes": 174677,
             "district_name": "제1선거구",
-            "electorates": 211689,
-            "cand_no": 4,
             "district_code": 24301700,
+            "region_code": 43,
             "result": [
               {
-                "name_kr": "민기식",
-                "voterate": 29.32,
+                "votenum": 51221,
                 "party_name_kr": "민주공화당",
-                "votenum": 51221
+                "voterate": 29.32,
+                "name_kr": "민기식"
               },
               {
-                "name_kr": "이민우",
-                "voterate": 30.22,
+                "votenum": 52788,
                 "party_name_kr": "신민당",
-                "votenum": 52788
+                "voterate": 30.22,
+                "name_kr": "이민우"
               },
               {
-                "name_kr": "김현수",
-                "voterate": 31.28,
+                "votenum": 54655,
                 "party_name_kr": "민주통일당",
-                "votenum": 54655
+                "voterate": 31.28,
+                "name_kr": "김현수"
               },
               {
-                "name_kr": "박학래",
-                "voterate": 9.16,
+                "votenum": 16013,
                 "party_name_kr": "무소속",
-                "votenum": 16013
+                "voterate": 9.16,
+                "name_kr": "박학래"
               }
             ],
-            "region_code": 43,
+            "undervotes": 2739,
             "nth": 10
           },
           {
             "region_name": "충북",
-            "undervotes": 3647,
-            "blank_ballots": 32814,
+            "cand_no": 5,
             "counted_votes": 201754,
+            "electorates": 234568,
+            "num_elected": 2,
+            "blank_ballots": 32814,
             "valid_votes": 198107,
             "district_name": "제2선거구",
-            "electorates": 234568,
-            "cand_no": 5,
             "district_code": 24303700,
+            "region_code": 43,
             "result": [
               {
-                "name_kr": "이종근",
-                "voterate": 38.71,
+                "votenum": 76693,
                 "party_name_kr": "민주공화당",
-                "votenum": 76693
+                "voterate": 38.71,
+                "name_kr": "이종근"
               },
               {
-                "name_kr": "이택희",
-                "voterate": 36.63,
+                "votenum": 72580,
                 "party_name_kr": "신민당",
-                "votenum": 72580
+                "voterate": 36.63,
+                "name_kr": "이택희"
               },
               {
-                "name_kr": "허탁",
-                "voterate": 3.03,
+                "votenum": 6021,
                 "party_name_kr": "민주통일당",
-                "votenum": 6021
+                "voterate": 3.03,
+                "name_kr": "허탁"
               },
               {
-                "name_kr": "임광규",
+                "votenum": 21927,
+                "party_name_kr": "무소속",
                 "voterate": 11.06,
-                "party_name_kr": "무소속",
-                "votenum": 21927
+                "name_kr": "임광규"
               },
               {
-                "name_kr": "조종호",
-                "voterate": 10.54,
+                "votenum": 20886,
                 "party_name_kr": "무소속",
-                "votenum": 20886
+                "voterate": 10.54,
+                "name_kr": "조종호"
               }
             ],
-            "region_code": 43,
+            "undervotes": 3647,
             "nth": 10
           },
           {
             "region_name": "충북",
-            "undervotes": 1856,
-            "blank_ballots": 17051,
+            "cand_no": 8,
             "counted_votes": 136929,
+            "electorates": 153980,
+            "num_elected": 2,
+            "blank_ballots": 17051,
             "valid_votes": 135073,
             "district_name": "제3선거구",
-            "electorates": 153980,
-            "cand_no": 8,
             "district_code": 24307800,
+            "region_code": 43,
             "result": [
               {
-                "name_kr": "육인수",
-                "voterate": 36.09,
+                "votenum": 48758,
                 "party_name_kr": "민주공화당",
-                "votenum": 48758
+                "voterate": 36.09,
+                "name_kr": "육인수"
               },
               {
-                "name_kr": "이용희",
+                "votenum": 29365,
+                "party_name_kr": "신민당",
                 "voterate": 21.74,
-                "party_name_kr": "신민당",
-                "votenum": 29365
+                "name_kr": "이용희"
               },
               {
-                "name_kr": "최극",
+                "votenum": 19492,
+                "party_name_kr": "신민당",
                 "voterate": 14.43,
-                "party_name_kr": "신민당",
-                "votenum": 19492
+                "name_kr": "최극"
               },
               {
-                "name_kr": "이재인",
-                "voterate": 7.17,
+                "votenum": 9693,
                 "party_name_kr": "민주통일당",
-                "votenum": 9693
+                "voterate": 7.17,
+                "name_kr": "이재인"
               },
               {
-                "name_kr": "안정준",
+                "votenum": 2309,
+                "party_name_kr": "무소속",
                 "voterate": 1.7,
-                "party_name_kr": "무소속",
-                "votenum": 2309
+                "name_kr": "안정준"
               },
               {
-                "name_kr": "염종훈",
+                "votenum": 3303,
+                "party_name_kr": "무소속",
                 "voterate": 2.44,
-                "party_name_kr": "무소속",
-                "votenum": 3303
+                "name_kr": "염종훈"
               },
               {
-                "name_kr": "이광호",
+                "votenum": 17061,
+                "party_name_kr": "무소속",
                 "voterate": 12.63,
-                "party_name_kr": "무소속",
-                "votenum": 17061
+                "name_kr": "이광호"
               },
               {
-                "name_kr": "전연규",
-                "voterate": 3.76,
+                "votenum": 5092,
                 "party_name_kr": "무소속",
-                "votenum": 5092
+                "voterate": 3.76,
+                "name_kr": "전연규"
               }
             ],
-            "region_code": 43,
+            "undervotes": 1856,
             "nth": 10
           },
           {
             "region_name": "충북",
-            "undervotes": 2462,
-            "blank_ballots": 25679,
+            "cand_no": 4,
             "counted_votes": 135794,
+            "electorates": 161473,
+            "num_elected": 2,
+            "blank_ballots": 25679,
             "valid_votes": 133332,
             "district_name": "제4선거구",
-            "electorates": 161473,
-            "cand_no": 4,
             "district_code": 24310800,
+            "region_code": 43,
             "result": [
               {
-                "name_kr": "오용운",
-                "voterate": 42.82,
+                "votenum": 57103,
                 "party_name_kr": "민주공화당",
-                "votenum": 57103
+                "voterate": 42.82,
+                "name_kr": "오용운"
               },
               {
-                "name_kr": "이충환",
-                "voterate": 30.04,
+                "votenum": 40058,
                 "party_name_kr": "신민당",
-                "votenum": 40058
+                "voterate": 30.04,
+                "name_kr": "이충환"
               },
               {
-                "name_kr": "채영만",
-                "voterate": 8.85,
+                "votenum": 11810,
                 "party_name_kr": "민주통일당",
-                "votenum": 11810
+                "voterate": 8.85,
+                "name_kr": "채영만"
               },
               {
-                "name_kr": "안동준",
-                "voterate": 18.27,
+                "votenum": 24361,
                 "party_name_kr": "무소속",
-                "votenum": 24361
+                "voterate": 18.27,
+                "name_kr": "안동준"
               }
             ],
-            "region_code": 43,
+            "undervotes": 2462,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 43
       },
       {
-        "region_code": 44,
         "region_name": "충남",
         "district_result": [
           {
             "region_name": "충남",
-            "undervotes": 3038,
-            "blank_ballots": 53040,
+            "cand_no": 6,
             "counted_votes": 220709,
+            "electorates": 273749,
+            "num_elected": 2,
+            "blank_ballots": 53040,
             "valid_votes": 217671,
             "district_name": "제1선거구",
-            "electorates": 273749,
-            "cand_no": 6,
             "district_code": 24401600,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "김용태",
-                "voterate": 28.9,
+                "votenum": 62924,
                 "party_name_kr": "민주공화당",
-                "votenum": 62924
+                "voterate": 28.9,
+                "name_kr": "김용태"
               },
               {
-                "name_kr": "신동준",
-                "voterate": 16.8,
+                "votenum": 36589,
                 "party_name_kr": "신민당",
-                "votenum": 36589
+                "voterate": 16.8,
+                "name_kr": "신동준"
               },
               {
-                "name_kr": "박병배",
-                "voterate": 16.05,
+                "votenum": 34956,
                 "party_name_kr": "민주통일당",
-                "votenum": 34956
+                "voterate": 16.05,
+                "name_kr": "박병배"
               },
               {
-                "name_kr": "박정규",
+                "votenum": 4995,
+                "party_name_kr": "무소속",
                 "voterate": 2.29,
-                "party_name_kr": "무소속",
-                "votenum": 4995
+                "name_kr": "박정규"
               },
               {
-                "name_kr": "심정보",
+                "votenum": 3288,
+                "party_name_kr": "무소속",
                 "voterate": 1.51,
-                "party_name_kr": "무소속",
-                "votenum": 3288
+                "name_kr": "심정보"
               },
               {
-                "name_kr": "임호",
-                "voterate": 34.41,
+                "votenum": 74919,
                 "party_name_kr": "무소속",
-                "votenum": 74919
+                "voterate": 34.41,
+                "name_kr": "임호"
               }
             ],
-            "region_code": 44,
+            "undervotes": 3038,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 4397,
-            "blank_ballots": 43587,
+            "cand_no": 10,
             "counted_votes": 162316,
+            "electorates": 205903,
+            "num_elected": 2,
+            "blank_ballots": 43587,
             "valid_votes": 157919,
             "district_name": "제2선거구",
-            "electorates": 205903,
-            "cand_no": 10,
             "district_code": 24403700,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "김종철",
-                "voterate": 26.27,
+                "votenum": 41491,
                 "party_name_kr": "민주공화당",
-                "votenum": 41491
+                "voterate": 26.27,
+                "name_kr": "김종철"
               },
               {
-                "name_kr": "정재원",
-                "voterate": 24.16,
+                "votenum": 38156,
                 "party_name_kr": "신민당",
-                "votenum": 38156
+                "voterate": 24.16,
+                "name_kr": "정재원"
               },
               {
-                "name_kr": "이진구",
-                "voterate": 11.11,
+                "votenum": 17558,
                 "party_name_kr": "민주통일당",
-                "votenum": 17558
+                "voterate": 11.11,
+                "name_kr": "이진구"
               },
               {
-                "name_kr": "강필선",
+                "votenum": 23090,
+                "party_name_kr": "무소속",
                 "voterate": 14.62,
-                "party_name_kr": "무소속",
-                "votenum": 23090
+                "name_kr": "강필선"
               },
               {
-                "name_kr": "김영석",
+                "votenum": 0,
+                "party_name_kr": "무소속",
                 "voterate": 0.0,
-                "party_name_kr": "무소속",
-                "votenum": 0
+                "name_kr": "김영석"
               },
               {
-                "name_kr": "성기선",
+                "votenum": 4539,
+                "party_name_kr": "무소속",
                 "voterate": 2.87,
-                "party_name_kr": "무소속",
-                "votenum": 4539
+                "name_kr": "성기선"
               },
               {
-                "name_kr": "이원창",
+                "votenum": 6151,
+                "party_name_kr": "무소속",
                 "voterate": 3.89,
-                "party_name_kr": "무소속",
-                "votenum": 6151
+                "name_kr": "이원창"
               },
               {
-                "name_kr": "조일묵",
+                "votenum": 4905,
+                "party_name_kr": "무소속",
                 "voterate": 3.1,
-                "party_name_kr": "무소속",
-                "votenum": 4905
+                "name_kr": "조일묵"
               },
               {
-                "name_kr": "조일환",
+                "votenum": 10389,
+                "party_name_kr": "무소속",
                 "voterate": 6.57,
-                "party_name_kr": "무소속",
-                "votenum": 10389
+                "name_kr": "조일환"
               },
               {
-                "name_kr": "황규영",
-                "voterate": 7.37,
+                "votenum": 11640,
                 "party_name_kr": "무소속",
-                "votenum": 11640
+                "voterate": 7.37,
+                "name_kr": "황규영"
               }
             ],
-            "region_code": 44,
+            "undervotes": 4397,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 2195,
-            "blank_ballots": 31209,
+            "cand_no": 7,
             "counted_votes": 156911,
+            "electorates": 188120,
+            "num_elected": 2,
+            "blank_ballots": 31209,
             "valid_votes": 154716,
             "district_name": "제3선거구",
-            "electorates": 188120,
-            "cand_no": 7,
             "district_code": 24406800,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "이준섭",
-                "voterate": 41.09,
+                "votenum": 63585,
                 "party_name_kr": "민주공화당",
-                "votenum": 63585
+                "voterate": 41.09,
+                "name_kr": "이준섭"
               },
               {
-                "name_kr": "유한열",
-                "voterate": 33.69,
+                "votenum": 52135,
                 "party_name_kr": "신민당",
-                "votenum": 52135
+                "voterate": 33.69,
+                "name_kr": "유한열"
               },
               {
-                "name_kr": "이천영",
-                "voterate": 1.88,
+                "votenum": 2909,
                 "party_name_kr": "민주통일당",
-                "votenum": 2909
+                "voterate": 1.88,
+                "name_kr": "이천영"
               },
               {
-                "name_kr": "송석린",
+                "votenum": 6484,
+                "party_name_kr": "무소속",
                 "voterate": 4.19,
-                "party_name_kr": "무소속",
-                "votenum": 6484
+                "name_kr": "송석린"
               },
               {
-                "name_kr": "송준빈",
+                "votenum": 2360,
+                "party_name_kr": "무소속",
                 "voterate": 1.52,
-                "party_name_kr": "무소속",
-                "votenum": 2360
+                "name_kr": "송준빈"
               },
               {
-                "name_kr": "장재복",
+                "votenum": 5063,
+                "party_name_kr": "무소속",
                 "voterate": 3.27,
-                "party_name_kr": "무소속",
-                "votenum": 5063
+                "name_kr": "장재복"
               },
               {
-                "name_kr": "최경수",
-                "voterate": 14.33,
+                "votenum": 22180,
                 "party_name_kr": "무소속",
-                "votenum": 22180
+                "voterate": 14.33,
+                "name_kr": "최경수"
               }
             ],
-            "region_code": 44,
+            "undervotes": 2195,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 2497,
-            "blank_ballots": 36385,
+            "cand_no": 10,
             "counted_votes": 169006,
+            "electorates": 205391,
+            "num_elected": 2,
+            "blank_ballots": 36385,
             "valid_votes": 166509,
             "district_name": "제4선거구",
-            "electorates": 205391,
-            "cand_no": 10,
             "district_code": 24409800,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "정석모",
-                "voterate": 46.7,
+                "votenum": 77762,
                 "party_name_kr": "민주공화당",
-                "votenum": 77762
+                "voterate": 46.7,
+                "name_kr": "정석모"
               },
               {
-                "name_kr": "윤완중",
-                "voterate": 10.4,
+                "votenum": 17329,
                 "party_name_kr": "신민당",
-                "votenum": 17329
+                "voterate": 10.4,
+                "name_kr": "윤완중"
               },
               {
-                "name_kr": "백승대",
-                "voterate": 7.64,
+                "votenum": 12736,
                 "party_name_kr": "민주통일당",
-                "votenum": 12736
+                "voterate": 7.64,
+                "name_kr": "백승대"
               },
               {
-                "name_kr": "강병진",
+                "votenum": 2914,
+                "party_name_kr": "무소속",
                 "voterate": 1.75,
-                "party_name_kr": "무소속",
-                "votenum": 2914
+                "name_kr": "강병진"
               },
               {
-                "name_kr": "김형대",
+                "votenum": 7775,
+                "party_name_kr": "무소속",
                 "voterate": 4.66,
-                "party_name_kr": "무소속",
-                "votenum": 7775
+                "name_kr": "김형대"
               },
               {
-                "name_kr": "박찬",
+                "votenum": 23934,
+                "party_name_kr": "무소속",
                 "voterate": 14.37,
-                "party_name_kr": "무소속",
-                "votenum": 23934
+                "name_kr": "박찬"
               },
               {
-                "name_kr": "이종길",
+                "votenum": 3091,
+                "party_name_kr": "무소속",
                 "voterate": 1.85,
-                "party_name_kr": "무소속",
-                "votenum": 3091
+                "name_kr": "이종길"
               },
               {
-                "name_kr": "이희원",
+                "votenum": 5705,
+                "party_name_kr": "무소속",
                 "voterate": 3.42,
-                "party_name_kr": "무소속",
-                "votenum": 5705
+                "name_kr": "이희원"
               },
               {
-                "name_kr": "임길수",
+                "votenum": 2737,
+                "party_name_kr": "무소속",
                 "voterate": 1.64,
-                "party_name_kr": "무소속",
-                "votenum": 2737
+                "name_kr": "임길수"
               },
               {
-                "name_kr": "임덕규",
-                "voterate": 7.52,
+                "votenum": 12526,
                 "party_name_kr": "무소속",
-                "votenum": 12526
+                "voterate": 7.52,
+                "name_kr": "임덕규"
               }
             ],
-            "region_code": 44,
+            "undervotes": 2497,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 6021,
-            "blank_ballots": 28666,
+            "cand_no": 9,
             "counted_votes": 207892,
+            "electorates": 236558,
+            "num_elected": 2,
+            "blank_ballots": 28666,
             "valid_votes": 201871,
             "district_name": "제5선거구",
-            "electorates": 236558,
-            "cand_no": 9,
             "district_code": 24411800,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "김종필",
-                "voterate": 66.63,
+                "votenum": 134513,
                 "party_name_kr": "민주공화당",
-                "votenum": 134513
+                "voterate": 66.63,
+                "name_kr": "김종필"
               },
               {
-                "name_kr": "조중연",
-                "voterate": 15.02,
+                "votenum": 30333,
                 "party_name_kr": "신민당",
-                "votenum": 30333
+                "voterate": 15.02,
+                "name_kr": "조중연"
               },
               {
-                "name_kr": "윤세민",
-                "voterate": 3.7,
+                "votenum": 7489,
                 "party_name_kr": "민주통일당",
-                "votenum": 7489
+                "voterate": 3.7,
+                "name_kr": "윤세민"
               },
               {
-                "name_kr": "김형옥",
+                "votenum": 7936,
+                "party_name_kr": "무소속",
                 "voterate": 3.93,
-                "party_name_kr": "무소속",
-                "votenum": 7936
+                "name_kr": "김형옥"
               },
               {
-                "name_kr": "김홍조",
+                "votenum": 2529,
+                "party_name_kr": "무소속",
                 "voterate": 1.25,
-                "party_name_kr": "무소속",
-                "votenum": 2529
+                "name_kr": "김홍조"
               },
               {
-                "name_kr": "나필열",
+                "votenum": 3085,
+                "party_name_kr": "무소속",
                 "voterate": 1.52,
-                "party_name_kr": "무소속",
-                "votenum": 3085
+                "name_kr": "나필열"
               },
               {
-                "name_kr": "백남치",
+                "votenum": 9429,
+                "party_name_kr": "무소속",
                 "voterate": 4.67,
-                "party_name_kr": "무소속",
-                "votenum": 9429
+                "name_kr": "백남치"
               },
               {
-                "name_kr": "신준희",
+                "votenum": 107,
+                "party_name_kr": "무소속",
                 "voterate": 0.05,
-                "party_name_kr": "무소속",
-                "votenum": 107
+                "name_kr": "신준희"
               },
               {
-                "name_kr": "한상필",
-                "voterate": 3.19,
+                "votenum": 6450,
                 "party_name_kr": "무소속",
-                "votenum": 6450
+                "voterate": 3.19,
+                "name_kr": "한상필"
               }
             ],
-            "region_code": 44,
+            "undervotes": 6021,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 3909,
-            "blank_ballots": 33659,
+            "cand_no": 4,
             "counted_votes": 161163,
+            "electorates": 194822,
+            "num_elected": 2,
+            "blank_ballots": 33659,
             "valid_votes": 157254,
             "district_name": "제6선거구",
-            "electorates": 194822,
-            "cand_no": 4,
             "district_code": 24414800,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "장영순",
-                "voterate": 38.38,
+                "votenum": 60368,
                 "party_name_kr": "민주공화당",
-                "votenum": 60368
+                "voterate": 38.38,
+                "name_kr": "장영순"
               },
               {
-                "name_kr": "한건수",
-                "voterate": 28.4,
+                "votenum": 44663,
                 "party_name_kr": "신민당",
-                "votenum": 44663
+                "voterate": 28.4,
+                "name_kr": "한건수"
               },
               {
-                "name_kr": "김성식",
-                "voterate": 18.17,
+                "votenum": 28578,
                 "party_name_kr": "민주통일당",
-                "votenum": 28578
+                "voterate": 18.17,
+                "name_kr": "김성식"
               },
               {
-                "name_kr": "윤규상",
-                "voterate": 15.03,
+                "votenum": 23645,
                 "party_name_kr": "무소속",
-                "votenum": 23645
+                "voterate": 15.03,
+                "name_kr": "윤규상"
               }
             ],
-            "region_code": 44,
+            "undervotes": 3909,
             "nth": 10
           },
           {
             "region_name": "충남",
-            "undervotes": 2456,
-            "blank_ballots": 37223,
+            "cand_no": 6,
             "counted_votes": 181465,
+            "electorates": 218688,
+            "num_elected": 2,
+            "blank_ballots": 37223,
             "valid_votes": 179009,
             "district_name": "제7선거구",
-            "electorates": 218688,
-            "cand_no": 6,
             "district_code": 24417800,
+            "region_code": 44,
             "result": [
               {
-                "name_kr": "심현직",
-                "voterate": 30.55,
+                "votenum": 54699,
                 "party_name_kr": "민주공화당",
-                "votenum": 54699
+                "voterate": 30.55,
+                "name_kr": "심현직"
               },
               {
-                "name_kr": "유제연",
+                "votenum": 26799,
+                "party_name_kr": "신민당",
                 "voterate": 14.97,
-                "party_name_kr": "신민당",
-                "votenum": 26799
+                "name_kr": "유제연"
               },
               {
-                "name_kr": "한영수",
+                "votenum": 40874,
+                "party_name_kr": "신민당",
                 "voterate": 22.83,
-                "party_name_kr": "신민당",
-                "votenum": 40874
+                "name_kr": "한영수"
               },
               {
-                "name_kr": "김현욱",
+                "votenum": 15217,
+                "party_name_kr": "무소속",
                 "voterate": 8.5,
-                "party_name_kr": "무소속",
-                "votenum": 15217
+                "name_kr": "김현욱"
               },
               {
-                "name_kr": "박완교",
+                "votenum": 17655,
+                "party_name_kr": "무소속",
                 "voterate": 9.86,
-                "party_name_kr": "무소속",
-                "votenum": 17655
+                "name_kr": "박완교"
               },
               {
-                "name_kr": "이명휘",
-                "voterate": 13.27,
+                "votenum": 23764,
                 "party_name_kr": "무소속",
-                "votenum": 23764
+                "voterate": 13.27,
+                "name_kr": "이명휘"
               }
             ],
-            "region_code": 44,
+            "undervotes": 2456,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 44
       },
       {
-        "region_code": 45,
         "region_name": "전북",
         "district_result": [
           {
             "region_name": "전북",
-            "undervotes": 3563,
-            "blank_ballots": 47908,
+            "cand_no": 6,
             "counted_votes": 196576,
+            "electorates": 244484,
+            "num_elected": 2,
+            "blank_ballots": 47908,
             "valid_votes": 193013,
             "district_name": "제1선거구",
-            "electorates": 244484,
-            "cand_no": 6,
             "district_code": 24501700,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "유기정",
-                "voterate": 27.21,
+                "votenum": 52533,
                 "party_name_kr": "민주공화당",
-                "votenum": 52533
+                "voterate": 27.21,
+                "name_kr": "유기정"
               },
               {
-                "name_kr": "이철승",
-                "voterate": 52.01,
+                "votenum": 100404,
                 "party_name_kr": "신민당",
-                "votenum": 100404
+                "voterate": 52.01,
+                "name_kr": "이철승"
               },
               {
-                "name_kr": "유충성",
-                "voterate": 6.72,
+                "votenum": 12980,
                 "party_name_kr": "민주통일당",
-                "votenum": 12980
+                "voterate": 6.72,
+                "name_kr": "유충성"
               },
               {
-                "name_kr": "양윤모",
+                "votenum": 10375,
+                "party_name_kr": "무소속",
                 "voterate": 5.37,
-                "party_name_kr": "무소속",
-                "votenum": 10375
+                "name_kr": "양윤모"
               },
               {
-                "name_kr": "임광순",
+                "votenum": 12148,
+                "party_name_kr": "무소속",
                 "voterate": 6.29,
-                "party_name_kr": "무소속",
-                "votenum": 12148
+                "name_kr": "임광순"
               },
               {
-                "name_kr": "조형익",
-                "voterate": 2.36,
+                "votenum": 4573,
                 "party_name_kr": "무소속",
-                "votenum": 4573
+                "voterate": 2.36,
+                "name_kr": "조형익"
               }
             ],
-            "region_code": 45,
+            "undervotes": 3563,
             "nth": 10
           },
           {
             "region_name": "전북",
-            "undervotes": 3206,
-            "blank_ballots": 51370,
+            "cand_no": 7,
             "counted_votes": 230919,
+            "electorates": 282289,
+            "num_elected": 2,
+            "blank_ballots": 51370,
             "valid_votes": 227713,
             "district_name": "제2선거구",
-            "electorates": 282289,
-            "cand_no": 7,
             "district_code": 24503700,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "채영철",
-                "voterate": 25.37,
+                "votenum": 57779,
                 "party_name_kr": "민주공화당",
-                "votenum": 57779
+                "voterate": 25.37,
+                "name_kr": "채영철"
               },
               {
-                "name_kr": "김현기",
-                "voterate": 27.5,
+                "votenum": 62622,
                 "party_name_kr": "신민당",
-                "votenum": 62622
+                "voterate": 27.5,
+                "name_kr": "김현기"
               },
               {
-                "name_kr": "강근호",
-                "voterate": 23.67,
+                "votenum": 53913,
                 "party_name_kr": "민주통일당",
-                "votenum": 53913
+                "voterate": 23.67,
+                "name_kr": "강근호"
               },
               {
-                "name_kr": "김중석",
+                "votenum": 8402,
+                "party_name_kr": "무소속",
                 "voterate": 3.68,
-                "party_name_kr": "무소속",
-                "votenum": 8402
+                "name_kr": "김중석"
               },
               {
-                "name_kr": "오승엽",
+                "votenum": 13594,
+                "party_name_kr": "무소속",
                 "voterate": 5.96,
-                "party_name_kr": "무소속",
-                "votenum": 13594
+                "name_kr": "오승엽"
               },
               {
-                "name_kr": "채영석",
+                "votenum": 23532,
+                "party_name_kr": "무소속",
                 "voterate": 10.33,
-                "party_name_kr": "무소속",
-                "votenum": 23532
+                "name_kr": "채영석"
               },
               {
-                "name_kr": "최기창",
-                "voterate": 3.45,
+                "votenum": 7871,
                 "party_name_kr": "무소속",
-                "votenum": 7871
+                "voterate": 3.45,
+                "name_kr": "최기창"
               }
             ],
-            "region_code": 45,
+            "undervotes": 3206,
             "nth": 10
           },
           {
             "region_name": "전북",
-            "undervotes": 1244,
-            "blank_ballots": 10573,
+            "cand_no": 9,
             "counted_votes": 93847,
+            "electorates": 104420,
+            "num_elected": 2,
+            "blank_ballots": 10573,
             "valid_votes": 92603,
             "district_name": "제3선거구",
-            "electorates": 104420,
-            "cand_no": 9,
             "district_code": 24507800,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "김광수",
-                "voterate": 35.66,
+                "votenum": 33026,
                 "party_name_kr": "민주공화당",
-                "votenum": 33026
+                "voterate": 35.66,
+                "name_kr": "김광수"
               },
               {
-                "name_kr": "최성석",
-                "voterate": 25.35,
+                "votenum": 23475,
                 "party_name_kr": "신민당",
-                "votenum": 23475
+                "voterate": 25.35,
+                "name_kr": "최성석"
               },
               {
-                "name_kr": "이복동",
-                "voterate": 0.79,
+                "votenum": 737,
                 "party_name_kr": "민주통일당",
-                "votenum": 737
+                "voterate": 0.79,
+                "name_kr": "이복동"
               },
               {
-                "name_kr": "김덕규",
+                "votenum": 7446,
+                "party_name_kr": "무소속",
                 "voterate": 8.04,
-                "party_name_kr": "무소속",
-                "votenum": 7446
+                "name_kr": "김덕규"
               },
               {
-                "name_kr": "김봉관",
+                "votenum": 4605,
+                "party_name_kr": "무소속",
                 "voterate": 4.97,
-                "party_name_kr": "무소속",
-                "votenum": 4605
+                "name_kr": "김봉관"
               },
               {
-                "name_kr": "오상현",
+                "votenum": 13362,
+                "party_name_kr": "무소속",
                 "voterate": 14.42,
-                "party_name_kr": "무소속",
-                "votenum": 13362
+                "name_kr": "오상현"
               },
               {
-                "name_kr": "이상옥",
+                "votenum": 1503,
+                "party_name_kr": "무소속",
                 "voterate": 1.62,
-                "party_name_kr": "무소속",
-                "votenum": 1503
+                "name_kr": "이상옥"
               },
               {
-                "name_kr": "이상옥",
+                "votenum": 5953,
+                "party_name_kr": "무소속",
                 "voterate": 6.42,
-                "party_name_kr": "무소속",
-                "votenum": 5953
+                "name_kr": "이상옥"
               },
               {
-                "name_kr": "허재송",
-                "voterate": 2.69,
+                "votenum": 2496,
                 "party_name_kr": "무소속",
-                "votenum": 2496
+                "voterate": 2.69,
+                "name_kr": "허재송"
               }
             ],
-            "region_code": 45,
+            "undervotes": 1244,
             "nth": 10
           },
           {
             "region_name": "전북",
-            "undervotes": 2908,
-            "blank_ballots": 17895,
+            "cand_no": 7,
             "counted_votes": 149091,
+            "electorates": 166986,
+            "num_elected": 2,
+            "blank_ballots": 17895,
             "valid_votes": 146183,
             "district_name": "제4선거구",
-            "electorates": 166986,
-            "cand_no": 7,
             "district_code": 24510800,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "설인수",
-                "voterate": 37.33,
+                "votenum": 54576,
                 "party_name_kr": "민주공화당",
-                "votenum": 54576
+                "voterate": 37.33,
+                "name_kr": "설인수"
               },
               {
-                "name_kr": "양해준",
-                "voterate": 23.47,
+                "votenum": 34314,
                 "party_name_kr": "신민당",
-                "votenum": 34314
+                "voterate": 23.47,
+                "name_kr": "양해준"
               },
               {
-                "name_kr": "오연근",
-                "voterate": 1.01,
+                "votenum": 1486,
                 "party_name_kr": "민주통일당",
-                "votenum": 1486
+                "voterate": 1.01,
+                "name_kr": "오연근"
               },
               {
-                "name_kr": "강인원",
+                "votenum": 8600,
+                "party_name_kr": "무소속",
                 "voterate": 5.88,
-                "party_name_kr": "무소속",
-                "votenum": 8600
+                "name_kr": "강인원"
               },
               {
-                "name_kr": "소병남",
+                "votenum": 4245,
+                "party_name_kr": "무소속",
                 "voterate": 2.9,
-                "party_name_kr": "무소속",
-                "votenum": 4245
+                "name_kr": "소병남"
               },
               {
-                "name_kr": "손주항",
+                "votenum": 37631,
+                "party_name_kr": "무소속",
                 "voterate": 25.74,
-                "party_name_kr": "무소속",
-                "votenum": 37631
+                "name_kr": "손주항"
               },
               {
-                "name_kr": "신순원",
-                "voterate": 3.64,
+                "votenum": 5331,
                 "party_name_kr": "무소속",
-                "votenum": 5331
+                "voterate": 3.64,
+                "name_kr": "신순원"
               }
             ],
-            "region_code": 45,
+            "undervotes": 2908,
             "nth": 10
           },
           {
             "region_name": "전북",
-            "undervotes": 3248,
-            "blank_ballots": 30552,
+            "cand_no": 9,
             "counted_votes": 187453,
+            "electorates": 218005,
+            "num_elected": 2,
+            "blank_ballots": 30552,
             "valid_votes": 184205,
             "district_name": "제5선거구",
-            "electorates": 218005,
-            "cand_no": 9,
             "district_code": 24513800,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "장경순",
-                "voterate": 28.02,
+                "votenum": 51632,
                 "party_name_kr": "민주공화당",
-                "votenum": 51632
+                "voterate": 28.02,
+                "name_kr": "장경순"
               },
               {
-                "name_kr": "김원기",
-                "voterate": 24.81,
+                "votenum": 45703,
                 "party_name_kr": "신민당",
-                "votenum": 45703
+                "voterate": 24.81,
+                "name_kr": "김원기"
               },
               {
-                "name_kr": "김기옥",
-                "voterate": 3.2,
+                "votenum": 5896,
                 "party_name_kr": "민주통일당",
-                "votenum": 5896
+                "voterate": 3.2,
+                "name_kr": "김기옥"
               },
               {
-                "name_kr": "김택하",
+                "votenum": 29824,
+                "party_name_kr": "무소속",
                 "voterate": 16.19,
-                "party_name_kr": "무소속",
-                "votenum": 29824
+                "name_kr": "김택하"
               },
               {
-                "name_kr": "김형수",
+                "votenum": 17159,
+                "party_name_kr": "무소속",
                 "voterate": 9.31,
-                "party_name_kr": "무소속",
-                "votenum": 17159
+                "name_kr": "김형수"
               },
               {
-                "name_kr": "유창열",
+                "votenum": 4631,
+                "party_name_kr": "무소속",
                 "voterate": 2.51,
-                "party_name_kr": "무소속",
-                "votenum": 4631
+                "name_kr": "유창열"
               },
               {
-                "name_kr": "이원배",
+                "votenum": 11358,
+                "party_name_kr": "무소속",
                 "voterate": 6.16,
-                "party_name_kr": "무소속",
-                "votenum": 11358
+                "name_kr": "이원배"
               },
               {
-                "name_kr": "이의관",
+                "votenum": 6135,
+                "party_name_kr": "무소속",
                 "voterate": 3.33,
-                "party_name_kr": "무소속",
-                "votenum": 6135
+                "name_kr": "이의관"
               },
               {
-                "name_kr": "이낙도",
-                "voterate": 6.44,
+                "votenum": 11867,
                 "party_name_kr": "무소속",
-                "votenum": 11867
+                "voterate": 6.44,
+                "name_kr": "이낙도"
               }
             ],
-            "region_code": 45,
+            "undervotes": 3248,
             "nth": 10
           },
           {
             "region_name": "전북",
-            "undervotes": 2157,
-            "blank_ballots": 19302,
+            "cand_no": 6,
             "counted_votes": 130212,
+            "electorates": 149514,
+            "num_elected": 2,
+            "blank_ballots": 19302,
             "valid_votes": 128055,
             "district_name": "제6선거구",
-            "electorates": 149514,
-            "cand_no": 6,
             "district_code": 24515800,
+            "region_code": 45,
             "result": [
               {
-                "name_kr": "이호종",
-                "voterate": 28.48,
+                "votenum": 36478,
                 "party_name_kr": "민주공화당",
-                "votenum": 36478
+                "voterate": 28.48,
+                "name_kr": "이호종"
               },
               {
-                "name_kr": "진의종",
-                "voterate": 27.2,
+                "votenum": 34831,
                 "party_name_kr": "신민당",
-                "votenum": 34831
+                "voterate": 27.2,
+                "name_kr": "진의종"
               },
               {
-                "name_kr": "김일범",
-                "voterate": 4.51,
+                "votenum": 5784,
                 "party_name_kr": "민주통일당",
-                "votenum": 5784
+                "voterate": 4.51,
+                "name_kr": "김일범"
               },
               {
-                "name_kr": "김종수",
+                "votenum": 7346,
+                "party_name_kr": "무소속",
                 "voterate": 5.73,
-                "party_name_kr": "무소속",
-                "votenum": 7346
+                "name_kr": "김종수"
               },
               {
-                "name_kr": "박용기",
+                "votenum": 36941,
+                "party_name_kr": "무소속",
                 "voterate": 28.84,
-                "party_name_kr": "무소속",
-                "votenum": 36941
+                "name_kr": "박용기"
               },
               {
-                "name_kr": "정균환",
-                "voterate": 5.21,
+                "votenum": 6675,
                 "party_name_kr": "무소속",
-                "votenum": 6675
+                "voterate": 5.21,
+                "name_kr": "정균환"
               }
             ],
-            "region_code": 45,
+            "undervotes": 2157,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 45
       },
       {
-        "region_code": 46,
         "region_name": "전남",
         "district_result": [
           {
             "region_name": "전남",
-            "undervotes": 2011,
-            "blank_ballots": 80839,
+            "cand_no": 7,
             "counted_votes": 231629,
+            "electorates": 312468,
+            "num_elected": 2,
+            "blank_ballots": 80839,
             "valid_votes": 229618,
             "district_name": "제1선거구",
-            "electorates": 312468,
-            "cand_no": 7,
             "district_code": 24601600,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "박철",
-                "voterate": 21.16,
+                "votenum": 48595,
                 "party_name_kr": "민주공화당",
-                "votenum": 48595
+                "voterate": 21.16,
+                "name_kr": "박철"
               },
               {
-                "name_kr": "이필선",
-                "voterate": 36.4,
+                "votenum": 83586,
                 "party_name_kr": "신민당",
-                "votenum": 83586
+                "voterate": 36.4,
+                "name_kr": "이필선"
               },
               {
-                "name_kr": "김록영",
-                "voterate": 28.98,
+                "votenum": 66558,
                 "party_name_kr": "민주통일당",
-                "votenum": 66558
+                "voterate": 28.98,
+                "name_kr": "김록영"
               },
               {
-                "name_kr": "박영기",
+                "votenum": 4815,
+                "party_name_kr": "무소속",
                 "voterate": 2.09,
-                "party_name_kr": "무소속",
-                "votenum": 4815
+                "name_kr": "박영기"
               },
               {
-                "name_kr": "유주영",
+                "votenum": 5803,
+                "party_name_kr": "무소속",
                 "voterate": 2.52,
-                "party_name_kr": "무소속",
-                "votenum": 5803
+                "name_kr": "유주영"
               },
               {
-                "name_kr": "장휴동",
+                "votenum": 15955,
+                "party_name_kr": "무소속",
                 "voterate": 6.94,
-                "party_name_kr": "무소속",
-                "votenum": 15955
+                "name_kr": "장휴동"
               },
               {
-                "name_kr": "지근수",
-                "voterate": 1.87,
+                "votenum": 4306,
                 "party_name_kr": "무소속",
-                "votenum": 4306
+                "voterate": 1.87,
+                "name_kr": "지근수"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2011,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2881,
-            "blank_ballots": 47944,
+            "cand_no": 5,
             "counted_votes": 174993,
+            "electorates": 222937,
+            "num_elected": 2,
+            "blank_ballots": 47944,
             "valid_votes": 172112,
             "district_name": "제2선거구",
-            "electorates": 222937,
-            "cand_no": 5,
             "district_code": 24603700,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "최영철",
-                "voterate": 38.77,
+                "votenum": 66730,
                 "party_name_kr": "민주공화당",
-                "votenum": 66730
+                "voterate": 38.77,
+                "name_kr": "최영철"
               },
               {
-                "name_kr": "임종기",
-                "voterate": 26.29,
+                "votenum": 45256,
                 "party_name_kr": "신민당",
-                "votenum": 45256
+                "voterate": 26.29,
+                "name_kr": "임종기"
               },
               {
-                "name_kr": "김경인",
-                "voterate": 15.76,
+                "votenum": 27134,
                 "party_name_kr": "민주통일당",
-                "votenum": 27134
+                "voterate": 15.76,
+                "name_kr": "김경인"
               },
               {
-                "name_kr": "김기열",
-                "voterate": 9.58,
+                "votenum": 16501,
                 "party_name_kr": "무소속",
-                "votenum": 16501
+                "voterate": 9.58,
+                "name_kr": "김기열"
               },
               {
-                "name_kr": "유옥우",
-                "voterate": 9.58,
+                "votenum": 16491,
                 "party_name_kr": "무소속",
-                "votenum": 16491
+                "voterate": 9.58,
+                "name_kr": "유옥우"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2881,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2286,
-            "blank_ballots": 39360,
+            "cand_no": 8,
             "counted_votes": 154090,
+            "electorates": 193450,
+            "num_elected": 2,
+            "blank_ballots": 39360,
             "valid_votes": 151804,
             "district_name": "제3선거구",
-            "electorates": 193450,
-            "cand_no": 8,
             "district_code": 24606700,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "이도선",
-                "voterate": 37.43,
+                "votenum": 56828,
                 "party_name_kr": "민주공화당",
-                "votenum": 56828
+                "voterate": 37.43,
+                "name_kr": "이도선"
               },
               {
-                "name_kr": "박병효",
-                "voterate": 17.91,
+                "votenum": 27194,
                 "party_name_kr": "신민당",
-                "votenum": 27194
+                "voterate": 17.91,
+                "name_kr": "박병효"
               },
               {
-                "name_kr": "김용일",
-                "voterate": 8.35,
+                "votenum": 12686,
                 "party_name_kr": "민주통일당",
-                "votenum": 12686
+                "voterate": 8.35,
+                "name_kr": "김용일"
               },
               {
-                "name_kr": "김광영",
+                "votenum": 17032,
+                "party_name_kr": "무소속",
                 "voterate": 11.21,
-                "party_name_kr": "무소속",
-                "votenum": 17032
+                "name_kr": "김광영"
               },
               {
-                "name_kr": "신순범",
+                "votenum": 22863,
+                "party_name_kr": "무소속",
                 "voterate": 15.06,
-                "party_name_kr": "무소속",
-                "votenum": 22863
+                "name_kr": "신순범"
               },
               {
-                "name_kr": "류현수",
+                "votenum": 5655,
+                "party_name_kr": "무소속",
                 "voterate": 3.72,
-                "party_name_kr": "무소속",
-                "votenum": 5655
+                "name_kr": "류현수"
               },
               {
-                "name_kr": "윤창근",
+                "votenum": 3265,
+                "party_name_kr": "무소속",
                 "voterate": 2.15,
-                "party_name_kr": "무소속",
-                "votenum": 3265
+                "name_kr": "윤창근"
               },
               {
-                "name_kr": "한원희",
-                "voterate": 4.13,
+                "votenum": 6281,
                 "party_name_kr": "무소속",
-                "votenum": 6281
+                "voterate": 4.13,
+                "name_kr": "한원희"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2286,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 1745,
-            "blank_ballots": 19872,
+            "cand_no": 6,
             "counted_votes": 124573,
+            "electorates": 144445,
+            "num_elected": 2,
+            "blank_ballots": 19872,
             "valid_votes": 122828,
             "district_name": "제4선거구",
-            "electorates": 144445,
-            "cand_no": 6,
             "district_code": 24609700,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "유경현",
-                "voterate": 26.58,
+                "votenum": 32651,
                 "party_name_kr": "민주공화당",
-                "votenum": 32651
+                "voterate": 26.58,
+                "name_kr": "유경현"
               },
               {
-                "name_kr": "허경만",
-                "voterate": 23.81,
+                "votenum": 29246,
                 "party_name_kr": "신민당",
-                "votenum": 29246
+                "voterate": 23.81,
+                "name_kr": "허경만"
               },
               {
-                "name_kr": "박용구",
-                "voterate": 4.3,
+                "votenum": 5288,
                 "party_name_kr": "민주통일당",
-                "votenum": 5288
+                "voterate": 4.3,
+                "name_kr": "박용구"
               },
               {
-                "name_kr": "강길만",
+                "votenum": 17863,
+                "party_name_kr": "무소속",
                 "voterate": 14.54,
-                "party_name_kr": "무소속",
-                "votenum": 17863
+                "name_kr": "강길만"
               },
               {
-                "name_kr": "위찬호",
+                "votenum": 15254,
+                "party_name_kr": "무소속",
                 "voterate": 12.41,
-                "party_name_kr": "무소속",
-                "votenum": 15254
+                "name_kr": "위찬호"
               },
               {
-                "name_kr": "조규순",
-                "voterate": 18.33,
+                "votenum": 22526,
                 "party_name_kr": "무소속",
-                "votenum": 22526
+                "voterate": 18.33,
+                "name_kr": "조규순"
               }
             ],
-            "region_code": 46,
+            "undervotes": 1745,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2109,
-            "blank_ballots": 28567,
+            "cand_no": 5,
             "counted_votes": 134902,
+            "electorates": 163469,
+            "num_elected": 2,
+            "blank_ballots": 28567,
             "valid_votes": 132793,
             "district_name": "제5선거구",
-            "electorates": 163469,
-            "cand_no": 5,
             "district_code": 24612700,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "임인채",
-                "voterate": 18.2,
+                "votenum": 24175,
                 "party_name_kr": "민주공화당",
-                "votenum": 24175
+                "voterate": 18.2,
+                "name_kr": "임인채"
               },
               {
-                "name_kr": "김윤덕",
-                "voterate": 23.33,
+                "votenum": 30988,
                 "party_name_kr": "신민당",
-                "votenum": 30988
+                "voterate": 23.33,
+                "name_kr": "김윤덕"
               },
               {
-                "name_kr": "김장곤",
-                "voterate": 17.08,
+                "votenum": 22685,
                 "party_name_kr": "민주통일당",
-                "votenum": 22685
+                "voterate": 17.08,
+                "name_kr": "김장곤"
               },
               {
-                "name_kr": "조홍규",
+                "votenum": 27388,
+                "party_name_kr": "무소속",
                 "voterate": 20.62,
-                "party_name_kr": "무소속",
-                "votenum": 27388
+                "name_kr": "조홍규"
               },
               {
-                "name_kr": "한갑수",
-                "voterate": 20.75,
+                "votenum": 27557,
                 "party_name_kr": "무소속",
-                "votenum": 27557
+                "voterate": 20.75,
+                "name_kr": "한갑수"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2109,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2853,
-            "blank_ballots": 18992,
+            "cand_no": 5,
             "counted_votes": 132816,
+            "electorates": 151808,
+            "num_elected": 2,
+            "blank_ballots": 18992,
             "valid_votes": 129963,
             "district_name": "제6선거구",
-            "electorates": 151808,
-            "cand_no": 5,
             "district_code": 24614800,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "문형태",
-                "voterate": 46.12,
+                "votenum": 59942,
                 "party_name_kr": "민주공화당",
-                "votenum": 59942
+                "voterate": 46.12,
+                "name_kr": "문형태"
               },
               {
-                "name_kr": "고재청",
-                "voterate": 26.34,
+                "votenum": 34233,
                 "party_name_kr": "신민당",
-                "votenum": 34233
+                "voterate": 26.34,
+                "name_kr": "고재청"
               },
               {
-                "name_kr": "양동희",
-                "voterate": 5.6,
+                "votenum": 7280,
                 "party_name_kr": "민주통일당",
-                "votenum": 7280
+                "voterate": 5.6,
+                "name_kr": "양동희"
               },
               {
-                "name_kr": "심상준",
+                "votenum": 6110,
+                "party_name_kr": "무소속",
                 "voterate": 4.7,
-                "party_name_kr": "무소속",
-                "votenum": 6110
+                "name_kr": "심상준"
               },
               {
-                "name_kr": "조용기",
-                "voterate": 17.23,
+                "votenum": 22398,
                 "party_name_kr": "무소속",
-                "votenum": 22398
+                "voterate": 17.23,
+                "name_kr": "조용기"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2853,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2081,
-            "blank_ballots": 25521,
+            "cand_no": 3,
             "counted_votes": 153188,
+            "electorates": 178709,
+            "num_elected": 2,
+            "blank_ballots": 25521,
             "valid_votes": 151107,
             "district_name": "제7선거구",
-            "electorates": 178709,
-            "cand_no": 3,
             "district_code": 24617800,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "신형식",
-                "voterate": 48.12,
+                "votenum": 72718,
                 "party_name_kr": "민주공화당",
-                "votenum": 72718
+                "voterate": 48.12,
+                "name_kr": "신형식"
               },
               {
-                "name_kr": "이중재",
-                "voterate": 20.88,
+                "votenum": 31560,
                 "party_name_kr": "신민당",
-                "votenum": 31560
+                "voterate": 20.88,
+                "name_kr": "이중재"
               },
               {
-                "name_kr": "김수",
-                "voterate": 30.99,
+                "votenum": 46829,
                 "party_name_kr": "무소속",
-                "votenum": 46829
+                "voterate": 30.99,
+                "name_kr": "김수"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2081,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 3020,
-            "blank_ballots": 36941,
+            "cand_no": 7,
             "counted_votes": 191356,
+            "electorates": 228297,
+            "num_elected": 2,
+            "blank_ballots": 36941,
             "valid_votes": 188336,
             "district_name": "제8선거구",
-            "electorates": 228297,
-            "cand_no": 7,
             "district_code": 24619800,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "길전식",
-                "voterate": 39.64,
+                "votenum": 74668,
                 "party_name_kr": "민주공화당",
-                "votenum": 74668
+                "voterate": 39.64,
+                "name_kr": "길전식"
               },
               {
-                "name_kr": "황호동",
-                "voterate": 14.7,
+                "votenum": 27687,
                 "party_name_kr": "신민당",
-                "votenum": 27687
+                "voterate": 14.7,
+                "name_kr": "황호동"
               },
               {
-                "name_kr": "오석보",
-                "voterate": 7.63,
+                "votenum": 14386,
                 "party_name_kr": "민주통일당",
-                "votenum": 14386
+                "voterate": 7.63,
+                "name_kr": "오석보"
               },
               {
-                "name_kr": "윤재명",
+                "votenum": 31167,
+                "party_name_kr": "무소속",
                 "voterate": 16.54,
-                "party_name_kr": "무소속",
-                "votenum": 31167
+                "name_kr": "윤재명"
               },
               {
-                "name_kr": "이선동",
+                "votenum": 28244,
+                "party_name_kr": "무소속",
                 "voterate": 14.99,
-                "party_name_kr": "무소속",
-                "votenum": 28244
+                "name_kr": "이선동"
               },
               {
-                "name_kr": "이정채",
+                "votenum": 3237,
+                "party_name_kr": "무소속",
                 "voterate": 1.71,
-                "party_name_kr": "무소속",
-                "votenum": 3237
+                "name_kr": "이정채"
               },
               {
-                "name_kr": "최수영",
-                "voterate": 4.75,
+                "votenum": 8947,
                 "party_name_kr": "무소속",
-                "votenum": 8947
+                "voterate": 4.75,
+                "name_kr": "최수영"
               }
             ],
-            "region_code": 46,
+            "undervotes": 3020,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2110,
-            "blank_ballots": 20986,
+            "cand_no": 7,
             "counted_votes": 115618,
+            "electorates": 136604,
+            "num_elected": 2,
+            "blank_ballots": 20986,
             "valid_votes": 113508,
             "district_name": "제9선거구",
-            "electorates": 136604,
-            "cand_no": 7,
             "district_code": 24623800,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "김봉호",
-                "voterate": 25.42,
+                "votenum": 28862,
                 "party_name_kr": "민주공화당",
-                "votenum": 28862
+                "voterate": 25.42,
+                "name_kr": "김봉호"
               },
               {
-                "name_kr": "윤철하",
-                "voterate": 20.02,
+                "votenum": 22730,
                 "party_name_kr": "신민당",
-                "votenum": 22730
+                "voterate": 20.02,
+                "name_kr": "윤철하"
               },
               {
-                "name_kr": "박문수",
-                "voterate": 3.18,
+                "votenum": 3612,
                 "party_name_kr": "민주통일당",
-                "votenum": 3612
+                "voterate": 3.18,
+                "name_kr": "박문수"
               },
               {
-                "name_kr": "김성자",
+                "votenum": 9202,
+                "party_name_kr": "무소속",
                 "voterate": 8.1,
-                "party_name_kr": "무소속",
-                "votenum": 9202
+                "name_kr": "김성자"
               },
               {
-                "name_kr": "박귀수",
+                "votenum": 18534,
+                "party_name_kr": "무소속",
                 "voterate": 16.32,
-                "party_name_kr": "무소속",
-                "votenum": 18534
+                "name_kr": "박귀수"
               },
               {
-                "name_kr": "이익균",
+                "votenum": 3396,
+                "party_name_kr": "무소속",
                 "voterate": 2.99,
-                "party_name_kr": "무소속",
-                "votenum": 3396
+                "name_kr": "이익균"
               },
               {
-                "name_kr": "임영득",
-                "voterate": 23.93,
+                "votenum": 27172,
                 "party_name_kr": "무소속",
-                "votenum": 27172
+                "voterate": 23.93,
+                "name_kr": "임영득"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2110,
             "nth": 10
           },
           {
             "region_name": "전남",
-            "undervotes": 2665,
-            "blank_ballots": 26634,
+            "cand_no": 4,
             "counted_votes": 143679,
+            "electorates": 170313,
+            "num_elected": 2,
+            "blank_ballots": 26634,
             "valid_votes": 141014,
             "district_name": "제10선거구",
-            "electorates": 170313,
-            "cand_no": 4,
             "district_code": 24625800,
+            "region_code": 46,
             "result": [
               {
-                "name_kr": "김재식",
-                "voterate": 42.78,
+                "votenum": 60339,
                 "party_name_kr": "민주공화당",
-                "votenum": 60339
+                "voterate": 42.78,
+                "name_kr": "김재식"
               },
               {
-                "name_kr": "이진연",
-                "voterate": 26.75,
+                "votenum": 37723,
                 "party_name_kr": "신민당",
-                "votenum": 37723
+                "voterate": 26.75,
+                "name_kr": "이진연"
               },
               {
-                "name_kr": "조기상",
-                "voterate": 26.61,
+                "votenum": 37531,
                 "party_name_kr": "민주통일당",
-                "votenum": 37531
+                "voterate": 26.61,
+                "name_kr": "조기상"
               },
               {
-                "name_kr": "김연관",
-                "voterate": 3.84,
+                "votenum": 5421,
                 "party_name_kr": "무소속",
-                "votenum": 5421
+                "voterate": 3.84,
+                "name_kr": "김연관"
               }
             ],
-            "region_code": 46,
+            "undervotes": 2665,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 46
       },
       {
-        "region_code": 47,
         "region_name": "경북",
         "district_result": [
           {
             "region_name": "경북",
-            "undervotes": 3342,
-            "blank_ballots": 91000,
+            "cand_no": 4,
             "counted_votes": 271518,
+            "electorates": 362518,
+            "num_elected": 2,
+            "blank_ballots": 91000,
             "valid_votes": 268176,
             "district_name": "제1선거구",
-            "electorates": 362518,
-            "cand_no": 4,
             "district_code": 24701600,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "이만섭",
-                "voterate": 24.83,
+                "votenum": 66598,
                 "party_name_kr": "민주공화당",
-                "votenum": 66598
+                "voterate": 24.83,
+                "name_kr": "이만섭"
               },
               {
-                "name_kr": "조일환",
-                "voterate": 20.57,
+                "votenum": 55190,
                 "party_name_kr": "신민당",
-                "votenum": 55190
+                "voterate": 20.57,
+                "name_kr": "조일환"
               },
               {
-                "name_kr": "이종섭",
-                "voterate": 6.55,
+                "votenum": 17578,
                 "party_name_kr": "민주통일당",
-                "votenum": 17578
+                "voterate": 6.55,
+                "name_kr": "이종섭"
               },
               {
-                "name_kr": "한병채",
-                "voterate": 48.03,
+                "votenum": 128810,
                 "party_name_kr": "무소속",
-                "votenum": 128810
+                "voterate": 48.03,
+                "name_kr": "한병채"
               }
             ],
-            "region_code": 47,
+            "undervotes": 3342,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 3479,
-            "blank_ballots": 100161,
+            "cand_no": 7,
             "counted_votes": 292019,
+            "electorates": 392180,
+            "num_elected": 2,
+            "blank_ballots": 100161,
             "valid_votes": 288540,
             "district_name": "제2선거구",
-            "electorates": 392180,
-            "cand_no": 7,
             "district_code": 24704600,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "이효상",
-                "voterate": 27.48,
+                "votenum": 79299,
                 "party_name_kr": "민주공화당",
-                "votenum": 79299
+                "voterate": 27.48,
+                "name_kr": "이효상"
               },
               {
-                "name_kr": "신도환",
-                "voterate": 23.43,
+                "votenum": 67625,
                 "party_name_kr": "신민당",
-                "votenum": 67625
+                "voterate": 23.43,
+                "name_kr": "신도환"
               },
               {
-                "name_kr": "윤영한",
-                "voterate": 3.05,
+                "votenum": 8810,
                 "party_name_kr": "민주통일당",
-                "votenum": 8810
+                "voterate": 3.05,
+                "name_kr": "윤영한"
               },
               {
-                "name_kr": "문양",
+                "votenum": 29268,
+                "party_name_kr": "무소속",
                 "voterate": 10.14,
-                "party_name_kr": "무소속",
-                "votenum": 29268
+                "name_kr": "문양"
               },
               {
-                "name_kr": "신진욱",
+                "votenum": 44962,
+                "party_name_kr": "무소속",
                 "voterate": 15.58,
-                "party_name_kr": "무소속",
-                "votenum": 44962
+                "name_kr": "신진욱"
               },
               {
-                "name_kr": "이치호",
+                "votenum": 48776,
+                "party_name_kr": "무소속",
                 "voterate": 16.9,
-                "party_name_kr": "무소속",
-                "votenum": 48776
+                "name_kr": "이치호"
               },
               {
-                "name_kr": "조화형",
-                "voterate": 3.39,
+                "votenum": 9800,
                 "party_name_kr": "무소속",
-                "votenum": 9800
+                "voterate": 3.39,
+                "name_kr": "조화형"
               }
             ],
-            "region_code": 47,
+            "undervotes": 3479,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 2755,
-            "blank_ballots": 70219,
+            "cand_no": 6,
             "counted_votes": 231101,
+            "electorates": 301320,
+            "num_elected": 2,
+            "blank_ballots": 70219,
             "valid_votes": 228346,
             "district_name": "제3선거구",
-            "electorates": 301320,
-            "cand_no": 6,
             "district_code": 24706700,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "정무식",
-                "voterate": 21.36,
+                "votenum": 48781,
                 "party_name_kr": "민주공화당",
-                "votenum": 48781
+                "voterate": 21.36,
+                "name_kr": "정무식"
               },
               {
-                "name_kr": "조규창",
-                "voterate": 29.28,
+                "votenum": 66868,
                 "party_name_kr": "신민당",
-                "votenum": 66868
+                "voterate": 29.28,
+                "name_kr": "조규창"
               },
               {
-                "name_kr": "안병달",
-                "voterate": 7.22,
+                "votenum": 16490,
                 "party_name_kr": "민주통일당",
-                "votenum": 16490
+                "voterate": 7.22,
+                "name_kr": "안병달"
               },
               {
-                "name_kr": "권오태",
+                "votenum": 73560,
+                "party_name_kr": "무소속",
                 "voterate": 32.21,
-                "party_name_kr": "무소속",
-                "votenum": 73560
+                "name_kr": "권오태"
               },
               {
-                "name_kr": "김병수",
+                "votenum": 14148,
+                "party_name_kr": "무소속",
                 "voterate": 6.19,
-                "party_name_kr": "무소속",
-                "votenum": 14148
+                "name_kr": "김병수"
               },
               {
-                "name_kr": "김상순",
-                "voterate": 3.72,
+                "votenum": 8499,
                 "party_name_kr": "무소속",
-                "votenum": 8499
+                "voterate": 3.72,
+                "name_kr": "김상순"
               }
             ],
-            "region_code": 47,
+            "undervotes": 2755,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 1845,
-            "blank_ballots": 39705,
+            "cand_no": 9,
             "counted_votes": 171932,
+            "electorates": 211637,
+            "num_elected": 2,
+            "blank_ballots": 39705,
             "valid_votes": 170087,
             "district_name": "제4선거구",
-            "electorates": 211637,
-            "cand_no": 9,
             "district_code": 24710700,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "박숙현",
-                "voterate": 22.44,
+                "votenum": 38181,
                 "party_name_kr": "민주공화당",
-                "votenum": 38181
+                "voterate": 22.44,
+                "name_kr": "박숙현"
               },
               {
-                "name_kr": "박권흠",
-                "voterate": 18.02,
+                "votenum": 30656,
                 "party_name_kr": "신민당",
-                "votenum": 30656
+                "voterate": 18.02,
+                "name_kr": "박권흠"
               },
               {
-                "name_kr": "김덕수",
+                "votenum": 10619,
+                "party_name_kr": "무소속",
                 "voterate": 6.24,
-                "party_name_kr": "무소속",
-                "votenum": 10619
+                "name_kr": "김덕수"
               },
               {
-                "name_kr": "백수근",
+                "votenum": 13898,
+                "party_name_kr": "무소속",
                 "voterate": 8.17,
-                "party_name_kr": "무소속",
-                "votenum": 13898
+                "name_kr": "백수근"
               },
               {
-                "name_kr": "이영표",
+                "votenum": 21202,
+                "party_name_kr": "무소속",
                 "voterate": 12.46,
-                "party_name_kr": "무소속",
-                "votenum": 21202
+                "name_kr": "이영표"
               },
               {
-                "name_kr": "임진출",
+                "votenum": 18300,
+                "party_name_kr": "무소속",
                 "voterate": 10.75,
-                "party_name_kr": "무소속",
-                "votenum": 18300
+                "name_kr": "임진출"
               },
               {
-                "name_kr": "주진포",
+                "votenum": 10053,
+                "party_name_kr": "무소속",
                 "voterate": 5.91,
-                "party_name_kr": "무소속",
-                "votenum": 10053
+                "name_kr": "주진포"
               },
               {
-                "name_kr": "최풍",
+                "votenum": 22637,
+                "party_name_kr": "무소속",
                 "voterate": 13.3,
-                "party_name_kr": "무소속",
-                "votenum": 22637
+                "name_kr": "최풍"
               },
               {
-                "name_kr": "황한수",
-                "voterate": 2.66,
+                "votenum": 4541,
                 "party_name_kr": "무소속",
-                "votenum": 4541
+                "voterate": 2.66,
+                "name_kr": "황한수"
               }
             ],
-            "region_code": 47,
+            "undervotes": 1845,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 2109,
-            "blank_ballots": 33009,
+            "cand_no": 7,
             "counted_votes": 182755,
+            "electorates": 215764,
+            "num_elected": 2,
+            "blank_ballots": 33009,
             "valid_votes": 180646,
             "district_name": "제5선거구",
-            "electorates": 215764,
-            "cand_no": 7,
             "district_code": 24713700,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "백남억",
-                "voterate": 19.48,
+                "votenum": 35200,
                 "party_name_kr": "민주공화당",
-                "votenum": 35200
+                "voterate": 19.48,
+                "name_kr": "백남억"
               },
               {
-                "name_kr": "이기한",
-                "voterate": 8.36,
+                "votenum": 15113,
                 "party_name_kr": "신민당",
-                "votenum": 15113
+                "voterate": 8.36,
+                "name_kr": "이기한"
               },
               {
-                "name_kr": "임재영",
-                "voterate": 3.09,
+                "votenum": 5586,
                 "party_name_kr": "민주통일당",
-                "votenum": 5586
+                "voterate": 3.09,
+                "name_kr": "임재영"
               },
               {
-                "name_kr": "김윤하",
+                "votenum": 32126,
+                "party_name_kr": "무소속",
                 "voterate": 17.78,
-                "party_name_kr": "무소속",
-                "votenum": 32126
+                "name_kr": "김윤하"
               },
               {
-                "name_kr": "박정수",
+                "votenum": 43319,
+                "party_name_kr": "무소속",
                 "voterate": 23.98,
-                "party_name_kr": "무소속",
-                "votenum": 43319
+                "name_kr": "박정수"
               },
               {
-                "name_kr": "이재옥",
+                "votenum": 6825,
+                "party_name_kr": "무소속",
                 "voterate": 3.77,
-                "party_name_kr": "무소속",
-                "votenum": 6825
+                "name_kr": "이재옥"
               },
               {
-                "name_kr": "정휘동",
-                "voterate": 23.51,
+                "votenum": 42477,
                 "party_name_kr": "무소속",
-                "votenum": 42477
+                "voterate": 23.51,
+                "name_kr": "정휘동"
               }
             ],
-            "region_code": 47,
+            "undervotes": 2109,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 2390,
-            "blank_ballots": 41340,
+            "cand_no": 6,
             "counted_votes": 175560,
+            "electorates": 216900,
+            "num_elected": 2,
+            "blank_ballots": 41340,
             "valid_votes": 173170,
             "district_name": "제6선거구",
-            "electorates": 216900,
-            "cand_no": 6,
             "district_code": 24716700,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "김상년",
-                "voterate": 30.41,
+                "votenum": 52662,
                 "party_name_kr": "민주공화당",
-                "votenum": 52662
+                "voterate": 30.41,
+                "name_kr": "김상년"
               },
               {
-                "name_kr": "박해충",
-                "voterate": 27.58,
+                "votenum": 47776,
                 "party_name_kr": "신민당",
-                "votenum": 47776
+                "voterate": 27.58,
+                "name_kr": "박해충"
               },
               {
-                "name_kr": "권태인",
-                "voterate": 2.44,
+                "votenum": 4231,
                 "party_name_kr": "민주통일당",
-                "votenum": 4231
+                "voterate": 2.44,
+                "name_kr": "권태인"
               },
               {
-                "name_kr": "권오훈",
+                "votenum": 38226,
+                "party_name_kr": "무소속",
                 "voterate": 22.07,
-                "party_name_kr": "무소속",
-                "votenum": 38226
+                "name_kr": "권오훈"
               },
               {
-                "name_kr": "신영목",
+                "votenum": 8947,
+                "party_name_kr": "무소속",
                 "voterate": 5.16,
-                "party_name_kr": "무소속",
-                "votenum": 8947
+                "name_kr": "신영목"
               },
               {
-                "name_kr": "오상직",
-                "voterate": 12.31,
+                "votenum": 21328,
                 "party_name_kr": "무소속",
-                "votenum": 21328
+                "voterate": 12.31,
+                "name_kr": "오상직"
               }
             ],
-            "region_code": 47,
+            "undervotes": 2390,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 2295,
-            "blank_ballots": 36830,
+            "cand_no": 7,
             "counted_votes": 185267,
+            "electorates": 222097,
+            "num_elected": 2,
+            "blank_ballots": 36830,
             "valid_votes": 182972,
             "district_name": "제7선거구",
-            "electorates": 222097,
-            "cand_no": 7,
             "district_code": 24719700,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "신현확",
-                "voterate": 30.95,
+                "votenum": 56645,
                 "party_name_kr": "민주공화당",
-                "votenum": 56645
+                "voterate": 30.95,
+                "name_kr": "신현확"
               },
               {
-                "name_kr": "김창환",
-                "voterate": 19.93,
+                "votenum": 36483,
                 "party_name_kr": "신민당",
-                "votenum": 36483
+                "voterate": 19.93,
+                "name_kr": "김창환"
               },
               {
-                "name_kr": "김태식",
+                "votenum": 4671,
+                "party_name_kr": "무소속",
                 "voterate": 2.55,
-                "party_name_kr": "무소속",
-                "votenum": 4671
+                "name_kr": "김태식"
               },
               {
-                "name_kr": "김현규",
+                "votenum": 49001,
+                "party_name_kr": "무소속",
                 "voterate": 26.78,
-                "party_name_kr": "무소속",
-                "votenum": 49001
+                "name_kr": "김현규"
               },
               {
-                "name_kr": "유성환",
+                "votenum": 14028,
+                "party_name_kr": "무소속",
                 "voterate": 7.66,
-                "party_name_kr": "무소속",
-                "votenum": 14028
+                "name_kr": "유성환"
               },
               {
-                "name_kr": "장덕환",
+                "votenum": 17070,
+                "party_name_kr": "무소속",
                 "voterate": 9.32,
-                "party_name_kr": "무소속",
-                "votenum": 17070
+                "name_kr": "장덕환"
               },
               {
-                "name_kr": "조익환",
-                "voterate": 2.77,
+                "votenum": 5074,
                 "party_name_kr": "무소속",
-                "votenum": 5074
+                "voterate": 2.77,
+                "name_kr": "조익환"
               }
             ],
-            "region_code": 47,
+            "undervotes": 2295,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 5912,
-            "blank_ballots": 45593,
+            "cand_no": 4,
             "counted_votes": 164909,
+            "electorates": 210502,
+            "num_elected": 2,
+            "blank_ballots": 45593,
             "valid_votes": 158997,
             "district_name": "제8선거구",
-            "electorates": 210502,
-            "cand_no": 4,
             "district_code": 24724800,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "박준규",
-                "voterate": 36.18,
+                "votenum": 57526,
                 "party_name_kr": "민주공화당",
-                "votenum": 57526
+                "voterate": 36.18,
+                "name_kr": "박준규"
               },
               {
-                "name_kr": "김종기",
+                "votenum": 47617,
+                "party_name_kr": "신민당",
                 "voterate": 29.94,
-                "party_name_kr": "신민당",
-                "votenum": 47617
+                "name_kr": "김종기"
               },
               {
-                "name_kr": "박주현",
-                "voterate": 19.08,
+                "votenum": 30341,
                 "party_name_kr": "무소속",
-                "votenum": 30341
+                "voterate": 19.08,
+                "name_kr": "박주현"
               },
               {
-                "name_kr": "이재연",
-                "voterate": 14.78,
+                "votenum": 23513,
                 "party_name_kr": "신민당",
-                "votenum": 23513
+                "voterate": 14.78,
+                "name_kr": "이재연"
               }
             ],
-            "region_code": 47,
+            "undervotes": 5912,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 1619,
-            "blank_ballots": 20350,
+            "cand_no": 7,
             "counted_votes": 118752,
+            "electorates": 139102,
+            "num_elected": 2,
+            "blank_ballots": 20350,
             "valid_votes": 117133,
             "district_name": "제9선거구",
-            "electorates": 139102,
-            "cand_no": 7,
             "district_code": 24727800,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "문태준",
-                "voterate": 25.72,
+                "votenum": 30131,
                 "party_name_kr": "민주공화당",
-                "votenum": 30131
+                "voterate": 25.72,
+                "name_kr": "문태준"
               },
               {
-                "name_kr": "황병우",
-                "voterate": 24.9,
+                "votenum": 29169,
                 "party_name_kr": "신민당",
-                "votenum": 29169
+                "voterate": 24.9,
+                "name_kr": "황병우"
               },
               {
-                "name_kr": "손병우",
+                "votenum": 5044,
+                "party_name_kr": "무소속",
                 "voterate": 4.3,
-                "party_name_kr": "무소속",
-                "votenum": 5044
+                "name_kr": "손병우"
               },
               {
-                "name_kr": "이동화",
+                "votenum": 20648,
+                "party_name_kr": "무소속",
                 "voterate": 17.62,
-                "party_name_kr": "무소속",
-                "votenum": 20648
+                "name_kr": "이동화"
               },
               {
-                "name_kr": "장소택",
+                "votenum": 3011,
+                "party_name_kr": "무소속",
                 "voterate": 2.57,
-                "party_name_kr": "무소속",
-                "votenum": 3011
+                "name_kr": "장소택"
               },
               {
-                "name_kr": "주상삼",
+                "votenum": 12294,
+                "party_name_kr": "무소속",
                 "voterate": 10.49,
-                "party_name_kr": "무소속",
-                "votenum": 12294
+                "name_kr": "주상삼"
               },
               {
-                "name_kr": "최순열",
-                "voterate": 14.37,
+                "votenum": 16836,
                 "party_name_kr": "무소속",
-                "votenum": 16836
+                "voterate": 14.37,
+                "name_kr": "최순열"
               }
             ],
-            "region_code": 47,
+            "undervotes": 1619,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 1786,
-            "blank_ballots": 25543,
+            "cand_no": 5,
             "counted_votes": 139275,
+            "electorates": 164818,
+            "num_elected": 2,
+            "blank_ballots": 25543,
             "valid_votes": 137489,
             "district_name": "제10선거구",
-            "electorates": 164818,
-            "cand_no": 5,
             "district_code": 24730800,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "김창근",
-                "voterate": 43.47,
+                "votenum": 59768,
                 "party_name_kr": "민주공화당",
-                "votenum": 59768
+                "voterate": 43.47,
+                "name_kr": "김창근"
               },
               {
-                "name_kr": "박용만",
-                "voterate": 27.85,
+                "votenum": 38291,
                 "party_name_kr": "신민당",
-                "votenum": 38291
+                "voterate": 27.85,
+                "name_kr": "박용만"
               },
               {
-                "name_kr": "우성구",
-                "voterate": 5.45,
+                "votenum": 7497,
                 "party_name_kr": "민주통일당",
-                "votenum": 7497
+                "voterate": 5.45,
+                "name_kr": "우성구"
               },
               {
-                "name_kr": "안용환",
+                "votenum": 8443,
+                "party_name_kr": "무소속",
                 "voterate": 6.14,
-                "party_name_kr": "무소속",
-                "votenum": 8443
+                "name_kr": "안용환"
               },
               {
-                "name_kr": "정태중",
-                "voterate": 17.08,
+                "votenum": 23490,
                 "party_name_kr": "무소속",
-                "votenum": 23490
+                "voterate": 17.08,
+                "name_kr": "정태중"
               }
             ],
-            "region_code": 47,
+            "undervotes": 1786,
             "nth": 10
           },
           {
             "region_name": "경북",
-            "undervotes": 1772,
-            "blank_ballots": 22938,
+            "cand_no": 5,
             "counted_votes": 124811,
+            "electorates": 147749,
+            "num_elected": 2,
+            "blank_ballots": 22938,
             "valid_votes": 123039,
             "district_name": "제11선거구",
-            "electorates": 147749,
-            "cand_no": 5,
             "district_code": 24733800,
+            "region_code": 47,
             "result": [
               {
-                "name_kr": "구범모",
-                "voterate": 32.0,
+                "votenum": 39380,
                 "party_name_kr": "민주공화당",
-                "votenum": 39380
+                "voterate": 32.0,
+                "name_kr": "구범모"
               },
               {
-                "name_kr": "채문식",
-                "voterate": 35.14,
+                "votenum": 43237,
                 "party_name_kr": "신민당",
-                "votenum": 43237
+                "voterate": 35.14,
+                "name_kr": "채문식"
               },
               {
-                "name_kr": "반형식",
+                "votenum": 15431,
+                "party_name_kr": "무소속",
                 "voterate": 12.54,
-                "party_name_kr": "무소속",
-                "votenum": 15431
+                "name_kr": "반형식"
               },
               {
-                "name_kr": "현석주",
+                "votenum": 20509,
+                "party_name_kr": "무소속",
                 "voterate": 16.66,
-                "party_name_kr": "무소속",
-                "votenum": 20509
+                "name_kr": "현석주"
               },
               {
-                "name_kr": "황병호",
-                "voterate": 3.64,
+                "votenum": 4482,
                 "party_name_kr": "무소속",
-                "votenum": 4482
+                "voterate": 3.64,
+                "name_kr": "황병호"
               }
             ],
-            "region_code": 47,
+            "undervotes": 1772,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 47
       },
       {
-        "region_code": 48,
         "region_name": "경남",
         "district_result": [
           {
             "region_name": "경남",
-            "undervotes": 3335,
-            "blank_ballots": 63965,
+            "cand_no": 4,
             "counted_votes": 255112,
+            "electorates": 319077,
+            "num_elected": 2,
+            "blank_ballots": 63965,
             "valid_votes": 251777,
             "district_name": "제1선거구",
-            "electorates": 319077,
-            "cand_no": 4,
             "district_code": 24801700,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "박종규",
-                "voterate": 39.33,
+                "votenum": 99031,
                 "party_name_kr": "민주공화당",
-                "votenum": 99031
+                "voterate": 39.33,
+                "name_kr": "박종규"
               },
               {
-                "name_kr": "황낙주",
-                "voterate": 36.47,
+                "votenum": 91844,
                 "party_name_kr": "신민당",
-                "votenum": 91844
+                "voterate": 36.47,
+                "name_kr": "황낙주"
               },
               {
-                "name_kr": "김성석",
+                "votenum": 15291,
+                "party_name_kr": "무소속",
                 "voterate": 6.07,
-                "party_name_kr": "무소속",
-                "votenum": 15291
+                "name_kr": "김성석"
               },
               {
-                "name_kr": "조정제",
-                "voterate": 18.11,
+                "votenum": 45611,
                 "party_name_kr": "무소속",
-                "votenum": 45611
+                "voterate": 18.11,
+                "name_kr": "조정제"
               }
             ],
-            "region_code": 48,
+            "undervotes": 3335,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 2398,
-            "blank_ballots": 30895,
+            "cand_no": 8,
             "counted_votes": 177013,
+            "electorates": 207908,
+            "num_elected": 2,
+            "blank_ballots": 30895,
             "valid_votes": 174615,
             "district_name": "제2선거구",
-            "electorates": 207908,
-            "cand_no": 8,
             "district_code": 24804700,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "구태회",
-                "voterate": 27.55,
+                "votenum": 48117,
                 "party_name_kr": "민주공화당",
-                "votenum": 48117
+                "voterate": 27.55,
+                "name_kr": "구태회"
               },
               {
-                "name_kr": "정헌주",
-                "voterate": 11.93,
+                "votenum": 20849,
                 "party_name_kr": "신민당",
-                "votenum": 20849
+                "voterate": 11.93,
+                "name_kr": "정헌주"
               },
               {
-                "name_kr": "박영식",
-                "voterate": 3.94,
+                "votenum": 6889,
                 "party_name_kr": "민주통일당",
-                "votenum": 6889
+                "voterate": 3.94,
+                "name_kr": "박영식"
               },
               {
-                "name_kr": "안병규",
+                "votenum": 28218,
+                "party_name_kr": "무소속",
                 "voterate": 16.16,
-                "party_name_kr": "무소속",
-                "votenum": 28218
+                "name_kr": "안병규"
               },
               {
-                "name_kr": "이상치",
+                "votenum": 31181,
+                "party_name_kr": "무소속",
                 "voterate": 17.85,
-                "party_name_kr": "무소속",
-                "votenum": 31181
+                "name_kr": "이상치"
               },
               {
-                "name_kr": "이위태",
+                "votenum": 22699,
+                "party_name_kr": "무소속",
                 "voterate": 12.99,
-                "party_name_kr": "무소속",
-                "votenum": 22699
+                "name_kr": "이위태"
               },
               {
-                "name_kr": "이흥수",
+                "votenum": 8308,
+                "party_name_kr": "무소속",
                 "voterate": 4.75,
-                "party_name_kr": "무소속",
-                "votenum": 8308
+                "name_kr": "이흥수"
               },
               {
-                "name_kr": "최인수",
-                "voterate": 4.78,
+                "votenum": 8354,
                 "party_name_kr": "무소속",
-                "votenum": 8354
+                "voterate": 4.78,
+                "name_kr": "최인수"
               }
             ],
-            "region_code": 48,
+            "undervotes": 2398,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 2477,
-            "blank_ballots": 27712,
+            "cand_no": 7,
             "counted_votes": 153055,
+            "electorates": 180767,
+            "num_elected": 2,
+            "blank_ballots": 27712,
             "valid_votes": 150578,
             "district_name": "제3선거구",
-            "electorates": 180767,
-            "cand_no": 7,
             "district_code": 24808700,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "최재구",
-                "voterate": 36.55,
+                "votenum": 55045,
                 "party_name_kr": "민주공화당",
-                "votenum": 55045
+                "voterate": 36.55,
+                "name_kr": "최재구"
               },
               {
-                "name_kr": "김동욱",
-                "voterate": 21.11,
+                "votenum": 31800,
                 "party_name_kr": "신민당",
-                "votenum": 31800
+                "voterate": 21.11,
+                "name_kr": "김동욱"
               },
               {
-                "name_kr": "공하종",
+                "votenum": 7689,
+                "party_name_kr": "무소속",
                 "voterate": 5.1,
-                "party_name_kr": "무소속",
-                "votenum": 7689
+                "name_kr": "공하종"
               },
               {
-                "name_kr": "김봉조",
+                "votenum": 29129,
+                "party_name_kr": "무소속",
                 "voterate": 19.34,
-                "party_name_kr": "무소속",
-                "votenum": 29129
+                "name_kr": "김봉조"
               },
               {
-                "name_kr": "김영철",
+                "votenum": 3237,
+                "party_name_kr": "무소속",
                 "voterate": 2.14,
-                "party_name_kr": "무소속",
-                "votenum": 3237
+                "name_kr": "김영철"
               },
               {
-                "name_kr": "윤병계",
+                "votenum": 2669,
+                "party_name_kr": "무소속",
                 "voterate": 1.77,
-                "party_name_kr": "무소속",
-                "votenum": 2669
+                "name_kr": "윤병계"
               },
               {
-                "name_kr": "이갑영",
-                "voterate": 13.95,
+                "votenum": 21009,
                 "party_name_kr": "무소속",
-                "votenum": 21009
+                "voterate": 13.95,
+                "name_kr": "이갑영"
               }
             ],
-            "region_code": 48,
+            "undervotes": 2477,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1807,
-            "blank_ballots": 54444,
+            "cand_no": 5,
             "counted_votes": 203329,
+            "electorates": 257773,
+            "num_elected": 2,
+            "blank_ballots": 54444,
             "valid_votes": 201522,
             "district_name": "제4선거구",
-            "electorates": 257773,
-            "cand_no": 5,
             "district_code": 24812700,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "서영수",
-                "voterate": 10.6,
+                "votenum": 21365,
                 "party_name_kr": "민주공화당",
-                "votenum": 21365
+                "voterate": 10.6,
+                "name_kr": "서영수"
               },
               {
-                "name_kr": "최형우",
-                "voterate": 30.88,
+                "votenum": 62237,
                 "party_name_kr": "신민당",
-                "votenum": 62237
+                "voterate": 30.88,
+                "name_kr": "최형우"
               },
               {
-                "name_kr": "김재현",
+                "votenum": 6796,
+                "party_name_kr": "무소속",
                 "voterate": 3.37,
-                "party_name_kr": "무소속",
-                "votenum": 6796
+                "name_kr": "김재현"
               },
               {
-                "name_kr": "이규정",
+                "votenum": 13731,
+                "party_name_kr": "무소속",
                 "voterate": 6.81,
-                "party_name_kr": "무소속",
-                "votenum": 13731
+                "name_kr": "이규정"
               },
               {
-                "name_kr": "이후락",
-                "voterate": 48.32,
+                "votenum": 97393,
                 "party_name_kr": "무소속",
-                "votenum": 97393
+                "voterate": 48.32,
+                "name_kr": "이후락"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1807,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1919,
-            "blank_ballots": 26658,
+            "cand_no": 6,
             "counted_votes": 132244,
+            "electorates": 158902,
+            "num_elected": 2,
+            "blank_ballots": 26658,
             "valid_votes": 130325,
             "district_name": "제5선거구",
-            "electorates": 158902,
-            "cand_no": 6,
             "district_code": 24814800,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "김상석",
-                "voterate": 30.04,
+                "votenum": 39160,
                 "party_name_kr": "민주공화당",
-                "votenum": 39160
+                "voterate": 30.04,
+                "name_kr": "김상석"
               },
               {
-                "name_kr": "이상신",
-                "voterate": 24.92,
+                "votenum": 32489,
                 "party_name_kr": "신민당",
-                "votenum": 32489
+                "voterate": 24.92,
+                "name_kr": "이상신"
               },
               {
-                "name_kr": "이중구",
-                "voterate": 2.79,
+                "votenum": 3645,
                 "party_name_kr": "민주통일당",
-                "votenum": 3645
+                "voterate": 2.79,
+                "name_kr": "이중구"
               },
               {
-                "name_kr": "권해옥",
+                "votenum": 25026,
+                "party_name_kr": "무소속",
                 "voterate": 19.2,
-                "party_name_kr": "무소속",
-                "votenum": 25026
+                "name_kr": "권해옥"
               },
               {
-                "name_kr": "김재현",
+                "votenum": 8008,
+                "party_name_kr": "무소속",
                 "voterate": 6.14,
-                "party_name_kr": "무소속",
-                "votenum": 8008
+                "name_kr": "김재현"
               },
               {
-                "name_kr": "김창욱",
-                "voterate": 16.87,
+                "votenum": 21997,
                 "party_name_kr": "무소속",
-                "votenum": 21997
+                "voterate": 16.87,
+                "name_kr": "김창욱"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1919,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1392,
-            "blank_ballots": 22742,
+            "cand_no": 7,
             "counted_votes": 135843,
+            "electorates": 158585,
+            "num_elected": 2,
+            "blank_ballots": 22742,
             "valid_votes": 134451,
             "district_name": "제6선거구",
-            "electorates": 158585,
-            "cand_no": 7,
             "district_code": 24817800,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "하대돈",
-                "voterate": 22.32,
+                "votenum": 30011,
                 "party_name_kr": "민주공화당",
-                "votenum": 30011
+                "voterate": 22.32,
+                "name_kr": "하대돈"
               },
               {
-                "name_kr": "박일",
-                "voterate": 26.74,
+                "votenum": 35964,
                 "party_name_kr": "신민당",
-                "votenum": 35964
+                "voterate": 26.74,
+                "name_kr": "박일"
               },
               {
-                "name_kr": "공정식",
+                "votenum": 26663,
+                "party_name_kr": "무소속",
                 "voterate": 19.83,
-                "party_name_kr": "무소속",
-                "votenum": 26663
+                "name_kr": "공정식"
               },
               {
-                "name_kr": "김정수",
+                "votenum": 5949,
+                "party_name_kr": "무소속",
                 "voterate": 4.42,
-                "party_name_kr": "무소속",
-                "votenum": 5949
+                "name_kr": "김정수"
               },
               {
-                "name_kr": "신재기",
+                "votenum": 12911,
+                "party_name_kr": "무소속",
                 "voterate": 9.6,
-                "party_name_kr": "무소속",
-                "votenum": 12911
+                "name_kr": "신재기"
               },
               {
-                "name_kr": "신화식",
+                "votenum": 19807,
+                "party_name_kr": "무소속",
                 "voterate": 14.73,
-                "party_name_kr": "무소속",
-                "votenum": 19807
+                "name_kr": "신화식"
               },
               {
-                "name_kr": "조용학",
-                "voterate": 2.33,
+                "votenum": 3146,
                 "party_name_kr": "무소속",
-                "votenum": 3146
+                "voterate": 2.33,
+                "name_kr": "조용학"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1392,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1773,
-            "blank_ballots": 28420,
+            "cand_no": 7,
             "counted_votes": 132092,
+            "electorates": 160512,
+            "num_elected": 2,
+            "blank_ballots": 28420,
             "valid_votes": 130319,
             "district_name": "제7선거구",
-            "electorates": 160512,
-            "cand_no": 7,
             "district_code": 24819800,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "김택수",
-                "voterate": 52.42,
+                "votenum": 68324,
                 "party_name_kr": "민주공화당",
-                "votenum": 68324
+                "voterate": 52.42,
+                "name_kr": "김택수"
               },
               {
-                "name_kr": "신상우",
-                "voterate": 29.42,
+                "votenum": 38343,
                 "party_name_kr": "신민당",
-                "votenum": 38343
+                "voterate": 29.42,
+                "name_kr": "신상우"
               },
               {
-                "name_kr": "김창무",
-                "voterate": 2.02,
+                "votenum": 2633,
                 "party_name_kr": "민주통일당",
-                "votenum": 2633
+                "voterate": 2.02,
+                "name_kr": "김창무"
               },
               {
-                "name_kr": "김동주",
+                "votenum": 13771,
+                "party_name_kr": "무소속",
                 "voterate": 10.56,
-                "party_name_kr": "무소속",
-                "votenum": 13771
+                "name_kr": "김동주"
               },
               {
-                "name_kr": "민병진",
+                "votenum": 1022,
+                "party_name_kr": "무소속",
                 "voterate": 0.78,
-                "party_name_kr": "무소속",
-                "votenum": 1022
+                "name_kr": "민병진"
               },
               {
-                "name_kr": "윤복영",
+                "votenum": 3354,
+                "party_name_kr": "무소속",
                 "voterate": 2.57,
-                "party_name_kr": "무소속",
-                "votenum": 3354
+                "name_kr": "윤복영"
               },
               {
-                "name_kr": "이금조",
-                "voterate": 2.2,
+                "votenum": 2872,
                 "party_name_kr": "무소속",
-                "votenum": 2872
+                "voterate": 2.2,
+                "name_kr": "이금조"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1773,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1209,
-            "blank_ballots": 13394,
+            "cand_no": 6,
             "counted_votes": 97334,
+            "electorates": 110728,
+            "num_elected": 2,
+            "blank_ballots": 13394,
             "valid_votes": 96125,
             "district_name": "제8선거구",
-            "electorates": 110728,
-            "cand_no": 6,
             "district_code": 24821800,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "신동관",
-                "voterate": 32.37,
+                "votenum": 31118,
                 "party_name_kr": "민주공화당",
-                "votenum": 31118
+                "voterate": 32.37,
+                "name_kr": "신동관"
               },
               {
-                "name_kr": "문부식",
-                "voterate": 20.65,
+                "votenum": 19851,
                 "party_name_kr": "신민당",
-                "votenum": 19851
+                "voterate": 20.65,
+                "name_kr": "문부식"
               },
               {
-                "name_kr": "강상수",
+                "votenum": 4025,
+                "party_name_kr": "무소속",
                 "voterate": 4.18,
-                "party_name_kr": "무소속",
-                "votenum": 4025
+                "name_kr": "강상수"
               },
               {
-                "name_kr": "이수종",
+                "votenum": 12681,
+                "party_name_kr": "무소속",
                 "voterate": 13.19,
-                "party_name_kr": "무소속",
-                "votenum": 12681
+                "name_kr": "이수종"
               },
               {
-                "name_kr": "최종태",
+                "votenum": 2473,
+                "party_name_kr": "무소속",
                 "voterate": 2.57,
-                "party_name_kr": "무소속",
-                "votenum": 2473
+                "name_kr": "최종태"
               },
               {
-                "name_kr": "최치환",
-                "voterate": 27.02,
+                "votenum": 25977,
                 "party_name_kr": "무소속",
-                "votenum": 25977
+                "voterate": 27.02,
+                "name_kr": "최치환"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1209,
             "nth": 10
           },
           {
             "region_name": "경남",
-            "undervotes": 1765,
-            "blank_ballots": 18595,
+            "cand_no": 4,
             "counted_votes": 125411,
+            "electorates": 144006,
+            "num_elected": 2,
+            "blank_ballots": 18595,
             "valid_votes": 123646,
             "district_name": "제9선거구",
-            "electorates": 144006,
-            "cand_no": 4,
             "district_code": 24823800,
+            "region_code": 48,
             "result": [
               {
-                "name_kr": "노인환",
-                "voterate": 33.6,
+                "votenum": 41555,
                 "party_name_kr": "민주공화당",
-                "votenum": 41555
+                "voterate": 33.6,
+                "name_kr": "노인환"
               },
               {
-                "name_kr": "김동영",
-                "voterate": 32.16,
+                "votenum": 39766,
                 "party_name_kr": "신민당",
-                "votenum": 39766
+                "voterate": 32.16,
+                "name_kr": "김동영"
               },
               {
-                "name_kr": "정영모",
-                "voterate": 16.79,
+                "votenum": 20771,
                 "party_name_kr": "민주통일당",
-                "votenum": 20771
+                "voterate": 16.79,
+                "name_kr": "정영모"
               },
               {
-                "name_kr": "임채홍",
-                "voterate": 17.43,
+                "votenum": 21554,
                 "party_name_kr": "무소속",
-                "votenum": 21554
+                "voterate": 17.43,
+                "name_kr": "임채홍"
               }
             ],
-            "region_code": 48,
+            "undervotes": 1765,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 48
       },
       {
-        "region_code": 49,
         "region_name": "제주",
         "district_result": [
           {
             "region_name": "제주",
-            "undervotes": 2810,
-            "blank_ballots": 24509,
+            "cand_no": 6,
             "counted_votes": 187526,
+            "electorates": 212035,
+            "num_elected": 2,
+            "blank_ballots": 24509,
             "valid_votes": 184716,
             "district_name": "제주도선거구",
-            "electorates": 212035,
-            "cand_no": 6,
             "district_code": 24901700,
+            "region_code": 49,
             "result": [
               {
-                "name_kr": "현오봉",
-                "voterate": 23.94,
+                "votenum": 44229,
                 "party_name_kr": "민주공화당",
-                "votenum": 44229
+                "voterate": 23.94,
+                "name_kr": "현오봉"
               },
               {
-                "name_kr": "오정보",
-                "voterate": 8.82,
+                "votenum": 16294,
                 "party_name_kr": "신민당",
-                "votenum": 16294
+                "voterate": 8.82,
+                "name_kr": "오정보"
               },
               {
-                "name_kr": "고한준",
+                "votenum": 15013,
+                "party_name_kr": "무소속",
                 "voterate": 8.12,
-                "party_name_kr": "무소속",
-                "votenum": 15013
+                "name_kr": "고한준"
               },
               {
-                "name_kr": "변정일",
+                "votenum": 41805,
+                "party_name_kr": "무소속",
                 "voterate": 22.63,
-                "party_name_kr": "무소속",
-                "votenum": 41805
+                "name_kr": "변정일"
               },
               {
-                "name_kr": "부청하",
+                "votenum": 26841,
+                "party_name_kr": "무소속",
                 "voterate": 14.53,
-                "party_name_kr": "무소속",
-                "votenum": 26841
+                "name_kr": "부청하"
               },
               {
-                "name_kr": "양정규",
-                "voterate": 21.94,
+                "votenum": 40534,
                 "party_name_kr": "무소속",
-                "votenum": 40534
+                "voterate": 21.94,
+                "name_kr": "양정규"
               }
             ],
-            "region_code": 49,
+            "undervotes": 2810,
             "nth": 10
           }
-        ]
+        ],
+        "region_code": 49
       }
     ],
-    "nth": 10,
-    "candidate_type": "party_candidate"
+    "nth": 10
   }
 ]
